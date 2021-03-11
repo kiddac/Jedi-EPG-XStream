@@ -14,6 +14,7 @@ CMoreStars.se
 Sportkanalen.se
 ViasatFilmAction.se
 ViasatFilmFamily.se
+ViasatFilmHits.se
 ViasatFilmPremiere.se
 ViasatFotboll.se
 ViasatGolf.se

@@ -5,7 +5,6 @@ NovaCinema3.gr
 NovaCinema4.gr
 NovaSports1.gr
 NovaSports2.gr
-Novasports24.gr
 NovaSports3.gr
 NovaSports4.gr
 NovaSports5.gr

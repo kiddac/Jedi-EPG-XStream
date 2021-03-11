@@ -4,6 +4,7 @@ HBO 2 SI
 HBO 3 SI
 HBO SI
 Nova24TV SI
+Oto SI
 Planet TV SI
 SLO1 SI
 SLO2 SI

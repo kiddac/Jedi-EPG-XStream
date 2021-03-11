@@ -3,51 +3,64 @@ A Bola TV PT
 Afro Music PT
 AMC PT
 ARTV PT
-AXN Black PT
+AXN Movies PT
 AXN PT
 AXN White PT
 Baby TV PT
-BabyFirst PT
 BBC Entertainment PT
 BTV 1 HD PT
 BTV 1 PT
+Caca e Pesca PT
+Canal 11 HD PT
 Canal Panda PT
 Canal Q PT
 Cancao Nova PT
 Cartoon Network PT
+Casa e Cozinha HD PT
 CBS Reality PT
 Cinemundo PT
 CMTV PT
+Crime plus Investigation PT
 Discovery Channel PT
-Discovery Showcase HD PT
 Disney Channel PT
 Disney Junior PT
+DOGTV PT
 E! PT
+Eleven Sports 1 PT
+Eleven Sports 2 PT
+Eleven Sports 3 PT
+Eleven Sports 4 PT
+Eleven Sports 5 PT
+Eleven Sports 6 PT
 Euronews PT
 Eurosport 1 PT
 Eurosport 2 PT
 Fashion TV PT
 Fight Channel HD PT
+Food Network HD PT
 FOX Comedy PT
 FOX Crime PT
 FOX Life PT
 FOX Movies PT
-FOX News PT
 FOX PT
 Fuel TV PT
+Globo Now PT
 Globo TV PT
 Historia PT
 Hollywood PT
+ID Investigation Discovery PT
 JimJam PT
-Kombat Sport PT
 LocalVisao TV HD PT
 MCM POP PT
 MCM TOP PT
 Mezzo PT
 MotorVision HD PT
 MTV PT
+Nat Geo Wild PT
 National Geographic PT
+Nick Jr. PT
 Nickelodeon PT
+NOS Studios PT
 Odisseia PT
 Panda Biggs PT
 PFC PT
@@ -61,7 +74,6 @@ RTP Internacional PT
 RTP Madeira PT
 RTP Memoria PT
 SIC Caras PT
-SIC Kids PT
 SIC Mulher PT
 SIC Noticias PT
 SIC PT
@@ -72,21 +84,24 @@ SportTV 2 PT
 SportTV 3 PT
 SportTV 4 PT
 SportTV 5 PT
+SportTV NBA PT
 SportTV Plus PT
 Syfy PT
+TCV Internacional PT
 TLC PT
 Toros TV PT
+TPA Internacional PT
 Trace Urban PT
 Travel Channel PT
 TV Fatima PT
 TV Record PT
-TVC 1 PT
-TVC 2 PT
-TVC 3 PT
-TVC 4 PT
+TVCine ACTION PT
+TVCine EDITION PT
+TVCine EMOTION PT
+TVCine TOP PT
 TVI 24 PT
 TVI Ficcao PT
 TVI PT
 TVI Reality PT
-TVSeries PT
 VH1 PT
+ZAP Viva HD PT

@@ -9,13 +9,11 @@ DiscoveryChannel.se
 DiscoveryScience.se
 DisneyChannel.se
 DisneyJr.se
-DisneyXD.se
 E.se
 Eurosport.se
 Eurosport2.se
 ExtremeSports.se
 FashionTV.se
-Fox.se
 GinxTV.se
 H2.se
 HistoryHD.se
@@ -33,7 +31,6 @@ Nickelodeon.se
 NickJr.se
 Nicktoons.se
 OutTV.se
-Paramount.se
 PinkPlus.se
 PlayboyTV.se
 SFKanalen.se

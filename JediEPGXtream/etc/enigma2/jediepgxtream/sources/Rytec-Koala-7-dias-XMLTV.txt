@@ -4,7 +4,7 @@
 #VAMOS BAR
 #VAMOS BAR1
 #VAMOS BAR2
-#VAMOS HD
+#VAMOSHD
 24 HORAS
 33
 7 RM
@@ -17,13 +17,53 @@ ALQUILER 4
 ALQUILER 5
 ALQUILER 6
 ALQUILER HD
+Alquiler Vod 1
+Alquiler Vod 10
+Alquiler Vod 11
+Alquiler Vod 12
+Alquiler Vod 13
+Alquiler Vod 14
+Alquiler Vod 15
+Alquiler Vod 16
+Alquiler Vod 17
+Alquiler Vod 18
+Alquiler Vod 19
+Alquiler Vod 2
+Alquiler Vod 20
+Alquiler Vod 21
+Alquiler Vod 22
+Alquiler Vod 23
+Alquiler Vod 24
+Alquiler Vod 25
+Alquiler Vod 26
+Alquiler Vod 27
+Alquiler Vod 28
+Alquiler Vod 29
+Alquiler Vod 3
+Alquiler Vod 30
+Alquiler Vod 31
+Alquiler Vod 32
+Alquiler Vod 33
+Alquiler Vod 34
+Alquiler Vod 35
+Alquiler Vod 36
+Alquiler Vod 37
+Alquiler Vod 38
+Alquiler Vod 4
+Alquiler Vod 5
+Alquiler Vod 6
+Alquiler Vod 7
+Alquiler Vod 8
+Alquiler Vod 9
 AMC
 AMC HD
 AndaluciaTV
 ANTENA 3
 ANTENA 3 HD
+APPLE TV
 ARAGON TV INT
 Aragón TV
+arte HD
 atreseries
 AXN
 AXN HD
@@ -31,7 +71,7 @@ AXN WHITE
 AXN WHITE HD
 BABY TV
 BAJO DEMANDA
-BARCA TV
+BARÇA TV
 BBC World News Europe HD
 BE MAD
 betevé
@@ -45,13 +85,13 @@ CALLE 13 HD
 CANAL COCINA
 CANAL DECASA
 CANAL ODISEA
-CANAL ORBE21
 CANAL PANDA
 CANAL SUR A.
+Canal Sur HD
 CanalSur2
 CAZA Y PESCA
 CAZAyPESCA HD
-CLAN  TVE
+CLAN TVE
 CLASSICA
 CMM
 CNBC Europe
@@ -66,17 +106,38 @@ CUATRO
 CUATRO HD
 Cubavision Internacional
 DARK
+DAZN 1
 DAZN 1 ( aleman )
+DAZN 1 HD
+DAZN 2
 DAZN 2 ( aleman )
+DAZN 2 HD
+DAZN 3
+DAZN 3 HD
+DAZN 4
+DAZN 4 HD
+DAZN F1
+DAZN F1 HD
 DISCOVERY
 Discovery MAX
-DISNEY CH
 DISNEY CH HD
+DISNEY CH.
 DISNEY JR
-DISNEY XD
+Disney+
 DIVINITY
 DKISS
 DMAX
+DreamWorks
+DreamWorks HD
+El Toro TV
+Eleven Sports 1
+Eleven Sports 1 HD
+Eleven Sports 2
+Eleven Sports 2 HD
+Eleven Sports 3 HD
+Eleven Sports 4
+Eleven Sports 5
+Eleven Sports 6
 ENERGY
 Esport 3
 ETB 1 HD
@@ -86,24 +147,28 @@ EUROSPORT 1
 EUROSPORT 2
 EUROSPORT1HD
 EXTREMADURA SAT
+Extreme Sports Channel
 FDF
+FightBox HD
 FOX
 FOX HD
 FOX LIFE
 FOX LIFE HD
 FOX NEWS
-France 24 en Français
-France 24 in Arabic
-France 24 in English
+France 24 (en Français)
+France 24 (in Arabic)
+France 24 (in English)
 GOL
 HISTORIA
 HOLLYWOOD
 HOLLYWOODHD
 IB3
 IBERALIA TV
+Intereconomía
 LA 1
 LA 1 HD
-La 2
+LA 2
+La 2 HD
 La 7 HD
 La 8 Mediterráneo HD
 LA SEXTA
@@ -115,19 +180,20 @@ LALIGATVBAR3
 LALIGATVBAR4
 LaOtra
 Levante TV
-Libertad Digital TV
-M. ACCION
-M. ACCION HD
+M. ACCIÓN
+M. ACCIÓN HD
 M. Cine Español
 M. COMEDIA
+M. Crimen
 M. DEPORTES
 M. DEPORTES1
+M. DEPORTES1HD
 M. DEPORTES2
 M. DEPORTES3
-M. DEPORTES4
 M. DEPORTES5
+M. DEPORTES6
+M. DEPORTES7
 M. DEPORTESHD
-M. DISNEY
 M. DRAMA
 M. DRAMA HD
 M. ESTRENOS
@@ -140,6 +206,7 @@ M. LaLiga 10
 M. LaLiga 2
 M. LaLiga 2 HD
 M. LaLiga 3
+M. LaLiga 3 HD
 M. LaLiga 4
 M. LaLiga 5
 M. LaLiga 6
@@ -150,12 +217,9 @@ M. LaLiga HD
 M. SERIES
 M. SERIES HD
 M. SERIESMANIA
-M.CineDocRoll
+M.CineDoc&Roll
 M.COMEDIA HD
-M.DEPORTES1HD
 M.ESTRENOSHD
-M.FORMULA1
-M.FORMULA1HD
 M.LCAMPEON1
 M.LCAMPEON2
 M.LCAMPEON3
@@ -164,11 +228,15 @@ M.LCAMPEON5
 M.LCAMPEON6
 M.LCAMPEON7
 M.LCAMPEONES
+M.LCAMPEONES HD
 M.Seriesmania HD
 mega
 MEZZO
 MEZZO LIVE HD
+MOTORVISION TV HD
 MTV ESPAÑA
+MTV Hits
+MTV Music
 MULTIDEPORTE
 NAT GEO HD
 NAT GEO WILD
@@ -181,8 +249,14 @@ NICKELODEONHD
 NOVA
 PARAMOUNT
 PLAYBOY TV
+Polsat Sport Extra HD
+Polsat Sport Fight HD
+Polsat Sport HD
+Polsat Sport Premium 1 HD
+Polsat Sport Premium 2 HD
 PORTADA
 R. MADRID TV
+RedBull TV HD
 RT Esp
 RT Esp HD
 Servus TV HD Österreich
@@ -195,9 +269,17 @@ Sky Bundesliga HD 4
 Sky Sport Austria HD
 Sky Sport HD 1
 Sky Sport HD 2
+Sol Música
 Somos
+Sport TV 1 HD
+Sport TV 2 HD
+Sport TV 3 HD
+Sport TV 4
+Sport TV 5
+Sport TV NBA
 SUNDANCE TV
 Super3
+SuperTennis HD
 SYFY
 SYFY HD
 TCM
@@ -215,10 +297,11 @@ TOROS
 TOROS HD
 TPA7
 TRECE
-TV Record SD
 TV5MONDE EUROPE
 TVG 2 HD
-TVGA
+TVGA HD EUROPA
+TVN Turbo HD
+TVP Sport HD
 VH1
 VIAJAR
 VIAJAR HD

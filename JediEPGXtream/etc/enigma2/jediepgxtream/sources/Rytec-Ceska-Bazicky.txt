@@ -1,11 +1,13 @@
-Ceskoslovensko.cz
+BarrandovPlus.cz
 CSFilm.cz
 CT1.cz
 CT2.cz
 CT24.cz
+CT3.cz
 CTart.cz
 CTsport.cz
 KinoBarrandov.cz
+KinoSvet.cz
 NovaInternational.cz
 Ocko.cz
 Rebel.cz

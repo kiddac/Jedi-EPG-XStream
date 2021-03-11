@@ -1,12 +1,9 @@
 Animal Planet EE
-Discovery Channel EE
-Discovery ID XTRA EE
 ETV EE
 ETV+ EE
 ETV2 EE
 Eurosport 1 EE
 Eurosport 2 EE
-FILMZONE EE
 FILMZONE+ EE
 FOX EE
 FOX Life EE
@@ -17,6 +14,5 @@ Kanal2 EE
 Kidzone TV EE
 MyHits EE
 Pingviniukas EE
-Setanta Sports EE
 TV3 EE
 TV6 EE

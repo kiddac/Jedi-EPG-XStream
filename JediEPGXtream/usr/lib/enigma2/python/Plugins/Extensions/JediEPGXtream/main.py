@@ -25,8 +25,6 @@ import xml.etree.ElementTree as ET
 import socket
 import os
 
-import codecs
-
 # fuzzy logic
 from difflib import get_close_matches
 
@@ -1083,8 +1081,9 @@ class JediEPGXtream_Main(Screen):
 
         self.list4 = []
         epgidlist = []
-        if os.path.isfile(str(sourcelist) + "/" + str(name) + ".txt"):
-            with codecs.open(str(sourcelist) + "/" + str(name) + ".txt", 'r', encoding="utf-8") as epglist:
+        temppath = str(sourcelist) + "/" + str(name) + ".txt"
+        if os.path.isfile(temppath):
+            with open(temppath, 'r') as epglist:
                 for line in epglist:
                     epgidlist.append(line.strip())
 

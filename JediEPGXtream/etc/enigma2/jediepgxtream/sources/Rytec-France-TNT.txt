@@ -1,6 +1,7 @@
 6ter.fr
 ARTE.fr
 BFMBusiness.fr
+BFMLyon.fr
 BFMTV.fr
 C8.fr
 CANALplus.fr
@@ -41,7 +42,6 @@ France3Rhone-Alpes.fr
 France4.fr
 France5.fr
 Franceinfo.fr
-FranceO.fr
 Guadeloupe1.fr
 Gulli.fr
 Guyane1.fr
@@ -49,8 +49,9 @@ LCI.fr
 LCP.fr
 M6.fr
 Martinique1.fr
-MontBlancLiveTV.fr
+MirabelleTV.fr
 NRJ12.fr
+Olympia.fr
 RMCdecouverte.fr
 RMCStory.fr
 Tebeo.fr

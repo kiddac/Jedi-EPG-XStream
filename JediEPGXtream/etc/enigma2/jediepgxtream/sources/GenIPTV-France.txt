@@ -42,33 +42,27 @@ Discovery Investigation FR
 Discovery Science FR
 Disney Channel FR
 Disney Channel Plus1 FR
-Disney Cinema HD FR
 Disney Junior FR
-Disney XD FR
 E! FR
 Equidia Live HD FR
 euronews FR
 Eurosport 1 FR
 Eurosport 2 FR
-FootPlus 2424 FR
 France 2 FR
 France 24 FR
 France 3 FR
 France 4 FR
 France 5 FR
-France O FR
 FranceInfo FR
 Game One FR
 Golf Channel FR
 GolfPlus FR
-Gong FR
 Gulli FR
 Histoire FR
 IDF1 FR
 InfosportPlus FR
 J-One FR
 KTO FR
-LCP FR
 LEquipe 21 FR
 M6 FR
 M6 Music FR
@@ -80,14 +74,10 @@ Mezzo Live HD FR
 MTV HD FR
 MTV Hits HD FR
 MTV Music UK FR
-My Cuisine FR
-MySports 1 FR
 Nat Geo Wild FR
 National Geographic FR
 Nickelodeon FR
-Nickelodeon Junior FR
 Nickelodeon Plus1 FR
-Nickelodeon Teen FR
 Non Stop People FR
 NRJ 12 FR
 NRJ Hits FR
@@ -133,6 +123,5 @@ TvBreizh FR
 Ushuaia TV FR
 Viceland FR
 Vosges TV FR
-Voyage HD FR
 W9 FR
 Weo TV FR

@@ -3,10 +3,9 @@ DAZN212.it
 LazioStyleChannel.it
 MilanTV.it
 PremiumAction.it
-PremiumCinema.it
-PremiumCinemaComedy.it
-PremiumCinemaEmotion.it
-PremiumCinemaEnergy.it
+PremiumCinema1.it
+PremiumCinema2.it
+PremiumCinema3.it
 PremiumCinemaPlus24.it
 PremiumCrime.it
 PremiumCrimePlus24.it
@@ -53,7 +52,9 @@ SkySport259.it
 SkySport260.it
 SkySport261.it
 SkySport262.it
-SkySport263.it
+SkySport484DTT.it
+SkySport485DTT.it
+SkySport486DTT.it
 SkySportArena.it
 SkySportCollection.it
 SkySportF1.it

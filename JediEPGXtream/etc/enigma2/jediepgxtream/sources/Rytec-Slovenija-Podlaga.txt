@@ -1,5 +1,6 @@
 ArenaTV.svn
 BHT1.svn
+BNsat.ba
 BNTV.svn
 CMC.svn
 DMSat.svn
@@ -8,8 +9,6 @@ ExodusTV.svn
 GeaTV.svn
 GoldTV.svn
 GolicaTV.svn
-Grand.svn
-Grand2.svn
 HappyTV.svn
 HRT1.svn
 HRT2.svn
@@ -22,12 +21,9 @@ KCN3.svn
 KCNMusic.svn
 KlasikTV.svn
 KTVOrmoz.svn
-LoviRibolov.svn
-N1Croatia.hr
 NarodnaTV.svn
-NETtv.svn
+Nova24.svn
 NovaTV24.svn
-NovaTVhr.svn
 NTVICKakanj.svn
 O2.svn
 OBN.svn
@@ -65,7 +61,6 @@ RTRS.svn
 RTS1Srbija.svn
 RTS2Srbija.svn
 RTSSAT.rs
-RTVMONTENEGROSat.rs
 S-TVSkledar.svn
 SipTV.svn
 Slo1.svn
@@ -74,9 +69,11 @@ Slo3.svn
 TeleM.svn
 TelmaTV.svn
 TopTV.svn
+TV-RI.svn
 TV1.svn
 TV1000.svn
 TV3Medias.svn
+TV8.svn
 TVAs.svn
 TVAtlas.svn
 TVCelje.svn

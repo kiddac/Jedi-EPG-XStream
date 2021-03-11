@@ -1,5 +1,7 @@
+AMC.cz
 ArenaSport1.sk
 ArenaSport2.cz
+AutoMotorSport.cz
 AXN.cz
 AXNCrime.cz
 AXNScifi.cz
@@ -10,15 +12,17 @@ DigisportSK2.sk
 DigisportSK3.sk
 DigisportSK4.sk
 DigisportSK5.sk
-Fightbox.cz
 Filmbox.cz
 FilmboxExtra.cz
+FilmboxFamily.cz
 FilmboxPlus.cz
 FilmboxPremium.cz
 FilmPlus.cz
 HBO.cz
 HBO2.cz
 HBOComedy.cz
+Jojko.sk
+LalaTV.cz
 Nova2.cz
 NovaAction.cz
 NovaCinema.cz

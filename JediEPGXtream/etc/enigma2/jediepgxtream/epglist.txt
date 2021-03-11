@@ -63,17 +63,8 @@ Rytec-Slovenija-Sport-Film http://www.xmltvepg.nl/rytecExYu_SportMovies.xz
 Rytec-Sverige-Grundlaggande http://www.xmltvepg.nl/rytecSE_Basic.xz
 Rytec-Sverige-Diverse http://www.xmltvepg.nl/rytecSE_Misc.xz
 Rytec-Sverige-Sport-Filmer http://www.xmltvepg.nl/rytecSE_SportMovies.xz
-Rytec-Suomi-Perustiedot http://www.xmltvepg.nl/rytecFI_Basic.xz
 Rytec-Suomi-Yhteinen http://www.xmltvepg.nl/rytecFI_Misc.xz
 Rytec-Suomi-Sport-Movies http://www.xmltvepg.nl/rytecFI_SportMovies.xz
-Rytec-Csat-Africa-Base http://www.xmltvepg.nl/rytecSEN_Basic.xz
-Rytec-Csat-Africa-Sport-Cinema http://www.xmltvepg.nl/rytecFRO_SportMovies.xz
-Rytec-Reunion-Base http://www.xmltvepg.nl/rytecREU_Basic.xz
-Rytec-Reunion-Sport-Cinema http://www.xmltvepg.nl/rytecFRO_SportMovies.xz
-Rytec-Caraibes-Base http://www.xmltvepg.nl/rytecMTQ_Basic.xz
-Rytec-Caraibes-Sport-Cinema http://www.xmltvepg.nl/rytecFRO_SportMovies.xz
-Rytec-Nouvelle-Caledonie-Base http://www.xmltvepg.nl/rytecNCL_Basic.xz
-Rytec-Nouvelle-Caledonie-Sport-Cinema http://www.xmltvepg.nl/rytecFRO_SportMovies.xz
 Rytec-UK-Ireland-FreeSat http://www.xmltvepg.nl/rytecUK_Basic.xz
 Rytec-UK-Ireland-FTA http://www.xmltvepg.nl/rytecUK_FTA.xz
 Rytec-UK-Ireland-International http://www.xmltvepg.nl/rytecUK_int.xz
@@ -84,7 +75,7 @@ Rytec-UK-Ireland-Sports-Movies http://www.xmltvepg.nl/rytecUK_SportMovies.xz
 
 #GenIPTV
 #http://epg.geniptv.com/
-GenIPTV-Adult http://195.154.221.171/epg/guideadult.xml
+#GenIPTV-Adult http://195.154.221.171/epg/guideadult.xml
 GenIPTV-Albania http://195.154.221.171/epg/guidealbania.xml
 GenIPTV-Arab http://195.154.221.171/epg/guidearab.xml
 GenIPTV-Belguim http://195.154.221.171/epg/guidebelgium.xml
@@ -96,7 +87,7 @@ GenIPTV-Finland http://195.154.221.171/epg/guidefinland.xml
 GenIPTV-France http://195.154.221.171/epg/guidefrance.xml
 GenIPTV-Germany http://195.154.221.171/epg/guidegermany.xml
 GenIPTV-Greece http://195.154.221.171/epg/guidegreece.xml
-GenIPTV-India http://195.154.221.171/epg/guideindia.xml
+#GenIPTV-India http://195.154.221.171/epg/guideindia.xml
 GenIPTV-Iran http://195.154.221.171/epg/guideiran.xml
 GenIPTV-Italy http://195.154.221.171/epg/guideitaly.xml
 GenIPTV-Netherlands http://195.154.221.171/epg/guidenetherlands.xml
@@ -106,15 +97,13 @@ GenIPTV-Romania http://195.154.221.171/epg/guideromania.xml
 GenIPTV-Slovenia http://195.154.221.171/epg/guideslovenia.xml
 GenIPTV-Spain http://195.154.221.171/epg/guidespain.xml
 GenIPTV-Sweden http://195.154.221.171/epg/guidesweden.xml
-GenIPTV-Switzerland http://195.154.221.171/epg/guideswitzerland.xml
+#GenIPTV-Switzerland http://195.154.221.171/epg/guideswitzerland.xml
 GenIPTV-Turkey http://195.154.221.171/epg/guideturkey.xml
 GenIPTV-UK http://195.154.221.171/epg/guideuk.xml
 #GenIPTV-USA http://195.154.221.171/epg/guideusa.xml
 
 Runigma-Russia-IPTV http://runigma.com.ua/EPG/IPTV/epg-iptv.xml.gz
 Runigma-Russia-SAT http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz
-
-IPTVX-Baltic http://epg.iptvx.one/epg.xml.gz
 
 TVprofil-Croatia-General http://tvprofil.net/xmltv/data/epg_tvprofil.net.xml.gz
 TVprofil-Croatia-Sport http://tvprofil.net/xmltv/data/epg_sport_live_tvprofil.net.xml.gz
@@ -134,9 +123,9 @@ Inedispirou-Germany http://www.inedispirou.com/media/epg/guide_de.gz
 
 #http://raw.githubusercontent.com/acidjesuz/EPG/master/guide.xml
 
-kens13-US http://raw.githubusercontent.com/kens13/EPG/master/guide_beast.xml
+#kens13-US http://raw.githubusercontent.com/kens13/EPG/master/guide_beast.xml
 
-Ziko-South-Africa http://raw.githubusercontent.com/ziko-ZR1/XML/master/dstv.xml
+#Ziko-South-Africa http://raw.githubusercontent.com/ziko-ZR1/XML/master/dstv.xml
 
 epgshare01-Arab http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_AE1.xml.gz
 epgshare01-Albania http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_AL1.xml.gz
@@ -147,19 +136,18 @@ epgshare01-Canada http://raw.githubusercontent.com/epgshare01/share01/master/epg
 epgshare01-Greece http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_GR1.xml.gz
 epgshare01-Hong-Kong http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_HK1.xml.gz
 epgshare01-Ireland http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_IE1.xml.gz
-epgshare01-India1 http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_IN1.xml.gz
-epgshare01-India2 http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_IN2.xml.gz
+#epgshare01-India1 http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_IN1.xml.gz
+#epgshare01-India2 http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_IN2.xml.gz
 epgshare01-Italy http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_IT1.xml.gz
 epgshare01-Mexico-Latin-America http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_MX1.xml.gz
 epgshare01-Malyasia http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_MY1.xml.gz
 epgshare01-Panama http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_PA1.xml.gz
 epgshare01-USA-PlutoTV http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_PLUTOTV1.xml.gz
-epgshare01-RedbullTV http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_REDBULL1.xml.gz
 epgshare01-South-Africa http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_SA1.xml.gz
 epgshare01-Turkey http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_TR1.xml.gz
 epgshare01-UK http://raw.githubusercontent.com/epgshare01/share01//master/epg_ripper_UK1.xml.gz
 epgshare01-USA http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_US1.xml.gz
-epgshare01-USA-Locals http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_US_LOCALS1.xml.gz
+#epgshare01-USA-Locals http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_US_LOCALS1.xml.gz
 epgshare01-Vietnam http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_VN1.xml.gz
 epgshare01-South-Africa2 http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_ZA1.xml.gz
 

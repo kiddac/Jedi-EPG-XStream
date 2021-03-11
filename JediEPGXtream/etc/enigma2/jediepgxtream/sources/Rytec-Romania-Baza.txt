@@ -1,5 +1,4 @@
 Acasa.ro
-AcasaGold.ro
 AgroTV.ro
 AlfaOmegaTV.ro
 AMC.ro
@@ -17,9 +16,9 @@ CartoonNetwork.ro
 ComedyCentral.ro
 ComedyCentralExtra.ro
 CredoTV.ro
+CrimeInvestigation.ro
 DaVinciLearning.ro
 DiscoveryChannel.ro
-DiscoveryHDShowcase.ro
 DiscoveryScience.ro
 DiscoveryScienceHD.ro
 DiscoveryTurboXtra.ro
@@ -37,9 +36,10 @@ Eurosport2.ro
 ExtremeSportsChannel.ro
 Favorit.ro
 FishingHunting.ro
-FLN.ro
 H!TMusic.ro
 HappyTV.ro
+HGTV.ro
+History.ro
 HistoryHD.ro
 IDXtraHD.ro
 IneditTV.ro
@@ -47,28 +47,21 @@ Jimjam.ro
 JurnalTV.ro
 KanalD.ro
 KissTV.ro
-LookPlus.ro
 LookSport.ro
 Mezzo.ro
 MGM.ro
 MiniMax.ro
 MoozDance.ro
-MTVDance.ro
 MTVHits.ro
-MTVRomania.ro
 MusicChannel.ro
-NatGeoWild.ro
-NatGeoWildHD.ro
 National24plus.ro
 NationalGeographic.ro
 NationalGeographicHD.ro
 NationalTV.ro
-NeptunTV.ro
 Nickelodeon.ro
 NickJr.ro
 NickToons.ro
 Paprika.ro
-ParamountChannel.ro
 PrimaTV.ro
 PRO2.ro
 PROTV.ro
@@ -76,7 +69,6 @@ ProTVInternational.ro
 PROX.ro
 Publika.ro
 PV TV.ro
-RaiUno.ro
 RomaniaTV.ro
 Speranta.ro
 Sport.ro
@@ -84,10 +76,10 @@ TarafTV.ro
 TCM.ro
 TLC.ro
 TNT.ro
+TraceTV.ro
 Transilvania.ro
 TravelChannel.ro
 TrinitasTV.ro
-TV5Monde.ro
 TVR1.ro
 TVR2.ro
 TVR3.ro
@@ -98,7 +90,6 @@ TVRInternational.ro
 TVRMoldova.ro
 TVRTarguMures.ro
 TVRTimisoara.ro
-TVSudEst.ro
 U TV.ro
 UTV.ro
 VH1.ro

@@ -1,15 +1,11 @@
 100NLTV.nl
 24kitchen.nl
 AT5.nl
-BBCentertainment.nl
-BBCFirst.uk
 ComedyCentral.nl
 ComedyCentralXtra.nl
 CrimeAndInvestigation.nl
-CTVZeeland.nl
 DanceTrippin.nl
 DiscoveryScience.be
-DiscoveryWorld.nl
 Dusk.nl
 E!Entertainment.nl
 E!PopofCulture.nl
@@ -36,7 +32,6 @@ Ned3.nl
 NET5.nl
 NGCziggo.nl
 NickHits.nl
-NickJrInt.nl
 NickMusic.nl
 NickToons.nl
 NoordHolland.nl
@@ -51,7 +46,6 @@ OmroepZeeland.nl
 OmropFryslan.nl
 OutTV.nl
 PebbleTV.nl
-podium.tv.nl
 Provinciaal1.nl
 Provinciaal2.nl
 RTL4.nl
@@ -76,8 +70,6 @@ SETAsia.nl
 ShortsTV.nl
 SLAM!TV.nl
 Spike.nl
-StarPlus.nl
-StingrayBrava.nl
 StingrayDjazz.nl
 TLC.nl
 TV538.nl
@@ -85,8 +77,6 @@ TVE.sp
 TVoranje.nl
 TVRijnmond.nl
 VeronicaDisneyXD.nl
-Viceland.be
 WOS.nl
 X-MO.nl
 XITE.nl
-ZendervdMaand.nl

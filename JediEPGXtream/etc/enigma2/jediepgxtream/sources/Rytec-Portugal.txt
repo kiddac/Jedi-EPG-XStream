@@ -9,15 +9,19 @@ axn.pt
 AXNBlack.pt
 AXNWhite.pt
 BabyTV.pt
+Barca.pt
 BBCentertainment.pt
 BBCWorldNews.nws
 BenficaTV.pt
 blaze.pt
 Bloomberg.nws
+Canal 11 HD
+Canal11.pt
 canalpanda.pt
 CanalQ.pt
 CANCAONOVA.pt
 cartoon.pt
+CasaCozinha.pt
 cazaepesca.pt
 CBSReality.pt
 Cinemundo.pt
@@ -39,7 +43,7 @@ elevensports3.pt
 elevensports4.pt
 elevensports5.pt
 elevensports6.pt
-EuroChannel.pt
+Eurochannel.pt
 Eurosport1.pt
 Eurosport2.pt
 FoodNetwork.pt
@@ -55,7 +59,6 @@ hollywood.pt
 Hot.pt
 investigationdiscovery.pt
 JimJam.pt
-KombatSport.pt
 KURIAKOSTV.pt
 Localvisao.pt
 m6.pt
@@ -63,9 +66,7 @@ ManUTV.pt
 MCMPop.pt
 mcmtop.pt
 mezzo.pt
-Motorvision.pt
 mtvportugal.pt
-MyCuisine.pt
 NatGeoWild.pt
 nationalgeographic.pt
 NBA.pt
@@ -90,7 +91,6 @@ rtpmemoria.pt
 RussiaToday.uk
 sic.pt
 SicCaras.pt
-SicK.pt
 sicmulher.pt
 sicnoticias.pt
 sicradical.pt
@@ -100,7 +100,6 @@ sporttv1.pt
 sporttv2.pt
 sporttv3.pt
 sporttv4.pt
-SportTV4K.pt
 sporttv5.pt
 SportTVplus.pt
 SyFy.pt
@@ -122,6 +121,5 @@ TVIFiccao.pt
 TVIInt.pt
 TVIReal.pt
 tvrecord.pt
-TVSeries.pt
 venus.pt
 zapvivahd.pt

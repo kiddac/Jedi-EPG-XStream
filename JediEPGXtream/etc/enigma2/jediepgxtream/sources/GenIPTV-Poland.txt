@@ -1,6 +1,7 @@
 13 Ulica HD PL
 4FUN DANCE PL
 4FUN GOLD HITS PL
+4FUN KIDS PL
 4Fun TV PL
 Active Family PL
 Adventure PL
@@ -12,21 +13,32 @@ AXN Black PL
 AXN PL
 AXN Spin PL
 AXN White PL
+Baby TV PL
+BabyFirstTV PL
+BBC Brit PL
 BBC Earth PL
+BBC First PL
 BBC HD PL
+BBC Lifestyle PL
+Biznes24 HD PL
 Boomerang PL
 CANALPlus 1 PL
 CANALPlus Discovery PL
+CANALPlus DOKUMENT PL
 CANALPlus Family PL
 CANALPlus Film PL
 CANALPlus PL
+CANALPlus PREMIUM PL
 CANALPlus Seriale PL
 CANALPlus Sport 2 PL
+CANALPlus Sport 3 PL
+CANALPlus Sport 4 PL
 CANALPlus Sport PL
 Cartoon Network PL
 CBeebies PL
 CBS Europa PL
 CBS Reality PL
+CI POLSAT PL
 Cinemax PL
 Cinemax2 PL
 Comedy Central Family PL
@@ -41,11 +53,15 @@ Discovery Turbo Xtra PL
 Disney Channel PL
 Disney Junior PL
 Disney XD PL
+dlaCiebie.tv PL
 DomoPlus PL
 DTX HD PL
 E! HD PL
-Eleven HD PL
-Eleven HD Sports PL
+Eleven Sports 1 PL
+Eleven Sports 2 PL
+Eleven Sports 3 PL
+Eleven Sports 4 PL
+Epic Drama PL
 Eska Rock TV PL
 Eska TV Extra PL
 Eska TV PL
@@ -61,8 +77,10 @@ FilmBox Family PL
 FilmBox PL
 FilmBox Premium PL
 Fokus TV PL
+Food Network PL
 FOX Comedy PL
 FOX HD PL
+GOLD TV PL
 Golf Channel HD PL
 H2 HD PL
 HBO HD PL
@@ -71,6 +89,7 @@ HBO3 HD PL
 HGTV PL
 HIP HOP TV PL
 History PL
+HOME TV PL
 Investigation Discovery HD PL
 Kino Polska Muzyka PL
 Kino Polska PL
@@ -80,8 +99,11 @@ Lifetime HD PL
 METRO PL
 MiniMiniPlus HD PL
 Motowizja PL
+MTV 80s PL
+MTV 90s PL
 MTV Dance PL
 MTV Live HD PL
+MTV Music 24 PL
 MTV Polska PL
 MTV Rocks PL
 Nat Geo People HD PL
@@ -89,6 +111,8 @@ Nat Geo Wild PL
 National Geographic PL
 Nick Jr. PL
 Nickelodeon PL
+Nicktoons PL
+Novela tv PL
 Nowa TV PL
 nSportPlus HD PL
 Nuta.TV PL
@@ -98,43 +122,61 @@ Polo TV PL
 POLSAT 1 PL
 POLSAT 2 PL
 POLSAT Cafe PL
+POLSAT Comedy Central Extra PL
 POLSAT Doku HD PL
 POLSAT Film PL
+POLSAT Games PL
 POLSAT JimJam PL
 POLSAT Music PL
 POLSAT News 2 PL
 POLSAT News PL
 POLSAT PL
 POLSAT Play PL
+POLSAT Rodzina PL
 POLSAT Romans PL
+POLSAT Seriale PL
 POLSAT Sport Extra HD PL
 POLSAT Sport HD PL
 POLSAT Sport News PL
+POLSAT Sport Premium 1 PL
+POLSAT Sport Premium 2 PL
+POLSAT Sport Premium 3 PL
+POLSAT Sport Premium 4 PL
+POLSAT Sport Premium 5 PL
+POLSAT Sport Premium 6 PL
 POLSAT Viasat Explore HD PL
 POLSAT Viasat History HD PL
 POLSAT Viasat Nature PL
 Power TV PL
 PULS 2 PL
+Red Carpet TV PL
 Romance TV PL
 Scifi Universal PL
 Sportklub PL
 STARS.TV PL
 Stopklatka TV PL
+StudioMED TV PL
 Sundance Channel HD PL
 Super Polsat PL
 Superstacja PL
+TBN Polska PL
+Tele 5 PL
 teleTOONPlus HD PL
 TLC PL
 TNT PL
 TO!TV PL
+Top Kids Jr PL
+Top Kids PL
 Trace Urban PL
 Travel Channel HD PL
 TTV PL
 TV 4 PL
 TV 6 PL
+TV Okazje PL
 TV Puls PL
 TV Republika PL
 TV Trwam PL
+TVC PL
 TVN 24 Biznes i Swiat PL
 TVN 24 PL
 TVN 7 PL
@@ -175,7 +217,8 @@ TVS PL
 Twoja.TV PL
 VH1 PL
 VOX Music TV PL
+Water Planet PL
 WP PL
+wPolsce.pl PL
 WTK PL
-Zest TV PL
 ZOOM TV PL

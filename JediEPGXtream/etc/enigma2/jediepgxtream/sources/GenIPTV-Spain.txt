@@ -15,7 +15,6 @@ Canal Cocina ES
 Canal de las Estrellas ES
 Canal Decasa ES
 Canal Extremadura ES
-Canal Orbe 21 ES
 Canal Panda ES
 Canal Sur ES
 Caza y Pesca ES
@@ -27,7 +26,6 @@ Cuatro ES
 Discovery Channel ES
 Disney Channel ES
 Disney Junior ES
-Disney XD ES
 DKISS ES
 Energy ES
 Euronews ES
@@ -52,7 +50,6 @@ Movistar Cine Espanol ES
 Movistar Comedia ES
 Movistar DCine ES
 Movistar Deportes 1 ES
-Movistar Disney ES
 Movistar Estrenos ES
 Movistar Formula 1 ES
 Movistar Series ES

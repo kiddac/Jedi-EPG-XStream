@@ -13,6 +13,7 @@ BBCBrit.pl
 BBCEarth.pl
 BBCFirst.pl
 BBCLifestyle.pl
+Biznes24.pl
 Boomerang.pl
 CanalplusDiscovery.pl
 CartoonNetwork.pl
@@ -34,6 +35,7 @@ DisneyJr.pl
 DisneyXD.pl
 dlaciebie.tv.pl
 DomoTV.pl
+DomowePrzedszkole.pl
 E!.pl
 EPICDramaHD.pl
 EskaROCK.pl
@@ -54,15 +56,13 @@ H2.pl
 HGTV.pl
 History.pl
 InvestigationDiscovery.pl
-iTVN.pl
+JAZZ.pl
 JimJam.pl
 KinoPolska.pl
-KinoPolskaInternational.pl
 KinoPolskaMuzyka.pl
 KUCHNIA.TV.pl
 Lifetime.pl
 LoveTV.pl
-Mango24.pl
 Metro.pl
 MezzoLiveHD.pl
 MINIMINI.pl
@@ -70,6 +70,7 @@ Motowizja.pl
 MTV.pl
 MTVMusicPolska.pl
 MTVNHD.pl
+MusicBox.pl
 NatGeoPeople.pl
 NatGeoWildHD.pl
 NationalGeographic.pl
@@ -77,6 +78,7 @@ NauticalChannel.pl
 NickelodeonHD.pl
 NickJr.pl
 NickPolska.pl
+Novelas+.pl
 NovelaTV.pl
 NowaTV.pl
 NTL.pl
@@ -95,6 +97,7 @@ PolsatNews.pl
 PolsatNews2.pl
 PolsatPlay.pl
 PolsatRodzina.pl
+PolsatSeriale.pl
 PowerTV.pl
 RedCarpetTV.pl
 RomanceTV.pl
@@ -113,12 +116,14 @@ TLC.pl
 TO!TV.pl
 TraceUrban.pl
 Travel.pl
+Travelxp.pl
 TVN24.pl
 TVNCNBCBiznes.pl
 TVNFabula.pl
 TVNStyle.pl
 TVNTurbo.pl
 TVPABC.pl
+TVPDokument.pl
 TVPHD.pl
 TVPRegionalna.pl
 TVPRozrywka.pl

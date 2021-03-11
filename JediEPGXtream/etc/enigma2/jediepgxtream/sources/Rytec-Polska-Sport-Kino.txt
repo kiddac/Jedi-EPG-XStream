@@ -7,7 +7,6 @@ CanalplusFamily.pl
 CanalplusFamily2.pl
 CanalplusFilm.pl
 CanalplusFilm2.pl
-CanalPlusNow.pl
 CanalplusSport2.pl
 CanalplusSport3.pl
 CanalplusSport4.pl
