@@ -57,6 +57,6 @@ def Plugins(**kwargs):
     description = (_('Assign 3rd Party EPG to IPTV Channels'))
     pluginname = (_('JediEPGXtream'))
 
-    result = PluginDescriptor(name=pluginname, description=description,where=PluginDescriptor.WHERE_PLUGINMENU,icon=iconFile,fnc=main)
+    result = PluginDescriptor(name=pluginname, description=description, where=PluginDescriptor.WHERE_PLUGINMENU, icon=iconFile, fnc=main)
 
     return result
