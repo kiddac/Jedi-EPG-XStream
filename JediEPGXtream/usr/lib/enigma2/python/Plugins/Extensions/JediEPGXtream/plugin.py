@@ -30,7 +30,7 @@ sourcelist = '/etc/enigma2/jediepgxtream/sources'
 json_file = '/etc/enigma2/jediepgxtream/epg.json'
 
 hdr = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0',
-         'Accept': 'ext/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' }
+         'Accept': 'ext/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'}
 
 
 if os.path.isdir('/usr/lib/enigma2/python/Plugins/Extensions/EPGImport'):
