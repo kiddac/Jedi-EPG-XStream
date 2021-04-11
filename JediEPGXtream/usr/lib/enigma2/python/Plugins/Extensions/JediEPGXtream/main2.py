@@ -1048,7 +1048,6 @@ class JediEPGXtream_Main(Screen):
             with open(sourcelist + "/" + name + ".json", "r") as f:
                 epgidlist = json.load(f)
 
-
         matchlist = []
 
         for item in epgidlist:
