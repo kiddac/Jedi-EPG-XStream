@@ -1096,7 +1096,6 @@ class JediEPGXtream_Main(Screen):
 
         matchlist = list(OrderedDict.fromkeys(matchlist + matchlistlower + matchlistupper))
 
-       
         if matchlist != []:
             matchlist.append(divider)
 
