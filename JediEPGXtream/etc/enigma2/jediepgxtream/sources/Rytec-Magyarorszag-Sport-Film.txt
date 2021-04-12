@@ -1,5 +1,6 @@
 Arena4.hu
 AXN.hu
+AXNBlack.hu
 Cinemax.hu
 Cinemax2.hu
 DigiAnimalWorld.hu

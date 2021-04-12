@@ -17,9 +17,12 @@ PlaySportsHD4.be
 PlaySportsHD5.be
 PlaySportsHD6.be
 PlaySportsHD7.be
+PlaySportsHD8.be
 ZiggoSport.nl
+ZiggoSportDocu.nl
 ZiggoSportGolf.nl
 ZiggoSportRacing.nl
 ZiggoSportSelect.nl
+ZiggoSportTennis.nl
 ZiggoSportVoetbal.nl
 ZiggoTV.nl

@@ -11,6 +11,7 @@ PolsatGames.pl
 PolsatSportNews.pl
 sferatv.pl
 StudioMedTV.pl
+TelewizjaWielkopolska.pl
 TopKidsJr.pl
 toruntv.pl
 Toya.pl
@@ -18,6 +19,7 @@ TTV.PL
 TV4.pl
 TV6.pl
 TVASTA.pl
+tvksm.pl
 TVN.pl
 TVN7.pl
 TVOkazje.pl
@@ -41,12 +43,14 @@ TVP3Warszawa.pl
 TVP3Wrocław.pl
 TVP3Łódź.pl
 TVPHistoria.pl
+TVPHistoria2.pl
 TVPInfo.pl
 TVPKultura.pl
 TVPKultura2.pl
 TVPolonia.pl
 TVPuls.pl
 TVPuls2.pl
+TVPWilno.pl
 TVR.pl
 TVRelax.pl
 TVT.pl

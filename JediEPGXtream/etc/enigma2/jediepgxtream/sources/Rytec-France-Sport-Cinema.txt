@@ -61,3 +61,4 @@ RMCSportLive6.fr
 RMCSportLive7.fr
 RMCSportLive8.fr
 RMCSportLive9.fr
+RMCSportNews.fr

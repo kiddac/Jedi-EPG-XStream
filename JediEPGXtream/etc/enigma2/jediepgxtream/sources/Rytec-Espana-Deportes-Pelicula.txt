@@ -1,7 +1,9 @@
+BomCine.es
 CanalPlusAccion.es
 CanalPlusComedia.es
 CanalPlusDCine.sp
 CanalPlusDeportes.es
+CanalPlusDeportes2.es
 CanalPlusEstrenos.sp
 CanalPlusSeries.sp
 CanalPlusSeriesXtra.sp
@@ -12,6 +14,14 @@ DAZN2.es
 DAZN3.es
 DAZN4.es
 Dreamworks.es
+Eurosport360_1.es
+Eurosport360_2.es
+Eurosport360_3.es
+Eurosport360_4.es
+Eurosport360_5.es
+Eurosport360_6.es
+Eurosport360_7.es
+Eurosport360_8.es
 FightSports.es
 LaLigaTVBar.es
 LaLigaTVBar1.es
@@ -52,5 +62,6 @@ MLigadeCampeones6.es
 MLigadeCampeones7.es
 MLigadeCampeones8.es
 MovistarFormula1.es
+MovistarOscars.es
 Selekt.es
 Vamos.es

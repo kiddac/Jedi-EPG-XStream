@@ -1,3 +1,6 @@
+#Vamos BAR
+#Vamos BAR1
+#Vamos BAR2
 AandE.es
 AMC.es
 Antena3.es
@@ -13,6 +16,7 @@ Calle13.es
 CanalCocina.es
 CanalDecasa.es
 CanalFutbolReplay.es
+CanalOrbe21.es
 CanalPanda.es
 CazayPesca.es
 CGTN.es
@@ -38,7 +42,19 @@ Hollywood.es
 IberaliaTV.es
 LA1.es
 LA2.es
+LaLigaTVBar.es
+LaLigaTVBar1.es
+LaLigaTVBar2.es
+LaLigaTVBar3.es
+LaLigaTVBar4.es
 LaSexta.es
+M. Deportes 2
+M. Deportes 3
+M. Deportes 4
+M. Deportes 5
+M. Deportes 6
+M. DEPORTES7
+M. Liga de Campeones
 Mezzo.es
 MezzoLive.es
 MovistarAccion.es
@@ -48,11 +64,30 @@ MovistarComedia.es
 MovistarDCine.es
 MovistarDeportes.es
 MovistarDrama.es
+MovistarESports.es
 MovistarEstrenos.es
 MovistarFormula1.es
 MovistarGolf.es
 MovistarLiga.es
+MovistarLiga1.es
+MovistarLiga10.es
+MovistarLiga2.es
+MovistarLiga3.es
+MovistarLiga4.es
+MovistarLiga5.es
+MovistarLiga6.es
+MovistarLiga7.es
+MovistarLiga8.es
+MovistarLiga9.es
 MovistarLigaDeCampeones.es
+MovistarLigaDeCampeones1.es
+MovistarLigaDeCampeones2.es
+MovistarLigaDeCampeones3.es
+MovistarLigaDeCampeones4.es
+MovistarLigaDeCampeones5.es
+MovistarLigaDeCampeones6.es
+MovistarLigaDeCampeones7.es
+MovistarLigaDeCampeones8.es
 MovistarMulti.es
 MovistarSeries.es
 MovistarSeriesMania.es

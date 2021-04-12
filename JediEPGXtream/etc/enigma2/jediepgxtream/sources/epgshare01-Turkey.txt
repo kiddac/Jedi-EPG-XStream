@@ -22,7 +22,6 @@ beIN.BOX.OFFICE.3.HD.tr
 beIN.GURME.HD.tr
 beIN.HD.tr
 beIN.HOME.And.ENTERTAINMENT.HD.tr
-beIN.İZ.HD.tr
 beIN.MOVIES.ACTION.2.HD.tr
 beIN.MOVIES.ACTION.HD.tr
 beIN.MOVIES.FAMILY.HD.tr
@@ -41,6 +40,7 @@ beIN.SPORTS.HD.3.tr
 beIN.SPORTS.HD.4.tr
 beIN.SPORTS.MAX.1.HD.tr
 beIN.SPORTS.MAX.2.HD.tr
+beIN.İZ.HD.tr
 Best.FM.tr
 BEYAZ.TV.HD.tr
 BLOOMBERG.HD.tr
@@ -58,6 +58,7 @@ Discovery.Channel.HD.tr
 Discovery.Science.HD.tr
 Disney.Channel.tr
 Disney.Junior.tr
+Disney.XD.tr
 Diyanet.TV.HD.tr
 DMAX.HD.tr
 EKOTÜRK.TV.HD.tr
@@ -109,14 +110,15 @@ TRT.3.-.TRT.Spor.tr
 TRT.Arabi.tr
 TRT.AVAZ.tr
 TRT.Belgesel.HD.tr
-TRT.EBATV.İLKOKUL.HD.tr
 TRT.EBATV.LİSE.HD.tr
 TRT.EBATV.ORTAOKUL.HD.tr
+TRT.EBATV.İLKOKUL.HD.tr
 TRT.Haber.HD.tr
 TRT.Kurdi.tr
 TRT.Müzik.tr
 TRT.Spor.2.HD.tr
 TRT.SPOR.HD.tr
+TRT.Spor.tr
 TRT.TURK.tr
 TRT.World.HD.tr
 TRT.Çocuk.tr

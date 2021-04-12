@@ -63,6 +63,7 @@ ANTENA 3 HD
 APPLE TV
 ARAGON TV INT
 Aragón TV
+Arirang TV
 arte HD
 atreseries
 AXN
@@ -123,6 +124,7 @@ Discovery MAX
 DISNEY CH HD
 DISNEY CH.
 DISNEY JR
+DISNEY XD
 Disney+
 DIVINITY
 DKISS
@@ -134,6 +136,7 @@ Eleven Sports 1
 Eleven Sports 1 HD
 Eleven Sports 2
 Eleven Sports 2 HD
+Eleven Sports 3
 Eleven Sports 3 HD
 Eleven Sports 4
 Eleven Sports 5
@@ -190,6 +193,7 @@ M. DEPORTES1
 M. DEPORTES1HD
 M. DEPORTES2
 M. DEPORTES3
+M. DEPORTES4
 M. DEPORTES5
 M. DEPORTES6
 M. DEPORTES7
@@ -214,10 +218,11 @@ M. LaLiga 7
 M. LaLiga 8
 M. LaLiga 9
 M. LaLiga HD
+M. Oscars
 M. SERIES
 M. SERIES HD
 M. SERIESMANIA
-M.CineDoc&Roll
+M.CineDoc&amp;Roll
 M.COMEDIA HD
 M.ESTRENOSHD
 M.LCAMPEON1
@@ -243,6 +248,7 @@ NAT GEO WILD
 NAT GEOGRAPH
 NEOX
 NG WILD HD
+NHK WORLD-JPN
 NICK JR
 NICKELODEON
 NICKELODEONHD
@@ -266,6 +272,7 @@ Sky Bundesliga HD 1
 Sky Bundesliga HD 2
 Sky Bundesliga HD 3
 Sky Bundesliga HD 4
+Sky News Intl
 Sky Sport Austria HD
 Sky Sport HD 1
 Sky Sport HD 2

@@ -5,7 +5,9 @@ BBCKnowledge.fi
 CartoonNetwork.fi
 CNBCNordic.fi
 DiscoveryChannel.fi
+DiscoveryHD.fi
 DiscoveryScience.fi
+DiscoveryTravelLiving.fi
 DisneyChannel.fi
 DisneyJr.fi
 Eurosport.fi
@@ -19,8 +21,10 @@ InvestigationDiscovery.fi
 NatGeoWild.fi
 NationalGeographic.fi
 NationalGeographicHD.fi
+Nickelodeon.fi
 NickJr.fi
 SFKanalen.fi
 SUBJuniori.fi
+TCM.fi
 TheVoice.fi
 ViasatExplorer.fi

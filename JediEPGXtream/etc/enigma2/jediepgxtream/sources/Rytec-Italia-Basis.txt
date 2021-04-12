@@ -9,12 +9,15 @@ BoingPlus1.it
 Canale5.it
 Canale5Plus1.it
 Cartoonito.it
+CaseDesignStili.it
 Cielo.it
 Cine34.it
+ClassHorse.it
 ClassTVModa.it
 DITV.it
 DMAX.it
 DMAXPlus1.it
+DonnaTV.it
 Eurosport1.it
 Eurosport2.it
 Focus.it
@@ -38,6 +41,7 @@ Mezzo.en
 MotorTrend.it
 MS_Channel.it
 MS_MOTORTV.it
+MS_Sport.it
 myDeejay.it
 Nove.it
 ParamountChannel.it
@@ -48,6 +52,7 @@ Radio105TV.it
 RadioBruno.it
 RadioFreccia.it
 RadionorbaTV.it
+RadioRadioTV.it
 radiozeta.it
 Rai1.it
 Rai2.it
@@ -71,11 +76,13 @@ Rete4Plus1.it
 RTL102.5TV.it
 SkyTG24.it
 SMtv.it
+SMtvSport.it
 Spike.it
 Sportitalia.it
 Super!.it
 SuperSix.it
 SuperTennis.it
+Telecupole.it
 Telelombardia.it
 Telepace.it
 Telesanterno.it

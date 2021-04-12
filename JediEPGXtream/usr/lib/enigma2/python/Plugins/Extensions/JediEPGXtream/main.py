@@ -4,49 +4,41 @@
 # for localized messages
 from . import _
 
-from . import owibranding
-
+from .plugin import skin_directory, screenwidth, hdr, epg_file, sourcelist, json_file, cfg
 from collections import OrderedDict
-
 from Components.ActionMap import ActionMap
-from Components.MultiContent import MultiContentEntryText, MultiContentEntryPixmapAlphaBlend
-from Components.Sources.StaticText import StaticText
-from enigma import eListboxPythonMultiContent, getDesktop, gFont, RT_HALIGN_LEFT, RT_VALIGN_CENTER
-from Screens.Screen import Screen
-from .plugin import epg_file, sourcelist, hdr, json_file, cfg
-
-from Components.MenuList import MenuList
 from Components.Label import Label
+from Components.Sources.List import List
+from Components.MenuList import MenuList
+from Components.Sources.StaticText import StaticText
+from difflib import get_close_matches
+from enigma import eTimer
+from os import system, chmod
+from Screens.Console import Console
+from Screens.Screen import Screen
 from Tools.LoadPixmap import LoadPixmap
-from collections import OrderedDict
+from Tools.BoundFunction import boundFunction
+from Screens.MessageBox import MessageBox
 
 import gzip
-import xml.etree.ElementTree as ET
-import socket
-import os
-
-# fuzzy logic
-from difflib import get_close_matches
-
 import json
-
+import os
+import re
+import socket
 import sys
+import xml.etree.ElementTree as ET
 
 try:
     pythonVer = sys.version_info.major
 except:
     pythonVer = 2
 
-if pythonVer == 2:
-    import urllib2
-else:
-    import urllib
-    # import http_client
+try:
+    from urlparse import urlparse, parse_qs
+except:
+    from urllib.parse import urlparse, parse_qs
 
-
-screenwidth = getDesktop(0).size()
-
-divider = "────────────────────────────"
+divider = "═══════════ ALL ═══════════"
 
 
 class JediEPGXtream_Main(Screen):
@@ -55,301 +47,15 @@ class JediEPGXtream_Main(Screen):
         Screen.__init__(self, session)
         self.session = session
 
-        skin = """
-        <screen name="EPGMain" position="0,0" size="1280,720" backgroundColor="#232323" flags="wfNoBorder">
+        self.setup_title = (_('Jedi EPG XStream'))
 
-            <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/logo.png" position="20,20" size="167,94" alphatest="blend" />
+        skin = skin_directory + 'epgmain.xml'
 
-            <widget name="selection" position="345,20" size="915,30" font="jediepgregular;20" foregroundColor="#39b54a" backgroundColor="#232323" halign="left" valign="top" transparent="1" />
-            <widget name="description" position="345,50" size="915,80" font="jediepgregular;20" foregroundColor="#ffffff" backgroundColor="#232323" halign="left" valign="top" transparent="1" />
+        if os.path.exists('/var/lib/dpkg/status'):
+            skin = skin_directory + 'DreamOS/epgmain.xml'
 
-            <eLabel position="0,139" size="1280,1" backgroundColor="#0e6382" transparent="0" zPosition="3" />
-
-            <widget name="bouquet" position="32,140" size="276,38" font="jediepgregular;20" backgroundColor="#232323" valign="center" transparent="1" zPosition="-1" />
-            <widget name="channel" position="345,140" size="276,38" font="jediepgregular;20" backgroundColor="#232323" valign="center" transparent="1" zPosition="-1" />
-            <widget name="epgsource" position="658,140" size="276,38" font="jediepgregular;20" backgroundColor="#232323" valign="center" transparent="1" zPosition="-1" />
-            <widget name="epgselection" position="971,140" size="276,38" font="jediepgregular;20" backgroundColor="#232323" valign="center" transparent="1" zPosition="-1" />
-
-            <eLabel position="0,179" size="1280,1" backgroundColor="#0e6382" transparent="0" zPosition="3" />
-
-            <eLabel position="20,206" size="300,450" backgroundColor="#000000" transparent="0" zPosition="-1" />
-            <eLabel position="333,206" size="300,450" backgroundColor="#000000" transparent="0" zPosition="-1" />
-            <eLabel position="646,206" size="300,450" backgroundColor="#000000" transparent="0" zPosition="-1" />
-            <eLabel position="959,206" size="300,450" backgroundColor="#000000" transparent="0" zPosition="-1" />
-
-            <widget name="list1" position="20,206" size="300,450" foregroundColor="#ffffff" backgroundColor="#000000"
-                foregroundColorSelected="#ffffff" backgroundColorSelected="#0e6382" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" zPosition="2" />
-
-
-            <widget name="list2" position="333,206" size="300,450" foregroundColor="#ffffff" backgroundColor="#000000"
-                foregroundColorSelected="#ffffff" backgroundColorSelected="#0e6382" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" zPosition="2" />
-
-
-            <widget name="list3" position="646,206" size="300,450" foregroundColor="#ffffff" backgroundColor="#000000"
-                foregroundColorSelected="#ffffff" backgroundColorSelected="#0e6382" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" zPosition="2" />
-
-
-            <widget name="list4" position="959,206" size="300,450" foregroundColor="#ffffff" backgroundColor="#000000"
-                foregroundColorSelected="#ffffff" backgroundColorSelected="#0e6382" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" zPosition="2" />
-
-            <eLabel position="0,679" size="1280,1" backgroundColor="#0e6382" transparent="0" zPosition="-1" />
-
-            <widget source="global.CurrentTime" render="Label" position="20,686" size="300,28" font="jediepgregular;16" foregroundColor="#ffffff" backgroundColor="#161616" valign="center" halign="center" transparent="1" >
-                <convert type="ClockToText">Format:%A, %b %d, %H.%M</convert>
-            </widget>
-
-            <widget source="key_red" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_red.png" position="333,686" size="6,28" zPosition="1" >
-                <convert type="ConditionalShowHide" />
-            </widget>
-
-            <widget source="key_red" render="Label" position="345,686" size="150,28" font="jediepgregular;16" valign="center" transparent="1" noWrap="1" foregroundColor="#ffffff" backgroundColor="#232323" halign="left" zPosition="1" />
-
-            <widget source="key_green" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_green.png"  position="495,686" size="6,28" zPosition="1" >
-                <convert type="ConditionalShowHide" />
-            </widget>
-
-            <widget source="key_green" render="Label" position="507,686" size="150,28" font="jediepgregular;16" valign="center" transparent="1" noWrap="1" foregroundColor="#ffffff" backgroundColor="#232323" halign="left" zPosition="1" />
-
-            <widget source="key_yellow" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_yellow.png" position="657,686" size="6,28" zPosition="1" >
-                <convert type="ConditionalShowHide" />
-            </widget>
-
-            <widget source="key_yellow" render="Label" position="669,686" size="150,28" font="jediepgregular;16" valign="center" transparent="1" noWrap="1" foregroundColor="#ffffff" backgroundColor="#232323" halign="left" zPosition="1" />
-
-            <widget source="key_blue" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_blue.png" position="819,686" size="6,28" zPosition="1" >
-                <convert type="ConditionalShowHide" />
-            </widget>
-
-            <widget source="key_blue" render="Label" position="831,686" size="150,28" font="jediepgregular;16" valign="center" transparent="1" noWrap="1" foregroundColor="#ffffff" backgroundColor="#232323" halign="left" zPosition="1" />
-
-            <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_0.png" position="1103,687" size="25,25" alphatest="blend" />
-            <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_2.png" position="1136,687" size="25,25" alphatest="blend" />
-            <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_8.png" position="1169,687" size="25,25" alphatest="blend" />
-            <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_plus.png" position="1202,687" size="25,25" alphatest="blend" />
-            <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_minus.png" position="1235,687" size="25,25" alphatest="blend" />
-
-        </screen> """
-
-        if screenwidth.width() > 1280:
-
-            skin = """
-            <screen name="EPGMain" position="0,0" size="1920,1080" backgroundColor="#232323" flags="wfNoBorder">
-
-                <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/logo-large.png" position="30,30" size="250,140" alphatest="blend" />
-
-                <widget name="selection" position="518,30" size="1372,45" font="jediepgregular;30" foregroundColor="#39b54a" backgroundColor="#232323" halign="left" valign="top" transparent="1" />
-                <widget name="description" position="518,75" size="1372,120" font="jediepgregular;30" foregroundColor="#ffffff" backgroundColor="#232323" halign="left" valign="top" transparent="1" />
-
-                <eLabel position="0,210" size="1920,1" backgroundColor="#0e6382" transparent="0" zPosition="3" />
-
-                <widget name="bouquet" position="48,211" size="414,58" font="jediepgregular;30" backgroundColor="#232323" valign="center" transparent="1" zPosition="-1" />
-                <widget name="channel" position="518,211" size="414,58" font="jediepgregular;30" backgroundColor="#232323" valign="center" transparent="1" zPosition="-1" />
-                <widget name="epgsource" position="988,211" size="414,58" font="jediepgregular;30" backgroundColor="#232323" valign="center" transparent="1" zPosition="-1" />
-                <widget name="epgselection" position="1458,211" size="414,58" font="jediepgregular;30" backgroundColor="#232323" valign="center" transparent="1" zPosition="-1" />
-
-                <eLabel position="0,270" size="1920,1" backgroundColor="#0e6382" transparent="0" zPosition="3" />
-
-                <eLabel position="30,310" size="450,675" backgroundColor="#000000" transparent="0" zPosition="-1" />
-                <eLabel position="500,310" size="450,675" backgroundColor="#000000" transparent="0" zPosition="-1" />
-                <eLabel position="970,310" size="450,675" backgroundColor="#000000" transparent="0" zPosition="-1" />
-                <eLabel position="1440,310" size="450,675" backgroundColor="#000000" transparent="0" zPosition="-1" />
-
-                <widget name="list1" position="30,310" size="450,675" foregroundColor="#ffffff" backgroundColor="#000000"
-                    foregroundColorSelected="#ffffff" backgroundColorSelected="#0e6382" itemHeight="45" scrollbarMode="showOnDemand" transparent="1" zPosition="2" />
-
-
-                <widget name="list2" position="500,310" size="450,675" foregroundColor="#ffffff" backgroundColor="#000000"
-                    foregroundColorSelected="#ffffff" backgroundColorSelected="#0e6382" itemHeight="45" scrollbarMode="showOnDemand" transparent="1" zPosition="2" />
-
-
-                <widget name="list3" position="970,310" size="450,675" foregroundColor="#ffffff" backgroundColor="#000000"
-                    foregroundColorSelected="#ffffff" backgroundColorSelected="#0e6382" itemHeight="45" scrollbarMode="showOnDemand" transparent="1" zPosition="2" />
-
-
-                <widget name="list4" position="1440,310" size="450,675" foregroundColor="#ffffff" backgroundColor="#000000"
-                    foregroundColorSelected="#ffffff" backgroundColorSelected="#0e6382" itemHeight="45" scrollbarMode="showOnDemand" transparent="1" zPosition="2" />
-
-                <eLabel position="0,1019" size="1920,1" backgroundColor="#0e6382" transparent="0" zPosition="-1"/>
-
-                <widget source="global.CurrentTime" render="Label" position="30,1029" size="450,42" font="jediepgregular;24" foregroundColor="#ffffff" backgroundColor="#161616" valign="center" halign="center" transparent="1" >
-                    <convert type="ClockToText">Format:%A, %b %d, %H.%M</convert>
-                </widget>
-
-                <widget source="key_red" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_red_large.png" position="500,1029" size="9,42" zPosition="1" >
-                    <convert type="ConditionalShowHide" />
-                </widget>
-
-                <widget source="key_red" render="Label" position="518,1029" size="225,42" font="jediepgregular;24" valign="center" transparent="1" noWrap="1" foregroundColor="#ffffff" backgroundColor="#232323" halign="left" zPosition="1" />
-
-                <widget source="key_green" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_green_large.png"  position="743,1029" size="9,42" zPosition="1" >
-                    <convert type="ConditionalShowHide" />
-                </widget>
-
-                <widget source="key_green" render="Label" position="761,1029" size="225,42" font="jediepgregular;24" valign="center" transparent="1" noWrap="1" foregroundColor="#ffffff" backgroundColor="#232323" halign="left" zPosition="1" />
-
-                <widget source="key_yellow" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_yellow_large.png" position="986,1029" size="9,42" zPosition="1" >
-                    <convert type="ConditionalShowHide" />
-                </widget>
-
-                <widget source="key_yellow" render="Label" position="1004,1029" size="225,42" font="jediepgregular;24" valign="center" transparent="1" noWrap="1" foregroundColor="#ffffff" backgroundColor="#232323" halign="left" zPosition="1" />
-
-                <widget source="key_blue" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_blue_large.png" position="1229,1029" size="9,42" zPosition="1" >
-                    <convert type="ConditionalShowHide" />
-                </widget>
-
-                <widget source="key_blue" render="Label" position="1247,1029" size="225,42" font="jediepgregular;24" valign="center" transparent="1" noWrap="1" foregroundColor="#ffffff" backgroundColor="#232323" halign="left" zPosition="1" />
-
-                <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_0_large.png" position="1660,1031" size="38,38" alphatest="blend" />
-                <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_2_large.png" position="1708,1031" size="38,38" alphatest="blend" />
-                <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_8_large.png" position="1756,1031" size="38,38" alphatest="blend" />
-                <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_plus_large.png" position="1804,1031" size="38,38" alphatest="blend" />
-                <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_minus_large.png" position="1852,1031" size="38,38" alphatest="blend" />
-
-            </screen> """
-
-        self.dreamos = False
-
-        print("****** MachineBrand ******* %s" % owibranding.getMachineBrand())
-        print("****** OEVersion ******* %s" % owibranding.getOEVersion())
-
-        try:
-            from boxbranding import getImageDistro, getImageVersion, getOEVersion
-
-        except:
-            self.dreamos = True
-            pass
-
-        if owibranding.getMachineBrand() == "Dream Multimedia" or owibranding.getOEVersion() == "OE 2.2" or owibranding.getOEVersion() == "OpenVuplus 2.1" or self.dreamos is True:
-            skin = """
-            <screen name="EPGMain" position="0,0" size="1280,720" backgroundColor="#232323" flags="wfNoBorder">
-
-                <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/logo.png" position="20,20" size="167,94" alphatest="blend" />
-
-                <widget name="selection" position="345,20" size="915,30" font="jediepgregular;20" foregroundColor="#39b54a" backgroundColor="#232323" halign="left" valign="top" transparent="1" />
-                <widget name="description" position="345,50" size="915,80" font="jediepgregular;20" foregroundColor="#ffffff" backgroundColor="#232323" halign="left" valign="top" transparent="1" />
-
-                <eLabel position="0,139" size="1280,1" backgroundColor="#0e6382" transparent="0" zPosition="3" />
-
-                <widget name="bouquet" position="32,140" size="276,38" font="jediepgregular;20" backgroundColor="#232323" valign="center" transparent="1" zPosition="-1" />
-                <widget name="channel" position="345,140" size="276,38" font="jediepgregular;20" backgroundColor="#232323" valign="center" transparent="1" zPosition="-1" />
-                <widget name="epgsource" position="658,140" size="276,38" font="jediepgregular;20" backgroundColor="#232323" valign="center" transparent="1" zPosition="-1" />
-                <widget name="epgselection" position="971,140" size="276,38" font="jediepgregular;20" backgroundColor="#232323" valign="center" transparent="1" zPosition="-1" />
-
-                <eLabel position="0,179" size="1280,1" backgroundColor="#0e6382" transparent="0" zPosition="3" />
-
-                <eLabel position="20,206" size="300,450" backgroundColor="#000000" transparent="0" zPosition="-1" />
-                <eLabel position="333,206" size="300,450" backgroundColor="#000000" transparent="0" zPosition="-1" />
-                <eLabel position="646,206" size="300,450" backgroundColor="#000000" transparent="0" zPosition="-1" />
-                <eLabel position="959,206" size="300,450" backgroundColor="#000000" transparent="0" zPosition="-1" />
-
-                <widget name="list1" position="20,206" size="300,450" foregroundColor="#ffffff" backgroundColor="#000000"
-                    foregroundColorSelected="#ffffff" backgroundColorSelected="#0e6382" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" zPosition="2" />
-
-
-                <widget name="list2" position="333,206" size="300,450" foregroundColor="#ffffff" backgroundColor="#000000"
-                    foregroundColorSelected="#ffffff" backgroundColorSelected="#0e6382" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" zPosition="2" />
-
-
-                <widget name="list3" position="646,206" size="300,450" foregroundColor="#ffffff" backgroundColor="#000000"
-                    foregroundColorSelected="#ffffff" backgroundColorSelected="#0e6382" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" zPosition="2" />
-
-
-                <widget name="list4" position="959,206" size="300,450" foregroundColor="#ffffff" backgroundColor="#000000"
-                    foregroundColorSelected="#ffffff" backgroundColorSelected="#0e6382" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" zPosition="2" />
-
-                <eLabel position="0,679" size="1280,1" backgroundColor="#0e6382" transparent="0" zPosition="-1"/>
-
-                <widget source="global.CurrentTime" render="Label" position="20,686" size="300,28" font="jediepgregular;16" foregroundColor="#ffffff" backgroundColor="#161616" valign="center" halign="center" transparent="1" >
-                    <convert type="ClockToText">Format:%A, %b %d, %H.%M</convert>
-                </widget>
-
-                <widget source="key_red" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_red.png" position="333,686" size="6,28" zPosition="1" />
-                <widget source="key_red" render="Label" position="345,686" size="150,28" font="jediepgregular;16" valign="center" transparent="1" noWrap="1" foregroundColor="#ffffff" backgroundColor="#232323" halign="left" zPosition="1" />
-
-                <widget source="key_green" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_green.png"  position="495,686" size="6,28" zPosition="1" />
-                <widget source="key_green" render="Label" position="507,686" size="150,28" font="jediepgregular;16" valign="center" transparent="1" noWrap="1" foregroundColor="#ffffff" backgroundColor="#232323" halign="left" zPosition="1" />
-
-                <widget source="key_yellow" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_yellow.png" position="657,686" size="6,28" zPosition="1" />
-                <widget source="key_yellow" render="Label" position="669,686" size="150,28" font="jediepgregular;16" valign="center" transparent="1" noWrap="1" foregroundColor="#ffffff" backgroundColor="#232323" halign="left" zPosition="1" />
-
-                <widget source="key_blue" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_blue.png" position="819,686" size="6,28" zPosition="1" />
-                <widget source="key_blue" render="Label" position="831,686" size="150,28" font="jediepgregular;16" valign="center" transparent="1" noWrap="1" foregroundColor="#ffffff" backgroundColor="#232323" halign="left" zPosition="1" />
-
-                <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_0.png" position="1103,687" size="25,25" alphatest="blend" />
-                <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_2.png" position="1136,687" size="25,25" alphatest="blend" />
-                <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_8.png" position="1169,687" size="25,25" alphatest="blend" />
-                <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_plus.png" position="1202,687" size="25,25" alphatest="blend" />
-                <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_minus.png" position="1235,687" size="25,25" alphatest="blend" />
-
-            </screen> """
-
-            if screenwidth.width() > 1280:
-
-                skin = """
-                <screen name="EPGMain" position="0,0" size="1920,1080" backgroundColor="#232323" flags="wfNoBorder">
-
-                    <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/logo-large.png" position="30,30" size="250,140" alphatest="blend" />
-
-                    <widget name="selection" position="518,30" size="1372,45" font="jediepgregular;30" foregroundColor="#39b54a" backgroundColor="#232323" halign="left" valign="top" transparent="1" />
-                    <widget name="description" position="518,75" size="1372,120" font="jediepgregular;30" foregroundColor="#ffffff" backgroundColor="#232323" halign="left" valign="top" transparent="1" />
-
-                    <eLabel position="0,210" size="1920,1" backgroundColor="#0e6382" transparent="0" zPosition="3"/>
-
-                    <widget name="bouquet" position="48,211" size="414,58" font="jediepgregular;30" backgroundColor="#232323" valign="center" transparent="1" zPosition="-1" />
-                    <widget name="channel" position="518,211" size="414,58" font="jediepgregular;30" backgroundColor="#232323" valign="center" transparent="1" zPosition="-1" />
-                    <widget name="epgsource" position="988,211" size="414,58" font="jediepgregular;30" backgroundColor="#232323" valign="center" transparent="1" zPosition="-1" />
-                    <widget name="epgselection" position="1458,211" size="414,58" font="jediepgregular;30" backgroundColor="#232323" valign="center" transparent="1" zPosition="-1" />
-
-                    <eLabel position="0,270" size="1920,1" backgroundColor="#0e6382" transparent="0" zPosition="3" />
-
-                    <eLabel position="30,310" size="450,675" backgroundColor="#000000" transparent="0" zPosition="-1" />
-                    <eLabel position="500,310" size="450,675" backgroundColor="#000000" transparent="0" zPosition="-1" />
-                    <eLabel position="970,310" size="450,675" backgroundColor="#000000" transparent="0" zPosition="-1" />
-                    <eLabel position="1440,310" size="450,675" backgroundColor="#000000" transparent="0" zPosition="-1" />
-
-                    <widget name="list1" position="30,310" size="450,675" foregroundColor="#ffffff" backgroundColor="#000000"
-                        foregroundColorSelected="#ffffff" backgroundColorSelected="#0e6382" itemHeight="45" scrollbarMode="showOnDemand" transparent="1" zPosition="2" />
-
-
-                    <widget name="list2" position="500,310" size="450,675" foregroundColor="#ffffff" backgroundColor="#000000"
-                        foregroundColorSelected="#ffffff" backgroundColorSelected="#0e6382" itemHeight="45" scrollbarMode="showOnDemand" transparent="1" zPosition="2" />
-
-
-                    <widget name="list3" position="970,310" size="450,675" foregroundColor="#ffffff" backgroundColor="#000000"
-                        foregroundColorSelected="#ffffff" backgroundColorSelected="#0e6382" itemHeight="45" scrollbarMode="showOnDemand" transparent="1" zPosition="2" />
-
-
-                    <widget name="list4" position="1440,310" size="450,675" foregroundColor="#ffffff" backgroundColor="#000000"
-                        foregroundColorSelected="#ffffff" backgroundColorSelected="#0e6382" itemHeight="45" scrollbarMode="showOnDemand" transparent="1" zPosition="2" />
-
-                    <eLabel position="0,1019" size="1920,1" backgroundColor="#0e6382" transparent="0" zPosition="-1"/>
-
-                    <widget source="global.CurrentTime" render="Label" position="30,1029" size="450,42" font="jediepgregular;24" foregroundColor="#ffffff" backgroundColor="#161616" valign="center" halign="center" transparent="1" >
-                        <convert type="ClockToText">Format:%A, %b %d, %H.%M</convert>
-                    </widget>
-
-                    <widget source="key_red" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_red_large.png" position="500,1029" size="9,42" zPosition="1" />
-                    <widget source="key_red" render="Label" position="518,1029" size="225,42" font="jediepgregular;24" valign="center" transparent="1" noWrap="1" foregroundColor="#ffffff" backgroundColor="#232323" halign="left" zPosition="1" />
-
-                    <widget source="key_green" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_green_large.png"  position="743,1029" size="9,42" zPosition="1" />
-                    <widget source="key_green" render="Label" position="761,1029" size="225,42" font="jediepgregular;24" valign="center" transparent="1" noWrap="1" foregroundColor="#ffffff" backgroundColor="#232323" halign="left" zPosition="1" />
-
-                    <widget source="key_yellow" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_yellow_large.png" position="986,1029" size="9,42" zPosition="1" />
-                    <widget source="key_yellow" render="Label" position="1004,1029" size="225,42" font="jediepgregular;24" valign="center" transparent="1" noWrap="1" foregroundColor="#ffffff" backgroundColor="#232323" halign="left" zPosition="1" />
-
-                    <widget source="key_blue" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_blue_large.png" position="1229,1029" size="9,42" zPosition="1" />
-                    <widget source="key_blue" render="Label" position="1247,1029" size="225,42" font="jediepgregular;24" valign="center" transparent="1" noWrap="1" foregroundColor="#ffffff" backgroundColor="#232323" halign="left" zPosition="1" />
-
-                    <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_0_large.png" position="1660,1031" size="38,38" alphatest="blend" />
-                    <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_2_large.png" position="1708,1031" size="38,38" alphatest="blend" />
-                    <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_8_large.png" position="1756,1031" size="38,38" alphatest="blend" />
-                    <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_plus_large.png" position="1804,1031" size="38,38" alphatest="blend" />
-                    <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_minus_large.png" position="1852,1031" size="38,38" alphatest="blend" />
-
-                </screen> """
-
-        self.skin = skin
-        Screen.setTitle(self, _("Jedi EPG Xtream Main"))
+        with open(skin, 'r') as f:
+            self.skin = f.read()
 
         self['bouquet'] = Label(_("Bouquet"))
         self['channel'] = Label(_("Channel"))
@@ -363,40 +69,39 @@ class JediEPGXtream_Main(Screen):
 
         self["selection"] = Label()
         self["description"] = Label()
+        self["extrainfo"] = Label()
 
-        self.menu = 0
         self.list1 = []
-        self["list1"] = MenuList1(self.list1)
-
         self.list2 = []
-        self["list2"] = MenuList2(self.list2)
-
         self.list3 = []
-        self["list3"] = MenuList3(self.list3)
-
         self.list4 = []
-        self["list4"] = MenuList4(self.list4)
 
-        self.selectedList = []
-        self.onChangedEntry = []
+        self.lastindex = 0
+
+        self["list1"] = List(self.list1, enableWrapAround=True)
+        self["list2"] = List(self.list2, enableWrapAround=True)
+        self["list3"] = List(self.list3, enableWrapAround=True)
+        self["list4"] = List(self.list4, enableWrapAround=True)
 
         self["list1"].onSelectionChanged.append(self.selection1Changed)
         self["list2"].onSelectionChanged.append(self.selection2Changed)
         self["list3"].onSelectionChanged.append(self.selection3Changed)
         self["list4"].onSelectionChanged.append(self.selection4Changed)
 
+        self.selectedList = self["list1"]
+
         self["actions"] = ActionMap(["SetupActions", "DirectionActions", "WizardActions", "ColorActions", "MenuActions", "MoviePlayerActions"], {
             "ok": self.ok,
-            "back": self.keyred,
-            "cancel": self.keyred,
+            "back": self.exit,
+            "cancel": self.exit,
+            "red": self.exit,
+            "green": self.keygreen,
+            "yellow": self.keyyellow,
+            "blue": self.keyblue,
             "left": self.goLeft,
             "right": self.goRight,
             "up": self.goUp,
             "down": self.goDown,
-            "red": self.keyred,
-            "green": self.keygreen,
-            "yellow": self.keyyellow,
-            "blue": self.keyblue,
             "channelUp": self.pageUp,
             "channelDown": self.pageDown,
             "0": self.reset,
@@ -404,37 +109,111 @@ class JediEPGXtream_Main(Screen):
             "8": self.nextLetter
         }, -1)
 
+        self.clear_caches()
+
+        self.onFirstExecBegin.append(self.check_dependencies)
+        self.onLayoutFinish.append(self.__layoutFinished)
+
+    def enablelist1(self):
+        instance1 = self["list1"].master.master.instance
+        instance1.setSelectionEnable(1)
+
+    def enablelist2(self):
+        instance2 = self["list2"].master.master.instance
+        instance2.setSelectionEnable(1)
+
+    def enablelist3(self):
+        instance3 = self["list3"].master.master.instance
+        instance3.setSelectionEnable(1)
+
+    def enablelist4(self):
+        instance4 = self["list4"].master.master.instance
+        instance4.setSelectionEnable(1)
+
+    def disablelist1(self):
+        instance1 = self["list1"].master.master.instance
+        instance1.setSelectionEnable(0)
+
+    def disablelist2(self):
+        instance2 = self["list2"].master.master.instance
+        instance2.setSelectionEnable(0)
+
+    def disablelist3(self):
+        instance3 = self["list3"].master.master.instance
+        instance3.setSelectionEnable(0)
+
+    def disablelist4(self):
+        instance4 = self["list4"].master.master.instance
+        instance4.setSelectionEnable(0)
+
+    def __layoutFinished(self):
+        self.setTitle(self.setup_title)
+
+        self.enablelist1()
+        self.disablelist2()
+        self.disablelist3()
+        self.disablelist4()
+
+    def check_dependencies(self):
+        dependencies = True
+        if os.path.exists('/var/lib/dpkg/status'):
+            try:
+                import requests
+                print("** *dependancies passed ***")
+            except Exception as e:
+                print(e)
+                dependencies = False
+        else:
+            try:
+                import requests
+                from fuzzywuzzy import fuzz
+                from fuzzywuzzy import process
+                print("** *dependancies passed ***")
+            except Exception as e:
+                print(e)
+                dependencies = False
+
+        if dependencies is False:
+            chmod("/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/dependencies.sh", 0o0755)
+            cmd1 = ". /usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/dependencies.sh"
+            self.session.openWithCallback(self.start, Console, title="Checking Python Dependencies", cmdlist=[cmd1], closeOnSuccess=False)
+        else:
+            self.start()
+
+    def clear_caches(self):
+        try:
+            system("echo 1 > /proc/sys/vm/drop_caches")
+            system("echo 2 > /proc/sys/vm/drop_caches")
+            system("echo 3 > /proc/sys/vm/drop_caches")
+        except:
+            pass
+
+    def start(self):
         self.getJsonFile()
-        self.checkJsonFile()
-        self.getBouquets()
         self.getJediSources()
         self.getSources()
-
-        self.selectedList = self["list1"]
-        self.selection1Changed()
-
-        self.onLayoutFinish.append(self.layoutFinished)
-
-    def layoutFinished(self):
-        self["list2"].selectionEnabled(0)
-        self["list3"].selectionEnabled(0)
-        self["list4"].selectionEnabled(0)
+        self.getBouquets()
 
     def getJsonFile(self):
-        temp = {"Bouquets": [], "Sources": []}
-        self.epg_json = None
+
         if not os.path.isfile(json_file):
             open(json_file, 'a').close()
 
+        temp = {"Bouquets": [], "Sources": []}
+
         if not os.stat(json_file).st_size > 0:
-            with open(json_file, "w+") as f:
+            with open(json_file, "w") as f:
                 json.dump(temp, f)
+
+        self.epg_json = None
 
         with open(json_file) as f:
             try:
-                self.epg_json = json.load(f, object_pairs_hook=OrderedDict)
+                self.epg_json = json.load(f)
             except:
                 print("***** json fail ***** ")
+
+        self.checkJsonFile()
 
     def checkJsonFile(self):
         for bouquet in self.epg_json['Bouquets']:
@@ -453,369 +232,73 @@ class JediEPGXtream_Main(Screen):
         with open(json_file, "w") as f:
             json.dump(self.epg_json, f)
 
-    def selection1Changed(self):
-        if self.selectedList == self["list1"]:
-            item = self["list1"].getCurrent()
-            if item:
-                self['selection'].text = item[0]
-                self["description"].text = (_("Select Bouquet."))
-
-                if item[3] is False:
-                    self.getNextList()
-
-    def selection2Changed(self):
-        if self.selectedList == self["list2"]:
-            item = self["list2"].getCurrent()
-            if item:
-                self['selection'].text = self["list1"].getCurrent()[0] + " / " + self["list2"].getCurrent()[0]
-                self["description"].text = (_("Select Channel."))
-            if self["list2"].getCurrent()[4] != '':
-                self['key_green'].text = (_('Unassign EPG'))
-            else:
-                self['key_green'].text = ('')
-
-    def selection3Changed(self):
-        if self.selectedList == self["list3"]:
-            item = self["list3"].getCurrent()
-            if item:
-                self["description"].text = (_("Select EPG Source. Press Yellow to refresh and update EPG Source. Optional"))
-                name = item[0]
-                url = item[2]
-                self.getMatchList(name, url)
-
-    def selection4Changed(self):
-        if self.selectedList == self["list4"]:
-            item = self["list4"].getCurrent()
-            if item:
-                self["description"].text = (_("Select the closest EPG ID reference."))
-
-    def goLeft(self):
-        self.prevmenu = self.menu
-        if self.menu > 0:
-            self.menu = self.menu - 1
-
-            if self.menu == 0:
-                self['key_green'].text = ('')
-                self.selectedList = self["list1"]
-                self["list1"].selectionEnabled(1)
-                self["list2"].selectionEnabled(0)
-                self["list3"].selectionEnabled(0)
-                self["list4"].selectionEnabled(0)
-                self['key_blue'].text = ('')
-                self.selection1Changed()
-
-            if self.menu == 1:
-                self.selectedList = self["list2"]
-                self["list2"].selectionEnabled(1)
-                self["list3"].selectionEnabled(0)
-                self["list4"].selectionEnabled(0)
-                self['key_blue'].text = (_('Unassign All'))
-                self.selection2Changed()
-
-            if self.menu == 1 and self["list2"].getCurrent()[4] != '':
-                self['key_green'].text = (_('Unassign EPG'))
-            else:
-                self['key_green'].text = ('')
-
-            if self.menu == 2:
-                self['key_green'].text = ('')
-                self['key_yellow'].text = (_('Update Source'))
-                self['key_blue'].text = (_('Hide Source'))
-                self.selectedList = self["list3"]
-                self["list3"].selectionEnabled(1)
-                self["list4"].selectionEnabled(0)
-                self.selection3Changed()
-            else:
-                self['key_yellow'].text = ('')
-
-            if self.menu == 3:
-                self['key_blue'].text = ('')
-
-        if self.selectedList.getCurrent():
-            if self.menu == 0 and self["list1"].getCurrent()[5] == "Level2":
-                if self.prevmenu == 0:
-                    self.getBouquets()
-            if self.menu == 0 and self["list1"].getCurrent()[5] == "Level1" and self["list1"].getCurrent()[3] is True:
-                self.list2 = []
-                self["list2"].l.setList(self.list2)
-
-    def goRight(self):
-        if self.selectedList.getCurrent():
-            if self.menu < 3:
-                if self.menu == 0 and self["list1"].getCurrent()[3] is True:
-                    self.getSubBouquets(self["list1"].getCurrent()[4])
-                else:
-                    if (self.menu == 0 and self.list2 != []) or (self.menu == 1 and self.list3 != []) or (self.menu == 2 and self.list4 != []):
-                        self.menu = self.menu + 1
-
-                        if self.menu == 1:
-                            self.selectedList = self["list2"]
-                            self["list2"].selectionEnabled(1)
-                            self.selection2Changed()
-
-                        if self.menu == 2:
-                            self.selectedList = self["list3"]
-                            self["list3"].selectionEnabled(1)
-                            self.selection3Changed()
-                        if self.menu == 3:
-                            self.selectedList = self["list4"]
-                            self["list4"].selectionEnabled(1)
-                            self["list4"].moveToIndex(0)
-                            self.selection4Changed()
-
-        if self.menu == 0:
-            self['key_green'].text = ('')
-            self['key_blue'].text = ('')
-
-        if self.menu == 1:
-            self['key_blue'].text = (_('Unassign All'))
-
-        if self.menu == 1 and self["list2"].getCurrent()[4] != '':
-            self['key_green'].text = (_('Unassign EPG'))
-        else:
-            self['key_green'].text = ('')
-
-        if self.menu == 2:
-            self['key_green'].text = ('')
-            self['key_yellow'].text = (_('Update Source'))
-            self['key_blue'].text = (_('Hide Source'))
-        else:
-            self['key_yellow'].text = ('')
-
-        if self.menu == 3:
-            self['key_green'].text = (_('Assign EPG'))
-            self['key_blue'].text = ('')
-
-        if self.menu != 0 and self["list2"].getCurrent()[4] != '':
-            self.moveToAssigned()
-
-    def getNextList(self):
-        if self.menu == 0:
-            if self["list1"].getCurrent()[3] is False:
-                self.getChannels(self["list1"].getCurrent()[4])
-
-    def goUp(self):
-        self.selectedList.up()
-        if self.menu == 3 and self["list4"].getCurrent()[0] == divider:
-            self.selectedList.up()
-
-    def goDown(self):
-        self.selectedList.down()
-
-        if self.menu == 3 and self["list4"].getCurrent()[0] == divider:
-            self.selectedList.down()
-
-    def pageUp(self):
-        self.selectedList.pageUp()
-        if self.menu == 3 and self["list4"].getCurrent()[0] == divider:
-            self.goDown()
-
-    def pageDown(self):
-        self.selectedList.pageDown()
-        if self.menu == 3 and self["list4"].getCurrent()[0] == divider:
-            self.goDown()
-
-    def reset(self):
-        self.selectedList.moveToIndex(0)
-
-    def prevLetter(self):
-        if self.selectedList.getCurrent():
-            if self.menu != 0:
-                count = 0
-                letterlist = []
-                letterindex = 0
-                current = ord((self.selectedList.getCurrent()[0][0]).lower())
-
-                if self.menu == 1:
-                    currentlist = self.list2
-                if self.menu == 2:
-                    currentlist = self.list3
-                if self.menu == 3:
-                    currentlist = self.list4
-                    if self.selectedList.getCurrent()[2] is True:
-                        self.goUp()
-                        return
-
-                for item in currentlist:
-                    letter = ord((item[0][0].lower()))
-                    if not (self.menu == 3 and item[2] is True):
-                        if letter not in letterlist:
-                            letterlist.append(letter)
-
-                for item in currentlist:
-                    letter2 = ord((item[0][0].lower()))
-
-                    if not (self.menu == 3 and item[2] is True):
-                        letterindex = letterlist.index(current)
-                        if letterindex == 0:
-                            if self.menu == 3:
-                                self.goUp()
-                                break
-                            if letter2 == letterlist[len(letterlist) - 1]:
-                                self.selectedList.moveToIndex(count)
-                                break
-                        else:
-                            if letter2 == letterlist[letterindex - 1]:
-                                self.selectedList.moveToIndex(count)
-                                break
-                    count += 1
-
-    def nextLetter(self):
-        if self.selectedList.getCurrent():
-            if self.menu != 0:
-                count = 0
-                letterlist = []
-                letterindex = 0
-                current = ord((self.selectedList.getCurrent()[0][0]).lower())
-
-                if self.menu == 0:
-                    currentlist = self.list1
-                if self.menu == 1:
-                    currentlist = self.list2
-                if self.menu == 2:
-                    currentlist = self.list3
-                if self.menu == 3:
-                    currentlist = self.list4
-                    if self.selectedList.getCurrent()[2] is True:
-                        self.goDown()
-                        return
-
-                for item in currentlist:
-                    letter = ord((item[0][0].lower()))
-
-                    if not (self.menu == 3 and item[2] is True):
-                        if letter not in letterlist:
-                            letterlist.append(letter)
-
-                for item in currentlist:
-                    letter2 = ord((item[0][0].lower()))
-
-                    if not (self.menu == 3 and item[2] is True):
-                        letterindex = letterlist.index(current)
-
-                        if letterindex + 1 >= len(letterlist):
-                            if letter2 == letterlist[0]:
-                                self.selectedList.moveToIndex(0)
-                                break
-                        else:
-                            if letter2 == letterlist[letterindex + 1]:
-                                self.selectedList.moveToIndex(count)
-                                break
-                    count += 1
-
-    def keyred(self):
-        self.close()
-
-    def keygreen(self):
-        if self['key_green'].getText():
-            if self.menu == 1:
-                self.unassignEPG()
-            if self.menu == 3:
-                self.assignEPG()
-
-    def keyyellow(self):
-        if self['key_yellow'].getText():
-            if self.menu == 2:
-                item = self["list3"].getCurrent()
-                if item:
-                    name = item[0]
-                    url = item[2]
-                    self.downloadSource(name, url)
-
-    def keyblue(self):
-        if self['key_blue'].getText():
-
-            if self.menu == 1:
-                self.unassignBouquet()
-            if self.menu == 2:
-                self.hideSource()
-
-    def ok(self):
-        if self.menu == 0:
-            self.goRight()
-
-        elif self.menu == 1:
-            self.goRight()
-
-        elif self.menu == 2:
-            if self.list4 == []:
-                self.keyyellow()
-            else:
-                self.goRight()
-
-        elif self.menu == 3:
-            self.keygreen()
-
     def getBouquets(self):
-        self.menu = 0
         self.list1 = []
-
         if os.path.isfile('/etc/enigma2/bouquets.tv') and os.stat('/etc/enigma2/bouquets.tv').st_size > 0:
             with open('/etc/enigma2/bouquets.tv') as f:
                 for line in f:
                     bouquetname = ''
                     hassubbouquet = False
-                    if line.startswith('#SERVICE'):
+
+                    if line.startswith('#SERVICE') and "FROM BOUQUET" in line:
                         if "userbouquet.abm" in line or "#SERVICE 1:519" in line or "userbouquet.favourites" in line or "userbouquet.LastScanned.tv" in line or "_vod_" in line or "_series_" in line:
                             continue
                         else:
-                            userbouquet = line.split('"')[1::2][0]
-                            with open(('/etc/enigma2/' + userbouquet).encode('utf-8'), "r") as b:
-                                for bline in b:
-                                    if "#NAME" in bline:
-                                        bouquetname = ' '.join(bline.split()[1:])
-                                        if " - " in bouquetname:
-                                            bouquetname = bouquetname.partition(" - ")[-1]
+                            try:
+                                bouquetpath = line.split('"')[1::2][0]
+                                with open('/etc/enigma2/' + bouquetpath, "r") as userbouquetfile:
+                                    for item in userbouquetfile:
+                                        if "#NAME" in item:
+                                            bouquetname = ' '.join(item.split()[1:])
+                                            if " - " in bouquetname:
+                                                bouquetname = bouquetname.partition(" - ")[-1]
 
-                                    if "subbouquet" in bline:
-                                        hassubbouquet = True
+                                        if "subbouquet" in item:
+                                            hassubbouquet = True
 
-                                        if bouquetname != "":
-                                            break
+                                            if bouquetname != "":
+                                                break
+                            except:
+                                pass
 
-                            self.list1.append(MenuEntryComponent1(bouquetname, hassubbouquet, userbouquet, "Level1"))
+                            self.list1.append(buildList1(bouquetname, hassubbouquet, bouquetpath, "Level1"))
 
-        # self.list1.sort(key=lambda y: y[0].lower())
-        self["list1"].l.setList(self.list1)
+        self["list1"].setList(self.list1)
 
     def getSubBouquets(self, subbouquet):
-        self.menu = 0
         self.list1 = []
 
-        with open(('/etc/enigma2/' + subbouquet).encode('utf-8'), "r") as f:
+        with open('/etc/enigma2/' + subbouquet, "r") as f:
             for line in f:
                 bouquetname = ''
                 if line.startswith('#SERVICE'):
-                    userbouquet = line.split('"')[1::2][0]
-                    with open(('/etc/enigma2/' + userbouquet).encode('utf-8'), "r") as b:
-                        for bline in b:
-                            if "#NAME" in bline:
-                                bouquetname = ' '.join(bline.split()[1:])
+                    bouquetpath = line.split('"')[1::2][0]
+                    with open('/etc/enigma2/' + bouquetpath, "r") as userbouquetfile:
+                        for item in userbouquetfile:
+                            if "#NAME" in item:
+                                bouquetname = ' '.join(item.split()[1:])
                                 if " - " in bouquetname:
                                     bouquetname = bouquetname.partition(" - ")[-1]
+
                                 if bouquetname != "":
                                     break
 
-                    self.list1.append(MenuEntryComponent1(bouquetname, False, userbouquet, "Level2"))
-        # self.list1.sort(key=lambda y: y[0].lower())
-        self["list1"].l.setList(self.list1)
+                    self.list1.append(buildList1(bouquetname, False, bouquetpath, "Level2"))
+        self["list1"].setList(self.list1)
 
     def getChannels(self, bouquet):
         self.list2 = []
-
-        with open(('/etc/enigma2/' + bouquet).encode('utf-8'), "r") as f:
-
+        with open('/etc/enigma2/' + bouquet, "r") as f:
             channelname = ''
             serviceref = ''
             epgid = ''
 
             for line in f:
-
                 if line.startswith('#SERVICE'):
                     serviceref = line.split(' ')[1:][0].split('http')[0]
 
                 if line.startswith('#DESCRIPTION'):
-                    channelname = line.replace("#DESCRIPTION ", "")
+                    channelname = line.replace("#DESCRIPTION ", "").lstrip("~").lstrip("#").lstrip("-").lstrip("~").lstrip("<").lstrip("^").strip()
                     for bouq in self.epg_json['Bouquets']:
                         if bouq['bouquet'] == bouquet:
                             for channel in bouq['channel']:
@@ -825,9 +308,11 @@ class JediEPGXtream_Main(Screen):
                                 else:
                                     epgid = ''
 
-                    self.list2.append(MenuEntryComponent2(channelname.strip(), serviceref.strip(), epgid.strip()))
+                    self.list2.append(buildList2(str(channelname).strip(), str(serviceref).strip(), str(epgid).strip()))
         self.list2.sort(key=lambda y: y[0].lower())
-        self["list2"].l.setList(self.list2)
+        self["list2"].setList(self.list2)
+
+        self.disablelist2()
 
     def getJediSources(self):
         try:
@@ -837,44 +322,43 @@ class JediEPGXtream_Main(Screen):
 
         if os.path.isfile(cfg_location + "playlists.txt") and os.stat(cfg_location + "playlists.txt").st_size > 0:
             with open(cfg_location + "playlists.txt", "r") as f:
+
                 iptvs = []
                 lines = f.readlines()
                 f.seek(0)
                 for line in lines:
-                    protocol = 'http://'
-                    host = ''
+
+                    if not line.startswith("http"):
+                        continue
+
+                    url = line.split(" ")[0]
+
+                    scheme = 'http'
+                    hostname = ''
                     domain = ''
                     username = ''
                     password = ''
                     port = 80
                     xmltv_api = ''
 
-                    urlsplit1 = line.split("/")
-                    urlsplit2 = line.split("?")
+                    parsed = urlparse(url)
+                    scheme = parsed.scheme
+                    hostname = parsed.hostname
+                    port = parsed.port or (443 if scheme == 'https' else 80)
+                    domain = str(scheme) + "://" + str(hostname) + ":" + str(port) + "/"
 
-                    protocol = urlsplit1[0] + "//"
+                    query = parse_qs(parsed.query, keep_blank_values=True)
 
-                    if not (protocol == "http://" or protocol == "https://"):
-                        continue
+                    if "username" in query:
+                        username = query['username'][0].strip()
 
-                    if len(urlsplit1) > 2:
-                        domain = urlsplit1[2].split(':')[0]
-                        if len(urlsplit1[2].split(':')) > 1:
-                            port = urlsplit1[2].split(':')[1]
+                    if "password" in query:
+                        password = query['password'][0].strip()
 
-                    host = str(protocol) + str(domain) + ':' + str(port) + '/'
+                    xmltv_api = str(domain) + 'xmltv.php?username=' + str(username) + '&password=' + str(password)
 
-                    if len(urlsplit2) > 1:
-                        for param in urlsplit2[1].split("&"):
-                            if param.startswith("username"):
-                                username = param.split('=')[1]
-                            if param.startswith("password"):
-                                password = param.split('=')[1]
-
-                    xmltv_api = str(host) + 'xmltv.php?username=' + str(username) + '&password=' + str(password)
-
-                    if 'get.php' in line and domain != '' and username != '' and password != '':
-                        iptvline = "\n" + str(domain) + " " + str(xmltv_api)
+                    if 'get.php' in line and username != '' and password != '':
+                        iptvline = "\n" + str(hostname) + " " + str(xmltv_api)
                         if iptvline.strip() not in iptvs:
                             iptvs.append(iptvline)
 
@@ -899,85 +383,45 @@ class JediEPGXtream_Main(Screen):
                         if " " in line:
                             name = line.split(" ")[0]
                             source = line.split(" ")[1].strip()
-                            self.list3.append(MenuEntryComponent3(name, source))
+                            self.list3.append(buildList3(name, source))
 
-        self.list3.sort(key=lambda y: y[0].lower())
-        self["list3"].l.setList(self.list3)
+        # self.list3.sort(key=lambda y: y[0].lower())
+        self["list3"].setList(self.list3)
+        self.disablelist3()
 
     def downloadSource(self, name, url):
-        # req = urllib2.Request(url, headers=hdr)
 
-        if pythonVer == 2:
-            req = urllib2.Request(url, headers=hdr)
-        else:
-            req = urllib.request.Request(url, headers=hdr)
+        import requests
+        try:
+            response = requests.get(url, headers=hdr, stream=True, timeout=10)
+            response.raise_for_status()
+            if response.status_code == requests.codes.ok:
+                if "xmltv.php" in url:
+                    with open(sourcelist + "/" + name + ".xml", 'w') as output:
+                        output.write(response.raw.read())
+                else:
+                    extension = url.split(".")[-1]
+                    with open(sourcelist + "/" + name + "." + extension, 'w') as output:
+                        output.write(response.raw.read())
 
-        if pythonVer == 2:
-            try:
-                response = urllib2.urlopen(req)
+                self["extrainfo"].text = (_("Extracting source...please wait."))
+                self.timer = eTimer()
+                try:
+                    self.timer_conn = self.timer.timeout.connect(boundFunction(self.openSource, name, url))
+                except:
+                    try:
+                        self.timer.callback.append(boundFunction(self.openSource, name, url))
+                    except:
+                        self.openSource(name, url)
+                self.timer.start(5, True)
 
-                if url.endswith('xz'):
-                    with open(sourcelist + "/" + name + ".xz", 'wb') as output:
-                        output.write(response.read())
-                elif url.endswith('gz'):
-                    with open(sourcelist + "/" + name + ".gz", 'wb') as output:
-                        output.write(response.read())
-                elif url.endswith('xml'):
-                    with open(sourcelist + "/" + name + ".xml", 'wb') as output:
-                        output.write(response.read())
-                elif "xmltv.php" in url:
-                    with open(sourcelist + "/" + name + ".xml", 'wb') as output:
-                        output.write(response.read())
+        except requests.exceptions.ConnectionError as e:
+            print(("Error Connecting: %s" % e))
+            self["extrainfo"].text = (_("Download failed. Try again later."))
 
-            except urllib2.URLError as e:
-                print(e)
-                pass
-
-            except socket.timeout as e:
-                print(e)
-                pass
-
-            except socket.error as e:
-                print(e)
-                pass
-
-            except:
-                print("\n ***** download unknown error")
-                pass
-        else:
-            try:
-                response = urllib.request.urlopen(req)
-
-                if url.endswith('xz'):
-                    with open(sourcelist + "/" + name + ".xz", 'wb') as output:
-                        output.write(response.read())
-                elif url.endswith('gz'):
-                    with open(sourcelist + "/" + name + ".gz", 'wb') as output:
-                        output.write(response.read())
-                elif url.endswith('xml'):
-                    with open(sourcelist + "/" + name + ".xml", 'wb') as output:
-                        output.write(response.read())
-                elif "xmltv.php" in url:
-                    with open(sourcelist + "/" + name + ".xml", 'wb') as output:
-                        output.write(response.read())
-
-            except urllib.error.URLError as e:
-                print(e)
-                pass
-
-            except socket.timeout as e:
-                print(e)
-                pass
-
-            except socket.error as e:
-                print(e)
-                pass
-
-            except:
-                print("\n ***** download unknown error")
-                pass
-
-        self.openSource(name, url)
+        except requests.exceptions.RequestException as e:
+            print(e)
+            self["extrainfo"].text = (_("Download failed. Try again later."))
 
     def openSource(self, name, url):
         haslzma = False
@@ -1002,127 +446,159 @@ class JediEPGXtream_Main(Screen):
                     print("\n ***** missing lzma module ***** ")
                     pass
 
-        if url.endswith('xz') and haslzma:
+            if url.endswith('xz') and haslzma and os.path.isfile(str(sourcelist) + "/" + str(name) + ".xz"):
+                with lzma.open(str(sourcelist) + "/" + str(name) + ".xz", mode='rt', encoding='utf-8') as f:
+                    output = f.read()
 
-            if os.path.isfile(str(sourcelist) + "/" + str(name) + ".xz"):
-                with lzma.open(str(sourcelist) + "/" + str(name) + ".xz", 'rt') as f:
-                    with open(str(sourcelist) + "/" + str(name) + ".xml", 'w') as outfile:
-                        for line in f:
-                            if isinstance(line, bytes):
-                                line = line.decode()
-                            # some errors found
-                            if ">>" in line:
-                                line = line.replace(">>", ">")
-                            if "<<" in line:
-                                line = line.replace("<<", "<")
+                with open(str(sourcelist) + "/" + str(name) + ".xml", 'w') as outfile:
+                    outfile.write(output)
 
-                            outfile.write(line)
+            elif url.endswith('gz') and haslzma and os.path.isfile(str(sourcelist) + "/" + str(name) + ".gz"):
+                with gzip.open(str(sourcelist) + "/" + str(name) + ".gz", 'r') as f:
+                    output = f.read()
 
-        elif url.endswith('gz') and haslzma:
-            if os.path.isfile(str(sourcelist) + "/" + str(name) + ".gz"):
-                with gzip.open(str(sourcelist) + "/" + str(name) + ".gz", 'rt') as f:
-                    with open(str(sourcelist) + "/" + str(name) + ".xml", 'w') as outfile:
-                        for line in f:
-                            if isinstance(line, bytes):
-                                line = line.decode()
+                with open(str(sourcelist) + "/" + str(name) + ".xml", 'w') as outfile:
+                    outfile.write(output)
 
-                            if ">>" in line:
-                                line = line.replace(">>", ">")
-                            if "<<" in line:
-                                line = line.replace("<<", "<")
-                            outfile.write(line)
-
-        self.parseXMLFile(name, url)
+        self["extrainfo"].text = (_("Parsing XML...please wait."))
+        self.timer = eTimer()
+        try:
+            self.timer_conn = self.timer.timeout.connect(boundFunction(self.parseXMLFile, name, url))
+        except:
+            try:
+                self.timer.callback.append(boundFunction(self.parseXMLFile, name, url))
+            except:
+                self.parseXMLFile(name, url)
+        self.timer.start(5, True)
 
     def parseXMLFile(self, name, url):
         epgidlist = []
         self.list4 = []
+
+        pattern = re.compile(r'id="(?P<value>[^\"]+)"')
+
+        with open(str(sourcelist) + "/" + str(name) + ".xml", 'r') as f:
+            for txt in pattern.finditer(f.read()):
+                channelid = txt.group('value'). strip()
+                epgidlist.append(channelid)
+
+        epgidlist = list(set(epgidlist))
+        epgidlist.sort(key=lambda y: y.lower())
+
+        # output simple channel list to .txt file
+        with open(str(sourcelist) + "/" + str(name) + ".txt", 'w') as textfile:
+            for line in epgidlist:
+                textfile.write(line + "\n")
+
+        # remove xml, gz, xz files
+
+        if os.path.isfile(str(sourcelist) + "/" + str(name) + ".xz"):
+            os.remove(str(sourcelist) + "/" + str(name) + ".xz")
+        if os.path.isfile(str(sourcelist) + "/" + str(name) + ".gz"):
+            os.remove(str(sourcelist) + "/" + str(name) + ".gz")
+        if os.path.isfile(str(sourcelist) + "/" + str(name) + ".xml"):
+            os.remove(str(sourcelist) + "/" + str(name) + ".xml")
+
+        self["extrainfo"].text = (_("Finding closest matches."))
+        self.timer = eTimer()
         try:
-            tree = ET.parse(str(sourcelist) + "/" + str(name) + ".xml")
-            validxml = True
+            self.timer_conn = self.timer.timeout.connect(boundFunction(self.getMatchList, name))
         except:
-            tree = ""
-            validxml = False
-            pass
+            try:
+                self.timer.callback.append(boundFunction(self.getMatchList, name))
+            except:
+                self.getMatchList(name)
+        self.timer.start(5, True)
 
-        if validxml:
-            root = tree.getroot()
-
-            if root.tag == "channels":
-                for channel in root.findall('programme'):
-                    channelid = channel.get('channel').strip()
-                    if channelid not in epgidlist and channelid is not None and channelid != "":
-                        epgidlist.append(channelid)
-
-            if root.tag == "tv":
-                for channel in root.findall('programme'):
-                    channelid = channel.get('channel').strip()
-                    if channelid not in epgidlist and channelid is not None and channelid != "":
-                        epgidlist.append(channelid)
-
-            epgidlist.sort(key=lambda y: y.lower())
-
-            # output simple channel list to .txt file
-            with open(str(sourcelist) + "/" + str(name) + ".txt", 'w') as textfile:
-                for line in epgidlist:
-                    textfile.write(line + "\n")
-
-            # remove xml, gz, xz files
-            if os.path.isfile(str(sourcelist) + "/" + str(name) + ".xz"):
-                os.remove(str(sourcelist) + "/" + str(name) + ".xz")
-            if os.path.isfile(str(sourcelist) + "/" + str(name) + ".gz"):
-                os.remove(str(sourcelist) + "/" + str(name) + ".gz")
-            if os.path.isfile(str(sourcelist) + "/" + str(name) + ".xml"):
-                os.remove(str(sourcelist) + "/" + str(name) + ".xml")
-
-            self.getMatchList(name, url)
-
-    def getMatchList(self, name, url):
+    def getMatchList(self, name):
+        try:
+            from fuzzywuzzy import fuzz
+            from fuzzywuzzy import process
+            fuzzy = True
+        except:
+            fuzzy = False
 
         self.list4 = []
         epgidlist = []
-        temppath = str(sourcelist) + "/" + str(name) + ".txt"
-        if os.path.isfile(temppath):
-            with open(temppath, 'r') as epglist:
+        originallist = []
+
+        namelist = []
+        sourcelistpath = str(sourcelist) + "/" + str(name) + ".txt"
+
+        fulllist = []
+
+        if os.path.isfile(sourcelistpath) and os.stat(sourcelistpath).st_size > 0:
+            self["extrainfo"].text = (_("Finding closest matches."))
+            text = ""
+
+            with open(sourcelistpath, 'r') as epglist:
                 for line in epglist:
-                    epgidlist.append(line.strip())
+                    epgidlist.append(str(line).lower().strip())
+                    originallist.append(str(line).strip())
 
-        matchlist = []
-        matchlist = get_close_matches(self["list2"].getCurrent()[0].title().lstrip("~").lstrip("#").lstrip("-").lstrip("~").lstrip("<").lstrip("^"), epgidlist, n=5, cutoff=0.25)
+                    fulllist.append(buildList4(str(line).lower().strip(), False, str(line).strip()))
 
-        matchlistlower = get_close_matches(self["list2"].getCurrent()[0].lower().lstrip("~").lstrip("#").lstrip("-").lstrip("~").lstrip("<").lstrip("^"), epgidlist, n=5, cutoff=0.25)
+            matchlist = []
+            namelist = []
 
-        matchlistupper = get_close_matches(self["list2"].getCurrent()[0].upper().lstrip("~").lstrip("#").lstrip("-").lstrip("~").lstrip("<").lstrip("^"), epgidlist, n=5, cutoff=0.25)
+            if fuzzy:
+                matchlist = process.extract(self["list2"].getCurrent()[0], epgidlist, limit=42, scorer=fuzz.token_sort_ratio)
 
-        matchlist = list(OrderedDict.fromkeys(matchlist + matchlistlower + matchlistupper))
+                for match in matchlist:
+                    if match[1] >= 40:
+                        namelist.append(match[0])
+            else:
+                current = self["list2"].getCurrent()[0].lower().lstrip("~").lstrip("#").lstrip("-").lstrip("~").lstrip("<").lstrip("^").replace(" ", "")
+                namelist = get_close_matches(current, epgidlist, n=42, cutoff=0.20)
 
-       
-        if matchlist != []:
-            matchlist.append(divider)
+            if not namelist:
+                text = (_("No close matches"))
+                namelist.append(text)
 
-        for match in matchlist:
-            if match != divider:
-                try:
-                    epgidlist.remove(match)
-                except:
-                    pass
+            namelist = [[i, True] for i in namelist]
 
-        # add true/false flag for the different lists
-        epgidlist = [[i, False] for i in epgidlist]
-        matchlist = [[i, True] for i in matchlist]
+            for item in namelist:
+                original = ""
+                for entry in originallist:
+                    if str(item[0]).lower() == str(entry).lower():
+                        original = str(entry)
+                        break
+                self.list4.append(buildList4(str(item[0]), str(item[1]), str(original)))
 
-        finallist = matchlist + epgidlist
+            self.list4.append(buildList4(str(divider), False, str("")))
 
-        for id in finallist:
-            self.list4.append(MenuEntryComponent4(str(id[0]), str(id[1])))
+            for item in epgidlist:
+                original = ""
+                for entry in originallist:
+                    if str(item).lower() == str(entry).lower():
+                        original = str(entry)
+                        break
+                self.list4.append(buildList4(str(item), False, str(original)))
 
-        self["list4"].l.setList(self.list4)
+        else:
+            text = (_("Press Yellow to refresh source"))
+            namelist.append(text)
+
+            namelist = [[i, True] for i in namelist]
+
+            for item in namelist:
+                original = ""
+                for entry in originallist:
+                    if str(item[0]).lower() == str(entry).lower():
+                        original = str(entry)
+                        break
+                self.list4.append(buildList4(str(item[0]), str(item[1]), str(original)))
+
+        self["list4"].setList(self.list4)
+
+        self.disablelist4()
+        self["extrainfo"].text = ("")
 
     def hideSource(self):
         item = self["list3"].getCurrent()
         if item:
             name = item[0]
-            url = item[2]
+            url = item[1]
 
         if os.path.isfile(epg_file) and os.stat(epg_file).st_size > 0:
             with open(epg_file, 'r+') as f:
@@ -1135,14 +611,15 @@ class JediEPGXtream_Main(Screen):
                 f.truncate()
 
         self.getSources()
+        self.enablelist3()
 
     def assignEPG(self):
-        bouquet = self["list1"].getCurrent()[4]
+        bouquet = self["list1"].getCurrent()[3]
         channelname = self["list2"].getCurrent()[0]
-        serviceref = self["list2"].getCurrent()[3]
+        serviceref = self["list2"].getCurrent()[2]
         sourcename = self["list3"].getCurrent()[0]
-        sourceurl = self["list3"].getCurrent()[2]
-        epgid = self["list4"].getCurrent()[0]
+        sourceurl = self["list3"].getCurrent()[1]
+        epgid = self["list4"].getCurrent()[2]
 
         # add source to source list
         sourceexists = False
@@ -1211,11 +688,13 @@ class JediEPGXtream_Main(Screen):
         self.goLeft()
         self.goLeft()
         self.getChannels(bouquet)
+        self.enablelist2()
+        self.selectedList.setIndex(self.lastindex)
 
     def unassignEPG(self):
-        bouquet = self["list1"].getCurrent()[4]
+        bouquet = self["list1"].getCurrent()[3]
         channelname = self["list2"].getCurrent()[0]
-        serviceref = self["list2"].getCurrent()[3]
+        serviceref = self["list2"].getCurrent()[2]
 
         for jsonbouquet in self.epg_json['Bouquets']:
             if jsonbouquet['bouquet'] == bouquet:
@@ -1255,9 +734,11 @@ class JediEPGXtream_Main(Screen):
         self.buildXMLSourceFile()
         self.buildXMLChannelFile()
         self.getChannels(bouquet)
+        self.enablelist2()
+        self.selectedList.setIndex(self.lastindex)
 
     def unassignBouquet(self):
-        bouquet = self["list1"].getCurrent()[4]
+        bouquet = self["list1"].getCurrent()[3]
 
         for jsonbouquet in self.epg_json['Bouquets']:
             if jsonbouquet['bouquet'] == bouquet:
@@ -1270,6 +751,8 @@ class JediEPGXtream_Main(Screen):
         self.buildXMLSourceFile()
         self.buildXMLChannelFile()
         self.getChannels(bouquet)
+        self.enablelist2()
+        self.selectedList.setIndex(self.lastindex)
 
     def buildXMLSourceFile(self):
         filepath = '/etc/epgimport/'
@@ -1314,30 +797,293 @@ class JediEPGXtream_Main(Screen):
 
     def moveToAssigned(self):
         pos = 0
-        current_bouquet = self["list1"].getCurrent()[4]
+        current_bouquet = self["list1"].getCurrent()[3]
         current_channel = self["list2"].getCurrent()[0]
-        current_ref = self["list2"].getCurrent()[3]
+        current_ref = self["list2"].getCurrent()[2]
 
         for jsonbouquet in self.epg_json['Bouquets']:
             if jsonbouquet["bouquet"] == current_bouquet:
 
                 for channel in jsonbouquet["channel"]:
                     if channel["serviceid"] == current_ref and channel["description"] == current_channel:
-                        if self.menu == 2:
+                        if self.selectedList == self["list3"]:
                             for position in self.list3:
                                 if "sourcename" in channel:
                                     if position[0] == channel["sourcename"]:
-                                        self["list3"].moveToIndex(pos)
+                                        self["list3"].setIndex(pos)
                                     pos += 1
-                        if self.menu == 3:
+                        if self.selectedList == self["list4"]:
                             for position in self.list4:
                                 if position[0] == channel["epgid"]:
-                                    self["list4"].moveToIndex(pos)
+                                    self["list4"].setIndex(pos)
                                 pos += 1
 
+    def getNextList(self):
+        if self["list1"].getCurrent()[2] is False:
+            self.getChannels(self["list1"].getCurrent()[3])
 
-# ####### Create MENULIST format ###################### #
-def MenuEntryComponent1(bouquetname, subbouquet, userbouquet, Level):
+    def prevLetter(self):
+
+        if self.selectedList.getCurrent():
+            catchup = False
+            current = ord((self.selectedList.getCurrent()[0][0]).lower())
+            if current == 126 or current == 33 or current == 35 or current == 45 or current == 60 or current == 94:
+                catchup = True
+                current = ord((self.selectedList.getCurrent()[0][1]).lower())
+            self.goUp()
+            letter = ord((self.selectedList.getCurrent()[0][0]).lower())
+            if catchup:
+                letter = ord((self.selectedList.getCurrent()[0][1]).lower())
+            while letter == current:
+                self.goUp()
+                letter = ord((self.selectedList.getCurrent()[0][0]).lower())
+                if catchup:
+                    letter = ord((self.selectedList.getCurrent()[0][1]).lower())
+
+    def nextLetter(self):
+        if self.selectedList.getCurrent():
+            catchup = False
+            current = ord((self.selectedList.getCurrent()[0][0]).lower())
+            if current == 126 or current == 33 or current == 35 or current == 45 or current == 60 or current == 94:
+                catchup = True
+                current = ord((self.selectedList.getCurrent()[0][1]).lower())
+            self.goDown()
+            letter = ord((self.selectedList.getCurrent()[0][0]).lower())
+            if catchup:
+                letter = ord((self.selectedList.getCurrent()[0][1]).lower())
+
+            while letter == current:
+                self.goDown()
+                letter = ord((self.selectedList.getCurrent()[0][0]).lower())
+                if catchup:
+                    letter = ord((self.selectedList.getCurrent()[0][1]).lower())
+
+    def selectionChanged(self):
+        if self.selectedList == self["list1"]:
+            self.selection1Changed()
+        if self.selectedList == self["list2"]:
+            self.selection2Changed()
+        if self.selectedList == self["list3"]:
+            self.selection3Changed()
+        if self.selectedList == self["list4"]:
+            self.selection4Changed()
+
+    def selection1Changed(self):
+        if self.selectedList.getCurrent() and self.selectedList == self["list1"]:
+            self['key_green'].text = ('')
+            self['key_yellow'].text = ('')
+            self['key_blue'].text = ('')
+
+            item = self["list1"].getCurrent()
+            if item:
+                self['selection'].text = item[0]
+                self["description"].text = (_("Select Bouquet."))
+
+                if item[2] is False:
+                    self.getNextList()
+
+    def selection2Changed(self):
+        if self.selectedList.getCurrent() and self.selectedList == self["list2"]:
+
+            self['key_yellow'].text = ('')
+            self['key_blue'].text = (_('Unassign All'))
+
+            if self["list2"].getCurrent()[3] != '':
+                self['key_green'].text = (_('Unassign EPG'))
+            else:
+                self['key_green'].text = ('')
+
+            item = self["list2"].getCurrent()
+            if item:
+                self['selection'].text = item[0]
+                self["description"].text = (_("Select Channel."))
+
+    def selection3Changed(self):
+        if self.selectedList.getCurrent() and self.selectedList == self["list3"]:
+            self['key_green'].text = ('')
+            self['key_yellow'].text = (_('Update Source'))
+            self['key_blue'].text = (_('Hide Source'))
+
+            item = self["list3"].getCurrent()
+            if item:
+                self['selection'].text = item[0]
+                self["description"].text = (_("Select EPG Source. Press Yellow to refresh and update EPG Source. Optional"))
+
+                name = item[0]
+                # url = item[1]
+
+                self["extrainfo"].text = (_("Finding closest matches."))
+                self.timer = eTimer()
+                try:
+                    self.timer_conn = self.timer.timeout.connect(boundFunction(self.getMatchList, name))
+                except:
+                    try:
+                        self.timer.callback.append(boundFunction(self.getMatchList, name))
+                    except:
+                        self.getMatchList(name)
+                self.timer.start(5, True)
+
+    def selection4Changed(self):
+        if self.selectedList.getCurrent() and self.selectedList == self["list4"]:
+            self['key_green'].text = (_('Assign EPG'))
+            self['key_yellow'].text = ('')
+            # self['key_blue'].text = (_('Toggle All/Matches'))
+
+            item = self["list4"].getCurrent()
+            if item:
+                self['selection'].text = item[0]
+                self["description"].text = (_("Select the closest EPG ID reference."))
+
+    def ok(self):
+        if self.selectedList == self["list1"]:
+            self.goRight()
+
+        elif self.selectedList == self["list2"]:
+            self.goRight()
+
+        elif self.selectedList == self["list3"]:
+            if self["list4"].getCurrent()[0] == (_("Press Yellow to refresh source")):
+                self.keyyellow()
+            else:
+                self.goRight()
+
+        elif self.selectedList == self["list4"]:
+            self.keygreen()
+
+    def exit(self):
+        self.session.openWithCallback(self.exit2, MessageBox, _('To view newly assigned EPGs. Select and save Jedi EPG in EPGIMPORT sources and do a manual import.'), type=MessageBox.TYPE_INFO, timeout=10)
+
+    def exit2(self, answer=None):
+        self.close()
+
+    def keygreen(self):
+        if self['key_green'].getText():
+            if self.selectedList == self["list2"]:
+                self.unassignEPG()
+            if self.selectedList == self["list4"]:
+                self.assignEPG()
+
+    def keyyellow(self):
+        if self['key_yellow'].getText():
+            if self.selectedList == self["list3"]:
+                item = self["list3"].getCurrent()
+                if item:
+                    name = item[0]
+                    url = item[1]
+
+                    self["extrainfo"].text = (_("Downloading source...please wait."))
+                    self.timer = eTimer()
+                    try:
+                        self.timer_conn = self.timer.timeout.connect(boundFunction(self.downloadSource, name, url))
+                    except:
+                        try:
+                            self.timer.callback.append(boundFunction(self.downloadSource, name, url))
+                        except:blue
+                            self.downloadSource(name, url)
+                    self.timer.start(5, True)
+
+    def keyblue(self):
+        if self['key_blue'].getText():
+
+            if self.selectedList == self["list2"]:
+                self.unassignBouquet()
+            if self.selectedList == self["list3"]:
+                self.hideSource()
+
+    def goLeft(self):
+        if self.selectedList.getCurrent():
+            if self.selectedList == self["list4"]:
+                self.selectedList = self["list3"]
+                self.enablelist3()
+                self.disablelist4()
+
+            elif self.selectedList == self["list3"]:
+                self.selectedList = self["list2"]
+                self.enablelist2()
+                self.disablelist3()
+
+            elif self.selectedList == self["list2"]:
+                self.selectedList = self["list1"]
+                self.enablelist1()
+                self.disablelist2()
+
+            elif self.selectedList == self["list1"]:
+                if self["list1"].getCurrent()[4] == "Level2":
+                    self.getBouquets()
+                if self["list1"].getCurrent()[4] == "Level1" and self["list1"].getCurrent()[2] is True:
+                    self.list2 = []
+                    self["list2"].setList(self.list2)
+
+            self.selectionChanged()
+
+    def goRight(self):
+        if self.selectedList.getCurrent():
+            if self.selectedList == self["list1"]:
+                if self["list1"].getCurrent()[2] is True:
+                    self.getSubBouquets(self["list1"].getCurrent()[3])
+                    self.selectedList.setIndex(0)
+                else:
+                    self.selectedList = self["list2"]
+                    self.selectedList.setIndex(0)
+                    self.enablelist2()
+
+            elif self.selectedList == self["list2"]:
+                self.lastindex = self.selectedList.getIndex()
+                self.selectedList = self["list3"]
+                self.enablelist3()
+
+            elif self.selectedList == self["list3"]:
+                if self["list4"].getCurrent() and self["list4"].getCurrent()[0] != (_("Press Yellow to refresh source")):
+                    self.selectedList = self["list4"]
+
+                    if self["list4"].getCurrent()[0] == (_("No close matches")):
+                        self["list4"].setIndex(2)
+                    else:
+                        self["list4"].setIndex(0)
+                    self.enablelist4()
+
+            if self.selectedList != self["list1"] and self["list2"].getCurrent()[3] != '':
+                self.moveToAssigned()
+
+            self.selectionChanged()
+
+    def goUp(self):
+        if self.selectedList.getCurrent():
+            instance = self.selectedList.master.master.instance
+            instance.moveSelection(instance.moveUp)
+            if self.selectedList == self["list4"] and (self["list4"].getCurrent()[0] == divider or self["list4"].getCurrent()[0] == (_("No close matches"))):
+                self.goUp()
+
+    def goDown(self):
+        if self.selectedList.getCurrent():
+            instance = self.selectedList.master.master.instance
+            instance.moveSelection(instance.moveDown)
+            if self.selectedList == self["list4"] and (self["list4"].getCurrent()[0] == divider or self["list4"].getCurrent()[0] == (_("No close matches"))):
+                self.goDown()
+
+    def pageUp(self):
+        if self.selectedList.getCurrent():
+            instance = self.selectedList.master.master.instance
+            instance.moveSelection(instance.pageUp)
+            if self.selectedList == self["list4"] and (self["list4"].getCurrent()[0] == divider or self["list4"].getCurrent()[0] == (_("No close matches"))):
+                self.goDown()
+
+    def pageDown(self):
+        if self.selectedList.getCurrent():
+            instance = self.selectedList.master.master.instance
+            instance.moveSelection(instance.pageDown)
+            if self.selectedList == self["list4"] and (self["list4"].getCurrent()[0] == divider or self["list4"].getCurrent()[0] == (_("No close matches"))):
+                self.goDown()
+
+    def reset(self):
+        if self.selectedList.getCurrent():
+            self.selectedList.setIndex(0)
+
+
+def buildList1(bouquetname, subbouquet, userbouquet, level):
+    png = LoadPixmap("/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/tv.png")
+    if subbouquet is True:
+        png = LoadPixmap("/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/folder.png")
 
     if screenwidth.width() > 1280:
         png = LoadPixmap("/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/tv-large.png")
@@ -1345,122 +1091,24 @@ def MenuEntryComponent1(bouquetname, subbouquet, userbouquet, Level):
         if subbouquet is True:
             png = LoadPixmap("/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/folder-large.png")
 
-        return [
-            bouquetname,
-            MultiContentEntryPixmapAlphaBlend(pos=(18, 8), size=(30, 30), png=png),
-            MultiContentEntryText(pos=(68, 0), size=(364, 45), font=0, color=0x00ffffff, color_sel=0x00ffffff, backcolor_sel=None, flags=RT_HALIGN_LEFT | RT_VALIGN_CENTER, text=bouquetname),
-            subbouquet, userbouquet, Level
-        ]
-
-    else:
-        png = LoadPixmap("/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/tv.png")
-
-        if subbouquet is True:
-            png = LoadPixmap("/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/folder.png")
-
-        return [
-            bouquetname,
-            MultiContentEntryPixmapAlphaBlend(pos=(12, 5), size=(20, 20), png=png),
-            MultiContentEntryText(pos=(46, 0), size=(242, 30), font=0, color=0x00ffffff, color_sel=0x00ffffff, backcolor_sel=None, flags=RT_HALIGN_LEFT | RT_VALIGN_CENTER, text=bouquetname),
-            subbouquet, userbouquet, Level
-        ]
+    return (bouquetname, png, subbouquet, userbouquet, level)
 
 
-def MenuEntryComponent2(channel, serviceref, epgid):
-    png2 = None
+def buildList2(channel, serviceref, epgid):
+    png = None
+    if epgid != '':
+        png = LoadPixmap("/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/link.png")
 
     if screenwidth.width() > 1280:
         if epgid != '':
-            png2 = LoadPixmap("/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/link-large.png")
+            png = LoadPixmap("/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/link-large.png")
 
-        return [
-            channel,
-            MultiContentEntryText(pos=(18, 0), size=(364, 45), font=0, color=0x00ffffff, color_sel=0x00ffffff, backcolor_sel=None, flags=RT_HALIGN_LEFT | RT_VALIGN_CENTER, text=channel),
-            MultiContentEntryPixmapAlphaBlend(pos=(402, 8), size=(30, 30), png=png2),
-            serviceref, epgid
-        ]
-
-    else:
-        if epgid != '':
-            png2 = LoadPixmap("/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/link.png")
-
-        return [
-            channel,
-            MultiContentEntryText(pos=(12, 0), size=(242, 30), font=0, color=0x00ffffff, color_sel=0x00ffffff, backcolor_sel=None, flags=RT_HALIGN_LEFT | RT_VALIGN_CENTER, text=channel),
-            MultiContentEntryPixmapAlphaBlend(pos=(268, 5), size=(20, 20), png=png2),
-            serviceref, epgid
-        ]
+    return (channel, png, serviceref, epgid)
 
 
-def MenuEntryComponent3(name, source):
-    if screenwidth.width() > 1280:
-        return [
-            name,
-            MultiContentEntryText(pos=(18, 0), size=(414, 45), font=0, color=0x00ffffff, color_sel=0x00ffffff, backcolor_sel=None, flags=RT_HALIGN_LEFT | RT_VALIGN_CENTER, text=name),
-            source
-        ]
-    else:
-        return [
-            name,
-            MultiContentEntryText(pos=(12, 0), size=(276, 30), font=0, color=0x00ffffff, color_sel=0x00ffffff, backcolor_sel=None, flags=RT_HALIGN_LEFT | RT_VALIGN_CENTER, text=name),
-            source
-        ]
+def buildList3(name, source):
+    return (name, source)
 
 
-def MenuEntryComponent4(epg_id, fuzzy):
-    if screenwidth.width() > 1280:
-        return [
-            epg_id,
-            MultiContentEntryText(pos=(18, 0), size=(414, 45), font=0, color=0x00ffffff, color_sel=0x00ffffff, backcolor_sel=None, flags=RT_HALIGN_LEFT | RT_VALIGN_CENTER, text=epg_id),
-            fuzzy
-        ]
-    else:
-        return [
-            epg_id,
-            MultiContentEntryText(pos=(12, 0), size=(276, 30), font=0, color=0x00ffffff, color_sel=0x00ffffff, backcolor_sel=None, flags=RT_HALIGN_LEFT | RT_VALIGN_CENTER, text=epg_id),
-            fuzzy
-        ]
-
-
-class MenuList1(MenuList):
-    def __init__(self, list1, enableWrapAround=True):
-        MenuList.__init__(self, list, enableWrapAround, eListboxPythonMultiContent)
-        if screenwidth.width() > 1280:
-            self.l.setFont(0, gFont("jediepgregular", 24))
-            self.l.setItemHeight(45)
-        else:
-            self.l.setFont(0, gFont("jediepgregular", 16))
-            self.l.setItemHeight(30)
-
-
-class MenuList2(MenuList):
-    def __init__(self, list2, enableWrapAround=True):
-        MenuList.__init__(self, list, enableWrapAround, eListboxPythonMultiContent)
-        if screenwidth.width() > 1280:
-            self.l.setFont(0, gFont("jediepgregular", 24))
-            self.l.setItemHeight(45)
-        else:
-            self.l.setFont(0, gFont("jediepgregular", 16))
-            self.l.setItemHeight(30)
-
-
-class MenuList3(MenuList):
-    def __init__(self, list3, enableWrapAround=True):
-        MenuList.__init__(self, list, enableWrapAround, eListboxPythonMultiContent)
-        if screenwidth.width() > 1280:
-            self.l.setFont(0, gFont("jediepgregular", 24))
-            self.l.setItemHeight(45)
-        else:
-            self.l.setFont(0, gFont("jediepgregular", 16))
-            self.l.setItemHeight(30)
-
-
-class MenuList4(MenuList):
-    def __init__(self, list4, enableWrapAround=True):
-        MenuList.__init__(self, list, enableWrapAround, eListboxPythonMultiContent)
-        if screenwidth.width() > 1280:
-            self.l.setFont(0, gFont("jediepgregular", 24))
-            self.l.setItemHeight(45)
-        else:
-            self.l.setFont(0, gFont("jediepgregular", 16))
-            self.l.setItemHeight(30)
+def buildList4(epg_id, fuzzy, original):
+    return (epg_id, fuzzy, original)

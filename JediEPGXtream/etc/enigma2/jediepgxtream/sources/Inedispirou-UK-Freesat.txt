@@ -6,6 +6,7 @@
 5USAPlus1.uk
 BabyTV.uk
 BBC1.uk
+BBC2.Scotland.uk
 BBC2.uk
 BBC2.Wales.uk
 BBC4.uk
@@ -58,6 +59,7 @@ Home.uk
 HomePlus1.uk
 HorrorChannel.uk
 HorrorChannelPlus1.uk
+Insight.uk
 ITV.London.Plus1.uk
 ITV.London.uk
 ITV.uk
@@ -98,17 +100,20 @@ SonyAction.uk
 SonyActionPlus1.uk
 SonyChristmas.uk
 SonyChristmasPlus1.uk
+SonyCrime.uk
 SonyMovies.uk
 SonyMoviesPlus1.uk
 SonyPlus1.uk
 SonySAB.uk
 Spotlight.uk
+Starz.uk
 STV
 STV.uk
 TalkingPictures.uk
 TheBox.uk
 TinyPop.uk
 TinyPopPlus1.uk
+TraceLatina.uk
 TraceUrban.uk
 TraceVault.uk
 UTV.ie

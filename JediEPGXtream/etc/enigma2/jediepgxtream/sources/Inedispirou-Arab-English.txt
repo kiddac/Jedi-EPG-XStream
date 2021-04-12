@@ -1,31 +1,88 @@
+Al Jazeera English
 AlAoula.ma
+AlArabiya.ar
+AlEkhbariya.mena
+AlHurra.mena
+AlJazeera.mena
+AljazeeraDocumentary English
+AlJazeeraDocumentary.mena
+AlJazeeraMubasher.mena
+AlMaghrebTV.mena
+AlMaghribia.ar
+AlRayyanAlQadeem.mena
+AlSharqiya.mena
 amc English
+AnimalPlanetHD English
 Arrabia.ar
 Arryadia
 Assadissa.ma
 Baby_TV English
+Bahrain.mena
 Baraem English
+Baraem.ar
+BeIN Sports MENA
+BeIN Sports MENA 1
+BeIN Sports MENA 10
+BeIN Sports MENA 11
+BeIN Sports MENA 12
+BeIN Sports MENA 13
+BeIN Sports MENA 14
+BeIN Sports MENA 15
+BeIN Sports MENA 16
+BeIN Sports MENA 17
+BeIN Sports MENA 2
+BeIN Sports MENA 3
+BeIN Sports MENA 4
+BeIN Sports MENA 4K
+BeIN Sports MENA 5
+BeIN Sports MENA 6
+BeIN Sports MENA 7
+BeIN Sports MENA 8
+BeIN Sports MENA 9
+BeIN Sports MENA NBA
+BeIN Sports MENA News
 beJUNIOR English
 Bloomberg English
+Boomerang English
 BoxOffice_HD1 English
+CanalAlgerie.dz
 CartoonNetworkAR English
 CartoonNetworkHD English
 CartoonNetworkHindi English
 CBeebies English
 CBSreality English
 CNNHD English
+DKids English
+DLife English
+DMAX English
 DramaHD1 English
 DreamWorks English
+DTX English
+Dubai.mena
+DubaiSports1.mena
 Euronews English
 Extreme English
 fatafeat English
+FoodNetwork.mena
+FOX_HD English
+FOX_Movies_HD English
+FoxActMovHD English
+FoxFamHD English
+FoxNews English
+France24.ar
 FXHD English
 gourmet English
 HGTV English
 HidayatTV.uk
 HLN English
+I24News.uk
+Iqra.mena
 Jeem English
 JimJam English
+Jordan.mena
+Kazakh.mena
+Kuwait1.mena
+Medi1.mena
 MoviesHD1 English
 MoviesHD2 English
 MoviesHD3 English
@@ -33,13 +90,25 @@ MoviesHD4 English
 NatGeo_HD English
 NatGeoPeople_HD English
 NatGeoWild_HD English
+Nessma.mena
 OutdoorChannel English
+Press.mena
+Qatar.mena
+RussiaToday.ar
+SamaDubai.mena
+Saudi1.mena
+SaudiQuran.mena
+SaudiSunnah.mena
 SeriesHD1 English
 SeriesHD2 English
+SkyNewsArabia.uk
 Star_Movies_HD English
 Star_World_HD English
+Sudan.mena
+SyriaSatellite.mena
 Tamazight.ma
 TCM English
+TeleLiban.ar
 TravelChannel English
 TRTWorld English
 Tunisia1.tn

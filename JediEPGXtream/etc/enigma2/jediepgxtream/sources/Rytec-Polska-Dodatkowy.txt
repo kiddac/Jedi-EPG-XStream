@@ -2,6 +2,8 @@
 4fun.pl
 4FunDance.pl
 4FunGoldHits.pl
+8TV.pl
+ABMoteurs.pl
 ActiveFamily.pl
 Adventure.pl
 AleKino.pl
@@ -18,6 +20,8 @@ Boomerang.pl
 CanalplusDiscovery.pl
 CartoonNetwork.pl
 CBeebies.pl
+CBSAction.pl
+CBSDrama.pl
 CBSEuropa.pl
 CBSReality.pl
 ComedyCentral.pl
@@ -56,16 +60,20 @@ H2.pl
 HGTV.pl
 History.pl
 InvestigationDiscovery.pl
+iTVN.pl
 JAZZ.pl
 JimJam.pl
 KinoPolska.pl
+KinoPolskaInternational.pl
 KinoPolskaMuzyka.pl
 KUCHNIA.TV.pl
 Lifetime.pl
 LoveTV.pl
+Mango24.pl
 Metro.pl
 MezzoLiveHD.pl
 MINIMINI.pl
+MotorsTV.pl
 Motowizja.pl
 MTV.pl
 MTVMusicPolska.pl
@@ -100,6 +108,7 @@ PolsatRodzina.pl
 PolsatSeriale.pl
 PowerTV.pl
 RedCarpetTV.pl
+ReligiaTV.pl
 RomanceTV.pl
 RTRPlaneta.pl
 SciFi.pl
@@ -139,6 +148,7 @@ ViasatHistory.pl
 ViasatNature.pl
 VoxMusicTV.pl
 WaterPlanet.pl
+WellbeingNetwork.pl
 wPolsce.pl
 ZoneRomantica.pl
 ZoomTV.pl

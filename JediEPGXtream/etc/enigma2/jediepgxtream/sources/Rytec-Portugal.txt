@@ -15,6 +15,7 @@ BBCWorldNews.nws
 BenficaTV.pt
 blaze.pt
 Bloomberg.nws
+CacaVision.pt
 Canal 11 HD
 Canal11.pt
 canalpanda.pt
@@ -24,13 +25,14 @@ cartoon.pt
 CasaCozinha.pt
 cazaepesca.pt
 CBSReality.pt
+Channel1Russia.pt
+ChelseaTV.pt
 Cinemundo.pt
 ClubbingTV.pt
 CMTV.pt
 CNBC.nws
 CrimeInvestigation.pt
-Cubavision.pt
-Cubavision.sp
+Cubavision.es
 DeutscheWelle.pt
 discoverychannel.pt
 disneychannel.pt
@@ -59,6 +61,7 @@ hollywood.pt
 Hot.pt
 investigationdiscovery.pt
 JimJam.pt
+KombatSport.pt
 KURIAKOSTV.pt
 Localvisao.pt
 m6.pt
@@ -66,7 +69,9 @@ ManUTV.pt
 MCMPop.pt
 mcmtop.pt
 mezzo.pt
+Motorvision.pt
 mtvportugal.pt
+MyCuisine.pt
 NatGeoWild.pt
 nationalgeographic.pt
 NBA.pt
@@ -79,6 +84,7 @@ PandaBiggs.pt
 pfc.pt
 Playboy.pt
 PortoCanal.pt
+RealMadridTV.pt
 RecordNews.pt
 rtp1.pt
 rtp2.pt
@@ -91,6 +97,7 @@ rtpmemoria.pt
 RussiaToday.uk
 sic.pt
 SicCaras.pt
+SicK.pt
 sicmulher.pt
 sicnoticias.pt
 sicradical.pt
@@ -100,6 +107,7 @@ sporttv1.pt
 sporttv2.pt
 sporttv3.pt
 sporttv4.pt
+SportTV4K.pt
 sporttv5.pt
 SportTVplus.pt
 SyFy.pt
@@ -121,5 +129,6 @@ TVIFiccao.pt
 TVIInt.pt
 TVIReal.pt
 tvrecord.pt
+TVSeries.pt
 venus.pt
 zapvivahd.pt

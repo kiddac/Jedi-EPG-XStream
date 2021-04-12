@@ -1,3 +1,4 @@
+5StarMAX.HD.us
 88.Films.DirecTV.(88FLM).us
 88.TV.DirecTV.(88TV).us
 A.and.E.Network.HDTV.(AandEHD).us
@@ -10,8 +11,8 @@ Adult.All.Access.Pass.(BUY6).us
 Altitude.Sports.and.Entertainment.Alternate.(ALT2).us
 Altitude.Sports.and.Entertainment.HDTV.(ALTHD).us
 AMC.HDTV.(East).(AMCHD).us
-America's.Value.Channel.(AVC).us
 American.Heroes.Channel.HDTV.(AHCHD).us
+Americas.Value.Channel.(AVC).us
 ANC.(ANC).us
 Animal.Planet.HDTV.(East).(APHD).us
 Antena.3.(Mexico).(ANTENA.3).us
@@ -288,6 +289,7 @@ KBS.World.24.(KBSW24).us
 KBYU.Brigham.Young.University.TV.(BYUTV).us
 KDOC.This.TV.(KDOCDT6).us
 Kids.Street.(KIDST).us
+LAW.AND.CRIME.us
 Lifetime.Movies.HDTV.(East).(LIFEMOV).us
 Lifetime.Television.HDTV.(East).(LIFEH).us
 Link.TV.(LINK).us
@@ -372,6 +374,8 @@ Nuestra.Tele.Noticias.24.(NTN24).us
 Olympic.Channel.HDTV.(OLYHD).us
 One.America.News.Network.HDTV.(East).(OANHD).us
 Outdoor.Channel.HDTV.(OUTHD).us
+OuterMax.east.us
+OuterMax.west.us
 Outside.Television.(National).(OUTSD).us
 Ovation.Arts.Network.HDTV.(OVTNHD).us
 Oxygen.HDTV.(OXYHD).us
@@ -536,8 +540,8 @@ Vivid.TV.Monthly.Offer.(VIVID).us
 Vme.(V-Me).us
 Vremya.(VREM).us
 WAPA.América.(WAPA).us
+WE.TV.HDTV.(East).(WE.HD).us
 WGN.America.HDTV.(WGNA).us
-Women's.Entertainment.HDTV.(East).(WE.HD).us
 World.Cup.Cricket.DirecTV.(DTV).us
 World.Harvest.Television.(WHT).us
 WOW.TV.(WOW).us

@@ -17,6 +17,7 @@ ComedyCentralExtraPlus1.uk
 ComedyCentralplus1.uk
 CourtTV.uk
 Cula4.ie
+CustomerChannel.ie
 Discovery.uk
 DiscoveryHistory.uk
 DiscoveryHistoryPlus1.uk
@@ -35,6 +36,9 @@ FashionTV.uk
 GOLD.uk
 GOLDPlus1.uk
 Hi-ImpactTV.uk
+HomeandHealth.uk
+HomeandHealthplus1.uk
+HUMNews.uk
 Investigation.uk
 Investigationplus1.uk
 LondonLive.uk
@@ -43,14 +47,18 @@ MadeinBirmingham.uk
 MadeinBristol.uk
 MadeinCardiff.uk
 MadeinLeeds.uk
+MadeinLiverpool.uk
 MadeinTyneandWear.uk
 MoviesTwentyFour.uk
 MoviesTwentyFourPlus1.uk
 MTV.uk
 MTVBase.uk
+MTVBeats.uk
 MTVClassic.uk
+MTVDance.uk
 MTVHits.uk
 MTVplus1.uk
+MTVRocks.uk
 Nickelodeon.uk
 NickelodeonPlus1.uk
 NickJrPeppa.uk
@@ -76,6 +84,9 @@ TCMplus1.uk
 TLC.uk
 TLCplus1.uk
 TRTE.ie
+Universal.uk
+UniversalPlus1.uk
+VH1UK.uk
 VirginMediaOne+1.ie
 W.uk
 WPlus1.uk

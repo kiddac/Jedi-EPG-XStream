@@ -80,6 +80,7 @@ B4U.Music.(B4UMU).ca
 Baby.TV.(Americas).(BABYTV).ca
 BabyFirst.Americas.(BABY).ca
 BBC.Arabic.(Canada).HDTV.(BBCARAB).ca
+BBC.Canada.(BBCCA).ca
 BBC.Earth.(BBCE).ca
 BBC.World.News.North.America.(BBCWN).ca
 Beijing.TV.(BTV).ca
@@ -112,17 +113,22 @@ Caribbean.Radio.(CARDO).ca
 Cartoon.Network.(Canada).(CN).ca
 CASA.(CASA).ca
 CBC.Calgary.(CBRT).ca
+CBC.Fredericton.HDTV.(CBAT).ca
 CBC.News.Network.(CBC.NN).ca
 CBC.News.Network.HDTV.(CBCNEWHD).ca
+CBC.North.(Yellowknife)/CFYK.(MTN).ca
+CBC.Regina.HDTV.(CBKT).ca
 CBC.Toronto.(CBLT).ca
 CBC.Toronto.HDTV.(CBLTHD).ca
 CBC.Vancouver.(CBUT).ca
 CBC.Vancouver.HDTV.(CBUTHD).ca
+CBHT.(CBC.Charlottetown).HDTV.(CBCT).ca
 CBHT.(CBHT).ca
 CBLA.Radio.(CBLA).ca
 CBLFT.ICI.Radio-Canada.(Toronto).(IRC).ca
 CBLFT.ICI.Radio-Canada.HDTV.(Toronto).(IRCHD).ca
 CBNT.(CBNT).ca
+CBOT.(CTV.Ottawa).HDTV.(CBOTHD).ca
 CCTV.Entertainment.(CCENT).ca
 CFJP.HDTV.(CFJP).ca
 CFNY.Radio.(CFNY).ca
@@ -193,8 +199,10 @@ CTV.DRAMA.Channel.SD.(DRMA).ca
 CTV.Kitchener.(CTVSO).ca
 CTV.LIFE.Channel.HDTV.(LIFE).ca
 CTV.LIFE.Channel.SD.(LIFES).ca
+CTV.Montreal.HDTV.(CTVHM).ca
 CTV.News.Channel.(CTVNC).ca
 CTV.News.Channel.HDTV.(CTVNC).ca
+CTV.Regina.HDTV.(CKCK).ca
 CTV.SCI-FI.Channel.HDTV.(SCIFI).ca
 CTV.SCI-FI.Channel.SD.(SCFI).ca
 CTV.Toronto.(CTVTO).ca
@@ -269,6 +277,7 @@ GAME+.(FNTSY).ca
 GameTV.(GTV).ca
 GEO.TV.(Canada).(GEO.TV).ca
 Global.BC.(CHAN).ca
+Global.BC.(Vancouver).(CHAN).ca
 Global.BC.HDTV.(CHANHD).ca
 Global.Calgary.(CICT).ca
 Global.Ontario/CIII.(GLOB).ca
@@ -309,8 +318,8 @@ Hunan.Satellite.TV.(HTV).(Chinese-Mandarin).(HUNAN).ca
 Hustler.On.Demand.(Canada).(HTOD).ca
 ICI.ARTV.(ICIARTV).ca
 ICI.ARTV.HDTV.(ICIARTV).ca
-ICI.Réseau.de.l'Information.(ICIRDI).ca
-ICI.Réseau.de.l'Information.HDTV.(ICIRDIHD).ca
+ICI.Réseau.de.lInformation.(ICIRDI).ca
+ICI.Réseau.de.lInformation.HDTV.(ICIRDIHD).ca
 India.Today.(HT).ca
 Investigation.Discovery.(Canada).(ID).ca
 iTVN.(Chicago).(ITVN).ca
@@ -402,6 +411,7 @@ NHL.Centre.Ice.(SSP).ca
 NHL.Centre.Ice.HD.(NHLHD1).ca
 Nickelodeon.Canada.(NICK).ca
 Nickelodeon.Canada.HDTV.(NICHD).ca
+Noovo.Montreal.HD.(NVMT).ca
 NTV.Bangla.(NTVB).ca
 Odyssey.(OTN1).(ODSY-C).ca
 Omni.1.(OMNI1).ca
@@ -437,7 +447,7 @@ ProSiebenSat.1.(PROSIEBN).ca
 PTC.Punjabi.(PTCTV).ca
 Q107.Toronto.(Q107).ca
 Radio.Channel.(RADIO).ca
-Radiotelevisão.Portuguesa.Int'l.(RTP).ca
+Radiotelevisão.Portuguesa.Intl.(RTP).ca
 Rai.Italia.Nord.America.(RAI).ca
 RAI.World.Premium.(RAIWP).ca
 RaiNews.24.(RAINEW).ca
@@ -549,7 +559,7 @@ STARZ.2.HDTV.(EAST).(STZ2H).ca
 STARZ.On.Demand.(STRZO).ca
 Stingray.Festival.4K.HD.(Canada).(SFE4KHD).ca
 Stingray.JUICEBOX.(STGJUI).ca
-Stingray.Kids'.Stuff.(SM029).ca
+Stingray.Kids.Stuff.(SM029).ca
 Stingray.Latino.Urbano.(SM054).ca
 Stingray.LOUD.(STGLOU).ca
 Stingray.RETRO.(STGRET).ca
@@ -614,7 +624,7 @@ The.Sports.Network.5.HDTV.(TSN5HD).ca
 The.Sports.Network.HDTV.(TSNHD).ca
 The.Weather.Network.(National).HDTV.(WNHD).ca
 The.Weather.Network.(WN).ca
-Today's.Shopping.Choice.(TSC).ca
+Todays.Shopping.Choice.(TSC).ca
 Too.Much.For.TV.On.Demand.(TMOD).ca
 Travelxp.Canada.(TRAXP).ca
 Treehouse.On.Demand.(TREEHOD).ca

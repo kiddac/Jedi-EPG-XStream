@@ -17,7 +17,10 @@ NRK2.no
 NRK3.no
 NRKSuper.no
 NRKTegnsprak.no
+RikstotoDirekte.no
 RUV.is
+RUV2.is
+TBNNordic.no
 tv2.no
 TV2Livsstil.no
 TV2Nyhetskanalen.no

@@ -1,3 +1,4 @@
+24nord.dk
 6eren.dk
 CANAL9.dk
 dk4.dk
@@ -8,9 +9,11 @@ Kanal4.dk
 Kanal5.dk
 KanalNord.dk
 KanalOstjylland.dk
+KanalSport.dk
 KNR.gl
 KringvarpForoya.fo
 RUV.is
+RUV2.is
 TV2.dk
 TV2bornholm.dk
 TV2Charlie.dk
@@ -28,5 +31,6 @@ TV2Zulu.dk
 TV3.dk
 TV3plus.dk
 TV3Puls.dk
+TV3Sport2.dk
 TVSyd.dk
 XEE.dk

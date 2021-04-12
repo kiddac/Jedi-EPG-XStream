@@ -22,10 +22,16 @@ LaTrois.be
 LaUne.be
 LN24.fr
 PlugRTL.be
+RadioContactVision.be
 RTLLetzebuerg.lu
 RTLTVI.be
 Tipik.be
 TipikVision.be
+VOOsport1.be
+VOOsport2.be
+VOOsport3.be
+VOOsport4.be
+VOOsport5.be
 VOOsportWorld1.be
 VOOsportWorld2.be
 VOOsportWorld3.be

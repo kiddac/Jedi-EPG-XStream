@@ -14,6 +14,7 @@ BBC.Lifestyle.za
 BBC.World.News.za
 Beste.Van.Nederlands.za
 BET.za
+Big.Brother.Naija.S5.za
 Bloomberg.Television.za
 Boomerang.za
 Business.Day.za
@@ -55,6 +56,7 @@ FAITH.za
 FliekNet.HD.za
 Food.Network.HD.za
 FOX.HD.za
+FOX.Life.za
 GauTV.za
 Ginx.eSports.HD.za
 Home.and.Garden.TV.HD.za
@@ -62,6 +64,7 @@ IGNITION.za
 Jim.Jam.za
 Kyk.NET.And.Kie.HD.za
 Kyk.NET.HD.za
+KykNet.Lekker.za
 KyKNet.Nou.za
 Lesotho.TV.za
 Lifetime.Entertainment.za
@@ -90,6 +93,7 @@ NDTV.24x7.za
 Nickelodeon.za
 NickJr.za
 NickTOONS.za
+Nigerian.Festivals.za
 NTA.I.za
 One.Gospel.za
 Parliamentary.Service.za
@@ -105,6 +109,8 @@ SABC.3.HD.za
 SABC.News.za
 SET.Asia.za
 SET.Max.za
+SIC.Internacional.(P).za
+Sky.News.za
 Sound.City.za
 Soweto.TV.za
 Spice.TV.za
@@ -141,6 +147,7 @@ TRACE.Africa.za
 TRACE.URBAN.HD.za
 Travel.Channel.za
 Tshwane.TV.za
+TV.Mall.za
 TV5.Monde.Afrique.za
 Universal.TV.HD.za
 VIA.HD.za

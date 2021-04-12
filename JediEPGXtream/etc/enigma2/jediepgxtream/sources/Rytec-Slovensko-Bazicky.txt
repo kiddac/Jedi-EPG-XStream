@@ -11,6 +11,8 @@ JOJplus1.sk
 Markiza.sk
 MarkizaInt.sk
 MarkizaPlus1.sk
+popis_hidden
+popis_tecky
 PrimaPlus.sk
 RiK.cz
 TA3.sk

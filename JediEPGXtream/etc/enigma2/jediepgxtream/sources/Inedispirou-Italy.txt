@@ -5,7 +5,10 @@ Blaze.it
 Boing.it
 Boomerang.it
 BoomerangPlus1.it
+Canale5.it
 Cartoonito.it
+CartoonNetwork.it
+CartoonNetworkPlus1.it
 Cielo.it
 ClassCNBC.it
 ComedyCentral.it
@@ -14,18 +17,29 @@ DAZN1.it
 DEAJunior.it
 DEAKids.it
 DEAKidsPlus1.it
+Deejay.it
+Discovery.it
+DiscoveryPlus1.it
+DiscoveryScience.it
 DMax.it
 DMaxPlus1.it
+Doctor's Life
+Dove.it
 Eurosport.it
 Eurosport2.it
 Focus.it
 FoodNetwork.it
+Fox Comedy
 Fox.it
 FoxCrime.it
 FoxCrimePlus1.it
+FoxLife.it
+FoxLifePlus1.it
 FoxPlus1.it
+Frisbee.it
 GamberoRosso.it
 Giallo.it
+GinxESports.it
 History.it
 HistoryPlus1.it
 Inter.it
@@ -38,25 +52,40 @@ La7.it
 La7D.it
 LaF.it
 LazioStyle.it
+LEI.it
+LEIPlus1.it
+ManGa.it
 MediasetExtra.it
 Milan.it
 MTV.it
+MTVHits.it
 MTVMusic.it
+MTVRocks.it
+NatGeo.it
+NatGeoPeople.it
 NatGeoWild.it
 Nickelodeon.it
 NickJunior.it
+Nove.it
 PescaCaccia.it
+Primafila10.it
 Primafila11.it
+Primafila12.it
 Primafila13.it
 Primafila14.it
 Primafila15.it
 Primafila16.it
 Primafila17.it
 Primafila18.it
+Primafila2.it
 Primafila3.it
+Primafila4.it
 Primafila5.it
+Primafila6.it
 Primafila7.it
+Primafila8.it
 Primafila9.it
+QVC.it
 RadioFreccia.it
 RadioItalia.it
 RadionorbaTV.it
@@ -74,6 +103,8 @@ RaiSport.it
 RaiSportPlus.it
 RaiStoria.it
 RaiYoyo.it
+RealTime.it
+RealTimePlus1.it
 Rete1.ch
 Rete2.ch
 Rete3.ch
@@ -83,7 +114,11 @@ RSILa1.ch
 RSILa2.ch
 RTL1025TV.it
 SanMarino.it
+Sky Music
+Sky Radio
+Sky TG24 Rassegne
 Sky1.it
+Sky1Plus1.it
 SkyArte.it
 SkyAtlantic.it
 SkyAtlanticPlus1.it
@@ -105,7 +140,19 @@ SkySportF1.it
 SkySportFootball.it
 SkySportMotoGP.it
 SkySportNBA.it
+SkySportSerieA.it
 SkyTG24.it
+SMtv San Marino
+SportItalia.it
 Super.it
+SuperTennis.it
+TeenNick.it
+TeleTicino HD
+TG Norba24
+TG24 Eventi
+TG24 Primo Piano
+TGCom24.it
 TopCrime.it
+Torino Channel
 TV2000.it
+TV8.it

@@ -24,6 +24,7 @@ BBCAlba.uk
 BBCOneHD.uk
 BBCParliament.uk
 BBCRedButton.uk
+BBCRedButton1.uk
 BBCScotland.uk
 BET.uk
 BLAZE.uk
@@ -40,6 +41,8 @@ Channel4plus1.uk
 Channel5.uk
 Channel5plus1.uk
 CITV.uk
+CLTV.uk
+CommunityChannel.uk
 Dave.uk
 DaveJaVu.uk
 DiscoveryDMAX.uk
@@ -105,6 +108,7 @@ QuestPlus1.uk
 QuestRed.uk
 QuestRedPlus1.uk
 Really.uk
+RetroMovies.uk
 RTE1.ie
 RTE1Plus1.ie
 RTE2.ie
@@ -120,15 +124,19 @@ SonyChannel.uk
 SonyChannelPlus1.uk
 SonyClassic.uk
 SonyClassicPlus1.uk
+SonyCrimeChannel.uk
+SonyCrimeChannelPlus1.uk
 SonyMovies.uk
 SonyMoviesplus1.uk
 STV.uk
+STV2.uk
 STVCentral.uk
 STVCentralPlus1.uk
 STVNorth.uk
 TalkingPictures.uk
 TG4.ie
 Together.uk
+TravelChannel.uk
 UTV.uk
 UTVPlus1.uk
 VirginMediaOne.ie
@@ -136,3 +144,4 @@ VirginMediaThree.ie
 VirginMediaTwo.ie
 Yesterday.uk
 YesterdayPlus1.uk
+YourTV.uk

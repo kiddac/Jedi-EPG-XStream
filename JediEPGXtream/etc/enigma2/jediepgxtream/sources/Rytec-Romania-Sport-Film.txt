@@ -18,6 +18,7 @@ Film+.ro
 FilmBox.ro
 FilmBoxExtra.ro
 FilmBoxFamily.ro
+FilmBoxPlus.ro
 FilmboxPremium.ro
 FilmCafe.ro
 FilmNow.ro
@@ -28,4 +29,5 @@ LOOKSPORT+.ro
 LOOKSPORT.ro
 LOOKSPORT2.ro
 LOOKSPORT3.ro
+PROCinema.ro
 TV1000.ro

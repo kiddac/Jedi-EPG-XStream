@@ -1,3 +1,5 @@
+ABS-CBN Regional Channel
+ABS-CBN Sports+Action
 Aghani Aghani
 Aksyon TV
 Al Aan TV
@@ -13,6 +15,7 @@ AljazeeraDocumentary Arabic
 AlMamlaka TV
 amc Arabic
 ANC
+AnimalPlanetHD Arabic
 ART Aflam 1
 ART Aflam 2
 ART Cinema
@@ -26,12 +29,14 @@ BBC Arabic
 BBC World
 BeIN Sports MENA
 BeIN Sports MENA 1
+BeIN Sports MENA 10
 BeIN Sports MENA 11
 BeIN Sports MENA 12
 BeIN Sports MENA 13
 BeIN Sports MENA 14
 BeIN Sports MENA 15
 BeIN Sports MENA 16
+BeIN Sports MENA 17
 BeIN Sports MENA 2
 BeIN Sports MENA 3
 BeIN Sports MENA 4
@@ -47,6 +52,7 @@ Beity TV
 beJUNIOR Arabic
 Bloomberg
 Bloomberg Arabic
+Boomerang Arabic
 BoxOffice_HD1 Arabic
 CartoonNetworkAR Arabic
 CartoonNetworkHD Arabic
@@ -62,14 +68,20 @@ Cinema One Global
 CNBC
 CNBC Arabia
 CNNHD Arabic
+Comedy Central
 Crime \\u0026 Investigation Network
 Discovery HD
 Discovery ID
 Discovery Science HD
 Disney HD
 Disney Junior
+Disney XD
+DKids Arabic
+DLife Arabic
+DMAX Arabic
 DramaHD1 Arabic
 DreamWorks Arabic
+DTX Arabic
 Dubai Racing 1 HD
 Dubai Racing 3
 DWRR 101.9
@@ -79,7 +91,13 @@ Ellay.com
 Euronews Arabic
 Extreme Arabic
 Fann
+Fashion TV HD
 fatafeat Arabic
+FOX_HD Arabic
+FOX_Movies_HD Arabic
+FoxActMovHD Arabic
+FoxFamHD Arabic
+FoxNews Arabic
 France 24
 France 24 English
 FXHD Arabic
@@ -103,6 +121,7 @@ KTV Sport HD
 KTV Sport Plus HD
 KTV1 HD
 KTV2 HD
+Lifestyle Network
 Madani TV
 MoviesHD1 Arabic
 MoviesHD2 Arabic
@@ -117,6 +136,7 @@ Nat Geo Wild HD
 NatGeo_HD Arabic
 NatGeoPeople_HD Arabic
 NatGeoWild_HD Arabic
+NET 25
 NHK World TV
 Nick Jr
 Nickelodeon HD
@@ -140,11 +160,13 @@ OSN Ya Hala
 OSN Ya Hala Al Oula
 OSN Yahala Cinema
 OutdoorChannel Arabic
+Paramount
 Rusiya Al Yawm
 Series Channel
 SeriesHD1 Arabic
 SeriesHD2 Arabic
 Sharjah Sport HD
+Sharjah TV
 Sharqiya from Kalba
 Sky News Arabia
 Sky News Arabia HD
@@ -160,3 +182,4 @@ TravelChannel Arabic
 TRTWorld Arabic
 V_HD Arabic
 VH1
+Viva TV

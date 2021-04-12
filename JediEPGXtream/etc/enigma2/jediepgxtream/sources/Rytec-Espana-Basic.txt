@@ -1,5 +1,6 @@
 324.es
 7tv.es
+8Madrid.sp
 8tv.es
 A3seriesHD.es
 Alquiler1.es
@@ -15,6 +16,7 @@ Boing.es
 Buzz.es
 Calle13.es
 CanalExtremadura.es
+CanalOrbe21.es
 CanalParlamento.es
 CanalSur1.es
 CanalSurAndalucia.es
@@ -54,10 +56,12 @@ La8.es
 LaOtra.es
 LaSexta.sp
 Mega.es
+Motorsport.es
 Neox.es
 Nova.es
 NuestraTele.es
 Odisea.es
+OndaCadiz.es
 Panda.es
 Paramount.es
 RealMadridTV.es
@@ -75,6 +79,7 @@ TV3cat.es
 TvCanaria.es
 TVChile.es
 TVG.es
+tvG2.es
 TVGalicia.es
 VePlusTV.es
 Viajar.es

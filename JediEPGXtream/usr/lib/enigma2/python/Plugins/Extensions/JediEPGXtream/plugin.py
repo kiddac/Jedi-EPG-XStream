@@ -3,20 +3,14 @@
 
 # for localized messages
 from . import _
-from Components.config import *
+
+# from Components.config import *
 from Plugins.Plugin import PluginDescriptor
+from enigma import getDesktop, addFont
 
 import os
-import socket
-
-from Components.ActionMap import ActionMap, NumberActionMap, HelpableActionMap
-from Components.Label import Label
-from enigma import eConsoleAppContainer, eListboxPythonMultiContent, eTimer, eEPGCache, eServiceReference, getDesktop, gFont, loadPic, RT_HALIGN_LEFT, RT_HALIGN_RIGHT, RT_WRAP, addFont, iServiceInformation, iPlayableService
-from Screens.MessageBox import MessageBox
-from Screens.Screen import Screen
 
 screenwidth = getDesktop(0).size()
-
 
 try:
     cfg = config.plugins.JediMakerXtream
@@ -24,13 +18,20 @@ except:
     cfg = ""
     pass
 
-
 epg_file = '/etc/enigma2/jediepgxtream/epglist.txt'
 sourcelist = '/etc/enigma2/jediepgxtream/sources'
 json_file = '/etc/enigma2/jediepgxtream/epg.json'
 
-hdr = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0',
-         'Accept': 'ext/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' }
+dir_plugins = "/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/"
+fontfolder = "/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/fonts/"
+
+if screenwidth.width() > 1280:
+    skin_directory = "/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/skin/fhd/"
+else:
+    skin_directory = "/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/skin/hd/"
+
+
+hdr = {'User-Agent': 'Enigma2 - Jedi EPG XStream Plugin'}
 
 
 if os.path.isdir('/usr/lib/enigma2/python/Plugins/Extensions/EPGImport'):
@@ -48,15 +49,15 @@ def main(session, **kwargs):
 
 
 def Plugins(**kwargs):
-    fontpath = '/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/fonts/'
-    addFont(fontpath + 'Etelka-Text-Pro.ttf', 'jediepgregular', 100, 0)
+    addFont(fontfolder + 'm-plus-rounded-1c-regular.ttf', 'jediepgregular', 100, 0)
 
     iconFile = 'icons/JediEPGXtream.png'
     if screenwidth.width() > 1280:
         iconFile = 'icons/JediEPGXtreamFHD.png'
-    description = (_('Assign 3rd Party EPG to IPTV Channels'))
+
+    description = (_('Assign 3rd Party EPG to IPTV Bouquets'))
     pluginname = (_('JediEPGXtream'))
 
-    result = PluginDescriptor(name = pluginname, description = description,where = PluginDescriptor.WHERE_PLUGINMENU,icon = iconFile,fnc = main)
+    result = PluginDescriptor(name=pluginname, description=description, where=PluginDescriptor.WHERE_PLUGINMENU, icon=iconFile, fnc=main)
 
     return result

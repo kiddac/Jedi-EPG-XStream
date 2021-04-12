@@ -1,2 +1,6 @@
+BoxNation.ie
+BT-Europe.ie
+BT-Sports-2.ie
 Eir-Sport-1.ie
 Eir-Sport-2.ie
+ESPN.Ireland.ie

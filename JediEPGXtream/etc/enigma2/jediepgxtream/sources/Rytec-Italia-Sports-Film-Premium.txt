@@ -11,7 +11,9 @@ PremiumCrime.it
 PremiumCrimePlus24.it
 Primafila1.it
 Primafila10.it
+Primafila11.it
 Primafila12.it
+Primafila13.it
 Primafila14.it
 Primafila15.it
 Primafila16.it
@@ -19,10 +21,15 @@ Primafila17.it
 Primafila18.it
 Primafila19.it
 Primafila2.it
+Primafila3.it
 Primafila4.it
+Primafila5.it
 Primafila6.it
+Primafila7.it
 Primafila8.it
+Primafila9.it
 RomaChannel.it
+RomaUno.it
 SkyArte.it
 SkyAtlantic.it
 SkyAtlanticPlus1.it
@@ -52,6 +59,7 @@ SkySport259.it
 SkySport260.it
 SkySport261.it
 SkySport262.it
+SkySport263.it
 SkySport484DTT.it
 SkySport485DTT.it
 SkySport486DTT.it
@@ -59,6 +67,7 @@ SkySportArena.it
 SkySportCollection.it
 SkySportF1.it
 SkySportFootball.it
+SkySportGolf.it
 SkySportMotoGP.it
 SkySportNBA.it
 SkySportSerieA.it

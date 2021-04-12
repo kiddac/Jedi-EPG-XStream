@@ -11,6 +11,7 @@ OE24TV.at
 OKTO.at
 ORF1.at
 ORF2.at
+ORF2europe.at
 ORF3.at
 ORFSport.at
 Pro7.at

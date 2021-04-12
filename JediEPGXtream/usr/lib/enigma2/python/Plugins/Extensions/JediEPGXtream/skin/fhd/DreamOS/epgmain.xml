@@ -1,0 +1,95 @@
+<screen name="EPGMain" position="0,0" size="1920,1080" backgroundColor="#111111" flags="wfNoBorder">
+
+	<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/logo-large-2.png" position="30,30" size="390,124" alphatest="blend" />
+	
+	<widget name="selection" position="518,30" size="1372,45" font="jediepgregular;30" foregroundColor="#5f94bb" backgroundColor="#111111" halign="left" valign="top" transparent="1" />
+	<widget name="description" position="518,75" size="1372,120" font="jediepgregular;30" foregroundColor="#ffffff" backgroundColor="#111111" halign="left" valign="top" transparent="1" />
+	<widget name="extrainfo" position="518,120" size="1372,120" font="jediepgregular;30" foregroundColor="#5f94bb" backgroundColor="#111111" halign="left" valign="top" transparent="1" />
+	
+	<eLabel position="0,210" size="1920,1" backgroundColor="#ffffff" transparent="0" zPosition="3" />
+	
+	<widget name="bouquet" position="48,211" size="414,58" font="jediepgregular;30" backgroundColor="#111111" valign="center" transparent="1" zPosition="-1" />
+	<widget name="channel" position="518,211" size="414,58" font="jediepgregular;30" backgroundColor="#111111" valign="center" transparent="1" zPosition="-1" />
+	<widget name="epgsource" position="988,211" size="414,58" font="jediepgregular;30" backgroundColor="#111111" valign="center" transparent="1" zPosition="-1" />
+	<widget name="epgselection" position="1458,211" size="414,58" font="jediepgregular;30" backgroundColor="#111111" valign="center" transparent="1" zPosition="-1" />
+	
+	<eLabel position="0,270" size="1920,1" backgroundColor="#2a70a4" transparent="0" zPosition="3" />
+	
+	<eLabel position="30,310" size="450,675" backgroundColor="#000000" transparent="0" zPosition="-1" />
+	<eLabel position="500,310" size="450,675" backgroundColor="#000000" transparent="0" zPosition="-1" />
+	<eLabel position="970,310" size="450,675" backgroundColor="#000000" transparent="0" zPosition="-1" />
+	<eLabel position="1440,310" size="450,675" backgroundColor="#000000" transparent="0" zPosition="-1" />
+	
+	<widget source="list1" render="Listbox" enableWrapAround="1" position="30,310" size="450,675" foregroundColor="#ffffff" backgroundColor="#000000" foregroundColorSelected="#ffffff" backgroundColorSelected="#2a70a4" transparent="1" zPosition="2">
+		<convert type="TemplatedMultiContent">{"template": [
+					MultiContentEntryPixmapAlphaBlend(pos=(18, 8), size=(30, 30), png = 1),
+					MultiContentEntryText(pos=(68, 0), size=(364, 45), font=0, color = 0x00ffffff, color_sel = 0x00ffffff, backcolor_sel = None, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+					],
+					"fonts": [gFont("jediepgregular", 24)],
+					"itemHeight": 45,
+					"scrollbarMode": "showOnDemand"
+				}</convert>
+	</widget>
+	
+	<widget source="list2" render="Listbox" enableWrapAround="1" position="500,310" size="450,675" foregroundColor="#ffffff" backgroundColor="#000000" foregroundColorSelected="#ffffff" backgroundColorSelected="#2a70a4" transparent="1" zPosition="2" >
+		<convert type="TemplatedMultiContent">{"template": [
+					MultiContentEntryPixmapAlphaBlend(pos=(402, 8), size=(30, 30), png = 1),
+					MultiContentEntryText(pos=(18, 0), size=(364, 45), font=0, color = 0x00ffffff, color_sel = 0x00ffffff, backcolor_sel = None, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+					],
+					"fonts": [gFont("jediepgregular", 24)],
+					"itemHeight": 45,
+					"scrollbarMode": "showOnDemand"
+				}</convert>
+	</widget>	
+	
+	<widget source="list3" render="Listbox" enableWrapAround="1" position="970,310" size="450,675" foregroundColor="#ffffff" backgroundColor="#000000" foregroundColorSelected="#ffffff" backgroundColorSelected="#2a70a4" transparent="1" zPosition="2" >
+			<convert type="TemplatedMultiContent">{"template": [
+					MultiContentEntryText(pos=(18, 0), size=(414, 45), font=0, color = 0x00ffffff, color_sel = 0x00ffffff, backcolor_sel = None, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+					],
+					"fonts": [gFont("jediepgregular", 24)],
+					"itemHeight": 45,
+					"scrollbarMode": "showOnDemand"
+				}</convert>
+	</widget>	
+	
+	<widget source="list4" render="Listbox" enableWrapAround="1" position="1440,310" size="450,675" foregroundColor="#ffffff" backgroundColor="#000000" foregroundColorSelected="#ffffff" backgroundColorSelected="#2a70a4" transparent="1" zPosition="2" >
+		<convert type="TemplatedMultiContent">{"template": [
+					MultiContentEntryText(pos=(18, 0), size=(414, 45), font=0, color = 0x00ffffff, color_sel = 0x00ffffff, backcolor_sel = None, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+					],
+					"fonts": [gFont("jediepgregular", 24)],
+					"itemHeight": 45,
+					"scrollbarMode": "showOnDemand"
+				}</convert>
+	</widget>	
+	
+	<eLabel position="0,1019" size="1920,1" backgroundColor="#2a70a4" transparent="0" zPosition="-1" />
+	
+	<widget source="global.CurrentTime" render="Label" position="30,1029" size="450,42" font="jediepgregular;24" foregroundColor="#ffffff" backgroundColor="#161616" valign="center" halign="center" transparent="1">
+		<convert type="ClockToText">Format:%A, %b %d, %H.%M</convert>
+	</widget>
+	
+	<widget source="key_red" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_red_large.png" position="500,1029" size="9,42" zPosition="1" />
+
+	<widget source="key_red" render="Label" position="518,1029" size="225,42" font="jediepgregular;24" valign="center" transparent="1" noWrap="1" foregroundColor="#ffffff" backgroundColor="#111111" halign="left" zPosition="1" />
+
+	<widget source="key_green" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_green_large.png" position="743,1029" size="9,42" zPosition="1" />
+
+	<widget source="key_green" render="Label" position="761,1029" size="225,42" font="jediepgregular;24" valign="center" transparent="1" noWrap="1" foregroundColor="#ffffff" backgroundColor="#111111" halign="left" zPosition="1" />
+
+	<widget source="key_yellow" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_yellow_large.png" position="986,1029" size="9,42" zPosition="1" />
+
+	<widget source="key_yellow" render="Label" position="1004,1029" size="225,42" font="jediepgregular;24" valign="center" transparent="1" noWrap="1" foregroundColor="#ffffff" backgroundColor="#111111" halign="left" zPosition="1" />
+
+	<widget source="key_blue" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_blue_large.png" position="1229,1029" size="9,42" zPosition="1" />
+
+	<widget source="key_blue" render="Label" position="1247,1029" size="225,42" font="jediepgregular;24" valign="center" transparent="1" noWrap="1" foregroundColor="#ffffff" backgroundColor="#111111" halign="left" zPosition="1" />
+
+	<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_left_large.png" position="1564,1031" size="38,38" alphatest="blend" />
+	<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_right_large.png" position="1612,1031" size="38,38" alphatest="blend" />
+	<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_0_large.png" position="1660,1031" size="38,38" alphatest="blend" />
+	<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_2_large.png" position="1708,1031" size="38,38" alphatest="blend" />
+	<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_8_large.png" position="1756,1031" size="38,38" alphatest="blend" />
+	<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_plus_large.png" position="1804,1031" size="38,38" alphatest="blend" />
+	<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/key_minus_large.png" position="1852,1031" size="38,38" alphatest="blend" />
+</screen>
+

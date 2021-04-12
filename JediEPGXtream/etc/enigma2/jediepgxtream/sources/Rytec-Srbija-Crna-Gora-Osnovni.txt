@@ -1,4 +1,6 @@
+alfatv.ba
 ATV.rs
+BNBIH.ba
 BNMusic.ba
 BNsat.ba
 Duga.ba
@@ -14,6 +16,7 @@ K3.ba
 KCNSvet3.rs
 Loviribolov.rs
 N1-SR.rs
+NetTV.hr
 Nova.rs
 NovaS.rs
 O2.rs
@@ -55,6 +58,7 @@ RTSTrezor.rs
 RTSZivot.rs
 RTV1.rs
 RTV2.rs
+RTVMONTENEGROSat.rs
 RTVNoviPazar.rs
 studio-b-yu.sr
 TV1.ba

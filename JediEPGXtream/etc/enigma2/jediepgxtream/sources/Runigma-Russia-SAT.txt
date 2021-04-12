@@ -91,6 +91,7 @@ cbc-sport-az
 cbc-tv
 cbs-reality
 cctv
+cctv-news
 cctv4
 centralniy-poltava-ua
 centralnoye-tv
@@ -208,6 +209,7 @@ fox-life
 france24-en
 france24-fr
 Freesports
+gagsnetwork
 Gametoon
 ginger-HD
 glas-ua
@@ -302,6 +304,7 @@ kxl-hd
 kyiv-ua
 lale-ua
 ldpr-tv
+leomax
 lipeckoe-vremia
 love-nature-4K
 luxe-tv
@@ -497,6 +500,7 @@ pyatyy-pl7
 Rabinovich-tv
 rada-ua
 radio-avto
+radio-business
 radio-comedy
 radio-detskoe
 radio-dfm
@@ -686,6 +690,7 @@ tvcentr-krasnoyarsk
 tvcentr-pl2
 tvcentr-pl4
 tvcentr-pl7
+tvoy-dom
 TVRus
 ua-tv
 ufc-HD

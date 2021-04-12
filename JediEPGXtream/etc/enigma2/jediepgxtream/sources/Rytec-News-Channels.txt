@@ -1,3 +1,4 @@
+AlArabiya.nws
 AlJazeera.nws
 AlJazeeraArabe.nws
 ArirangTv.kr
@@ -12,16 +13,20 @@ CGTNFrancais.cn
 Channel44.nws
 CNBC.nws
 CNBC.uk
+CNCWorld.nws
 CNN.nws
 DeutscheWelleDE.de
 DeutscheWelleEN.de
+DOS.com
 Euronews.nws
 EuronewsDE.nws
 EuronewsFR.nws
 EuronewsIT.nws
 FOXNews.uk
 France24.fr
+France24Arabe.nws
 France24fr.fr
+HRTInt.hr
 i24News.en.nws
 i24News.fr
 KBSWorld.kr
@@ -32,6 +37,7 @@ PCNEChinese.uk
 PressTV.nws
 qazaqtv.kz
 RaiNews.it
+RTDocumentary.pl
 RTespanol.nws
 RTFrance.fr
 RTPi.pt
@@ -41,10 +47,12 @@ SkyNewsInt.eu
 SkyNwsArabia.nws
 Telesur.es
 ThaiTVGlobalNetwork.nws
+TRTInternational
 TRTturk.tr
 TRTworld.nws
 TV5MondeEurope.fr
 TV5MondeFBS.fr
 TV5MONDEMaghreb-Orient.fr
 TVEi.nws
+VOA.com
 WELT.de

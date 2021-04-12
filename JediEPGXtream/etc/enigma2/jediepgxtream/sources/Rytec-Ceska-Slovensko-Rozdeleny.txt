@@ -9,6 +9,7 @@ CSMystery.cz
 DiscoveryChannel.cz
 DiscoveryScience.cz
 DisneyChannel.cz
+DOQ.cz
 DTX.cz
 DuckTV.cz
 E.cz
@@ -18,6 +19,7 @@ Eurosport1.cz
 Eurosport2.cz
 ExtremeSports.cz
 FashionBox.cz
+Festival.cz
 FilmEurope+.cz
 FilmEurope.cz
 FishingandHunting.cz
@@ -50,6 +52,7 @@ RetroMusic.cz
 Senzi.cz
 Seznam.cz
 SlagrTV.cz
+SlusnejKanalTV.cz
 Spektrum.cz
 SpektrumHome.cz
 TLC.cz
@@ -59,7 +62,9 @@ TVPaprika.cz
 UPNetwork.cz
 ViasatExplorer.cz
 ViasatHistory.cz
+ViasatHistoryHD.cz
 ViasatNature.cz
+VIVA.cz
 WARsvetvalek.cz
 Z1.cz
 ZoneReality.cz

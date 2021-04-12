@@ -50,6 +50,7 @@ LCP.fr
 M6.fr
 Martinique1.fr
 MirabelleTV.fr
+MontBlancLiveTV.fr
 NRJ12.fr
 Olympia.fr
 RMCdecouverte.fr

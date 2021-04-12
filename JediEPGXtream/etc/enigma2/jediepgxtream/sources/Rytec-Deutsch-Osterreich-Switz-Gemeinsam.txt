@@ -12,17 +12,22 @@ CartoonNetwork.de
 DIENEUEZEITTV.de
 DiscoveryChannel.de
 DiscoveryHD.de
+DisneyCinemagic.de
 DisneyJunior.de
+DisneyXD.de
 DMAX.ch
 Doxx.de
 DuckTV.day
 EEntertainment.de
+Energy.ch
 eSports1.de
 Eurosport2Xtra.de
 EWTN.de
+ExtremeSports.de
 FixFoxi.de
 FolxTV.de
 Fox.de
+FoxSerie.de
 GEO.de
 go.tv
 GoldstarTV.de
@@ -39,6 +44,7 @@ KTV.de
 LustPur.de
 MarcoPoloTV.de
 MelodieTV.at
+MotorTV.de
 MotorVision.de
 MTVBase.de
 NatGeoHD.de
@@ -46,6 +52,7 @@ NatGeoWild.de
 Nick_MTV+.de
 NickJr.de
 Nicktoons.de
+PLANET.de
 ProSiebenFun.de
 QVCStyle.de
 RiC.de
@@ -58,9 +65,11 @@ Sat1Comedy.de
 SciFi.de
 Silverline.de
 Sky1.de
+SkySelect.de
 SonnenKlar.de
 SonyEntertainmentTV.de
 SpiegelGeschichte.de
+SpiegelTV.de
 SpiegelTVWissen.de
 sportdigital.de
 TeleclubAction.de
@@ -73,5 +82,6 @@ TNTSerie.de
 TraceSportStars.de
 TravelXP4k.de
 Universal.de
+Viva.de
 WeltDerWunder.de
 ZDFneoNight.de
