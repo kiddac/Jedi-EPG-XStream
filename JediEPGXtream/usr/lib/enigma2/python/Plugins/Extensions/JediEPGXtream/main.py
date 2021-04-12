@@ -978,7 +978,7 @@ class JediEPGXtream_Main(Screen):
                     except:
                         try:
                             self.timer.callback.append(boundFunction(self.downloadSource, name, url))
-                        except:blue
+                        except:
                             self.downloadSource(name, url)
                     self.timer.start(5, True)
 
