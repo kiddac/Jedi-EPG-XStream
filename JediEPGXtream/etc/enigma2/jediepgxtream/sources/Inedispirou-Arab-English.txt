@@ -1,8 +1,10 @@
+4k_DIGITAL_Mono
 Al Jazeera English
 AlAoula.ma
 AlArabiya.ar
 AlEkhbariya.mena
 AlHurra.mena
+Aljazeera-Documentary-1
 AlJazeera.mena
 AljazeeraDocumentary English
 AlJazeeraDocumentary.mena
@@ -11,105 +13,141 @@ AlMaghrebTV.mena
 AlMaghribia.ar
 AlRayyanAlQadeem.mena
 AlSharqiya.mena
-amc English
+AMC-1
 AnimalPlanetHD English
+Arrabia
 Arrabia.ar
+Arriadia
 Arryadia
 Assadissa.ma
+Baby-TV-1
 Baby_TV English
+Bahrain Quran
+Bahrain Sport 1
 Bahrain.mena
-Baraem English
+Bara3em-1
+Baraem
 Baraem.ar
-BeIN Sports MENA
-BeIN Sports MENA 1
-BeIN Sports MENA 10
-BeIN Sports MENA 11
-BeIN Sports MENA 12
-BeIN Sports MENA 13
-BeIN Sports MENA 14
-BeIN Sports MENA 15
-BeIN Sports MENA 16
-BeIN Sports MENA 17
-BeIN Sports MENA 2
-BeIN Sports MENA 3
-BeIN Sports MENA 4
-BeIN Sports MENA 4K
-BeIN Sports MENA 5
-BeIN Sports MENA 6
-BeIN Sports MENA 7
-BeIN Sports MENA 8
-BeIN Sports MENA 9
-BeIN Sports MENA NBA
-BeIN Sports MENA News
-beJUNIOR English
-Bloomberg English
-Boomerang English
-BoxOffice_HD1 English
+BBC Arabic
+BBC_earth
+beIN_SPORTS1_DIGITAL_Mono
+beIN_SPORTS1_ENGLISH_Digital_Mono
+beIN_SPORTS1_FRENCH_Digital_Mono
+beIN_SPORTS1_PREMIUM_Digital_Mono
+beIN_SPORTS2_DIGITAL_Mono
+beIN_SPORTS2_ENGLISH_Digital_Mono
+beIN_SPORTS2_FRENCH_Digital_Mono
+beIN_SPORTS2_PREMIUM_Digital_Mono
+beIN_SPORTS3_DIGITAL_Mono
+beIN_SPORTS3_ENGLISH_Digital_Mono
+beIN_SPORTS3_FRENCH_Digital_Mono
+beIN_SPORTS3_PREMIUM_Digital_Mono
+beIN_SPORTS4_DIGITAL_Mono
+beIN_SPORTS5_DIGITAL_Mono
+beIN_SPORTS6_DIGITAL_Mono
+beIN_SPORTS7_DIGITAL_Mono
+bein_SPORTS_FTA_DIGITAL_Mono
+beIN_SPORTS_XTRA1_Digital_Mono
+beIN_SPORTS_XTRA2_Digital_Mono
+beJUNIOR-1
+Bloomberg-1
+BoxOffice1_DIGITAL_Mono
 CanalAlgerie.dz
-CartoonNetworkAR English
-CartoonNetworkHD English
-CartoonNetworkHindi English
-CBeebies English
-CBSreality English
-CNNHD English
-DKids English
-DLife English
-DMAX English
-DramaHD1 English
-DreamWorks English
-DTX English
-Dubai.mena
+Cartoon-Network-Arabic-1
+Cartoon-Network-HD-1
+Cartoon-Network-Hindi-1
+CBeebies-1
+CBS-Reality-1
+CNN-HD-2
+DRAMA_DIGITAL_Mono
+Dubai One
+Dubai Racing
+Dubai Sports 1
+Dubai Sports 1 HD
+Dubai Sports 2
+DubaiOne.mena
+dubairacing
+dubaisports
 DubaiSports1.mena
-Euronews English
-Extreme English
-fatafeat English
+dubaitv
+dubaizaman
+DW_B-1
+Euro-News
+extreme-sports-channel-1
+FATAFEAT-1
+food-network-logo-2018-1
 FoodNetwork.mena
-FOX_HD English
-FOX_Movies_HD English
-FoxActMovHD English
-FoxFamHD English
-FoxNews English
+Fox-Action-Movies-1
+Fox-Family-Movies-1
+FOX-HD-1
 France24.ar
-FXHD English
-gourmet English
-HGTV English
+FX-HD-Black-1
+GOURMET_DIGITAL_Mono
+HGTV
 HidayatTV.uk
-HLN English
+HLN-1
 I24News.uk
 Iqra.mena
-Jeem English
-JimJam English
+Jeem-HD-1-01
+JimJam
 Jordan.mena
 Kazakh.mena
 Kuwait1.mena
+MBC 1
+MBC 2
+MBC 4
+MBC Action
+MBC Bollywood
+MBC Drama
+MBC Drama Plus
+MBC FM
+Mbc Masr
+Mbc Masr 2
+Mbc Masr Usa
+MBC Max
+MBC Persia
+Mbc PRO SPORTS 1
+Mbc PRO SPORTS 2
+mbc-drama-usa
+mbc1-na
+mbc1-usa
 Medi1.mena
-MoviesHD1 English
-MoviesHD2 English
-MoviesHD3 English
-MoviesHD4 English
-NatGeo_HD English
-NatGeoPeople_HD English
-NatGeoWild_HD English
+MOVIES1_PREMIERE_DIGITAL_Mono
+MOVIES2_ACTION_DIGITAL_Mono
+MOVIES3_DRAMA_DIGITAL_Mono
+MOVIES4_FAMILY_DIGITAL_Mono
+Mtv-80s
+mtv-90
+MTV-Club
+Nat_geo_hd
+Nat_geo_people
+NBA_DIGITAL_Mono
 Nessma.mena
-OutdoorChannel English
+NEWS_DIGITAL_Mono
+noordubaitv
+Outdoor-Channel
+Panorama FM
 Press.mena
 Qatar.mena
 RussiaToday.ar
+samadubai
 SamaDubai.mena
 Saudi1.mena
 SaudiQuran.mena
 SaudiSunnah.mena
-SeriesHD1 English
-SeriesHD2 English
+SERIES1_DIGITAL_Mono
+SERIES2_DIGITAL_Mono
 SkyNewsArabia.uk
-Star_Movies_HD English
-Star_World_HD English
+Star-Movies-HD
+StarWorldHD
 Sudan.mena
+SUNDANCE-TV
 SyriaSatellite.mena
 Tamazight.ma
-TCM English
+TCM-on-White
 TeleLiban.ar
-TravelChannel English
-TRTWorld English
+Travel-Channel-HD
+Trt_worls_blk
 Tunisia1.tn
-V_HD English
+UPDATEz-NGW_Full_Logo_20182
+VHD

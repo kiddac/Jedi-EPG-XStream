@@ -45,7 +45,6 @@ English.-.ETTV.Asia.News.hk
 English.-.euronews.hk
 English.-.EVE.hk
 English.-.FIGHT.SPORTS.hk
-English.-.Flight.Info.Channel.hk
 English.-.Food.Network.hk
 English.-.FOX.Action.Movies.hk
 English.-.FOX.Family.Movies.hk
@@ -60,7 +59,6 @@ English.-.FOXlife.hk
 English.-.France.24.(French).hk
 English.-.France.24.hk
 English.-.FX.hk
-English.-.GEM.hk
 English.-.GMA.Life.TV.hk
 English.-.GMA.News.TV.International.hk
 English.-.GMA.Pinoy.TV.hk
@@ -99,7 +97,6 @@ English.-.Now.Golf.1.hk
 English.-.Now.Golf.2.hk
 English.-.Now.Golf.3.hk
 English.-.Now.NEWS.hk
-English.-.Now.Shop.hk
 English.-.Now.Sports.1.hk
 English.-.Now.Sports.3.hk
 English.-.Now.Sports.4.hk
@@ -139,7 +136,6 @@ English.-.Sony.MAX.hk
 English.-.Sony.SAB.hk
 English.-.Sony.TV.(India).hk
 English.-.Southern.Television.hk
-English.-.Sports.Schedule.Highlights.hk
 English.-.Star.Bharat.hk
 English.-.Star.Chinese.Channel.hk
 English.-.STAR.Cricket+.hk
@@ -149,7 +145,6 @@ English.-.STAR.PLUS.hk
 English.-.TFC.hk
 English.-.Thrill.hk
 English.-.TLC.hk
-English.-.Traffic.Channel.hk
 English.-.TV5MONDE.ASIE.hk
 English.-.TV5MONDE.Style.hk
 English.-.TVBS.Asia.hk
@@ -157,8 +152,6 @@ English.-.tvN.hk
 English.-.ViuTV.hk
 English.-.ViuTVsix.hk
 English.-.WarnerTV.hk
-English.-.Watch.N.Learn.hk
-English.-.Weather.Channel.hk
 English.-.Yicai.TV.hk
 English.-.Zee.Cinema.International.hk
 English.-.Zee.News.hk
@@ -239,7 +232,6 @@ English.-.Zhejiang.Satellite.TV.hk
 中國.-.Now.Golf.1.hk
 中國.-.Now.Golf.2.hk
 中國.-.Now.Golf.3.hk
-中國.-.Now.Shop.hk
 中國.-.Now.Sports.1.hk
 中國.-.Now.Sports.3.hk
 中國.-.Now.Sports.4.hk

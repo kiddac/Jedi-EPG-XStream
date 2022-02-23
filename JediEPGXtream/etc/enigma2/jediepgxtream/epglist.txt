@@ -74,87 +74,131 @@ Rytec-Vlaanderen-Basis http://www.xmltvepg.nl/rytecBE_VL_Basic.xz
 Rytec-Vlaanderen-Nederland-Gemeenschappelijk http://www.xmltvepg.nl/rytecBE_NL_Common.xz
 Rytec-Wallonie-Telesat-Base http://www.xmltvepg.nl/rytecBE_FR_Basic.xz
 
-#GenIPTV
-#http://epg.geniptv.com/
-#GenIPTV-Adult http://195.154.221.171/epg/guideadult.xml
-#GenIPTV-Albania http://195.154.221.171/epg/guidealbania.xml
-#GenIPTV-Arab http://195.154.221.171/epg/guidearab.xml
-#GenIPTV-Belguim http://195.154.221.171/epg/guidebelgium.xml
-#GenIPTV-Bulgaria http://195.154.221.171/epg/guidebulgaria.xml
-#GenIPTV-Denmark http://195.154.221.171/epg/guidedenmark.xml
-#GenIPTV-Estonia http://195.154.221.171/epg/guideestonia.xml
-#GenIPTV-ExYu http://195.154.221.171/epg/guideexyu.xml
-#GenIPTV-Finland http://195.154.221.171/epg/guidefinland.xml
-#GenIPTV-France http://195.154.221.171/epg/guidefrance.xml
-#GenIPTV-Germany http://195.154.221.171/epg/guidegermany.xml
-#GenIPTV-Greece http://195.154.221.171/epg/guidegreece.xml
-#GenIPTV-India http://195.154.221.171/epg/guideindia.xml
-#GenIPTV-Iran http://195.154.221.171/epg/guideiran.xml
-#GenIPTV-Italy http://195.154.221.171/epg/guideitaly.xml
-#GenIPTV-Netherlands http://195.154.221.171/epg/guidenetherlands.xml
-#GenIPTV-Poland http://195.154.221.171/epg/guidepoland.xml
-#GenIPTV-Portugal http://195.154.221.171/epg/guideportugal.xml
-#GenIPTV-Romania http://195.154.221.171/epg/guideromania.xml
-#GenIPTV-Slovenia http://195.154.221.171/epg/guideslovenia.xml
-#GenIPTV-Spain http://195.154.221.171/epg/guidespain.xml
-#GenIPTV-Sweden http://195.154.221.171/epg/guidesweden.xml
-#GenIPTV-Switzerland http://195.154.221.171/epg/guideswitzerland.xml
-#GenIPTV-Turkey http://195.154.221.171/epg/guideturkey.xml
-#GenIPTV-UK http://195.154.221.171/epg/guideuk.xml
-#GenIPTV-USA http://195.154.221.171/epg/guideusa.xml
+Inedispirou-Arab http://www.inedispirou.com/media/epg/guide_mena-a.xz
+Inedispirou-Arab-English http://www.inedispirou.com/media/epg/guide_mena-e.xz
+Inedispirou-France http://www.inedispirou.com/media/epg/guide_fr.xz
+Inedispirou-Germany http://www.inedispirou.com/media/epg/guide_de.xz
+Inedispirou-Italy http://www.inedispirou.com/media/epg/guide_it.xz
+Inedispirou-Poland http://www.inedispirou.com/media/epg/guide_pl.xz
+Inedispirou-Spain http://www.inedispirou.com/media/epg/guide_es.xz
+Inedispirou-UK-Freesat http://www.inedispirou.com/media/epg/guide_uk.xz
+Inedispirou-UK-Sky http://www.inedispirou.com/media/epg/guide_uk_sky.xz
+inedispirou-UK-International http://www.inedispirou.com/media/epg/guide_uk_orient.xz
 
-Inedispirou-Arab http://www.inedispirou.com/media/epg/guide_mena-a.gz
-Inedispirou-Arab-English http://www.inedispirou.com/media/epg/guide_mena-e.gz
-Inedispirou-France http://www.inedispirou.com/media/epg/guide_fr.gz
-Inedispirou-Germany http://www.inedispirou.com/media/epg/guide_de.gz
-Inedispirou-Italy http://www.inedispirou.com/media/epg/guide_it.gz
-Inedispirou-Poland http://www.inedispirou.com/media/epg/guide_pl.gz
-Inedispirou-Spain http://www.inedispirou.com/media/epg/guide_es.gz
-Inedispirou-UK-Freesat http://www.inedispirou.com/media/epg/guide_uk.gz
-Inedispirou-UK-Sky http://www.inedispirou.com/media/epg/guide_uk_sky.gz
-inedispirou-UK-International http://www.inedispirou.com/media/epg/guide_uk_orient.gz
-
-epgshare01-Arab http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_AE1.xml.gz
 epgshare01-Albania http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_AL1.xml.gz
 epgshare01-Argentina http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_AR1.xml.gz
 epgshare01-Australia http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_AU1.xml.gz
 epgshare01-Bein-Sports-Movies http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_BEIN1.xml.gz
+epgshare01-Belgium http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_BE1.xml.gz
+epgshare01-Bulgaria http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_BG1.xml.gz
 epgshare01-Brazil http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_BR1.xml.gz
 epgshare01-Canada http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_CA1.xml.gz
-epgshare01-Costa-Rica http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_CR1.xml.gz
-epgshare01-Dominican-Republic http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_DO1.xml.gz
-epgshare01-Greece http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_GR1.xml.
+# epgshare01-Costa-Rica http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_CR1.xml.gz
+# epgshare01-Dominican-Republic http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_DO1.xml.gz
+epgshare01-Finland http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_FI1.xml.gz
+epgshare01-France http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_FR1.xml.gz
+epgshare01-Germany http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_DE1.xml.gz
+epgshare01-Greece http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_GR1.xml.gz
 epgshare01-Hong-Kong http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_HK1.xml.gz
 epgshare01-Ireland http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_IE1.xml.gz
 epgshare01-India http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_IN4.xml.gz
+epgshare01-Israel http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_IL1.xml.gz
 epgshare01-Italy http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_IT1.xml.gz
 epgshare01-Malyasia http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_MY1.xml.gz
 epgshare01-Mexico-Latin-America http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_MX1.xml.gz
+epgshare01-Netherlands http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_NL1.xml.gz
 epgshare01-New-Zealand http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_NZ1.xml.gz
-epgshare01-Panama http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_PA1.xml.gz
+# epgshare01-Panama http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_PA1.xml.gz
 epgshare01-Portugal http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_PT1.xml.gz
 epgshare01-Romania http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_RO1.xml.gz
+epgshare01-Russia http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_RU1.xml.gz
 epgshare01-Saudi-Arabia http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_SA1.xml.gz
 epgshare01-South-Africa http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_ZA1.xml.gz
+epgshare01-Spain http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_ES1.xml.gz
+epgshare01-Switzerland http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_CH1.xml.gz
 epgshare01-Turkey http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_TR1.xml.gz
 epgshare01-UK http://raw.githubusercontent.com/epgshare01/share01//master/epg_ripper_UK1.xml.gz
 epgshare01-USA http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_US1.xml.gz
-epgshare01-USA-Locals http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_US_LOCALS2.xml.gz
-epgshare01-USA-PlutoYV1 http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_PLUTOTV1.xml.gz
-epgshare01-Vietnam http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_VN1.xml.gz
+# epgshare01-USA-Locals http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_US_LOCALS2.xml.gz
+# epgshare01-Vietnam http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_VN1.xml.gz
+epgshare01-PlutoV1 http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_PLUTOTV1.xml.gz
+epgshare01-PlutoV2 http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_PLUTOTV2.xml.gz
 
+
+iptv-org-Albania https://iptv-org.github.io/epg/guides/al/ipko.com.epg.xml
+iptv-org-Algeria-ar https://iptv-org.github.io/epg/guides/dz-ar/osn.com.epg.xml
+iptv-org-Algeria-en https://iptv-org.github.io/epg/guides/dz-en/osn.com.epg.xml
+iptv-org-Angola-zap https://iptv-org.github.io/epg/guides/ao/zap.co.ao.epg.xml
+iptv-org-Argentina-mi https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml
+iptv-org-Argentina-gato https://iptv-org.github.io/epg/guides/ar/gatotv.com.epg.xml
+iptv-org-Australia https://iptv-org.github.io/epg/guides/au/ontvtonight.com.epg.xml
+iptv-org-Austria https://iptv-org.github.io/epg/guides/at/tvheute.at.epg.xml
+iptv-org-Bosnia-and-Herzegovina https://iptv-org.github.io/epg/guides/ba/mtel.ba.epg.xml
+iptv-org-Brazil https://iptv-org.github.io/epg/guides/br/mi.tv.epg.xml
+iptv-org-Bulgaria https://iptv-org.github.io/epg/guides/bg/tv.dir.bg.epg.xml
+iptv-org-Canada https://iptv-org.github.io/epg/guides/ca/tvtv.us.epg.xml
+iptv-org-Central-African-Republic https://iptv-org.github.io/epg/guides/cf/canalplus-afrique.com.epg.xml
+iptv-org-China https://iptv-org.github.io/epg/guides/cn/tv.cctv.com.epg.xml
+iptv-org-Croatia https://iptv-org.github.io/epg/guides/hr/maxtv.hrvatskitelekom.hr.epg.xml
+iptv-org-Czech-Republic https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml
+iptv-org-Denmark https://iptv-org.github.io/epg/guides/dk/allente.se.epg.xml
+iptv-org-Egypt https://iptv-org.github.io/epg/guides/eg-ar/elcinema.com.epg.xml
+iptv-org-Estonia https://iptv-org.github.io/epg/guides/ee-en/teliatv.ee.epg.xml
+iptv-org-Finland https://iptv-org.github.io/epg/guides/fi/allente.se.epg.xml
+iptv-org-France https://iptv-org.github.io/epg/guides/fr/programme-tv.net.epg.xml
+iptv-org-Germany https://iptv-org.github.io/epg/guides/de/hd-plus.de.epg.xml
+iptv-org-Greece https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml
+iptv-org-Hong-Kong https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml
+iptv-org-Hungary https://iptv-org.github.io/epg/guides/hu/tvmusor.hu.epg.xml
+iptv-org-India https://iptv-org.github.io/epg/guides/in/dishtv.in.epg.xml
+iptv-org-Iran https://iptv-org.github.io/epg/guides/ir/tva.tv.epg.xml
+iptv-org-Iraq https://iptv-org.github.io/epg/guides/iq-ar/osn.com.epg.xml
+iptv-org-Italy-sky https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml
+iptv-org-Italy-mediaset https://iptv-org.github.io/epg/guides/it/mediaset.it.epg.xml
+iptv-org-Japan https://iptv-org.github.io/epg/guides/jp/tvguide.myjcom.jp.epg.xml
+iptv-org-Kuwait-ar https://iptv-org.github.io/epg/guides/kw-ar/osn.com.epg.xml
+iptv-org-Kuwait-en https://iptv-org.github.io/epg/guides/kw-en/osn.com.epg.xml
+iptv-org-Mexico https://iptv-org.github.io/epg/guides/mx/gatotv.com.epg.xml
+iptv-org-Netherlands https://iptv-org.github.io/epg/guides/nl/delta.nl.epg.xml
+iptv-org-Norway https://iptv-org.github.io/epg/guides/no/allente.se.epg.xml
+iptv-org-Poland https://iptv-org.github.io/epg/guides/pl/programtv.onet.pl.epg.xml
+iptv-org-Portugal https://iptv-org.github.io/epg/guides/pt/meo.pt.epg.xml
+iptv-org-Romania https://iptv-org.github.io/epg/guides/ro/programetv.ro.epg.xml
+iptv-org-Russia https://iptv-org.github.io/epg/guides/ru/tv.yandex.ru.epg.xml
+iptv-org-Saudi-Arabia-ar https://iptv-org.github.io/epg/guides/sa-ar/osn.com.epg.xml
+iptv-org-Saudi-Arabia-en https://iptv-org.github.io/epg/guides/sa-en/osn.com.epg.xml
+iptv-org-Serbia https://iptv-org.github.io/epg/guides/rs/mts.rs.epg.xml
+iptv-org-Slovenia https://iptv-org.github.io/epg/guides/si/tv2go.t-2.net.epg.xml
+iptv-org-South-Africa https://iptv-org.github.io/epg/guides/za/dstv.com.epg.xml
+iptv-org-Spain-1 https://iptv-org.github.io/epg/guides/es/programacion-tv.elpais.com.epg.xml
+iptv-org-Spain-2 https://iptv-org.github.io/epg/guides/es/gatotv.com.epg.xml
+iptv-org-Sweden https://iptv-org.github.io/epg/guides/se/allente.se.epg.xml
+iptv-org-Switzerland https://iptv-org.github.io/epg/guides/ch/tv.blue.ch.epg.xml
+iptv-org-Turkey-tvplus https://iptv-org.github.io/epg/guides/tr/tvplus.com.tr.epg.xml
+iptv-org-Turkey-digiturk https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml
+iptv-org-Turkey-dsmart https://iptv-org.github.io/epg/guides/tr/dsmart.com.tr.epg.xml
+iptv-org-Ukraine https://iptv-org.github.io/epg/guides/ua/tvgid.ua.epg.xml
+iptv-org-UAE-ar https://iptv-org.github.io/epg/guides/ae-ar/osn.com.epg.xml
+iptv-org-UAE-en https://iptv-org.github.io/epg/guides/ae-en/osn.com.epg.xml
+iptv-org-UK-sky https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml
+iptv-org-UK-ontv https://iptv-org.github.io/epg/guides/uk/ontvtonight.com.epg.xml
+iptv-org-US-1 https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml
+iptv-org-US-2 https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml
+iptv-org-US-3 https://iptv-org.github.io/epg/guides/us/tvguide.com.epg.xml
+iptv-org-US-4 https://iptv-org.github.io/epg/guides/us/gatotv.com.epg.xml
+
+optus-sport https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Optus/epg.xml.gz
+plutotv-uk https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/gb.xml.gz
+plutotv-canada https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/ca.xml.gz
+plutotv-germany https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/de.xml.gz
+plutotv-spain https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/fr.xml.gz
+plutotv-france https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/es.xml.gz
+plutotv-italy https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/it.xml.gz
+plutotv-us https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz
 
 SerbianForum http://epg.serbianforum.org/losmij/epg.xml.gz
-
-Runigma-Russia-IPTV http://runigma.com.ua/EPG/IPTV/epg-iptv.xml.gz
-Runigma-Russia-SAT http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz
-iptv.one-Russia https://iptvx.one/epg/epg.xml.gz
+# iptv-one-Russia https://iptvx.one/epg/epg.xml.gz
 
 TVprofil-Croatia-General http://tvprofil.net/xmltv/data/epg_tvprofil.net.xml.gz
-TVprofil-Croatia-Sport http://tvprofil.net/xmltv/data/epg_sport_live_tvprofil.net.xml.gz
 
-#http://raw.githubusercontent.com/acidjesuz/EPG/master/guide.xml
-#kens13-US http://raw.githubusercontent.com/kens13/EPG/master/guide_beast.xml
-#Ziko-South-Africa http://raw.githubusercontent.com/ziko-ZR1/XML/master/dstv.xml
 
-optus-sport https://i.mjh.nz/Optus/epg.xml

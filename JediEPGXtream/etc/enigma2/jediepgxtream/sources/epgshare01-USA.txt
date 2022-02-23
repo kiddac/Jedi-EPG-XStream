@@ -10,6 +10,7 @@ ActionMAX.HDTV.(East).(AMXHD).us
 Adult.All.Access.Pass.(BUY6).us
 Altitude.Sports.and.Entertainment.Alternate.(ALT2).us
 Altitude.Sports.and.Entertainment.HDTV.(ALTHD).us
+AMC+.us
 AMC.HDTV.(East).(AMCHD).us
 American.Heroes.Channel.HDTV.(AHCHD).us
 Americas.Value.Channel.(AVC).us
@@ -31,10 +32,12 @@ Azteca.America.Network.(East).(AZTECA).us
 Baby.TV.(BABYT).us
 Baby.TV.(Latin.America).(BABYTV).us
 BabyFirst.Americas.(BABY).us
+Bally.Sports.North.Plus.(BSNOR+).us
 Bandamax.(U.S.).(BANDA).us
 BANG.U.(COEDS).us
 BBC.America.HDTV.(East).(BBC).us
 BBC.World.News.HDTV.(BBCWNHD).us
+BEIN2HD.beIN.Sports.En.Español.HD(ñ).us
 BEST.Channel.(BEST).us
 BET.Gospel.(GOSP).us
 BET.Her.(BETHER).us
@@ -112,7 +115,6 @@ Discovery.Family.Channel.HDTV.(DFCHD).us
 Discovery.Life.Channel.(DLIF).us
 Disney.Junior.HDTV.East.(DISJr).us
 Disney.XD.HDTV.(East).(DXDHD).us
-Do.It.Yourself.Network.HDTV.(East).(DIYHD).us
 DOGTV.(DOGTV).us
 Dom.Kino.(KINO).us
 DVR.Showcase.(DTV).us
@@ -302,6 +304,7 @@ LOOK.Network.(LOOK).us
 Love.World.(Zeal.9).us
 Madison.Square.Garden.HDTV.(MSG.HD).us
 Madison.Square.Garden.Plus.HDTV.(MSG+H).us
+Magnolia.Network.HD.(EAST).us
 Mav.TV.HDTV.(MavHD).us
 MBC.America.Korean.TV.(MBC).us
 MBN.Plus.(MBNP).us
@@ -350,6 +353,7 @@ NBC.Sports.Philadelphia.(CSN).us
 NBC.Sports.Philadelphia.Plus.(NBCSPA+).us
 NBC.Sports.Washington.HDTV.24/7.(NBCSWAHD).us
 NBC.Sports.Washington.Plus.(NBCSWA+).us
+NECNHD.us
 New.England.Sports.Network.HDTV.(NESNHD).us
 New.England.Sports.Network.Plus.HDTV.(NESN+).us
 New.Shopping.Service.(NEWSHP).us
@@ -360,6 +364,7 @@ News.12.Brooklyn.HDTV.(NEWS12).us
 News.12.Connecticut.(CT12).us
 News.12.New.Jersey.(NEWS12).us
 Newsmax.(NEWSM).us
+NewsNation.East.us
 NFL.RedZone.HDTV.(NFLRZD).us
 NFL.Sunday.Ticket.Offer.(NFL).us
 NHL.Network.Alternate.HDTV.(NHLaHD).us
@@ -439,12 +444,16 @@ Showtime.HDTV.(West).(SHOHD).us
 Showtime.Next.East.HDTV.(East).(SHOND).us
 Showtime.Showcase.HDTV.(East).(SHOCHD).us
 Showtime.Women.HDTV.(East).(SHOWD).us
+ShoxBet.East.us
 Smithsonian.Channel.HDTV.(East).(SMITHHD).us
 SonLife.Network.HDTV.(SONL).us
 Sony.Movie.Channel.HD.(SONY).us
 Spectrum.SportsNet.HDTV.(SPCSN).us
 SportsNet.New.York.HDTV.(SNYHD).us
 SportsTime.Ohio.HDTV.(STOHD).us
+Stadium.College.Sports.Atlantic.(SCSA).us
+Stadium.College.Sports.Central.(SCSC).us
+Stadium.College.Sports.Pacific.(SCSP).us
 STARZ.Cinema.HD.(East).(SZCIH).us
 STARZ.Comedy.HD.(East).(SZCHD).us
 STARZ.Edge.HD.(East).(SZEHD).us
@@ -485,6 +494,7 @@ The.Discovery.Channel.en.Español.(DSCE).us
 The.Discovery.Channel.HDTV.(East).(DSCHD).us
 The.Disney.Channel.(West).(DISN).us
 The.Disney.Channel.HDTV.(East).(DISHD).us
+The.Fight.Network.(United.States).(TFN).us
 The.Filipino.Channel.(West).(TFC).us
 The.Golf.Channel.HDTV.(GLFHD).us
 The.History.Channel.en.Español.(HISTE).us

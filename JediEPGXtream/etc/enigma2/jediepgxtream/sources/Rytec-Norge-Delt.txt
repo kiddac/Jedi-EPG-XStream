@@ -1,5 +1,4 @@
 AnimalPlanet.no
-AutoMotorSportTV.no
 BBCBrit.no
 BBCEarth.no
 Boomerang.no
@@ -13,7 +12,6 @@ DisneyJr.no
 DisneyXD.no
 Eurosport.no
 EurosportNorge.no
-FatstoneTV.no
 FOX.no
 H2.no
 HistoryChannelHD.no

@@ -1,12 +1,15 @@
 AMC.cz
+ArenaSport1.cz
 ArenaSport1.sk
 ArenaSport2.cz
 AutoMotorSport.cz
 AXN.cz
 AXNCrime.cz
 AXNScifi.cz
+CANAL+Domo.cz
 Cinemax.cz
 Cinemax2.cz
+CNNPrimaNews.cz
 DigisportSK.sk
 DigisportSK2.sk
 DigisportSK3.sk
@@ -26,10 +29,13 @@ LalaTV.cz
 Nova2.cz
 NovaAction.cz
 NovaCinema.cz
+NovaFun.cz
 NovaGold.cz
 NovaSport.cz
 NovaSport1.cz
 NovaSport2.cz
+NovaSport3.cz
+NovaSport4.cz
 NovaTV.cz
 NovaTVplus1.cz
 PremierSport.sk
@@ -40,6 +46,7 @@ PrimaMAX.cz
 Primaplus1.cz
 PrimaTV.cz
 PrimaZOOM.cz
+RTVSsport.cz
 SlovakSportTV1.cz
 Sport1.cz
 Sport2.cz

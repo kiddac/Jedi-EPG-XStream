@@ -1,7 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-# for localized messages
 from . import _
 
 from .plugin import skin_directory, screenwidth, hdr, epg_file, sourcelist, json_file, cfg
@@ -27,6 +26,7 @@ import re
 import socket
 import sys
 import xml.etree.ElementTree as ET
+import shutil
 
 try:
     pythonVer = sys.version_info.major
@@ -104,6 +104,8 @@ class JediEPGXtream_Main(Screen):
             "down": self.goDown,
             "channelUp": self.pageUp,
             "channelDown": self.pageDown,
+            "prevBouquet": self.pageUp,
+            "nextBouquet": self.pageDown,
             "0": self.reset,
             "2": self.prevLetter,
             "8": self.nextLetter
@@ -390,19 +392,23 @@ class JediEPGXtream_Main(Screen):
         self.disablelist3()
 
     def downloadSource(self, name, url):
-
         import requests
         try:
-            response = requests.get(url, headers=hdr, stream=True, timeout=10)
-            response.raise_for_status()
-            if response.status_code == requests.codes.ok:
+            r = requests.get(url, headers=hdr, stream=True, timeout=10)
+            r.raise_for_status()
+            if r.status_code == requests.codes.ok:
+
                 if "xmltv.php" in url:
-                    with open(sourcelist + "/" + name + ".xml", 'w') as output:
-                        output.write(response.raw.read())
+                    print("*** xmltv.php ***")
+                    with open(sourcelist + "/" + name + ".xml", 'wb') as fd:
+                        for chunk in r.iter_content(chunk_size=1024):
+                            fd.write(chunk)
                 else:
+                    print("*** not xmltv.php ***")
                     extension = url.split(".")[-1]
-                    with open(sourcelist + "/" + name + "." + extension, 'w') as output:
-                        output.write(response.raw.read())
+                    with open(sourcelist + "/" + name + "." + extension, 'wb') as fd:
+                        for chunk in r.iter_content(chunk_size=1024):
+                            fd.write(chunk)
 
                 self["extrainfo"].text = (_("Extracting source...please wait."))
                 self.timer = eTimer()
@@ -414,6 +420,8 @@ class JediEPGXtream_Main(Screen):
                     except:
                         self.openSource(name, url)
                 self.timer.start(5, True)
+            else:
+                print("**** bad response ***")
 
         except requests.exceptions.ConnectionError as e:
             print(("Error Connecting: %s" % e))
@@ -454,11 +462,9 @@ class JediEPGXtream_Main(Screen):
                     outfile.write(output)
 
             elif url.endswith('gz') and haslzma and os.path.isfile(str(sourcelist) + "/" + str(name) + ".gz"):
-                with gzip.open(str(sourcelist) + "/" + str(name) + ".gz", 'r') as f:
-                    output = f.read()
-
-                with open(str(sourcelist) + "/" + str(name) + ".xml", 'w') as outfile:
-                    outfile.write(output)
+                decompressedFile = gzip.GzipFile(str(sourcelist) + "/" + str(name) + ".gz", mode='rb')
+                with open(str(sourcelist) + "/" + str(name) + ".xml", 'wb') as outfile:
+                    shutil.copyfileobj(decompressedFile, outfile)
 
         self["extrainfo"].text = (_("Parsing XML...please wait."))
         self.timer = eTimer()
@@ -1042,7 +1048,7 @@ class JediEPGXtream_Main(Screen):
                         self["list4"].setIndex(0)
                     self.enablelist4()
 
-            if self.selectedList != self["list1"] and self["list2"].getCurrent()[3] != '':
+            if self.selectedList != self["list1"] and self["list2"].getCurrent() and self["list2"].getCurrent()[3] != '':
                 self.moveToAssigned()
 
             self.selectionChanged()

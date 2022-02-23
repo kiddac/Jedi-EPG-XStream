@@ -8,11 +8,10 @@ JOJCinemaPlus1.cz
 JOJFamily.sk
 JOJPlus.sk
 JOJplus1.sk
+JOJSport.sk
 Markiza.sk
 MarkizaInt.sk
 MarkizaPlus1.sk
-popis_hidden
-popis_tecky
 PrimaPlus.sk
 RiK.cz
 TA3.sk

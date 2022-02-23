@@ -1,6 +1,8 @@
-BoxNation.ie
-BT-Europe.ie
-BT-Sports-2.ie
-Eir-Sport-1.ie
-Eir-Sport-2.ie
-ESPN.Ireland.ie
+RTÉ.One.+1.ie
+RTÉ.One.HD.ie
+RTÉ2.HD.ie
+TG4.ie
+Virgin.Media.One.+1.ie
+Virgin.Media.One.HD.ie
+Virgin.Media.Three.ie
+Virgin.Media.Two.HD.ie

@@ -24,22 +24,16 @@ DiscoveryScience.it
 DMax.it
 DMaxPlus1.it
 Doctor's Life
-Dove.it
 Eurosport.it
 Eurosport2.it
 Focus.it
 FoodNetwork.it
 Fox Comedy
 Fox.it
-FoxCrime.it
-FoxCrimePlus1.it
-FoxLife.it
-FoxLifePlus1.it
 FoxPlus1.it
 Frisbee.it
 GamberoRosso.it
 Giallo.it
-GinxESports.it
 History.it
 HistoryPlus1.it
 Inter.it
@@ -52,22 +46,17 @@ La7.it
 La7D.it
 LaF.it
 LazioStyle.it
-LEI.it
-LEIPlus1.it
-ManGa.it
 MediasetExtra.it
 Milan.it
 MTV.it
-MTVHits.it
 MTVMusic.it
-MTVRocks.it
 NatGeo.it
-NatGeoPeople.it
 NatGeoWild.it
 Nickelodeon.it
 NickJunior.it
 Nove.it
 PescaCaccia.it
+Primafila1.it
 Primafila10.it
 Primafila11.it
 Primafila12.it
@@ -99,6 +88,7 @@ RaiGulp.it
 RaiMovie.it
 RaiNews.it
 RaiPremium.it
+RaiScuola.it
 RaiSport.it
 RaiSportPlus.it
 RaiStoria.it
@@ -109,7 +99,6 @@ Rete1.ch
 Rete2.ch
 Rete3.ch
 Rete4.it
-Roma.it
 RSILa1.ch
 RSILa2.ch
 RTL1025TV.it
@@ -145,8 +134,6 @@ SkyTG24.it
 SMtv San Marino
 SportItalia.it
 Super.it
-SuperTennis.it
-TeenNick.it
 TeleTicino HD
 TG Norba24
 TG24 Eventi

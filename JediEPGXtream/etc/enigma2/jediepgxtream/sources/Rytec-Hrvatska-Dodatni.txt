@@ -8,6 +8,7 @@ AXN.hr
 AXNSpin.hr
 BabyTV.hr
 Balkanika.hr
+BALKANIKAMUSICTV.hr
 BBCEarth.hr
 BBCEntertainment.hr
 BNMusic.ba
@@ -46,6 +47,7 @@ GINX.hr
 GrandTV.hr
 H2.hr
 HemaTV.ba
+HGTV.hr
 HistoryHD.hr
 HitTV.hr
 JimJam.hr

@@ -43,14 +43,7 @@ DiscoveryHistoryPlus1.uk
 DiscoveryPlus1.uk
 DiscoveryScience.uk
 DiscoverySciencePlus1.uk
-DiscoveryShed.uk
 DiscoveryTurbo.uk
-Disney.uk
-DisneyJunior.uk
-DisneyJuniorPlus1.uk
-DisneyPlus1.uk
-DisneyXD.uk
-DisneyXDPlus1.uk
 DMax.uk
 DMaxPlus1.uk
 Eurosport1.uk

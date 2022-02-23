@@ -1,9 +1,11 @@
+ARCADIAWorld.at
 ATV.de
 ATV2.at
 ComedyCentralVIVA.at
 Eurosport1.at
 HitradioOE3.at
 Kabel1.at
+LandleTV.at
 LT1.at
 Nickelodeon.at
 ntv.at
@@ -23,4 +25,5 @@ SchauTV.at
 ServusTV.at
 SixxAustria.at
 Tele5.at
+TirolTV.at
 W24.at

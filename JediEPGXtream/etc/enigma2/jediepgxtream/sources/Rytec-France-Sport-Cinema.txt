@@ -8,13 +8,12 @@ BeInSportMax6.fr
 BeInSportMax7.fr
 BeInSportMax8.fr
 BeInSportMax9.fr
-CANAL+FORMULA1.fr
+CANAL+GrandEcran.fr
 Canal+Ligue1.fr
 CANAL+PREMIERLEAGUE.fr
 CANAL+TOP14.fr
 CANALplusCINEMA.fr
 CANALplusDECALE.fr
-CANALplusFamily.fr
 CanalplusSeries.fr
 CANALplusSPORT.fr
 CinecinemaClassic.fr

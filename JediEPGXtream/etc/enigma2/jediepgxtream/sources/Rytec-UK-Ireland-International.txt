@@ -19,6 +19,9 @@ Channel7.uk
 Channeli.uk
 CHSTV.uk
 Colors.uk
+ColorsCineplex.uk
+ColorsGujarati.uk
+ColorsRishtey.uk
 DAYSTAR.uk
 DBN.uk
 DeenTV.uk
@@ -50,6 +53,7 @@ LOVEWORLD-TV.uk
 MadaniChnl.uk
 MATVNational.uk
 mta-muslimtv.uk
+NewMedia.uk
 NewVisionTV.uk
 NoorTV.uk
 NTD.uk
@@ -63,8 +67,6 @@ PTVGlobal.uk
 PTVPrime.uk
 RepublicBharat.uk
 revelation.uk
-Rishtey.uk
-RishteyCineplex.uk
 ROK.uk
 ROKplus1.uk
 SafeerTV.uk

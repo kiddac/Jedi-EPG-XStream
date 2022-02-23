@@ -1,6 +1,0 @@
-#!/bin/sh
-rm -rf /usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream > /dev/null 2>&1
-rm -rf /etc/epgimport/*jex*.* > /dev/null 2>&1
-echo "Restart GUI to finish uninstall!"
-sleep 10
-exit 0

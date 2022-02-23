@@ -2,6 +2,8 @@ CMoreFirst.dk
 CMoreHits.dk
 CMoreSeries.dk
 CMoreStars.dk
+ParamountMOVIES.dk
+ParamountSERIES.dk
 SportLive.dk
 ViasatFamily.dk
 ViasatFilmAction.dk

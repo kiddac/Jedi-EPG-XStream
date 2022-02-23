@@ -18,10 +18,9 @@ DiscoveryPlus1.it
 DiscoverySci.it
 DoctorsLife.it
 DoveTv.it
+Explorer.it
 Fox.it
 FoxBusiness.it
-FoxCrime.it
-FoxCrimePlus1.it
 FoxLife.it
 FoxLifePlus1.it
 FoxNews.it
@@ -52,7 +51,14 @@ Rai1Plus1.it
 Rai2Plus1.it
 Rai3Plus1.it
 Sky24Meteo.it
+SkyDocumentaries+1.it
+SkyDocumentaries.it
+SkyInvestigation+1.it
+SkyInvestigation.it
 SkyMusic.it
+SkyNature.it
+SkySerie+1.it
+SkySerie.it
 SkyTG24Eventi.it
 SkyTG24PrimoPiano.it
 SkyTG24Rassegne.it

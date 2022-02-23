@@ -1,6 +1,6 @@
 Arena4.hu
+AutoMotorSport.hu
 AXN.hu
-AXNBlack.hu
 Cinemax.hu
 Cinemax2.hu
 DigiAnimalWorld.hu
@@ -14,8 +14,8 @@ Film4.hu
 Filmbox.hu
 FilmboxExtra.hu
 FilmboxFamily.hu
-FilmboxPlus.hu
 FilmboxPremium.hu
+FilmBoxStars.hu
 FilmCafe.hu
 FilmMania.hu
 FilmPlus.hu

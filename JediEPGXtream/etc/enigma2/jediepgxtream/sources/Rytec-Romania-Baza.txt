@@ -2,6 +2,7 @@ AbsolutTV.ro
 Acasa.ro
 AcasaGold.ro
 AgroTV.ro
+AlephNews.ro
 AlfaOmegaTV.ro
 AMC.ro
 AnimalPlanet.ro
@@ -69,10 +70,7 @@ MusicChannel.ro
 MyneleTV.ro
 N24.ro
 NatGeoWild.ro
-NatGeoWildHD.ro
-National24plus.ro
 NationalGeographic.ro
-NationalGeographicHD.ro
 NationalTV.ro
 NeptunTV.ro
 Nickelodeon.ro
@@ -88,10 +86,10 @@ PROX.ro
 Publika.ro
 PV TV.ro
 RaiUno.ro
+RealitateaPlus.ro
 RealitateaTV.ro
 RomaniaTV.ro
 Speranta.ro
-Sport.ro
 TarafTV.ro
 TCM.ro
 TLC.ro
@@ -109,7 +107,6 @@ TVRCluj.ro
 TVRCraiova.ro
 TVRHD.ro
 TVRIasi.ro
-TVRInternational.ro
 TVRMoldova.ro
 TVRTarguMures.ro
 TVRTimisoara.ro

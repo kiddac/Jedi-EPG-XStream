@@ -7,6 +7,7 @@ bloomberg.info
 cartoon-network.toons
 cinestar-tv.movie
 cmc.music
+cnbc.info
 cnn.info
 discovery-europe.doc
 disney-channel.toons
@@ -22,6 +23,7 @@ htv3.hr
 htv4.hr
 kabel-1.de
 kika.toons
+mtv00s.music
 nova-bh.ba
 nova-m.cg
 nova-s.sr
@@ -51,6 +53,5 @@ tv-arena-sport-1.sport
 tv-arena-sport-2.sport
 tv-arena-sport-3.sport
 tv-istra.hr
-vh1-europe.music
 vinkovacka-tv.hr
 zdf.de

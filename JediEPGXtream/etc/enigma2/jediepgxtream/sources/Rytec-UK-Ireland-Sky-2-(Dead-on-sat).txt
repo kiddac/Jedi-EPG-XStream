@@ -28,8 +28,11 @@ SkyHistory.uk
 SkyHistory2.uk
 SkyLiving.uk
 SkyLivingPlus1.uk
+SkyMax.uk
 SkyNature.uk
 SkyReplay.uk
+SkyShowcase.uk
+SkyShowcasePlus1.uk
 SkyWitness.uk
 SkyWitnessPlus1.uk
 VICELAND.uk

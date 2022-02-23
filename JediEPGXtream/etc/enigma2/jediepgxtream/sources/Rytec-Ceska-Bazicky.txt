@@ -1,6 +1,4 @@
-BarrandovMuzika.cz
 BarrandovPlus.cz
-Ceskoslovensko.cz
 CSFilm.cz
 CT1.cz
 CT2.cz
@@ -8,16 +6,13 @@ CT24.cz
 CT3.cz
 CTart.cz
 CTsport.cz
-DokuCS.cz
 KinoBarrandov.cz
-KinoCS.cz
 KinoSvet.cz
-MuzikaCS.cz
 NovaInternational.cz
 Ocko.cz
+OckoExpress.cz
 Rebel.cz
 regionalnitelevize.cz
 Relax.cz
-TUTY.cz
 TVBarrandov.cz
 TVNoe.cz

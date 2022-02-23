@@ -1,6 +1,5 @@
 324.es
 7tv.es
-8Madrid.sp
 8tv.es
 A3seriesHD.es
 Alquiler1.es
@@ -13,11 +12,7 @@ BarcaTV.es
 BeMadTV.es
 BetisTV.es
 Boing.es
-Buzz.es
 Calle13.es
-CanalExtremadura.es
-CanalOrbe21.es
-CanalParlamento.es
 CanalSur1.es
 CanalSurAndalucia.es
 Caracol.es
@@ -27,10 +22,7 @@ ClanTVE.es
 CMM.es
 Cocina.es
 Cuatro.es
-CyL7.es
-CyL8.es
 Dark.es
-DCineEsp.es
 DisneyChannel.es
 Divinity.es
 DKISS.es
@@ -42,7 +34,6 @@ ETB1.es
 ETB2.es
 ETB3.es
 ETB4.es
-ETBsatVasco.es
 ExtremaduraSAT.es
 FDF.es
 GaliciaTVEuropa.es
@@ -56,10 +47,8 @@ La8.es
 LaOtra.es
 LaSexta.sp
 Mega.es
-Motorsport.es
 Neox.es
 Nova.es
-NuestraTele.es
 Odisea.es
 OndaCadiz.es
 Panda.es
@@ -80,7 +69,6 @@ TvCanaria.es
 TVChile.es
 TVG.es
 tvG2.es
-TVGalicia.es
 VePlusTV.es
 Viajar.es
 XTRM.es

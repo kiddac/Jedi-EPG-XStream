@@ -56,6 +56,7 @@ Fox.pl
 FoxComedy.pl
 Gametoon.pl
 GinxTV.pl
+GoldTV.pl
 H2.pl
 HGTV.pl
 History.pl
@@ -89,7 +90,6 @@ NickPolska.pl
 Novelas+.pl
 NovelaTV.pl
 NowaTV.pl
-NTL.pl
 NutaTV.pl
 Paramount.pl
 PLANETE.pl
@@ -116,16 +116,17 @@ StarsTV.pl
 StopklatkaTV.pl
 SundanceChannel.pl
 SuperPolsat.pl
-Superstacja.pl
 TBNpolska.pl
-TCM.pl
+TeenNick.pl
 Tele5.pl
 Teletoon.pl
 TLC.pl
+TNTPolska.pl
 TO!TV.pl
 TraceUrban.pl
 Travel.pl
 Travelxp.pl
+TVC.pl
 TVN24.pl
 TVNCNBCBiznes.pl
 TVNFabula.pl
@@ -150,5 +151,6 @@ VoxMusicTV.pl
 WaterPlanet.pl
 WellbeingNetwork.pl
 wPolsce.pl
+Wydarzenia24.pl
 ZoneRomantica.pl
 ZoomTV.pl

@@ -3,6 +3,7 @@ ATV.rs
 BNBIH.ba
 BNMusic.ba
 BNsat.ba
+BravoMusic.rs
 Duga.ba
 FTV.hr
 HappyTV.hr
@@ -14,6 +15,7 @@ HAYATTVBIH.hr
 HAYATTVSAT.sr
 K3.ba
 KCNSvet3.rs
+KurirTV.ba
 Loviribolov.rs
 N1-SR.rs
 NetTV.hr
@@ -24,12 +26,16 @@ OBN.hr
 Pink.rs
 Pink3Info.rs
 PinkClassic.rs
+PinkFashion.rs
 PinkFolk.rs
 PinkFolk2.rs
+PinkHits1.rs
+PinkHits2.rs
 PinkKids.rs
 PinkKoncert.rs
 PinkKuvar.rs
 PinkMontenegro.rs
+PinkMovies.rs
 PinkMusic.rs
 PinkMusic2.rs
 PinkReality.rs
@@ -40,6 +46,7 @@ PinkSuperKids.rs
 PinkWestern.rs
 PinkWorldCinema.rs
 Prva.hr
+RedTV.rs
 RTLplus.hr
 RTRS.ba
 RTRS.rs
@@ -61,6 +68,5 @@ RTV2.rs
 RTVMONTENEGROSat.rs
 RTVNoviPazar.rs
 studio-b-yu.sr
-TV1.ba
-TV1.hr
+SuperSatTV.rs
 tvcg1.cg

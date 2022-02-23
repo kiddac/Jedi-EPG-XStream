@@ -101,6 +101,7 @@ ABCNewsPerth.au.au
 ABCNewsSydney.au.au
 ABCPerth.au.au
 ABCSydney.au.au
+ABCTVPlusHobart.au.au
 ACC.au.au
 AlJazeera.au.au
 AnimalPlanet.au.au

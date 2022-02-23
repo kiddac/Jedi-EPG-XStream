@@ -1,3 +1,4 @@
+13Ulica.pl
 4Fun.pl
 4FunDance.pl
 4FunHits.pl
@@ -5,7 +6,6 @@ Adventure.pl
 AleKino.pl
 AMC.pl
 AnimalPlanet.pl
-ATMRozrywka.pl
 AXN.pl
 AXNBlack.pl
 AXNSpin.pl
@@ -31,6 +31,7 @@ Cinemax2.pl
 ComedyCentral.pl
 ComedyCentralFamily.pl
 CrimeInvestigation.pl
+DaVinci.pl
 DiscoPoloMusic.pl
 Discovery.pl
 DiscoveryHistoria.pl
@@ -55,7 +56,11 @@ Eurosport2.pl
 ExtremeSports.pl
 FightBox.pl
 Fightklub.pl
+FilmBoxAction.pl
 FilmBoxArthouse.pl
+FilmBoxExtra.pl
+FilmBoxFamily.pl
+FilmBoxPremium.pl
 Fokus.pl
 FoodNetwork.pl
 Fox.pl
@@ -113,6 +118,8 @@ PolsatSportNews.pl
 PolsatViasatExplore.pl
 PolsatViasatHistory.pl
 PolsatViasatNature.pl
+Polskie Radio Program 1
+Polskie Radio Program 2
 Power.pl
 Private.pl
 Puls2.pl
@@ -139,8 +146,9 @@ TV4.pl
 TV6.pl
 TVN.pl
 TVN24.pl
+TVN24Bizness.pl
 TVN7.pl
-TVNFabuła.pl
+TVNFabula.pl
 TVNStyle.pl
 TVNTurbo.pl
 TVOkazje.pl
@@ -149,6 +157,7 @@ TVP1.pl
 TVP2.pl
 TVP3.pl
 TVPInfo.pl
+TVPKultura.pl
 TVPPolonia.pl
 TVPRozrywka.pl
 TVPSeriale.pl
@@ -156,3 +165,4 @@ TVPSport.pl
 VH1.pl
 WaterPlanet.pl
 WPolsce.pl
+Zoom.pl

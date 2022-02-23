@@ -13,8 +13,10 @@ CraftExtra.uk
 CreateCraft.uk
 Cruise1st.tv.uk
 CruiseDealsTV.uk
+DirectStoreTV.uk
 FlowTV.uk
 FrontRunner.uk
+GemporiaCraft.uk
 GemsTV.uk
 GNTV.uk
 GoodNewsTV.uk
@@ -66,6 +68,7 @@ ShowcasePlus1.uk
 SkyNewsArabia
 SkyNewsArabia.net
 ThaneDirect.uk
+ThatsTVGold.uk
 TheBox.uk
 TinyPop.uk
 TinyPopPlus1.uk

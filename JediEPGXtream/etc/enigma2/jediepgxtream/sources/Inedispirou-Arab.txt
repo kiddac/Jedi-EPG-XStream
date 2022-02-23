@@ -1,5 +1,7 @@
 ABS-CBN Regional Channel
 ABS-CBN Sports+Action
+Abu Dhabi Sports 3
+Abu Dhabi Sports 4
 Aghani Aghani
 Aksyon TV
 Al Aan TV
@@ -15,7 +17,6 @@ AljazeeraDocumentary Arabic
 AlMamlaka TV
 amc Arabic
 ANC
-AnimalPlanetHD Arabic
 ART Aflam 1
 ART Aflam 2
 ART Cinema
@@ -73,6 +74,7 @@ Crime \\u0026 Investigation Network
 Discovery HD
 Discovery ID
 Discovery Science HD
+Disney Channel
 Disney HD
 Disney Junior
 Disney XD
@@ -86,6 +88,7 @@ Dubai Racing 1 HD
 Dubai Racing 3
 DWRR 101.9
 DZMM Teleradyo
+E! Entertainment
 E! Entertainment HD
 Ellay.com
 Euronews Arabic
@@ -93,6 +96,7 @@ Extreme Arabic
 Fann
 Fashion TV HD
 fatafeat Arabic
+Food Network
 FOX_HD Arabic
 FOX_Movies_HD Arabic
 FoxActMovHD Arabic
@@ -127,11 +131,13 @@ MoviesHD1 Arabic
 MoviesHD2 Arabic
 MoviesHD3 Arabic
 MoviesHD4 Arabic
+MTV Live
 MTV Live HD
 Music Now
 Myx
 Nat Geo HD
 Nat Geo People HD
+Nat Geo Wild
 Nat Geo Wild HD
 NatGeo_HD Arabic
 NatGeoPeople_HD Arabic
@@ -139,6 +145,7 @@ NatGeoWild_HD Arabic
 NET 25
 NHK World TV
 Nick Jr
+Nickelodeon (Arabic)
 Nickelodeon HD
 NickToons HD
 OSN Action
@@ -156,11 +163,18 @@ OSN Movies First+2
 OSN News
 OSN Popup
 OSN Series First
+OSN Sports 1
+OSN Sports 2
+OSN Sports 3
+OSN Sports 4
+OSN Sports Cricket
+OSN WWE Network
 OSN Ya Hala
 OSN Ya Hala Al Oula
 OSN Yahala Cinema
 OutdoorChannel Arabic
 Paramount
+PBO
 Rusiya Al Yawm
 Series Channel
 SeriesHD1 Arabic
@@ -168,6 +182,7 @@ SeriesHD2 Arabic
 Sharjah Sport HD
 Sharjah TV
 Sharqiya from Kalba
+Sky News
 Sky News Arabia
 Sky News Arabia HD
 Sky News HD

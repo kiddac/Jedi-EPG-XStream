@@ -84,6 +84,7 @@ NGCwild.svn
 Nickelodeon.svn
 NickJr.svn
 OKBambino.svn
+OneAdriaMusic.svn
 ORF1.svn
 ORF2.svn
 OrlandoKids.svn
@@ -91,7 +92,6 @@ OTVValentino.svn
 Outdoor.svn
 Pikaboo.svn
 PlanetEARTH.svn
-PlayboyTV.svn
 PlayboyTVHD.svn
 Pro7.svn
 RAI1.svn

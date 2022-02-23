@@ -1,9 +1,17 @@
+BilkanalenAutoMotorSport.no
 CMoreFirst.no
 CMoreFotboll.no
 CMoreHits.no
 CMoreLive.no
 CMoreSeries.no
 CMoreStars.no
+Eurosport3.no
+Eurosport4.no
+Eurosport5.no
+Eurosport6.no
+Eurosport7.no
+Eurosport8.no
+Eurosport9.no
 EurosportPluss1.no
 EurosportPluss10.no
 EurosportPluss2.no

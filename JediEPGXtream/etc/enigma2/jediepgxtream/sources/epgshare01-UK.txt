@@ -160,6 +160,7 @@ ComedyCentHD.uk
 ComedyCentral.uk
 ComedyXtra+1.uk
 ComedyXtra.uk
+Court.TV.uk
 Craft.Extra.uk
 Create.and.CraftHD.uk
 Crime+Inv+1.uk
@@ -188,6 +189,7 @@ Disney.XD.HD.uk
 DMAX+1.uk
 DMAX.uk
 Drama+1.uk
+Drama.+1.uk
 Drama.uk
 Dunamis.TV.uk
 Dunya.News.uk
@@ -213,6 +215,7 @@ FOX+1.uk
 FOX.HD.uk
 FRANCE.24.HD.uk
 FreeSports.HD.uk
+GB.News.uk
 Gems.TV.uk
 GEO.Kahani.uk
 GEO.News.uk
@@ -225,6 +228,12 @@ GOLD+1.uk
 GOLD.HD.uk
 Gold.uk
 Good.News.TV.uk
+GREAT!.movies.action.uk
+GREAT!.movies.classic.+1.uk
+GREAT!.movies.classic.uk
+GREAT!.movies.uk
+GREAT!.tv.+1.uk
+GREAT!.tv.uk
 Heart.80s.uk
 Heart.90s.uk
 Heart.Dance.uk
@@ -387,12 +396,14 @@ Sky.Action.uk
 Sky.Arts.HD.uk
 Sky.Atlantic+1.uk
 Sky.Atlantic.HD.uk
+Sky.Cinema.Animation.HD.uk
 Sky.Comedy.Cinema.uk
 Sky.Comedy.HD.uk
 Sky.Crime+1.uk
 Sky.Crime.HD.uk
 Sky.Disney.HD.uk
 Sky.Disney.uk
+Sky.Documentaries.HD.uk
 Sky.Drama.HD.uk
 Sky.Drama.uk
 Sky.Family.HD.uk
@@ -401,6 +412,7 @@ Sky.Greats.HD.uk
 Sky.Greats.uk
 Sky.Hits.HD.uk
 Sky.Hits.uk
+Sky.Max.HD.uk
 Sky.News.HD.uk
 Sky.One+1.uk
 Sky.One.HD.uk
@@ -417,6 +429,7 @@ Sky.Witness+1.uk
 Sky.Witness.HD.uk
 SkyNewsArabia.uk
 SkyPremiereHD.uk
+SkyShowcaseHD.uk
 SkySp.Action.uk
 SkySp.ActionHD.uk
 SkySp.Arena.uk
@@ -429,6 +442,7 @@ SkySp.Fball.uk
 SkySp.Golf.HD.uk
 SkySp.Mix.HD.uk
 SkySp.News.HD.uk
+SkySp.NFL.HD.uk
 SkySp.PL.HD.uk
 SkySp.PL.uk
 SkySp.Racing.HD.uk
