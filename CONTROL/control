@@ -1,8 +1,8 @@
 Package: enigma2-plugin-extensions-jediepgxtream
-Version: 2.04-20220223
+Version: 2.04-20220918
 Section: misc
 Priority: optional
 Architecture: all
 Maintainer: kiddac
 Description: Jedi EPG Xtream
-Source: 
+Source:
