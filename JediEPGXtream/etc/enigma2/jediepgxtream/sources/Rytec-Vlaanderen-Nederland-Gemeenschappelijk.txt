@@ -18,6 +18,7 @@ LoveNature.be
 Mezzo.be
 MnauTV.cz
 mtv.nl
+NationalGeographicWild.cds
 NGC.nl
 NGCWild.be
 NGCWild.nl
@@ -26,8 +27,6 @@ Nickelodeon.nl
 NickJr.be
 NickJr.nl
 NickJrInt.nl
-NickSpike.be
-NickSpike.nl
 ONS.nl
 RetroMusic.cz
 SchlagerTV.nl

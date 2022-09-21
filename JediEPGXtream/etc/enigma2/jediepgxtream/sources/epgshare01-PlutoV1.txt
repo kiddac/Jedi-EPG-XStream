@@ -32,6 +32,7 @@ BET.Pluto.TV.3.us
 BET.Pluto.TV.us
 Beverly.Hillbillies.us
 Black.Cinema.us
+Black.Classics.us
 Black.Ink.Crew.us
 Black.Throwbacks.us
 Blaze.Live.us
@@ -50,14 +51,13 @@ CBS.News.Chicago.us
 CBS.News.Colorado.us
 CBS.News.DFW.us
 CBS.News.Los.Angeles.us
+CBS.News.Miami.us
 CBS.News.Minnesota.us
 CBS.News.New.York.us
 CBS.News.Philly.us
 CBS.News.Pittsburgh.us
 CBS.News.Sacramento.us
-CBS.News.us
 CBS.Sports.HQ.us
-Chassy.us
 Cheddar.News.us
 Cine.adrenalina.us
 Cine.Premiere.us
@@ -68,10 +68,10 @@ Classic.Movies.Channel.us
 Classic.Toons.TV.us
 Classic.TV.Comedy.us
 Classic.TV.Drama.us
+Classic.TV:.Families.us
 Classica.us
 CMT.Equal.Play.us
 CMT.Pluto.TV.us
-CNET.us
 CNN.us
 Cold.Case.Files.us
 Combate.World.us
@@ -116,12 +116,12 @@ Forever.Kids.us
 FOX.Sports.us
 Funny.AF.us
 Fuse.Beat.us
+G4.Select.us
 Game.Show.Central.us
 Gameplay:.Call.of.Duty.us
 Gameplay:.Fortnite.us
 Gameplay:.Roblox.us
 Gameplay:.Sports.us
-GameSpot.us
 Gaming.on.Verizon.us
 Garfield.and.Friends.us
 GLORY.Kickboxing.us
@@ -129,8 +129,8 @@ Gordon.Ramsay&apos;s.Hell&apos;s.Kitchen.us
 Grande-ish.us
 Gunsmoke.us
 Happy.Days.us
+Heartland.us
 Hell&apos;s.Kitchen.en.español.us
-Hillsong.Channel.us
 IGN.us
 IMPACT.Wrestling.us
 Ink.Master.us
@@ -151,7 +151,6 @@ Live.Music.Replay.us
 Lively.Place.us
 Logo.Pluto.TV.2.us
 Logo.Pluto.TV.us
-Loupe.us
 Love.\u0026.Hip.Hop.2.us
 Love.\u0026.Hip.Hop.us
 Lucha.Libre.AAA.us
@@ -166,6 +165,7 @@ Misterios.sin.resolver.us
 MLB.us
 MLS.us
 More.TV.Drama.us
+More.TV.Sitcoms.us
 Movies.for.Gamers.us
 Movies.on.Verizon.us
 MST3K.us
@@ -206,7 +206,7 @@ Paramount.Movie.Channel.us
 PBR.RidePass.us
 Pelis.y.Popcorn.us
 People.Are.Awesome.us
-PeopleTV.us
+Perry.Mason.us
 PGA.TOUR.us
 Pluto.TV.Action.Sports.us
 Pluto.TV.Action.us
@@ -279,6 +279,7 @@ Spike.¡extremo!.us
 Stand-Up.TV.us
 Star.Trek.2.us
 Star.Trek.us
+Stargate.us
 Stories.by.AMC.us
 Survivor.us
 Séptimo.arte.us
@@ -325,6 +326,8 @@ Vevo.Latino.us
 Vevo.Pop.us
 Vevo.R\u0026B.us
 Vevo.Reggaetón.\u0026.Trap.us
+Vevo.Retro.Rock.us
+Vevo.True.School.Hip-Hop.us
 VH1.Hip.Hop.Family.2.us
 VH1.Hip.Hop.Family.us
 VH1.I.Love.Reality.us
@@ -334,7 +337,6 @@ Wanted:.Dead.or.Alive.us
 WeatherNation.us
 Western.TV.us
 Wild.&apos;N.Out.us
-Wings.us
 World.Poker.Tour.us
 Yahoo.Finance.us
 Yo!.MTV.us

@@ -2,12 +2,12 @@
 7/8 TV
 ActionPlus.bg
 AlfaTV.bg
+AMC.bg
 AnimalPlanet.bg
 Antena3.bg
 AXN.bg
 AXNBlack.bg
 AXNWhite.bg
-BabyTV.bg
 Balkanika.bg
 BloombergTVBG.bg
 BNT1+1.bg
@@ -39,12 +39,12 @@ bTVLady+2.bg
 bTVLady+3.bg
 bTVLady+4.bg
 bTVLady.bg
-Bulgaria24.bg
 BulgariaOnAir.bg
 CBSReality.bg
 CinemaPlus.bg
 Cinemax.bg
 Cinemax2.bg
+CityTV.bg
 CN.bg
 ComedyCentral.bg
 ComedyPlus.bg
@@ -63,10 +63,8 @@ DiscoveryChannel.bg
 DiscoveryScience.bg
 Disney.bg
 DisneyJunior.bg
-DMSat.bg
 DocuBox.bg
 DSTV.bg
-DuckTV.bg
 EdgeSport.bg
 EKids.bg
 EnglishClubTV.bg
@@ -100,7 +98,6 @@ HBO2.bg
 HBO3.bg
 HistoryChannel.bg
 HistoryHD.bg
-HitMix.bg
 HobbyLov.bg
 HobbyTV.bg
 HobbyTVHD.bg
@@ -108,7 +105,6 @@ ID.bg
 IDXtra.bg
 JimJam.bg
 Kanal3.bg
-Kanal4.bg
 KinoNova.bg
 LoveNature.ru
 MAXSport1.bg
@@ -137,9 +133,6 @@ RINGBG+2.bg
 RINGBG+3.bg
 RINGBG+4.bg
 RINGBG.bg
-RTDoc.bg
-RTL.bg
-Russia24.bg
 SkatTV.bg
 SportPlusHD.bg
 Sundance.bg
@@ -147,7 +140,6 @@ TheVoice.bg
 TLC.bg
 Travel.bg
 TV1Bulgaria.bg
-TVEvropa.bg
 TVPlus.bg
 TVT.bg
 ViasatExplorer.bg

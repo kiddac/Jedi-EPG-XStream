@@ -11,6 +11,7 @@ AplusTV.uk
 AryFamily.uk
 ATNBanglaUK.uk
 atTV.uk
+AyozatTV.uk
 BelieveTV.uk
 BritAsiaTV.uk
 BritishMuslim.uk
@@ -40,6 +41,7 @@ GospelChannel.uk
 HidayatTV.uk
 HUM-EUROPE.uk
 HUMMasala.uk
+ImamHusseinTV3.uk
 Inspiration.uk
 iONTV.uk
 IQRABANGLA.uk
@@ -75,6 +77,7 @@ Sangat.uk
 SikhChannel.uk
 SONYSAB.uk
 TakbeerTV.uk
+TalkTV.uk
 TBN-UK.uk
 TimesNow.uk
 Tristar.uk

@@ -4,6 +4,7 @@ AT5.nl
 ComedyCentral.nl
 ComedyCentralXtra.nl
 CrimeAndInvestigation.nl
+CuriosityChannel.nl
 DanceTrippin.nl
 DiscoveryScience.be
 Dusk.nl
@@ -41,6 +42,7 @@ OmroepGelderland.nl
 OmroepZeeland.nl
 OmropFryslan.nl
 OutTV.nl
+ParamountNetwork.nl
 PebbleTV.nl
 RTL4.nl
 RTL5.nl
@@ -62,7 +64,6 @@ SBS9.nl
 SETAsia.nl
 ShortsTV.nl
 SLAM!TV.nl
-Spike.nl
 StingrayClassica.nl
 StingrayDjazz.nl
 TLC.nl

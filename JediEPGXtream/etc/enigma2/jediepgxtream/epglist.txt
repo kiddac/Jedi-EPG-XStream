@@ -125,80 +125,81 @@ epgshare01-PlutoV1 http://raw.githubusercontent.com/epgshare01/share01/master/ep
 epgshare01-PlutoV2 http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_PLUTOTV2.xml.gz
 
 
-iptv-org-Albania https://iptv-org.github.io/epg/guides/al/ipko.com.epg.xml
-iptv-org-Algeria-ar https://iptv-org.github.io/epg/guides/dz-ar/osn.com.epg.xml
-iptv-org-Algeria-en https://iptv-org.github.io/epg/guides/dz-en/osn.com.epg.xml
-iptv-org-Angola-zap https://iptv-org.github.io/epg/guides/ao/zap.co.ao.epg.xml
-iptv-org-Argentina-mi https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml
-iptv-org-Argentina-gato https://iptv-org.github.io/epg/guides/ar/gatotv.com.epg.xml
-iptv-org-Australia https://iptv-org.github.io/epg/guides/au/ontvtonight.com.epg.xml
-iptv-org-Austria https://iptv-org.github.io/epg/guides/at/tvheute.at.epg.xml
-iptv-org-Bosnia-and-Herzegovina https://iptv-org.github.io/epg/guides/ba/mtel.ba.epg.xml
-iptv-org-Brazil https://iptv-org.github.io/epg/guides/br/mi.tv.epg.xml
-iptv-org-Bulgaria https://iptv-org.github.io/epg/guides/bg/tv.dir.bg.epg.xml
-iptv-org-Canada https://iptv-org.github.io/epg/guides/ca/tvtv.us.epg.xml
-iptv-org-Central-African-Republic https://iptv-org.github.io/epg/guides/cf/canalplus-afrique.com.epg.xml
-iptv-org-China https://iptv-org.github.io/epg/guides/cn/tv.cctv.com.epg.xml
-iptv-org-Croatia https://iptv-org.github.io/epg/guides/hr/maxtv.hrvatskitelekom.hr.epg.xml
-iptv-org-Czech-Republic https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml
-iptv-org-Denmark https://iptv-org.github.io/epg/guides/dk/allente.se.epg.xml
-iptv-org-Egypt https://iptv-org.github.io/epg/guides/eg-ar/elcinema.com.epg.xml
-iptv-org-Estonia https://iptv-org.github.io/epg/guides/ee-en/teliatv.ee.epg.xml
-iptv-org-Finland https://iptv-org.github.io/epg/guides/fi/allente.se.epg.xml
-iptv-org-France https://iptv-org.github.io/epg/guides/fr/programme-tv.net.epg.xml
-iptv-org-Germany https://iptv-org.github.io/epg/guides/de/hd-plus.de.epg.xml
-iptv-org-Greece https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml
-iptv-org-Hong-Kong https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml
-iptv-org-Hungary https://iptv-org.github.io/epg/guides/hu/tvmusor.hu.epg.xml
-iptv-org-India https://iptv-org.github.io/epg/guides/in/dishtv.in.epg.xml
-iptv-org-Iran https://iptv-org.github.io/epg/guides/ir/tva.tv.epg.xml
-iptv-org-Iraq https://iptv-org.github.io/epg/guides/iq-ar/osn.com.epg.xml
-iptv-org-Italy-sky https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml
-iptv-org-Italy-mediaset https://iptv-org.github.io/epg/guides/it/mediaset.it.epg.xml
-iptv-org-Japan https://iptv-org.github.io/epg/guides/jp/tvguide.myjcom.jp.epg.xml
-iptv-org-Kuwait-ar https://iptv-org.github.io/epg/guides/kw-ar/osn.com.epg.xml
-iptv-org-Kuwait-en https://iptv-org.github.io/epg/guides/kw-en/osn.com.epg.xml
-iptv-org-Mexico https://iptv-org.github.io/epg/guides/mx/gatotv.com.epg.xml
-iptv-org-Netherlands https://iptv-org.github.io/epg/guides/nl/delta.nl.epg.xml
-iptv-org-Norway https://iptv-org.github.io/epg/guides/no/allente.se.epg.xml
-iptv-org-Poland https://iptv-org.github.io/epg/guides/pl/programtv.onet.pl.epg.xml
-iptv-org-Portugal https://iptv-org.github.io/epg/guides/pt/meo.pt.epg.xml
-iptv-org-Romania https://iptv-org.github.io/epg/guides/ro/programetv.ro.epg.xml
-iptv-org-Russia https://iptv-org.github.io/epg/guides/ru/tv.yandex.ru.epg.xml
-iptv-org-Saudi-Arabia-ar https://iptv-org.github.io/epg/guides/sa-ar/osn.com.epg.xml
-iptv-org-Saudi-Arabia-en https://iptv-org.github.io/epg/guides/sa-en/osn.com.epg.xml
-iptv-org-Serbia https://iptv-org.github.io/epg/guides/rs/mts.rs.epg.xml
-iptv-org-Slovenia https://iptv-org.github.io/epg/guides/si/tv2go.t-2.net.epg.xml
-iptv-org-South-Africa https://iptv-org.github.io/epg/guides/za/dstv.com.epg.xml
-iptv-org-Spain-1 https://iptv-org.github.io/epg/guides/es/programacion-tv.elpais.com.epg.xml
-iptv-org-Spain-2 https://iptv-org.github.io/epg/guides/es/gatotv.com.epg.xml
-iptv-org-Sweden https://iptv-org.github.io/epg/guides/se/allente.se.epg.xml
-iptv-org-Switzerland https://iptv-org.github.io/epg/guides/ch/tv.blue.ch.epg.xml
-iptv-org-Turkey-tvplus https://iptv-org.github.io/epg/guides/tr/tvplus.com.tr.epg.xml
-iptv-org-Turkey-digiturk https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml
-iptv-org-Turkey-dsmart https://iptv-org.github.io/epg/guides/tr/dsmart.com.tr.epg.xml
-iptv-org-Ukraine https://iptv-org.github.io/epg/guides/ua/tvgid.ua.epg.xml
-iptv-org-UAE-ar https://iptv-org.github.io/epg/guides/ae-ar/osn.com.epg.xml
-iptv-org-UAE-en https://iptv-org.github.io/epg/guides/ae-en/osn.com.epg.xml
-iptv-org-UK-sky https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml
-iptv-org-UK-ontv https://iptv-org.github.io/epg/guides/uk/ontvtonight.com.epg.xml
-iptv-org-US-1 https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml
-iptv-org-US-2 https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml
-iptv-org-US-3 https://iptv-org.github.io/epg/guides/us/tvguide.com.epg.xml
-iptv-org-US-4 https://iptv-org.github.io/epg/guides/us/gatotv.com.epg.xml
+iptv-org-Albania https://iptv-org.github.io/epg/guides/al/ipko.com.epg.xml.gz
+iptv-org-Algeria-ar https://iptv-org.github.io/epg/guides/dz-ar/osn.com.epg.xml.gz
+iptv-org-Algeria-en https://iptv-org.github.io/epg/guides/dz-en/osn.com.epg.xml.gz
+iptv-org-Angola-zap https://iptv-org.github.io/epg/guides/ao/zap.co.ao.epg.xml.gz
+iptv-org-Argentina-mi https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml.gz
+iptv-org-Argentina-gato https://iptv-org.github.io/epg/guides/ar/gatotv.com.epg.xml.gz
+iptv-org-Australia https://iptv-org.github.io/epg/guides/au/ontvtonight.com.epg.xml.gz
+iptv-org-Austria https://iptv-org.github.io/epg/guides/at/tvheute.at.epg.xml.gz
+iptv-org-Bosnia-and-Herzegovina https://iptv-org.github.io/epg/guides/ba/mtel.ba.epg.xml.gz
+iptv-org-Brazil https://iptv-org.github.io/epg/guides/br/mi.tv.epg.xml.gz
+iptv-org-Bulgaria https://iptv-org.github.io/epg/guides/bg/tv.dir.bg.epg.xml.gz
+iptv-org-Canada https://iptv-org.github.io/epg/guides/ca/tvtv.us.epg.xml.gz
+iptv-org-Central-African-Republic https://iptv-org.github.io/epg/guides/cf/canalplus-afrique.com.epg.xml.gz
+iptv-org-China https://iptv-org.github.io/epg/guides/cn/tv.cctv.com.epg.xml.gz
+iptv-org-Croatia https://iptv-org.github.io/epg/guides/hr/maxtv.hrvatskitelekom.hr.epg.xml.gz
+iptv-org-Czech-Republic https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml.gz
+iptv-org-Denmark https://iptv-org.github.io/epg/guides/dk/allente.se.epg.xml.gz
+iptv-org-Egypt https://iptv-org.github.io/epg/guides/eg-ar/elcinema.com.epg.xml.gz
+iptv-org-Estonia https://iptv-org.github.io/epg/guides/ee-en/teliatv.ee.epg.xml.gz
+iptv-org-Finland https://iptv-org.github.io/epg/guides/fi/allente.se.epg.xml.gz
+iptv-org-France https://iptv-org.github.io/epg/guides/fr/programme-tv.net.epg.xml.gz
+iptv-org-Germany https://iptv-org.github.io/epg/guides/de/hd-plus.de.epg.xml.gz
+iptv-org-Greece https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml.gz
+iptv-org-Hong-Kong https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml.gz
+iptv-org-Hungary https://iptv-org.github.io/epg/guides/hu/tvmusor.hu.epg.xml.gz
+iptv-org-India https://iptv-org.github.io/epg/guides/in/dishtv.in.epg.xml.gz
+iptv-org-Iran https://iptv-org.github.io/epg/guides/ir/tva.tv.epg.xml.gz
+iptv-org-Iraq https://iptv-org.github.io/epg/guides/iq-ar/osn.com.epg.xml.gz
+iptv-org-Italy-sky https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml.gz
+iptv-org-Italy-mediaset https://iptv-org.github.io/epg/guides/it/mediaset.it.epg.xml.gz
+iptv-org-Japan https://iptv-org.github.io/epg/guides/jp/tvguide.myjcom.jp.epg.xml.gz
+iptv-org-Kuwait-ar https://iptv-org.github.io/epg/guides/kw-ar/osn.com.epg.xml.gz
+iptv-org-Kuwait-en https://iptv-org.github.io/epg/guides/kw-en/osn.com.epg.xml.gz
+iptv-org-Mexico https://iptv-org.github.io/epg/guides/mx/gatotv.com.epg.xml.gz
+iptv-org-Netherlands https://iptv-org.github.io/epg/guides/nl/delta.nl.epg.xml.gz
+iptv-org-Norway https://iptv-org.github.io/epg/guides/no/allente.se.epg.xml.gz
+iptv-org-Poland https://iptv-org.github.io/epg/guides/pl/programtv.onet.pl.epg.xml.gz
+iptv-org-Portugal https://iptv-org.github.io/epg/guides/pt/meo.pt.epg.xml.gz
+iptv-org-Romania https://iptv-org.github.io/epg/guides/ro/programetv.ro.epg.xml.gz
+iptv-org-Russia https://iptv-org.github.io/epg/guides/ru/tv.yandex.ru.epg.xml.gz
+iptv-org-Saudi-Arabia-ar https://iptv-org.github.io/epg/guides/sa-ar/osn.com.epg.xml.gz
+iptv-org-Saudi-Arabia-en https://iptv-org.github.io/epg/guides/sa-en/osn.com.epg.xml.gz
+iptv-org-Serbia https://iptv-org.github.io/epg/guides/rs/mts.rs.epg.xml.gz
+iptv-org-Slovenia https://iptv-org.github.io/epg/guides/si/tv2go.t-2.net.epg.xml.gz
+iptv-org-South-Africa https://iptv-org.github.io/epg/guides/za/dstv.com.epg.xml.gz
+iptv-org-Spain-1 https://iptv-org.github.io/epg/guides/es/programacion-tv.elpais.com.epg.xml.gz
+iptv-org-Spain-2 https://iptv-org.github.io/epg/guides/es/gatotv.com.epg.xml.gz
+iptv-org-Sweden https://iptv-org.github.io/epg/guides/se/allente.se.epg.xml.gz
+iptv-org-Switzerland https://iptv-org.github.io/epg/guides/ch/tv.blue.ch.epg.xml.gz
+iptv-org-Turkey-tvplus https://iptv-org.github.io/epg/guides/tr/tvplus.com.tr.epg.xml.gz
+iptv-org-Turkey-digiturk https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml.gz
+iptv-org-Turkey-dsmart https://iptv-org.github.io/epg/guides/tr/dsmart.com.tr.epg.xml.gz
+iptv-org-Ukraine https://iptv-org.github.io/epg/guides/ua/tvgid.ua.epg.xml.gz
+iptv-org-UAE-ar https://iptv-org.github.io/epg/guides/ae-ar/osn.com.epg.xml.gz
+iptv-org-UAE-en https://iptv-org.github.io/epg/guides/ae-en/osn.com.epg.xml.gz
+iptv-org-UK-sky https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml.gz
+iptv-org-UK-ontv https://iptv-org.github.io/epg/guides/uk/ontvtonight.com.epg.xml.gz
+iptv-org-US-1 https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml.gz
+iptv-org-US-2 https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml.gz
+iptv-org-US-3 https://iptv-org.github.io/epg/guides/us/tvguide.com.epg.xml.gz
+iptv-org-US-4 https://iptv-org.github.io/epg/guides/us/gatotv.com.epg.xml.gz
 
 optus-sport https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Optus/epg.xml.gz
-plutotv-uk https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/gb.xml.gz
-plutotv-canada https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/ca.xml.gz
-plutotv-germany https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/de.xml.gz
-plutotv-spain https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/fr.xml.gz
-plutotv-france https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/es.xml.gz
-plutotv-italy https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/it.xml.gz
-plutotv-us https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz
+# plutotv-uk https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/gb.xml.gz
+# plutotv-germany https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/de.xml.gz
+# plutotv-spain https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/fr.xml.gz
+# plutotv-france https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/es.xml.gz
+# plutotv-italy https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/it.xml.gz
+# plutotv-us https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz
 
 SerbianForum http://epg.serbianforum.org/losmij/epg.xml.gz
 # iptv-one-Russia https://iptvx.one/epg/epg.xml.gz
 
 TVprofil-Croatia-General http://tvprofil.net/xmltv/data/epg_tvprofil.net.xml.gz
 
-
+bebawy6-USA-Arabic https://raw.githubusercontent.com/bebawy6/EPG/master/allEPG.xml
+bebawy6-Arabic https://github.com/bebawy6/EPG/blob/master/arEPG.xml
+bebawy6-USA https://github.com/bebawy6/EPG/blob/master/usEPG.xml

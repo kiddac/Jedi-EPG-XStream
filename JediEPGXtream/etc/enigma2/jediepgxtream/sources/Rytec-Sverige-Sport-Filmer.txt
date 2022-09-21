@@ -8,9 +8,12 @@ CMoreLive2.se
 CMoreLive3.se
 CMoreLive4.se
 CMoreLive5.se
+CMoreMix.se
 CMoreSeries.se
 CMoreSport.se
 CMoreStars.se
+ParamountMOVIES.se
+ParamountSERIES.se
 Sportkanalen.se
 ViasatFilmAction.se
 ViasatFilmFamily.se

@@ -17,6 +17,7 @@ NovaTV.hr
 OsječkaTV.hr
 PoljoprivrednaTV.hr
 PozitivTV.hr
+PrvaBH.ba
 RTB.hr
 RTCG1.hr
 RTCG2.hr
@@ -33,6 +34,7 @@ TV4r.hr
 TVIstra.hr
 TVJadran.hr
 TVPlus.hr
+UnaTV.ba
 VarazdinskaTV.hr
 VinkovačkaTV.hr
 Z1.hr

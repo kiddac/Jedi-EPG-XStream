@@ -1,8 +1,12 @@
+#dabeiTV.de
+BallermannTV.de
 blueSportEvent1.ch
 blueSportEvent2.ch
+blueSportEvent3.ch
+Canal+First.at
 DAZN1.de
-DAZN1BarHD.de
 DAZN2.de
+EdgeSport.de
 eSports1.de
 Eurosport360HD1.de
 Eurosport360HD2.de
@@ -13,6 +17,10 @@ Eurosport360HD6.de
 Eurosport360HD7.de
 Eurosport360HD8.de
 Eurosport360HD9.de
+FC BAYERN.TV LIVE
+MagentaMusik1.de
+MagentaMusik2.de
+MagentaSport
 MYSPORTS1D.ch
 MYSPORTS2D.ch
 MYSPORTS3D.ch
@@ -21,7 +29,15 @@ MYSPORTS5D.ch
 MYSPORTS6D.ch
 MYSPORTS7D.ch
 MYSPORTS8D.ch
+MYSPORTS9D.ch
 MYSPORTSD.ch
+NowUS.de
+RTL+1.de
+RTL+2.de
+RTL+3.de
+RTL+4.de
+RTL+5.de
+RTL+6.de
 SkyAction.de
 SkyAtlanticHD.de
 SkyAtlanticPlus1.de
@@ -51,12 +67,10 @@ SkyKrimi.de
 SkyPremieren.de
 SkyReplay.de
 SkySerienShows.de
+SkyShowcase.de
 SkySport1.de
 SkySport10.de
 SkySport11.de
-SkySport12.de
-SkySport13.de
-SkySport14.de
 SkySport2.de
 SkySport3.de
 SkySport4.de
@@ -69,9 +83,37 @@ SkySportAustria.de
 SkySportAustria2.at
 SkySportAustria3.at
 SkySportAustria4.at
+SkySportAustria5.at
+SkySportAustria6.at
+SkySportAustria7.at
+SkySportBundesliga.de
 SkySportBundesligaUHD.de
 SkySportF1.de
+SkySportGolf.de
+SkySportMix.de
+SkySportPremierLeague.de
+SkySportTennis.de
+SkySportTopEvent.de
 SkySportUHD.de
+Sport 1 - myTeamTV
+Sport 10 - myTeamTV
+Sport 11 - myTeamTV
+Sport 12 - myTeamTV
+Sport 13 - myTeamTV
+Sport 14 - myTeamTV
+Sport 15 - myTeamTV
+Sport 16 - myTeamTV
+Sport 17 - myTeamTV
+Sport 18 - myTeamTV
+Sport 2 - myTeamTV
+Sport 3 - myTeamTV
+Sport 4 - myTeamTV
+Sport 5 - myTeamTV
+Sport 6 - myTeamTV
+Sport 7 - myTeamTV
+Sport 8 - myTeamTV
+Sport 9 - myTeamTV
+Sport Free - myTeamTV
 SPORT1plus.de
 TCRMCSportAccess1.ch
 TCSport1.ch
@@ -80,3 +122,4 @@ TCSport3.ch
 WarnerTVComedy.de
 WarnerTVFilm.de
 WarnerTVSerie.de
+WedoMovies.de

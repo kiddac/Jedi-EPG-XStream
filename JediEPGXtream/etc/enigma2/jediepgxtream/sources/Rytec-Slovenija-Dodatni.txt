@@ -18,13 +18,11 @@ Boomerang.svn
 Canale5.svn
 CartoonNetwork.svn
 CBSreality.svn
-ChannelOneRussia.svn
 CNNInternational.svn
 ComedyCentral.svn
 CrimeInvestigation.svn
 DaVinciLearning.svn
 Discovery.svn
-DiscoveryHD.svn
 DiscoveryIDXtra.svn
 DiscoveryInvestigation.svn
 DiscoveryScience.svn
@@ -101,7 +99,6 @@ Rete4.svn
 RTCG.svn
 RTL2NEMCIJA.svn
 RTLNEMCIJA.svn
-RussiaToday.svn
 SAT1.svn
 SciFi.svn
 ServusTVHD.svn

@@ -1,4 +1,5 @@
 324.es
+7nn.es
 7tv.es
 8tv.es
 A3seriesHD.es
@@ -13,6 +14,7 @@ BeMadTV.es
 BetisTV.es
 Boing.es
 Calle13.es
+CanalParlamento.es
 CanalSur1.es
 CanalSurAndalucia.es
 Caracol.es
@@ -22,6 +24,7 @@ ClanTVE.es
 CMM.es
 Cocina.es
 Cuatro.es
+CyL7.es
 Dark.es
 DisneyChannel.es
 Divinity.es
@@ -29,11 +32,13 @@ DKISS.es
 DMAX.es
 ElToro.es
 Energy.es
+EscapaTV.es
 Esport3.es
 ETB1.es
 ETB2.es
 ETB3.es
 ETB4.es
+ETBBasque.es
 ExtremaduraSAT.es
 FDF.es
 GaliciaTVEuropa.es

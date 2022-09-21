@@ -8,6 +8,8 @@ BeInSportMax6.fr
 BeInSportMax7.fr
 BeInSportMax8.fr
 BeInSportMax9.fr
+C+FOOT.fr
+C+SPORT360.fr
 CANAL+GrandEcran.fr
 Canal+Ligue1.fr
 CANAL+PREMIERLEAGUE.fr

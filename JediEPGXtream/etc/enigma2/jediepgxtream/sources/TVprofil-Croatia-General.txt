@@ -53,5 +53,6 @@ tv-arena-sport-1.sport
 tv-arena-sport-2.sport
 tv-arena-sport-3.sport
 tv-istra.hr
+tv-zapad.hr
 vinkovacka-tv.hr
 zdf.de

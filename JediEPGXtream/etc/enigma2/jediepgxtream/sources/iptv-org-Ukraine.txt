@@ -10,7 +10,7 @@ AnimalPlanetEurope.us
 BBCWorldNewsEurope.uk
 Belarus24.by
 Bigudi.ua
-CartoonNetworkRussiaSouthEastEurope.us
+CartoonNetworkRussia.ru
 CBSRealityEurope.us
 Che.ru
 ChePeInfo.ua
@@ -19,7 +19,7 @@ DiscoveryChannelCentralEurope.us
 DiscoveryScience.us
 Domashniy.ru
 Donbass.ua
-DTXPolska.us
+DTXPoland.us
 EnterFilm.ua
 EspresoTV.ua
 EuMusic.ua
@@ -58,7 +58,7 @@ Nash.ua
 NasheNovoeKino.ru
 NationalGeographicRussia.us
 NationalGeographicWildRussia.us
-NickelodeonCIS.us
+NickelodeonCIS.ru
 NLOTV.ua
 NovyKanal.ua
 NTN.ua

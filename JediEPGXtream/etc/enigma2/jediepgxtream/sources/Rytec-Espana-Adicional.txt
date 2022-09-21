@@ -10,6 +10,7 @@ ComedyCentral.es
 CosmopolitanHD.es
 CrimeAndInvestigation.es
 Cubavision.es
+DarkRed.es
 Decasa.es
 DiscoveryChannel.sp
 DiscoveryIberia.es
@@ -26,11 +27,14 @@ Funbox.es
 Hashtag0.es
 Historia.es
 Hollywood.es
+LoveNature.es
 Mezzo.es
 MezzoLiveHD.es
 MTV80s.es
 MTV90s.es
 MTVEsp.es
+MTVLiveHD.es
+MyZen.es
 NatGeoWild.es
 NationalGeographic.es
 Nickelodeon.es

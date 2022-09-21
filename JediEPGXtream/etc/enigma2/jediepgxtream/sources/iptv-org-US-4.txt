@@ -1,4 +1,4 @@
-BeInSportsenEspanol.qa
+beINSportsenEspanol.us
 CineSony.us
 ESPNDeportes.us
 EstrellaTVEast.us
@@ -6,11 +6,11 @@ FoxDeportes.us
 GolTV.us
 HistoryenEspanol.us
 HITN.us
-MasChicEstadosUnidos.us
-NBCUniversoEste.us
+MasChicNorthAmerica.ar
+NBCUniversoEast.us
 NFLNetwork.us
-PasionesEstadosUnidos.us
-TUDNEstadosUnidos.mx
+PasionesUS.us
+TUDNUS.us
 VePlusPanregional.ve
 Vme.us
 WAPADT1.us

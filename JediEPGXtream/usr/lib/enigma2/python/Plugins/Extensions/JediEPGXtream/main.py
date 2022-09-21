@@ -4,11 +4,9 @@
 from . import _
 
 from .plugin import skin_directory, screenwidth, hdr, epg_file, sourcelist, json_file, cfg
-from collections import OrderedDict
 from Components.ActionMap import ActionMap
 from Components.Label import Label
 from Components.Sources.List import List
-from Components.MenuList import MenuList
 from Components.Sources.StaticText import StaticText
 from difflib import get_close_matches
 from enigma import eTimer
@@ -23,9 +21,7 @@ import gzip
 import json
 import os
 import re
-import socket
 import sys
-import xml.etree.ElementTree as ET
 import shutil
 
 try:
@@ -485,7 +481,7 @@ class JediEPGXtream_Main(Screen):
 
         with open(str(sourcelist) + "/" + str(name) + ".xml", 'r') as f:
             for txt in pattern.finditer(f.read()):
-                channelid = txt.group('value'). strip()
+                channelid = txt.group('value').strip()
                 epgidlist.append(channelid)
 
         epgidlist = list(set(epgidlist))
@@ -762,8 +758,8 @@ class JediEPGXtream_Main(Screen):
 
     def buildXMLSourceFile(self):
         filepath = '/etc/epgimport/'
-        epgfilename = 'jex.epg.channels.xml'
-        filename = 'jex.epg.sources.xml'
+        epgfilename = 'jex.channels.xml'
+        filename = 'jex.sources.xml'
         sourcepath = filepath + filename
 
         with open(sourcepath, 'w') as f:
@@ -784,7 +780,7 @@ class JediEPGXtream_Main(Screen):
 
     def buildXMLChannelFile(self):
         filepath = '/etc/epgimport/'
-        epgfilename = 'jex.epg.channels.xml'
+        epgfilename = 'jex.channels.xml'
         channelpath = filepath + epgfilename
         with open(channelpath, 'w') as f:
             xml_str = '<?xml version="1.0" encoding="utf-8"?>\n'

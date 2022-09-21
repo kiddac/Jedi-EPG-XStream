@@ -2,6 +2,7 @@ AXN.pl
 AXNBlack.pl
 AXNSpinHD.pl
 AXNWhite.pl
+C+Sport5.pl
 Canalplus.pl
 CanalplusFamily.pl
 CanalplusFamily2.pl
@@ -15,6 +16,7 @@ CanalplusSports.pl
 Cinemax2.pl
 CinemaxHD.pl
 ElevenSports1.pl
+ElevenSports1_4K.pl
 ElevenSports2.pl
 ElevenSports3.pl
 ElevenSports4.pl
@@ -28,7 +30,6 @@ HBO.pl
 HBO2.pl
 HBO3.pl
 KinoTV.pl
-nsport.pl
 PolsatSport.pl
 PolsatSportExtra.pl
 PolsatSportFight.pl

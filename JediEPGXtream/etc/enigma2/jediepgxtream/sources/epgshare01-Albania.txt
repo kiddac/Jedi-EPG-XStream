@@ -40,6 +40,7 @@ Hayat.TV.al
 ID.Xtra.HD.al
 Junior.TV.al
 Klan.Kosova.al
+Klan.TV.al
 Klan.TV.HD.al
 Kohavision.al
 MTV.Live.HD.al
@@ -47,6 +48,7 @@ musicAL.al
 My.Music.al
 N-TV.al
 Nat.Geo.HD.al
+National.Geographic.al
 News.24.al
 Nickelodeon.HD.al
 ON.TV.al
@@ -61,12 +63,14 @@ Rai.2.al
 Rai.3.al
 Rai.News.al
 Rrokum.HD.al
+Rrokum.TV.al
 RTK.1.HD.al
 RTL.2.al
 RTL.al
 Stinet.al
 STV.Folk.al
 SuperSonic.TV.al
+Top.Channel.al
 Top.Channel.HD.al
 Top.News.al
 Travel.Channel.al

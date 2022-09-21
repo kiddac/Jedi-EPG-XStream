@@ -16,6 +16,7 @@ BBCWorldNews.nws
 BenficaTV.pt
 blaze.pt
 Bloomberg.nws
+Boomerang.pt
 BTV1.pt
 CacaVision.pt
 Canal11.pt
@@ -27,8 +28,6 @@ cartoon.pt
 CasaCozinha.pt
 cazaepesca.pt
 CBSReality.pt
-Channel1Russia.pt
-ChelseaTV.pt
 Cinemundo.pt
 ClubbingTV.pt
 CMTV.pt
@@ -69,18 +68,16 @@ HOTMan.pt
 HOTTaboo.pt
 investigationdiscovery.pt
 JimJam.pt
-KombatSport.pt
 KURIAKOSTV.pt
 Localvisao.pt
+LollyKids.pt
 m6.pt
-ManUTV.pt
 MCMPop.pt
 mcmtop.pt
 mezzo.pt
 MezzoLive.pt
 Motorvision.pt
 mtvportugal.pt
-MyCuisine.pt
 MyZen.pt
 NatGeoWild.pt
 nationalgeographic.pt
@@ -107,7 +104,7 @@ RTPAfrica.pt
 rtpHD
 RTPMadeira.pt
 rtpmemoria.pt
-RussiaToday.uk
+SaudeMais.pt
 Sextreme.pt
 sic.pt
 SicCaras.pt

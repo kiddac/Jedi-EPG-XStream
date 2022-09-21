@@ -1,7 +1,6 @@
 BEINX.us
 NBCNN.us
 NEWSMX.us
-NEWSY.us
 P90210.us
 PTV007.us
 PTV3CO.us

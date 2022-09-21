@@ -98,7 +98,6 @@ TraceTV.ro
 Transilvania.ro
 TravelChannel.ro
 TrinitasTV.ro
-TV5Monde.ro
 TVH.ro
 TVR1.ro
 TVR2.ro

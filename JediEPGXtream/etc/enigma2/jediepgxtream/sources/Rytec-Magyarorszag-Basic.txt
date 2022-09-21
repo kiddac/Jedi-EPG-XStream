@@ -12,6 +12,7 @@ ComedyCentralFamily.hu
 Cool.hu
 D1TV.hu
 DaVinciLearning.hu
+Debrecen.hu
 DikhTV.hu
 DirectOneTV.hu
 DiscoveryChannel.hu
@@ -79,8 +80,6 @@ RTL2.hu
 RTLGold.hu
 RTLKlub.hu
 SlagerTV.hu
-SonyMax.hu
-SonyMovieChannel.hu
 Sorozat+.hu
 Sorozat.hu
 Spektrum.hu
@@ -96,9 +95,11 @@ TV2Kids.hu
 TV2Séf.hu
 TV4.hu
 TVPaprika.hu
+Viasat2.hu
 Viasat3.hu
 VIASAT6.hu
 ViasatExplorer.hu
+ViasatFilm.hu
 ViasatHistory.hu
 ViasatNature.hu
 Zenebutik.hu

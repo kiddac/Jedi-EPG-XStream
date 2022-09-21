@@ -4,10 +4,10 @@ A1TV.uk
 B4UMusic.uk
 BEN.uk
 BestDirect.uk
-BoxHits.uk
 CapitalTV.uk
 Channels24.uk
 ChilledTV.uk
+ClassicHits.uk
 ClublandTV.uk
 CraftExtra.uk
 CreateCraft.uk
@@ -25,6 +25,7 @@ HighStreetTV.uk
 HighStreetTV2.uk
 HighStreetTV3.uk
 HighStreetTV5.uk
+HobbyMaker.uk
 Hochanda.uk
 IdealExtra.uk
 IdealWorld.uk

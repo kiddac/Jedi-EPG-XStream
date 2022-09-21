@@ -6,9 +6,6 @@ Cinemax2.hu
 DigiAnimalWorld.hu
 DigiFilm.hu
 DigiLife.hu
-DigiSport1.hu
-DigiSport2.hu
-DigiSport3.hu
 DigiWorld.hu
 Film4.hu
 Filmbox.hu
@@ -22,6 +19,7 @@ FilmPlus.hu
 HBO.hu
 HBO2.hu
 HBOComedy.hu
+Match4.hu
 SpilerTV.hu
 SpilerTV2.hu
 Sport1.hu
