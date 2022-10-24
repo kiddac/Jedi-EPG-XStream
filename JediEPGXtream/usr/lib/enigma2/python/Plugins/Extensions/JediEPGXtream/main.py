@@ -760,6 +760,19 @@ class JediEPGXtream_Main(Screen):
         filepath = '/etc/epgimport/'
         epgfilename = 'jex.channels.xml'
         filename = 'jex.sources.xml'
+
+        try:
+            with open('/etc/enigma2/jediepgxtream/epgdatalocation.txt', 'r') as f:
+                line = f.readline()
+                if line:
+                    filepath = str(line)
+        except Exception as e:
+            print(e)
+
+        isExist = os.path.exists(filepath)
+        if not isExist:
+            os.makedirs(filepath)
+
         sourcepath = filepath + filename
 
         with open(sourcepath, 'w') as f:
@@ -769,7 +782,7 @@ class JediEPGXtream_Main(Screen):
 
             if 'Sources' in self.epg_json:
                 for epgsources in self.epg_json['Sources']:
-                    xml_str += '<source type="gen_xmltv" nocheck="1" channels="' + str(epgfilename) + '">\n'
+                    xml_str += '<source type="gen_xmltv" nocheck="1" channels="' + str(filepath) + str(epgfilename) + '">\n'
                     xml_str += '<description>' + str(epgsources["name"]) + '</description>\n'
                     xml_str += '<url><![CDATA[' + str(epgsources["source"]) + ']]></url>\n'
                     xml_str += '</source>\n'
@@ -781,7 +794,21 @@ class JediEPGXtream_Main(Screen):
     def buildXMLChannelFile(self):
         filepath = '/etc/epgimport/'
         epgfilename = 'jex.channels.xml'
+
+        try:
+            with open('/etc/enigma2/jediepgxtream/epgdatalocation.txt', 'r') as f:
+                line = f.readline()
+                if line:
+                    filepath = str(line)
+        except Exception as e:
+            print(e)
+
+        isExist = os.path.exists(filepath)
+        if not isExist:
+            os.makedirs(filepath)
+
         channelpath = filepath + epgfilename
+
         with open(channelpath, 'w') as f:
             xml_str = '<?xml version="1.0" encoding="utf-8"?>\n'
             xml_str += '<channels>\n'
