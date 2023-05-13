@@ -9,7 +9,6 @@ from Plugins.Plugin import PluginDescriptor
 from enigma import getDesktop, addFont
 
 import os
-import shutil
 
 screenwidth = getDesktop(0).size()
 
@@ -26,13 +25,9 @@ json_file = '/etc/enigma2/jediepgxtream/epg.json'
 dir_plugins = "/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/"
 fontfolder = "/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/fonts/"
 
-if os.path.isdir('/usr/lib/enigma2/python/Plugins/Extensions/XStreamityPro/'):
-    try:
-        shutil.rmtree('/usr/lib/enigma2/python/Plugins/Extensions/XStreamityPro/')
-    except:
-        pass
-
-if screenwidth.width() > 1280:
+if screenwidth.width() > 1920:
+    skin_directory = "/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/skin/wqhd/"
+elif screenwidth.width() == 1920:
     skin_directory = "/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/skin/fhd/"
 else:
     skin_directory = "/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/skin/hd/"
