@@ -181,6 +181,7 @@ CTV.Nothern.Ontario/.Sault.Ste..Marie.HDTV.(CHBX).ca
 CTV.Prince.Albert.(CIPA).ca
 CTV.Regina.HDTV.(CKCK).ca
 CTV.Saskatchewan/Saskatoon.(CTVSK).ca
+CTV.Saskatoon.(CFQC-DT).ca
 CTV.SCI-FI.Channel.HDTV.(SCIFIHD).ca
 CTV.Toronto.HDTV.(CTVHT).ca
 CTV.Two.Alberta.(CTV2A).ca
@@ -231,7 +232,7 @@ Global.Lethbridge.(CISA).ca
 Global.Manitoba.(CKND).ca
 Global.Maritimes.(CIHF).ca
 Global.Okanagan.(CHBC).ca
-Global.Ontario/CIII.HDTV.(GLBHD).ca
+Global.Ontario.CIII.HDTV.(GLBHD).ca
 Global.Quebec.HDTV.(GLBHD).ca
 Global.Regina.(CFRE).ca
 Global.Saint.John.(CHNB).ca
@@ -259,7 +260,7 @@ HPItv.West.(HPItvW).ca
 ICI.ARTV.HDTV.(ICIARTV).ca
 ICI.Canada.(ICI).ca
 ICI.Explora.HDTV.(ICIEXPHD).ca
-ICI.Réseau.de.l&apos;Information.HDTV.(ICIRDIHD).ca
+ICI.Reseau.de.lInformation.HDTV.(ICIRDIHD).ca
 ICI.Television.HDTV.(ICIHD).ca
 Information.Channel.(Generic).(INFO).ca
 Investigation.Discovery.(Canada).HDTV.(ID).ca
@@ -373,6 +374,8 @@ OMNI.Pacific.HDTV.(OMNIV).ca
 OMNI.Prairies.HDTV.(OMNIP).ca
 Omni2.HDTV.(OMNI2HD).ca
 One.TV.(ONE).ca
+ONESOC.ca
+Ontario.Legislative.Assembly.ca
 Out.TV.(OUTtv).ca
 Outdoor.Life.Canada.HDTV.(OLNHD).ca
 Paramount.Network.Canada.(East).(PAR).ca
@@ -401,6 +404,7 @@ Red.Carpet.TV.(North.America).5.(REDCARP5).ca
 Red.Carpet.TV.(North.America).9.(REDCARP9).ca
 Red.Hot.TV.(REDHOT).ca
 REV.TV.HDTV.(Canada).(REVHD).ca
+Rewind.HDTV.(REWHD).ca
 Rogers.Sportsnet.Canucks.HDTV.(SNVHD).ca
 Rogers.Sportsnet.East.HDTV.(SNEHD).ca
 Rogers.Sportsnet.Flames.HDTV.(SNFHD).ca
@@ -417,6 +421,7 @@ Showcase.Television.HDTV.(East).(SC-HD).ca
 Silver.Screen.Classics.(SSC.SD).ca
 Slice.TV.HDTV.(SLICE).ca
 Smithsonian.Channel.Canada.(SMITH).ca
+Sony.Entertainment.Television.Asia.(ATN.SONY).ca
 Sony.Entertainment.Television.Asia.(SET.-.Asia.International).(SONYTV).ca
 Sports.Radio.1290.(SPORTS).ca
 Sportsman.Channel.(Canada).(SPTMAN).ca
@@ -425,6 +430,10 @@ Sportsnet.Flames.(SNF).ca
 Sportsnet.Oilers.(SNOIL).ca
 Sportsnet.One.HDTV.(SN1HD).ca
 Sportsnet.Vancouver.Hockey.(SNV).ca
+Sportsnet.World.Plus.1.HDTV.(SWP1HD).ca
+Sportsnet.World.Plus.2.HDTV.(SWP2HD).ca
+Sportsnet.World.Plus.3.HDTV.(SWP3HD).ca
+Sportsnet.World.Plus.4.HDTV.(SWP4HD).ca
 Star.(Greek).(STRGREEK).ca
 STARZ.1.(EAST).(STZ1S).ca
 STARZ.1.(WEST).(STZ1S).ca
@@ -442,6 +451,14 @@ Super.Ecran.2.HDTV.(SE2HD).ca
 Super.Ecran.3.(SE3).ca
 Super.Ecran.4.(SE4).ca
 Super.Ecran.HDTV.(SEHD).ca
+Super.Sports.Pack.HDTV.(HDSP2).ca
+Super.Sports.Pack.HDTV.(HDSP3).ca
+Super.Sports.Pak.HDTV.(HDSP1).ca
+Super.Sports.Pak.HDTV.(HDSP4).ca
+Super.Sports.Pak.HDTV.(HDSP6).ca
+Super.Sports.Pak.HDTV.(HDSP7).ca
+Super.Sports.Pak.HDTV.(HDSP8).ca
+Super.Sports.Pak.HDTV.(HDSP9).ca
 Super.Écran.3.HDTV.(SE3HD).ca
 Super.Écran.4.HDTV.(SE4HD).ca
 Séries+.HDTV.(SERIEHD).ca
@@ -480,6 +497,9 @@ TSN.(The.Sports.Network).Bonus.1.HD.(TSNX1.HD).ca
 TSN.(The.Sports.Network).Bonus.2.HD.(TSNX2.HD).ca
 TSN.(The.Sports.Network).Bonus.3.HD.(TSNX3.HD).ca
 TSN.(The.Sports.Network).Bonus.4.HD.(TSNX4.HD).ca
+TSN.(The.Sports.Network).Bonus.5.HD.(TSNX5.HD).[1389].ca
+TSN.(The.Sports.Network).Bonus.7.HD.(TSNX7.HD).[1392].ca
+TSN.(The.Sports.Network).Bonus.8.HD.(TSNX8.HD).[1393].ca
 TSN.Radio.1050.(TSNR).ca
 Turner.Classic.Movies.HDTV.(Canada).(TCMHD).ca
 TV5.Québec.Canada.HDTV.(TV5HD).ca

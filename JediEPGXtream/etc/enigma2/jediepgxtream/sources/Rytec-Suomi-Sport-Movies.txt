@@ -5,7 +5,8 @@ CMoreSport.fi
 CMoreSport2.fi
 CMoreStars.fi
 CMoreTennis.fi
-TV1000.fi
+SkyShowtime1.fi
+SkyShowtime2.fi
 ViasatFilmAction.fi
 ViasatFilmFamily.fi
 ViasatFilmHits.fi

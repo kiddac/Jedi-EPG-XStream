@@ -1,5 +1,6 @@
 6ter.fr
 ARTE.fr
+BFMAlsace.fr
 BFMBusiness.fr
 BFMLyon.fr
 BFMTV.fr
@@ -49,8 +50,6 @@ LCI.fr
 LCP.fr
 M6.fr
 Martinique1.fr
-MirabelleTV.fr
-MontBlancLiveTV.fr
 NRJ12.fr
 Olympia.fr
 RMCdecouverte.fr

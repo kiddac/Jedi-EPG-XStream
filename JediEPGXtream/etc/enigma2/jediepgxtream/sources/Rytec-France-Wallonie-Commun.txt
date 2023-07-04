@@ -4,6 +4,7 @@ Animaux.fr
 BET.fr
 Boomerang.fr
 CanalJ.fr
+Cartoonito.fr
 CartoonNetwork.fr
 ChassePeche.fr
 Comedie.fr
@@ -13,7 +14,6 @@ DisneyJunior.fr
 Eurochannel.fr
 Eurosport1.fr
 Eurosport2.fr
-Golf.fr
 Histoire.fr
 KTO.fr
 Mangas.fr
@@ -22,12 +22,11 @@ MTV.fr
 MTVHits.fr
 MTVPlus1.fr
 MyzenTV.fr
+NatGeo.fr
 NatGeoWildHD.fr
-NationalGeographic.fr
 Nickelodeon.fr
 NickelodeonPlus1.fr
 NickJr.fr
-NRJHitsBelgique,be
 PIWI.fr
 PLANETE.fr
 RFMTV.fr
@@ -39,7 +38,6 @@ TeleTOONplus1.fr
 Tiji.fr
 Toonami.fr
 TouteHistoire.fr
-TraceLatina.fr
 Trek.fr
 TVBreizh.fr
 UshuaiaTV.fr

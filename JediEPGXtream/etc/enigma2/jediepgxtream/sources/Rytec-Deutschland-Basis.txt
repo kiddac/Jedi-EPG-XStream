@@ -23,16 +23,13 @@ EuroD.tr
 Eurosport1.de
 Eurosport2.de
 EuroStar.tr
-FamilyTV.de
 FrankenTV.de
 GeoTV.de
 Hamburg1.de
-Handystar.de
 HGTV.de
 HRFernsehen.de
 HSE24.de
 HSE24Extra.de
-HSETrend.de
 JuweloTV.de
 KabelEins.de
 KabelEinsClassic.de
@@ -49,7 +46,6 @@ NDRFernsehen.de
 Nickelodeon.de
 niederbayerntv.de
 ntv.de
-Oberbayern.de
 OberpfalzTV.de
 One.de
 OneMusicTelevision.de

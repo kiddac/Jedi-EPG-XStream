@@ -3,10 +3,7 @@ AutoMotorSport.hu
 AXN.hu
 Cinemax.hu
 Cinemax2.hu
-DigiAnimalWorld.hu
-DigiFilm.hu
-DigiLife.hu
-DigiWorld.hu
+FightBox.hu
 Film4.hu
 Filmbox.hu
 FilmboxExtra.hu
@@ -24,3 +21,4 @@ SpilerTV.hu
 SpilerTV2.hu
 Sport1.hu
 Sport2.hu
+TV1000Balkan.hu

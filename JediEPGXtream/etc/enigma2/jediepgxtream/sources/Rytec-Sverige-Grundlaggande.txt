@@ -9,17 +9,12 @@ SVT1.se
 SVT2.se
 SVTb/svt24.se
 TV10.se
-TV11.se
 TV12.se
 TV3.se
-TV3Sport.se
 TV4.se
 TV4Fakta.se
-TV4FaktaXL.se
 TV4Film.se
 TV4Guld.se
-TV4Komedi.se
-TV4sport.se
 TV6.se
 TV8.se
 TVE.se

@@ -1,7 +1,7 @@
 AXN.ro
-AXNCrime.ro
-AXNSciFi.ro
+AXNBlack.ro
 AXNSpin.ro
+AXNWhite.ro
 CineMAX.ro
 Cinemax2.ro
 Digi24.ro
@@ -25,9 +25,13 @@ FilmNow.ro
 HBO.ro
 HBO2.ro
 HBOComedy.ro
-LOOKSPORT+.ro
-LOOKSPORT.ro
-LOOKSPORT2.ro
-LOOKSPORT3.ro
+OrangeSport1.ro
+OrangeSport2.ro
+OrangeSport3.ro
+OrangeSport4.ro
+PrimaSport1.ro
+PrimaSport2.ro
+PrimaSport3.ro
+PrimaSport4.ro
 PROCinema.ro
 TV1000.ro

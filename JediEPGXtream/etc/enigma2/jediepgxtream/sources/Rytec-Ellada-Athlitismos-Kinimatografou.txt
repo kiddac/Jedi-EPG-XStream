@@ -1,5 +1,6 @@
 CosmoteCinemaOscars.gr
 CosmoteSport9.gr
+EpicDrama.gr
 NovaCinema1.gr
 NovaCinema2.gr
 NovaCinema3.gr
@@ -10,7 +11,12 @@ NovaSports3.gr
 NovaSports4.gr
 NovaSports5.gr
 Novasports6.gr
+Novasportsextra1HD.gr
+Novasportsextra2HD.gr
+Novasportsextra3HD.gr
+Novasportsextra4HD.gr
 NovasportsNews.gr
+NovasportsPremierLeague.gr
 NovasportsPrime.gr
 NovasportsStart.gr
 OTECinema1.gr

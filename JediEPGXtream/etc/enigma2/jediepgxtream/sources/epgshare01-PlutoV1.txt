@@ -186,7 +186,7 @@ Naturescape.us
 NBC.News.NOW.us
 News.12.New.York.us
 Newsmax.us
-Newsy.us
+Newsy.news.us
 NFL.Channel.us
 Nick.en.español.us
 Nick.Jr..en.español.us

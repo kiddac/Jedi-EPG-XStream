@@ -5,6 +5,7 @@
 80.Internacional.(AUDIO).ar
 90.Internacional.(AUDIO).ar
 A&amp;E.(Argentina).(A&amp;E).ar
+Adultos.On.Demand.(Ad.OD).ar
 Al.Jazeera.(English.-.North.America).(ALJAZEE).ar
 Allegro.(ALLEGRO).ar
 AMC.(South).(AMC).ar
@@ -19,7 +20,7 @@ AXN.(Argentina).(AXN).ar
 AYM.Sports.(AyM).ar
 Baby.TV.(Latin.America).(BABYTV).ar
 Band.Internacional.(United.States).(BAND).ar
-BBC.World.News.(Latin.America).(BBCWN).ar
+BBC.News.(Latin.America).(BBCWN).ar
 Blend.(AUDIO).ar
 Bloomberg.TV.(BTV).ar
 Bossa.(AUDIO).ar
@@ -96,10 +97,10 @@ Grandes.del.Rock.(AUDIO).ar
 Grandes.Voces.(AUDIO).ar
 HBO.Family.(Spanish).(HBOFAM).ar
 HBO.Latin.America.(East).(HBO).ar
-HBO.Latin.America.HDTV.(West).(HBOHD).ar
+HBO.Latin.America.HDTV.(West).(HBO).ar
 HBO.MUNDI.(Panamerican).(HBOMUN).ar
 HBO.Plus.(Panamericano).(HBO+).ar
-HBO.POP.(Panamerican).(MAXUP).ar
+HBO.POP.(Panamerican).(HBOPOP).ar
 HBO.Signature.(Panamerican).(HBOSG).ar
 HBO.Xtreme.Panamericano.(HBOXTR).ar
 Heavy.Metal.(AUDIO).ar
@@ -137,13 +138,13 @@ Pakapaka.(PAKAPAKA).ar
 Paramount.Network.(Latin.America).(PARAM).ar
 Pasiones.(LTAM).(PASN).ar
 Películas.(AUDIO).ar
-Playboy.TV.Latin.America.&amp;.Iberia.(PLBOY).ar
+Playboy.TV.Latin.America.&amp;.Iberia.(PLYBY).ar
 Power.ballads.(AUDIO).ar
 PX.Sports.(PXS).ar
 Quiero.Música.(QUIERO).ar
-Radio.(MITRE).ar
+Radio.(NIHUIL).ar
 Radio.Disney.(XM.Satellite.Radio).(XM).ar
-Rai.Italia.Nord.America.(RAI).ar
+Rai.Italia.Nord.America.(RAIINT).ar
 Reggae.(AUDIO).ar
 Reggaetón.(AUDIO).ar
 Reggaetón.romántico.(AUDIO).ar
@@ -161,7 +162,7 @@ Space.(Sur).(SPACE).ar
 STAR.International.(Argentina).(STAR).ar
 Studio.Universal.(Argentina).(STUNI).ar
 Sun.Channel.TV.(SUNTV).ar
-Syfy.(Latin.America).(Syfy).ar
+Syfy.(Latin.America).(SYFY).ar
 Tango.(AUDIO).ar
 Tango.electrónico.(AUDIO).ar
 TBS.Sur.(TBS).ar
@@ -183,7 +184,7 @@ Top.40.(AUDIO).ar
 Top.Europa.(AUDIO).ar
 Torneos.y.Competencias.(Argentina).(TYC).ar
 Trendy.(AUDIO).ar
-truTV.(Latin.America).(truTV).ar
+truTV.(Latin.America).(TRUTV).ar
 TV.Chile.(TVN.Internacional).(TVCHILE).ar
 TV.Pública.(PUBLICA).ar
 TV5MONDE.International.(TV5).ar
@@ -192,6 +193,7 @@ Universal.Channel.(Argentina).(UNIVE).ar
 Venus.International.(VENUS).ar
 VH1.Latin.America.(Sur).(VH1).ar
 Viajar.(VIAJAR).ar
+Video.On.Demand.(VOD).ar
 Viva!.Volver.(VIVAVOLR).ar
 Vivo.(AUDIO).ar
 Warner.Channel.(Argentina).(WARNER).ar

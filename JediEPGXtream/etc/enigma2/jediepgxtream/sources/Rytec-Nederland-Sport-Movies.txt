@@ -2,13 +2,11 @@ ESPN.nl
 ESPN2.nl
 ESPN3.nl
 ESPN4.nl
-ESPN5.nl
-ESPN6.nl
 Film1Action.nl
+Film1Drama.nl
 Film1Family.nl
 Film1Plus1.nl
 Film1Premiere.nl
-Film1Series.nl
 Filmbox.nl
 PlaySportsGolf.be
 PlaySportsHD1.be
@@ -16,9 +14,6 @@ PlaySportsHD2.be
 PlaySportsHD3.be
 PlaySportsHD4.be
 PlaySportsHD5.be
-PlaySportsHD6.be
-PlaySportsHD7.be
-PlaySportsHD8.be
 ViaplayXtra.nl
 ZiggoSport.nl
 ZiggoSportDocu.nl

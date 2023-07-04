@@ -124,7 +124,7 @@ epgshare01-Turkey2 https://epgshare01.online/epgshare01/epg_ripper_TR2.xml.gz
 epgshare01-Turkey3 https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz
 epgshare01-UK https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz
 epgshare01-USA https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
-epgshare01-USA-Locals https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz
+# epgshare01-USA-Locals https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz #crashes
 epgshare01-Vietnam https://epgshare01.online/epgshare01/epg_ripper_VN1.xml.gz
 
 epgshare01-Bally-Sports https://epgshare01.online/epgshare01/epg_ripper_BALLY1.xml.gz
@@ -149,9 +149,5 @@ SerbianForum http://epg.serbianforum.org/losmij/epg.xml.gz
 
 TVprofil-Croatia-General http://tvprofil.net/xmltv/data/epg_tvprofil.net.xml.gz
 
-# bebawy6-USA-Arabic https://raw.githubusercontent.com/bebawy6/EPG/master/allEPG.xml
-bebawy6-Arabic https://github.com/bebawy6/EPG/blob/master/arEPG.xml
-bebawy6-USA https://github.com/bebawy6/EPG/blob/master/usEPG.xml
-bebawy6-UK https://github.com/bebawy6/EPG/blob/master/ukEPG.xml
-bebawy6-France https://github.com/bebawy6/EPG/blob/master/frEPG.xml
+bebawy6-USA-Uk-France-Arabic https://raw.githubusercontent.com/bebawy6/EPG/master/allEPG.xml
 

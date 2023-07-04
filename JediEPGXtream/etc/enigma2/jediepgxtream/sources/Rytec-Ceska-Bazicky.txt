@@ -1,13 +1,13 @@
 BarrandovPlus.cz
 CSFilm.cz
+CSFilmCSHorror.cz
+CSHorror.cz
 CT1.cz
 CT2.cz
 CT24.cz
-CT3.cz
 CTart.cz
 CTsport.cz
 KinoBarrandov.cz
-KinoSvet.cz
 MarkizaKrimi.cz
 NovaInternational.cz
 Ocko.cz

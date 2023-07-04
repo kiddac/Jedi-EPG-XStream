@@ -1,7 +1,9 @@
 24 HORAS
 33
 7 RM
+A Punt HD
 Al Jazeera English
+All Flamenco
 ALQUILER 1
 ALQUILER 2
 ALQUILER 2 HD
@@ -19,7 +21,6 @@ AndaluciaTV
 ANTENA 3
 ANTENA 3 HD
 antena3 HD
-APPLE TV
 ARAGON TV INT
 Aragón TV
 Arirang TV
@@ -27,31 +28,34 @@ atreseries HD
 Atreseries HD
 AXN
 AXN HD
-AXN WHITE
-AXN WHITE HD
+AXN MOVIES
+AXN MOVIES HD
 BabyTV
 BAJO DEMANDA
 BARÇA TV
 BBC World News Europe HD
 BE MAD
 betevé
-Betis TV HD
+Betis TV
 Bloomberg Europe TV
 BOING
 BOM
 CALLE 13
 CALLE 13 HD
 CANAL COCINA
+Canal de las estrellas
 CANAL DECASA
 CANAL ODISEA
-CANAL PANDA
 Canal Sur 2
 CANAL SUR A.
 Canal Sur HD
 CanalSur2
 CanalSurHD
+CARACOLTV
 CAZA Y PESCA
 CAZAyPESCA HD
+CGTN Español
+CLAN  TVE
 CLAN TVE
 CLASSICA
 CMM
@@ -66,7 +70,6 @@ CUATRO
 Cuatro HD
 CUATRO HD
 Cubavision Internacional
-D1
 DARK
 DAZN 1
 DAZN 1 ( aleman )
@@ -82,6 +85,9 @@ DAZN F1
 DAZN F1 HD
 DAZN LaLiga
 DAZN LaLiga 2
+DAZN LaLiga 3
+DAZN LaLiga 4
+DAZN LaLiga 5
 DAZN LaLiga2 HD
 DAZN LaLigaHD
 DISCOVERY
@@ -100,11 +106,11 @@ El Toro TV
 Eleven Sports 1 HD
 Eleven Sports 2 HD
 Eleven Sports 3 HD
-Eleven Sports 4
-Eleven Sports 5
-Eleven Sports 6
 ENERGY
+ENFAMILIA
+Escapa TV
 Esport 3
+ETB
 ETB 1 HD
 ETB 2 HD
 EURONEWS FRENCH SD
@@ -112,6 +118,7 @@ EUROSPORT 1
 EUROSPORT 2
 EUROSPORT1HD
 EUROSPORT2HD
+EWTN
 EXTREMADURA SAT
 FDF
 FOX
@@ -123,10 +130,10 @@ France 24 (en Français)
 France 24 (in Arabic)
 France 24 (in English)
 GOL PLAY
-HDMI IN
 HISTORIA
 HOLLYWOOD
 HOLLYWOODHD
+HORSE TV
 IB3
 IBERALIA TV
 LA 1
@@ -135,11 +142,10 @@ La 1 HD
 LA 2
 La 2 HD
 La 7 HD
-La 8 Mediterráneo HD
+La 8 Mediterraneo HD
 LA SEXTA
 LA SEXTA HD
 LALIGATV BAR
-LALIGATVBAR1
 LALIGATVBAR2
 LALIGATVBAR3
 LALIGATVBAR4
@@ -149,18 +155,20 @@ Levante TV
 Liga SmartBank
 Liga SmartBank 2
 Liga SmartBank 3
+Liga SmartBank 4
+Liga SmartBank 5
 LigaSmartBank2HD
 LigaSmartBankHD
+Lolly Kids
+M+  U. Tarantino
 M+ #0
 M+ #0 HD
 M+ #VAMOS
 M+ #VAMOS BAR
-M+ #VAMOS BAR1
-M+ #VAMOS BAR2
 M+ #VAMOSHD
 M+ ACCIÓN
 M+ ACCIÓN HD
-M+ Cine Español
+M+ BBC Earth
 M+ CLÁSICOS
 M+ CLÁSICOS HD
 M+ COMEDIA
@@ -173,28 +181,30 @@ M+ ESTRENOS
 M+ ESTRENOS 2
 M+ ESTRENOS 2 HD
 M+ Fest
+M+ Fest HD
 M+ GOLF
 M+ GOLF HD
 M+ La Resistencia
-M+ LaLiga
-M+ LaLiga 2
-M+ LaLiga 2 HD
-M+ LaLiga 3
-M+ LaLiga 3 HD
-M+ LaLiga 4
-M+ LaLiga 4 HD
-M+ LaLiga 5
-M+ LaLiga 6
-M+ LaLiga 7
-M+ LaLiga 8
-M+ LaLiga HD
+M+ LaLigaTV
+M+ LaLigaTV 2
+M+ LaLigaTV 3
+M+ LaLigaTV 4
+M+ LaLigaTV 5
+M+ LaLigaTV 6
+M+ LaLigaTV 7
+M+ LaLigaTV 8
+M+ OSCARS
 M+ PLATINO
 M+ SERIES
 M+ SERIES 2
 M+ SERIES 2 HD
 M+ SERIES HD
+M+ VACACIONES
 M+ VERY BRITISH
 M+ VHS
+M+#VAMOSBAR2
+M+#VAMOSBAR3
+M+Cine Español
 M+COMEDIA HD
 M+DEPORTES
 M+DEPORTES2
@@ -207,6 +217,10 @@ M+DEPORTES7
 M+DEPORTESHD
 M+ELLAS #V HD
 M+ESTRENOSHD
+M+LaLigaTV2HD
+M+LaLigaTV3HD
+M+LaLigaTV4HD
+M+LaLigaTVHD
 M+LCAMPEON10
 M+LCAMPEON11
 M+LCAMPEON12
@@ -222,18 +236,24 @@ M+LCAMPEON9
 M+LCAMPEONES
 M+LCampeones BAR
 M+SanSebastián
-Mega
+M+Superagentes
+M. GOLF 2
+M. GOLF 2 HD
 mega
+Mega
 MEZZO
 MEZZO LIVE HD
+MotorVision TV
 MTV 00s
 MTV ESPAÑA
 MTV Hits
-MTV Music
 MULTIDEPORTE
+Mundotoro TV
 NAT GEO HD
 NAT GEO WILD
 NAT GEOGRAPH
+Nautica Channel
+Negocios TV
 NEOX
 NG WILD HD
 NHK WORLD-JPN
@@ -247,54 +267,51 @@ PLAYBOY TV
 PORTADA
 R. MADRID TV
 Realmadrid TV HD
-RedBull TV HD
 RT Esp
 RT Esp HD
 Servus TV HD Österreich
 ServusTV HD Deutschland
-Sevilla TV
-Sky Bundesliga HD 1
-Sky Bundesliga HD 2
-Sky Bundesliga HD 3
-Sky Bundesliga HD 4
 Sky News Intl
 Sky Sport Austria HD
 Sky Sport HD 1
 Sky Sport HD 2
-Sol Música
 Somos
 Sport TV 1 HD
 Sport TV 2 HD
 Sport TV 3 HD
-Sport TV 4
-Sport TV 5
 Sport TV NBA
 SUNDANCE TV
-Super3
+Surf Channel
 SYFY
 SYFY HD
 TCM
 TCM HD
 tdp HD
 TELECINCO
-TELECINCO HD
 Telecinco HD
+TELECINCO HD
 TELEDEPORTE
 Telemadrid
+Telemadrid Int.
 TELESUR HD
 Televisión Canaria
 TEN
-TNT
-TNT HD
 TOROS
 TOROS HD
 TPA7
 TRECE
+TV Colombia
+TV3
 TV5MONDE EUROPE
 TVG 2 HD
+TVG HD
 TVGA HD EUROPA
+Ubeat
 UHD1 by ASTRA / HD+
 VIAJAR
 VIAJAR HD
+Vivir con gatos
+Vivir con perros
+WARNERTV
+WARNERTV HD
 XTRM
-À Punt HD

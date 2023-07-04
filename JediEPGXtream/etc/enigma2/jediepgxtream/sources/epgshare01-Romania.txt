@@ -1,5 +1,6 @@
 24.Mix.Teleshop.HD.ro
 24.Mix.Teleshop.ro
+360TuneBox.ro
 3sat.ro
 A7TV.ro
 Acasa.Gold.HD.ro
@@ -17,8 +18,8 @@ Animal.Planet.HD.ro
 Animal.Planet.ro
 Antena.1.HD.ro
 Antena.1.ro
-Antena.3.HD.ro
-Antena.3.ro
+Antena.3.CNN.HD.ro
+Antena.3.CNN.ro
 Antena.International.HD.ro
 Antena.International.ro
 Antena.Stars.HD.ro
@@ -49,6 +50,7 @@ Bollywood.TV.ro
 Boomerang.ro
 Brazzers.TV.Europe.ro
 Bucuresti.TV.ro
+Canal.33.ro
 Cartoon.Network.ro
 CBS.Reality.ro
 CGTN.ro
@@ -165,6 +167,7 @@ Job.TV.ro
 Kabel.1.ro
 Kanal.D.HD.ro
 Kanal.D.ro
+Kapital.TV.ro
 KIKA.ro
 Kiss.TV.ro
 Litoral.TV.ro
@@ -181,6 +184,7 @@ Medika.TV.ro
 Metropola.TV.ro
 Mezzo.Live.HD.ro
 Mezzo.ro
+Minimax.HU.ro
 Minimax.ro
 Moldova.TV.ro
 Mooz.Dance.HD.ro
@@ -215,16 +219,16 @@ Nickelodeon.HD.ro
 Nickelodeon.ro
 Nicktoons.ro
 Orange.Sport.1.HD.ro
-Orange.Sport.1.ro
-Orange.Sport.2.ro
-Orange.Sport.3.ro
-Orange.Sport.4.ro
+Orange.Sport.2.HD.ro
+Orange.Sport.3.HD.ro
+Orange.Sport.4.HD.ro
 Orizont.TV.ro
 Party.Mix.HD.ro
 Party.Mix.ro
 PHOENIX.ro
 Playboy.TV.ro
 Prima.4K.ro
+Prima.News.ro
 Prima.Sport.1.HD.ro
 Prima.Sport.1.ro
 Prima.Sport.2.HD.ro
@@ -233,6 +237,8 @@ Prima.Sport.3.HD.ro
 Prima.Sport.3.ro
 Prima.Sport.4.HD.ro
 Prima.Sport.4.ro
+Prima.Sport.5.HD.ro
+Prima.Sport.5.ro
 Prima.TV.HD.ro
 Prima.TV.ro
 Private.TV.ro
@@ -244,7 +250,7 @@ Pro.Cinema.ro
 PRO.TV.HD.ro
 PRO.TV.INTERNATIONAL.ro
 PRO.TV.ro
-Profit.ro.ro
+Profit.News.TV.ro
 Publika.ro
 Rai.1.ro
 Rai.2.ro
@@ -255,10 +261,10 @@ Rock.TV.HD.ro
 Rock.TV.ro
 România.TV.ro
 RT.HD.ro
-RTL+.ro
 RTL.Gold.ro
-RTL.II.(Hu).ro
-RTL.Klub.HD.ro
+RTL.HU.ro
+RTL.HÁROM.ro
+RTL.KETTŐ.ro
 RTL.Nitro.ro
 RTL.ro
 RTL.ZWEI.ro
@@ -275,6 +281,7 @@ Stingray.Djazz.ro
 Stingray.iConcerts.HD.ro
 Story4.ro
 Super.RTL.ro
+SUPER.TV2.ro
 SuperOne.HD.ro
 Taraf.TV.ro
 TDC.ro
@@ -291,10 +298,12 @@ Travel.Channel.ro
 Travel.Mix.ro
 Trinitas.TV.ro
 TV.City.HD.ro
+TV.Paprika.HU.ro
 TV.Paprika.ro
 TV.SudEst.Regional.ro
 TV1000.ro
 TV1000.Russian.Kino.ro
+TV2.ro
 TV4.ro
 TV5.Monde.Europe.ro
 TVE.ro
@@ -305,7 +314,9 @@ TVR.2.ro
 TVR.3.ro
 TVR.Cluj.ro
 TVR.Craiova.ro
+TVR.Cultural.ro
 TVR.Iași.ro
+TVR.Info.ro
 TVR.International.ro
 TVR.Moldova.ro
 TVR.Timișoara.ro

@@ -1,4 +1,5 @@
 13Ulica.pl
+2X2.pl
 4fun.pl
 4FunDance.pl
 4FunKids.pl
@@ -43,9 +44,9 @@ E!.pl
 EPICDramaHD.pl
 EskaROCK.pl
 EskaTVExtra.pl
-Eurochannel.pl
 Eurosport1.pl
 Eurosport2.pl
+EWTN.pl
 ExtremeSports.pl
 FamilySport.pl
 FightBox.pl
@@ -58,6 +59,7 @@ GinxTV.pl
 H2.pl
 HGTV.pl
 History.pl
+HomeTV.pl
 InvestigationDiscovery.pl
 iTVN.pl
 JAZZ.pl

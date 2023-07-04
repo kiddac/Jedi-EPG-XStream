@@ -1,13 +1,12 @@
 2tenRTL.lu
 AB3.be
-AntenneCentre.be
 Arte.be
 Be1.be
 Be1Plus1.be
 BeCine1.be
 BeSeries.be
-BRFFernsehen.be
-CINECLASSIC.BE
+BRF-TV.be
+CanalZ.be
 CINEFRISSON.BE
 CINEPREMIER.BE
 ClubRTL.be
@@ -27,11 +26,6 @@ RTLLetzebuerg.lu
 RTLTVI.be
 Tipik.be
 TipikVision.be
-VOOsport1.be
-VOOsport2.be
-VOOsport3.be
-VOOsport4.be
-VOOsport5.be
 VOOsportWorld1.be
 VOOsportWorld2.be
 VOOsportWorld3.be

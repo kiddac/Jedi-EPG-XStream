@@ -5,6 +5,8 @@ E4.ie
 ITV2.ie
 More.4.ie
 Oireachtas.TV.ie
+Premier.Sports.1.HD.ie
+Premier.Sports.2.HD.ie
 RTÉ.2.+1.ie
 RTÉ.Jr.ie
 RTÉ.News.ie
@@ -13,6 +15,7 @@ RTÉ.One.ie
 RTÉ2.ie
 TG4.ie
 UTV.ie
+Virgin.Media.Four.ie
 Virgin.Media.One.ie
 Virgin.Media.Three.ie
 Virgin.Media.Two.ie

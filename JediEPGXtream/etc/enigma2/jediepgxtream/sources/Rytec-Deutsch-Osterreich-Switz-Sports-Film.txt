@@ -1,22 +1,57 @@
 #dabeiTV.de
 BallermannTV.de
-blueSportEvent1.ch
-blueSportEvent2.ch
-blueSportEvent3.ch
+blueSport1.ch
+blueSport10.ch
+blueSport11.ch
+blueSport12.ch
+blueSport13.ch
+blueSport14.ch
+blueSport15.ch
+blueSport16.ch
+blueSport17.ch
+blueSport18.ch
+blueSport19.ch
+blueSport2.ch
+blueSport20.ch
+blueSport21.ch
+blueSport22.ch
+blueSport23.ch
+blueSport24.ch
+blueSport25.ch
+blueSport26.ch
+blueSport27.ch
+blueSport28.ch
+blueSport29.ch
+blueSport3.ch
+blueSport30.ch
+blueSport31.ch
+blueSport32.ch
+blueSport33.ch
+blueSport34.ch
+blueSport35.ch
+blueSport36.ch
+blueSport37.ch
+blueSport38.ch
+blueSport39.ch
+blueSport4.ch
+blueSport40.ch
+blueSport41.ch
+blueSport5.ch
+blueSport6.ch
+blueSport7.ch
+blueSport8.ch
+blueSport9.ch
+blueSports1UHD.ch
+blueSports2UHD.ch
+blueSports3UHD.ch
+blueSports4UHD.ch
+blueStars.ch
 Canal+First.at
+ClipMyHorseTV.de
 DAZN1.de
 DAZN2.de
 EdgeSport.de
 eSports1.de
-Eurosport360HD1.de
-Eurosport360HD2.de
-Eurosport360HD3.de
-Eurosport360HD4.de
-Eurosport360HD5.de
-Eurosport360HD6.de
-Eurosport360HD7.de
-Eurosport360HD8.de
-Eurosport360HD9.de
 FC BAYERN.TV LIVE
 MagentaMusik1.de
 MagentaMusik2.de
@@ -32,12 +67,21 @@ MYSPORTS8D.ch
 MYSPORTS9D.ch
 MYSPORTSD.ch
 NowUS.de
+RedBullTV.de
 RTL+1.de
 RTL+2.de
 RTL+3.de
 RTL+4.de
 RTL+5.de
 RTL+6.de
+ServusTVMotorsport.de
+Sky Sport CH 1
+Sky Sport CH 2
+Sky Sport Serie A 1
+Sky Sport Serie A 2
+Sky Sport Serie A 3
+Sky Sport Serie A 4
+Sky Sport Serie A 5
 SkyAction.de
 SkyAtlanticHD.de
 SkyAtlanticPlus1.de
@@ -66,11 +110,9 @@ SkyCrime.de
 SkyKrimi.de
 SkyPremieren.de
 SkyReplay.de
-SkySerienShows.de
 SkyShowcase.de
 SkySport1.de
 SkySport10.de
-SkySport11.de
 SkySport2.de
 SkySport3.de
 SkySport4.de
@@ -113,12 +155,9 @@ Sport 6 - myTeamTV
 Sport 7 - myTeamTV
 Sport 8 - myTeamTV
 Sport 9 - myTeamTV
+Sport Digital
 Sport Free - myTeamTV
 SPORT1plus.de
-TCRMCSportAccess1.ch
-TCSport1.ch
-TCSport2.ch
-TCSport3.ch
 WarnerTVComedy.de
 WarnerTVFilm.de
 WarnerTVSerie.de

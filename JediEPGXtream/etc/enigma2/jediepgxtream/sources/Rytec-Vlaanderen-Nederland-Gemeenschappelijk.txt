@@ -18,10 +18,10 @@ LoveNature.be
 Mezzo.be
 MnauTV.cz
 mtv.nl
-NationalGeographicWild.cds
-NGC.nl
-NGCWild.be
-NGCWild.nl
+NatGeo.nl
+NatGeoWild.be
+NatGeoWild.cds
+NatGeoWild.nl
 NickDay.nl
 Nickelodeon.nl
 NickJr.be

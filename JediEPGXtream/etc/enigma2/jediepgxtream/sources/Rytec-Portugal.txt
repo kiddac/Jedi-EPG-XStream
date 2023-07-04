@@ -3,6 +3,8 @@ ABolaTV.pt
 AfroMusic.pt
 AlJazeera.nws
 AMC.pt
+AMCBreak.pt
+AMCCrime.pt
 ARISENews.uk
 ARTE.pt
 ARTV.pt
@@ -21,13 +23,14 @@ BTV1.pt
 CacaVision.pt
 Canal11.pt
 CanalHistoria.pt
+CanalNOS.pt
 canalpanda.pt
 CanalQ.pt
 CANCAONOVA.pt
 cartoon.pt
+Cartoonito.pt
 CasaCozinha.pt
 cazaepesca.pt
-CBSReality.pt
 Cinemundo.pt
 ClubbingTV.pt
 CMTV.pt
@@ -40,7 +43,7 @@ discoverychannel.pt
 disneychannel.pt
 DisneyJunior.pt
 DogTV.pt
-eentertainment.pt
+E!Entertainment.pt
 elevensports1.pt
 elevensports2.pt
 elevensports3.pt
@@ -67,7 +70,6 @@ Hot.pt
 HOTMan.pt
 HOTTaboo.pt
 investigationdiscovery.pt
-JimJam.pt
 KURIAKOSTV.pt
 Localvisao.pt
 LollyKids.pt
@@ -78,9 +80,10 @@ mezzo.pt
 MezzoLive.pt
 Motorvision.pt
 mtvportugal.pt
+Mundotoro.pt
 MyZen.pt
+NatGeo.pt
 NatGeoWild.pt
-nationalgeographic.pt
 NBA.pt
 NHKworld.jp
 Nickelodeon.pt
@@ -135,7 +138,6 @@ TVCineEDITION.pt
 TVCineEMOTION.pt
 TVCineTOP.pt
 TVE24h.pt
-TVEi.nws
 TVGalicia.pt
 TVGlobo.pt
 TVI.pt
@@ -143,8 +145,7 @@ TVI24.pt
 TVIFiccao.pt
 TVIInt.pt
 TVIReal.pt
-TVMInternacional.mz
 tvrecord.pt
 TVSeries.pt
 venus.pt
-zapvivahd.pt
+ZAPViva.pt

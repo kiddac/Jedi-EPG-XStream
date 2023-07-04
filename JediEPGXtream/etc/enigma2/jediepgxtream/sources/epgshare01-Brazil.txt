@@ -83,6 +83,7 @@ Fish.TV.br
 Food.Network.HD.br
 Fox.News.br
 Fox.Sports.2.HD.br
+Futura.br
 Futura.HD.br
 FX.HD.br
 Gazeta.HD.br
@@ -117,7 +118,7 @@ Modo.Viagem.br
 MTV.00s.br
 MTV.HD.br
 MTV.LIVE.br
-Multishow.HD:.br
+Multishow.HD.br
 Music.Box.Brazil.br
 Nat.Geo.HD.br
 NGT.br
@@ -125,7 +126,7 @@ NHK.HD.br
 Nick.Jr..HD.br
 Nickelodeon.HD.br
 Nordes.TV.HD.br
-OFF.HD.br
+OFF.br
 Paramount.Network.HD.br
 Polishop.br
 Premiere.HD.3.br
@@ -193,6 +194,7 @@ SCC.SBT.HD.br
 SIC.Internacional.br
 Smithsonian.br
 Sony.HD.br
+Sony.Movies.br
 Space.HD.br
 Sportv.2.HD.br
 SporTV.3.HD.br

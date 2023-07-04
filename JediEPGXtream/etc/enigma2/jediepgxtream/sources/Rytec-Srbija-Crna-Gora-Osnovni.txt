@@ -1,5 +1,5 @@
-alfatv.ba
 ATV.rs
+BalkanTrip.rs
 BNBIH.ba
 BNMusic.ba
 BNsat.ba
@@ -15,10 +15,10 @@ HAYATTVBIH.hr
 HAYATTVSAT.sr
 K3.ba
 KCNSvet3.rs
+KitchenTV.sr
 KurirTV.ba
 Loviribolov.rs
 N1-SR.rs
-NetTV.hr
 Nova.rs
 NovaS.rs
 O2.rs
@@ -39,6 +39,7 @@ PinkMovies.rs
 PinkMusic.rs
 PinkMusic2.rs
 PinkReality.rs
+PinkSci-FiFantasy.rs
 PinkSerije.rs
 PinkShow.rs
 PinkStyle.rs
@@ -54,10 +55,10 @@ RTRSBIH.ba
 RTS1.rs
 RTS2.rs
 RTS3.rs
-RTSDigital.rs
 RTSDrama.rs
 RTSKolo.rs
 RTSMuzika.rs
+RTSNauka.rs
 RTSPoletarac.rs
 RTSSAT.rs
 RTSSvet.rs
@@ -65,8 +66,9 @@ RTSTrezor.rs
 RTSZivot.rs
 RTV1.rs
 RTV2.rs
-RTVMONTENEGROSat.rs
 RTVNoviPazar.rs
 studio-b-yu.sr
 SuperSatTV.rs
+ToxicTV.rs
+TV5Uzice.rs
 tvcg1.cg

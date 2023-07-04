@@ -11,7 +11,7 @@ cnbc.info
 cnn.info
 discovery-europe.doc
 disney-channel.toons
-doma-tv.hr
+doma-tv.movie
 euronews.info
 eurosport.sport
 ftv.ba
@@ -21,7 +21,7 @@ htv1.hr
 htv2.hr
 htv3.hr
 htv4.hr
-kabel-1.de
+kabel-1.movie
 kika.toons
 mtv00s.music
 nova-bh.ba
@@ -52,7 +52,6 @@ tv-arena-sport-1-hr.sport
 tv-arena-sport-1.sport
 tv-arena-sport-2.sport
 tv-arena-sport-3.sport
-tv-istra.hr
 tv-zapad.hr
 vinkovacka-tv.hr
 zdf.de

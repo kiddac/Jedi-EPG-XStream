@@ -1,4 +1,3 @@
-BabyTV.it
 Blaze.it
 Boomerang.it
 BoomerangPlus1.it
@@ -24,10 +23,6 @@ HistoryPlus1.it
 InterChannel.it
 MTV.it
 MTVMusic.it
-NatGeoWild.it
-NatGeoWildPlus1.it
-NationalGeo.it
-NationalGeoPlus1.it
 Nickelodeon.it
 NickelodeonPlus1.it
 NickJr.it

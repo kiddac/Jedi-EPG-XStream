@@ -8,6 +8,10 @@ Baby.TV.(Latin.America).(BABYTV).mx
 Boomerang.(Mexico).(BOOM).mx
 Cable.News.Network.en.Español.(Mexico).(CNNMEX).mx
 Cable.News.Network.International.(CNNI).mx
+Canal.7.de.Guatemala.(Televisiete).mx
+Canal.De.Película.(Multiplex).mx
+Canal.De.Película.Clásico.mx
+Canal.De.Película.mx
 Canal.Música.TV.(MUSICA).mx
 Canal.Once.XEIPN.(CANL11).mx
 Cartoon.Network.(Latin.America.-.Mexico).(TOON).mx
@@ -17,6 +21,7 @@ Cinecanal.+.HDTV.(Latin.America).(CIN+H).mx
 Cinemax.(Mexico).(CINEMAX).mx
 Classic.and.Arts.(ARTS).mx
 Comedy.Central.(Latin.America.-.North).(COMDC).mx
+De.Película.HDTV.(Latin.America).(DPELICHD).mx
 Discovery.Home.and.Health.(Mexico).(DHandH).mx
 Discovery.Home.and.Health.HDTV.(Mexico).(DHandHHD).mx
 Discovery.Kids.(Mexico).(DKIDS).mx

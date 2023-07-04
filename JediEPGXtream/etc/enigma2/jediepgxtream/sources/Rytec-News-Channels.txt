@@ -1,4 +1,3 @@
-1TV.ge
 AlArabiya.nws
 AlJazeera.nws
 AlJazeeraArabe.nws
@@ -34,10 +33,11 @@ i24News.fr
 KBSWorld.kr
 MSNBC.us
 NASA.us
+NASAUHD.us
 NBCNewsNow.nws
+NewsMax.nws
 NHKworld.jp
 PCNEChinese.uk
-PressTV.nws
 qazaqtv.kz
 RaiNews.it
 RTPi.pt
@@ -47,7 +47,6 @@ SkyNwsArabia.nws
 Telesur.es
 Tgcom24.it
 ThaiTVGlobalNetwork.nws
-TRTInternational
 TRTturk.tr
 TRTworld.nws
 TV5MondeEurope.fr
@@ -56,7 +55,4 @@ TV5MONDEMaghreb-Orient.fr
 TVEi.nws
 TVRInternational.ro
 UATV.nws
-VoAEurope.us
-VoAGlobal.us
-VoAPersian.us
 WELT.de

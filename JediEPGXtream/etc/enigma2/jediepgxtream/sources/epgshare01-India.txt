@@ -283,6 +283,7 @@ Makkal.TV.in
 MalaiMurasu.Seithigal.in
 Manorama.News.in
 Manoranjan.Grand.in
+Manoranjan.Movies.in
 Manoranjan.TV.in
 Mantavya.News.in
 Mastiii.in
@@ -436,6 +437,7 @@ Shalom.TV.in
 Sharnam.TV.in
 Shemaroo.MarathiBana.in
 Shemaroo.TV.in
+Shemaroo.Umang.in
 Shirdi.Sai.Baba.in
 Showbox.in
 Showcase.1.in

@@ -1,15 +1,12 @@
 CMC.hr
 DomaTV.hr
 DubrovačkaTV.hr
-FederalnaTV.ba
-HNTV.hr
 HRT3.hr
 HRT4.hr
 HRTTV1.hr
 HRTTV2.hr
 JabukaTV.hr
 Kanal-Ri.hr
-Kanal5.hr
 LaudatoTV.hr
 MrezaST.hr
 MrezaZG.hr
@@ -17,7 +14,6 @@ NovaTV.hr
 OsječkaTV.hr
 PoljoprivrednaTV.hr
 PozitivTV.hr
-PrvaBH.ba
 RTB.hr
 RTCG1.hr
 RTCG2.hr
@@ -28,12 +24,8 @@ RTLTelevizija.hr
 SlavonskaTV.hr
 Slavonskobrodska.hr
 SportskaTelevizija.hr
-SrceTV.hr
 TelevizijaVox.hr
-TV4r.hr
-TVIstra.hr
 TVJadran.hr
-TVPlus.hr
 UnaTV.ba
 VarazdinskaTV.hr
 VinkovačkaTV.hr
