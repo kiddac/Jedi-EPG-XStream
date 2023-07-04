@@ -32,11 +32,12 @@ if os.path.isdir('/usr/lib/enigma2/python/Plugins/Extensions/XStreamityPro/'):
     except:
         pass
 
-if screenwidth.width() > 1280:
+if screenwidth.width() <= 1280:
+    skin_directory = "/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/skin/hd/"
+elif screenwidth.width() <= 1920:
     skin_directory = "/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/skin/fhd/"
 else:
-    skin_directory = "/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/skin/hd/"
-
+    skin_directory = "/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/skin/uhd/"
 
 hdr = {'User-Agent': 'Enigma2 - Jedi EPG XStream Plugin'}
 

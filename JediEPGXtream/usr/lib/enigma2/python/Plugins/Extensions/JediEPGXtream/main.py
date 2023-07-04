@@ -388,7 +388,24 @@ class JediEPGXtream_Main(Screen):
         self.disablelist3()
 
     def downloadSource(self, name, url):
+        url = str(url)
+        if not url.startswith("http"):
+            try:
+                extension = url.split(".")[-1]
+                shutil.copyfile(url, sourcelist + "/" + name + "." + extension)
+                self.openSource(name, url)
+
+            except Exception as e:
+                print(e)
+
         import requests
+        try:
+            from http.client import HTTPConnection
+            HTTPConnection.debuglevel = 0
+        except:
+            from httplib import HTTPConnection
+            HTTPConnection.debuglevel = 0
+        requests.packages.urllib3.disable_warnings()
         try:
             r = requests.get(url, headers=hdr, stream=True, timeout=10)
             r.raise_for_status()

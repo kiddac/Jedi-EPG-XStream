@@ -32,11 +32,15 @@ else
         echo "checking python3-requests"
         apt-get -y install python3-requests
         echo
+        echo "checking python3-python-difflib"
+        apt-get -y install python3-python-difflib
     else
         echo "checking python-requests"
         apt-get -y install python-requests
         echo
-
+        echo "checking python-python-difflib"
+        apt-get -y install python-python-difflib
+        echo
     fi
 fi
 exit 0
