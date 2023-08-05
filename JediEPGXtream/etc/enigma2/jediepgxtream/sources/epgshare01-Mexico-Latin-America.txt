@@ -8,12 +8,19 @@ Baby.TV.(Latin.America).(BABYTV).mx
 Boomerang.(Mexico).(BOOM).mx
 Cable.News.Network.en.Español.(Mexico).(CNNMEX).mx
 Cable.News.Network.International.(CNNI).mx
+Canal.5.de.México.(XHGC).mx
 Canal.7.de.Guatemala.(Televisiete).mx
 Canal.De.Película.(Multiplex).mx
 Canal.De.Película.Clásico.mx
 Canal.De.Película.mx
+Canal.Inti.Network.mx
 Canal.Música.TV.(MUSICA).mx
 Canal.Once.XEIPN.(CANL11).mx
+Canal.Paramount.Channel.(España).mx
+Canal.Paramount.Channel.(México).mx
+Canal.TNT.Series.mx
+Canal.TV.Azteca.Mundo.mx
+Canal.TVC.Deportes.mx
 Cartoon.Network.(Latin.America.-.Mexico).(TOON).mx
 Cine.Latino.(Mexico.City).(CINELA).mx
 Cinecanal.(Mexico).(CINE-O).mx
@@ -55,6 +62,7 @@ Fox.Sports.3.(Cono.Norte).(FOXSP3).mx
 Fox.Sports.3.HDTV.(Cono.Norte).(FOXSP3HD).mx
 Fox.Sports.Latin.America.(Cono.Norte).(FSA).mx
 Fox.Sports.Latin.America.HDTV.(Cono.Norte).(FOXSPHD).mx
+FOX.Sports.Premium.MEXICO.mx
 FX.Latin.America.(México).(FX).mx
 FX.Latin.America.HDTV.(Colombia).(FXHD).mx
 FX.Movies.(Mexico).(FXM).mx

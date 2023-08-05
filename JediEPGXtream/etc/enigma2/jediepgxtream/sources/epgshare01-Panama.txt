@@ -94,6 +94,7 @@ MTV.Live.(MTVNHD.European.for.US.Lineups).(MTVLIVHD).pa
 Multimedios./.Delay.2.hours.(MMTV2).pa
 Más.Chic.TV.International.(MASCHINT).pa
 National.Geographic.Channel.(Central).(NGC).pa
+Nex.Canal.21.(NEX).pa
 NHK.World.Premium.(Japanese).(NHK).pa
 NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME1).pa
 NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME2).pa

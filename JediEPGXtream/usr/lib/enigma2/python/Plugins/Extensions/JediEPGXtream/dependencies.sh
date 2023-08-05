@@ -11,18 +11,53 @@ if [ -d /etc/opkg ]; then
     if [[ $pyv =~ "Python 3" ]]; then
       
         echo "checking python3-requests"
-        opkg install python3-requests
-        echo
+        if python -c "import requests" &> /dev/null; then
+            echo "Requests library already installed"
+        else
+            opkg install python3-requests
+        fi
+        echo ""
+
+        echo "checking python3-difflib"
+        if python -c "import difflib" &> /dev/null; then
+            echo "Difflib library already installed"
+        else
+            opkg install python3-difflib
+        fi
+        echo ""
+
         echo "checking python3-fuzzywuzzy"
-        opkg install python3-fuzzywuzzy
-        echo
+        if python -c "import fuzzywuzzy" &> /dev/null; then
+            echo "Fuzzywuzzy library already installed"
+        else
+            opkg install python3-fuzzywuzzy
+        fi
+        echo ""
+
     else
         echo "checking python-requests"
-        opkg install python-requests
-        echo
+        if python -c "import requests" &> /dev/null; then
+            echo "Requests library already installed"
+        else
+            opkg install python-requests
+        fi
+        echo ""
+
+        echo "checking python-difflib"
+        if python -c "import difflib" &> /dev/null; then
+            echo "Difflib library already installed"
+        else
+            opkg install python-difflib
+        fi
+        echo ""
+
         echo "checking python-fuzzywuzzy"
-        opkg install python-fuzzywuzzy
-        echo
+        if python -c "import fuzzywuzzy" &> /dev/null; then
+            echo "Fuzzywuzzy library already installed"
+        else
+            opkg install python-fuzzywuzzy
+        fi
+        echo ""
     fi
 else
     echo "updating feeds"
@@ -30,17 +65,37 @@ else
     echo
     if [[ $pyv =~ "Python 3" ]]; then
         echo "checking python3-requests"
-        apt-get -y install python3-requests
-        echo
-        echo "checking python3-python-difflib"
-        apt-get -y install python3-python-difflib
+        if python -c "import requests" &> /dev/null; then
+            echo "Requests library already installed"
+        else
+            apt-get -y install python3-requests
+        fi
+        echo ""
+
+        echo "checking python3-difflib"
+        if python -c "import difflib" &> /dev/null; then
+            echo "Difflib library already installed"
+        else
+            apt-get -y install python3-requests
+        fi
+        echo ""
+
     else
         echo "checking python-requests"
-        apt-get -y install python-requests
-        echo
-        echo "checking python-python-difflib"
-        apt-get -y install python-python-difflib
-        echo
+        if python -c "import requests" &> /dev/null; then
+            echo "Requests library already installed"
+        else
+            apt-get -y install python-requests
+        fi
+        echo ""
+
+        echo "checking python-difflib"
+        if python -c "import difflib" &> /dev/null; then
+            echo "Difflib library already installed"
+        else
+            apt-get -y install python-difflib
+        fi
+        echo ""
     fi
 fi
 exit 0

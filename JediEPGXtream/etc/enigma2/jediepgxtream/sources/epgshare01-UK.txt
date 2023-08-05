@@ -469,6 +469,15 @@ TJC.HD.uk
 TJC.uk
 TLC+1.uk
 TLC.HD.uk
+TNT.Sports.1.uk
+TNT.Sports.2.uk
+TNT.Sports.3.uk
+TNT.Sports.4.uk
+TNTSBoxOff2HD.uk
+TNTSports1.HD.uk
+TNTSports2.HD.uk
+TNTSports3.HD.uk
+TNTSports4.HD.uk
 Together.uk
 Trace.Hits.uk
 Trace.Vault.uk

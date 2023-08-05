@@ -1,8 +1,8 @@
 1+1 International
 2000s (SN)
 24 KITCHEN (SN)
-24KITCHEN
 24Kitchen
+24KITCHEN
 24Kitchen_max
 3 SAT
 360 Tune Box
@@ -117,7 +117,6 @@ ATV (SN)
 ATV HD
 Aurora TV
 Aurora TV_max
-AXN
 AXN (SN)
 AXN Spin
 AXN Spin (SN)
@@ -193,7 +192,6 @@ Brazzers TV_max
 BTV
 BTV (SN)
 Bum Bum Radio (SN)
-Bum Radio Nis (SN)
 BVN
 Carnival (SN)
 Cartoon Network
@@ -213,7 +211,6 @@ CGTN Documentary_max
 CGTN_max
 Chansons (SN)
 Chillout (SN)
-China Global Television Network
 Cinemania HD
 Cinemax 2 HD
 Cinemax 2 HD (SN)
@@ -304,8 +301,8 @@ DM SAT_max
 DM-SAT (SN)
 DMC
 DMC_max
-DocuBox
 DOCUBOX
+DocuBox
 DocuBox HD (SN)
 Doku TV_max
 DOKUTV
@@ -413,8 +410,10 @@ Film klub extra (SN)
 FilmBox Arthouse
 FilmBox Arthouse (SN)
 FilmBox Extra
+FilmBox Extra HD (RS)
 FilmBox Extra HD (SN)
 FilmBox Premium
+FilmBox Premium HD (RS)
 Filmbox Premium HD (SN)
 FilmBox Stars
 FilmBox Stars (SN)
@@ -452,7 +451,6 @@ GameHub_max
 Gametoon
 Gametoon (SN)
 Glazzba
-GOLICA TV
 GP1
 GP1_max
 Grand (SR)
@@ -461,8 +459,8 @@ Grand Nostalgija
 Groove (SN)
 Gypsy Party (SN)
 H2 (SN)
-Ha ha
 HA HA
+Ha ha
 Happy
 Happy (SN)
 Happy FM_max
@@ -501,8 +499,8 @@ Herceg TV
 HGTV
 HGTV (SN)
 Hip Hop (SN)
-HISTORY
 History
+HISTORY
 History 2 HD
 History 2_max
 History HD (SN)
@@ -538,8 +536,8 @@ HTV2
 HTV3
 HTV4
 Humana TV Plus (SN)
-Hustler
 HUSTLER
+Hustler
 Hustler (SN)
 Hustler TV_max
 Hype TV
@@ -601,7 +599,6 @@ KCN1
 KCN2
 KCN3
 Keno TV
-KI.KA
 KiKa_max
 Kino TV HD
 Kino TV_max
@@ -742,8 +739,8 @@ Nickelodeon hrvatski_max
 Nickelodeon Junior
 NickMusic
 NickMusic_max
-Nicktoons
 NickToons
+Nicktoons
 Nicktoons (SN)
 Nicktoons (SR)
 NickToons_max
@@ -807,8 +804,8 @@ Pink Erotic 5
 Pink Erotic 6
 Pink Erotic 7
 Pink Erotic 8
-PINK EXTRA
 Pink Extra
+PINK EXTRA
 PINK EXTRA (SN)
 Pink Extra_max
 Pink Family
@@ -836,8 +833,8 @@ Pink Horror
 Pink Horror (SN)
 Pink Kids
 Pink Kids (SN)
-PINK KONCERT
 Pink Koncert
+PINK KONCERT
 PINK KONCERT (SN)
 Pink Koncert_max
 Pink Kuvar
@@ -857,8 +854,8 @@ Pink Music_max
 Pink n roll
 Pink Pedia
 Pink Pedia (SN)
-PINK PLUS
 Pink Plus
+PINK PLUS
 Pink Plus (SN)
 Pink Plus_max
 Pink Premium (SN)
@@ -885,14 +882,14 @@ Pink Thriller
 PINK THRILLER (SN)
 Pink Western
 Pink Western (SN)
-Pink World
 PINK WORLD
+Pink World
 Pink World (SN)
 Pink World Cinema
 Pink World Cinema (SN)
 Pink World_max
-PINK ZABAVA
 Pink Zabava
+PINK ZABAVA
 Pink Zabava (SN)
 PINK&amp;ROLL (SN)
 Pink/Roll
@@ -924,8 +921,8 @@ Prva Kick
 Prva kick (SN)
 Prva Life
 Prva life (SN)
-Prva MAX
 Prva Max
+Prva MAX
 PRVA MAX (SN)
 Prva plus
 PRVA PLUS (SN)
@@ -947,8 +944,6 @@ Radio ExtraFM_max
 Radio HR1_max
 Radio HR2_max
 Radio HR3_max
-Radio IN (SN)
-Radio IN plus (SN)
 Radio JAT (SN)
 Radio Karolina (SN)
 Radio Karolina HD (SN)
@@ -979,7 +974,6 @@ Radio Test 2_max
 Radio Test 3_max
 Radio Test 4_max
 Radio Test 5_max
-Radio TOP FM (SN)
 Radio Top_max
 Radio Trogir_max
 Radio yammatFM_max
@@ -1035,8 +1029,8 @@ RTL HD
 RTL HD_max
 RTL HR (SN)
 RTL HR HD
-RTL KOCKICA
 RTL Kockica
+RTL KOCKICA
 RTL Kockica (SN)
 RTL KOCKICA HD
 RTL Kockica HD_max
@@ -1098,6 +1092,7 @@ RTV HB HD
 RTV HB_max
 RTV HIT
 RTV KD
+RTV Kiss HD (SN)
 RTV Pančevo
 RTV PODRINJE (SN)
 RTV Sarajevo
@@ -1207,8 +1202,8 @@ Toxic TV
 Toxic TV (SN)
 Toxic TV_max
 Trace Sport Stars
-TRACE URBAN
 Trace Urban
+TRACE URBAN
 Trace urban (SN)
 Tracesport (SN)
 Trance (SN)
@@ -1240,7 +1235,6 @@ TV D+
 TV DELTA &amp; MOZAIK (SN)
 TV DISKOS (SN)
 TV DR
-TV ESPANA
 TV FRONT (SN)
 TV FRUSKA GORA (SN)
 TV GEM (SN)
@@ -1289,7 +1283,8 @@ TV Partizan
 TV PARTIZAN HD (SN)
 TV PETROVEC (SN)
 TV PIROT (SN)
-TV PLUS (SN)
+TV Plana (SN)
+TV PLUS HD (SN)
 TV PRIBOJ (SN)
 TV Prijedor
 TV RAS (SN)
@@ -1385,6 +1380,7 @@ ZDRAVA TV-7
 Zdrava TV_max
 Zelena TV Zdravlje
 Zelena TV Zdravlje (SN)
+ZONA PLUS (SN)
 Zvezda TV HD
 Zvezda TV HD (SN)
 Zvuci Skadarlije (SN)

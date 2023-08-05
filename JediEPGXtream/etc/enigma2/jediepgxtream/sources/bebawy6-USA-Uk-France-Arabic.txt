@@ -4,7 +4,7 @@
 24/7: ACTORS:
 4Music
 5 Star Max - Eastern
-5 Star MAX WEST (PACIFIC)
+5 STAR MAX WEST PACIFIC
 5Action
 5Action HD
 5MAX
@@ -184,7 +184,6 @@ BET Her
 BET Jams
 BET Soul
 BET WEST (PACIFIC)
-BET WEST (PACIFIC).us
 Big Ten Network
 Big Ten Network (24/7 Overflow #4) (BTFB4) [405.5]
 Big Ten Network HDTV (24/7 Overflow #1) (BTFB1) [405.2]
@@ -714,11 +713,12 @@ Hallmark Movies &amp; Mysteries - Eastern
 Hallmark Movies &amp; Mysteries - Pacific
 HBO - Eastern Feed
 HBO 2 - Eastern Feed
-HBO 2 WEST (PAFCIFIC
+HBO 2 WEST (PAFCIFIC)
 HBO Comedy - East
 HBO COMEDY WEST (PACIFIC)
 HBO Family - Eastern Feed
-HBO FAMILY WEST (PACIFIC)
+HBO Family West (PACIFIC)
+HBO FAMILY WEST PACIFIC
 HBO Latino (HBO 7) - Eastern
 HBO Signature (HBO 3) - Eastern
 HBO SIGNATURE WEST (PACIFIC)
@@ -741,6 +741,7 @@ How To On Demand
 HSN  - Home Shopping Network
 HSN 2
 Hustler TV USA On Demand
+HYA
 i24news
 Ideal World
 Ideal World Freeview
@@ -926,7 +927,8 @@ More Max (East)
 More4
 More4 HD
 MoreMax  Eastern
-MoreMAX WEST (PACIFIC)
+MoreMax Eastern
+MoreMax West (Pacific)
 Motor Trend
 Motor Trend HD
 MOVIE
@@ -1263,8 +1265,10 @@ ShopHQ (KSCI) Los Angeles, CA
 Showtime - Eastern Feed
 Showtime 2 - Eastern
 Showtime Extreme - Eastern
+Showtime Extreme West (PACIFIC)
 Showtime FamilyZone (East) (SHOFe) [324]
 Showtime Showcase - Eastern
+Showtime Showcase West (PACIFIC)
 SHOXBET - Eastern
 Sky Arts
 Sky Arts HD
@@ -1383,6 +1387,7 @@ Starz Encore Westerns - Eastern
 Starz In Black - Eastern
 Starz Kids &amp; Family - Eastern
 Starz On Demand
+Starz West (PACIFIC)
 StarzPlay CRLife 1 HD
 StarzPlay CRLife 2 HD
 StarzPlay PREMER SPORTS FHD
@@ -1425,7 +1430,7 @@ The_Pit
 THMAX
 THMAXP
 ThrillerMax - East
-ThrillerMAX WEST (PACIFIC)
+ThrillerMax West (PACIFIC)
 Tiny Pop
 Tiny Pop +1
 TLC

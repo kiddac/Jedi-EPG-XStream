@@ -6,8 +6,8 @@ Alpha.gr
 Animal.Planet.gr
 Ant1.gr
 Asharq.News.gr
-ATTICA.TV.gr
 Attica.TV.gr
+ATTICA.TV.gr
 Baby.TV.gr
 BBC.Earth.HD.gr
 BBC.News.gr

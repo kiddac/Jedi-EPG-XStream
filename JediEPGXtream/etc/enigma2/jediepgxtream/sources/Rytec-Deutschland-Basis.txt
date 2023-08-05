@@ -8,6 +8,7 @@ ARD-alpha.de
 ARTE.de
 beINGurme.tr
 beINMoviesTurk.tr
+Bergblick.de
 BibelTV.de
 BILD.de
 BRFernsehen.de
@@ -66,6 +67,8 @@ RTLNitro.de
 RTLPlus.de
 RTLUHD.de
 RTRPlaneta.ru
+SachsenEins.de
+SachsenFernsehen-Dresden.de
 Sat1.de
 Sat1Gold.de
 SchlagerDeluxe.de

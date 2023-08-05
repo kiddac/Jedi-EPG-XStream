@@ -73,6 +73,7 @@ HBO.2.hu
 HBO.3.hu
 HBO.hu
 Heti.TV.hu
+HGTV.hu
 HISTORY.hu
 Hír.TV.hu
 Investigation.Discovery.hu

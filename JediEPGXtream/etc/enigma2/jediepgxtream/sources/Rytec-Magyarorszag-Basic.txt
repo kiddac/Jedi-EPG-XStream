@@ -32,6 +32,7 @@ Eurosport2.hu
 EWTNBonumTV.hu
 FashionTV.hu
 FEM3.hu
+FineLiving.hu
 FishingHunting.hu
 Fit.hu
 Fix.hu
@@ -58,6 +59,7 @@ m3.hu
 M4Sport.hu
 m5.hu
 MagyarATV.hu
+MagyarMozi.hu
 Max4.hu
 Minimax.hu
 MoozDance.hu

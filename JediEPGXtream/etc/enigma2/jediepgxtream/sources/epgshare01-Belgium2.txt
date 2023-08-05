@@ -23,7 +23,6 @@
 (BE)..CINE.+.CLASSIC.BE.be
 (BE)..CINE.+.FRISSON.BE.be
 (BE)..CINE.+.PREMIER.BE.be
-(BE)..CLUB.RTL.be
 (BE)..CNEWS.be
 (BE)..COMEDIE.+.be
 (BE)..CSTAR.be
@@ -75,10 +74,11 @@
 (BE)..PLANETE+.CI.be
 (BE)..PLANETE.+.be
 (BE)..PLAYBOY.TV.be
-(BE)..PLUG.RTL.be
 (BE)..RAI.1.be
 (BE)..RMC.SPORT.2.be
-(BE)..RTL.TVI.be
+(BE)..RTL.club.be
+(BE)..RTL.plug.be
+(BE)..RTL.tvi.be
 (BE)..RTS.DEUX.be
 (BE)..RTS.UN.be
 (BE)..SCIENCE.&amp;.VIE.TV.be
@@ -108,6 +108,10 @@
 (BE)..VTM3.be
 (BE)..VTM4.be
 (BE)..Warner.TV.be
+(BE).Amazon.Prime.be
+(BE).Apple.TV.be
+(BE).Disney+.be
+(BE).Netflix.be
 (FR)..13EME.RUE.be
 (FR)..6TER.be
 (FR)..8.MONT-BLANC.be
@@ -143,7 +147,6 @@
 (FR)..CINE.+.FAMIZ.be
 (FR)..CINE.+.FRISSON.be
 (FR)..CINE.+.PREMIER.be
-(FR)..CLUB.RTL.be
 (FR)..CNEWS.be
 (FR)..COMEDIE.+.be
 (FR)..CSTAR.be
@@ -201,7 +204,6 @@
 (FR)..PLANETE+.CI.be
 (FR)..PLANETE.+.be
 (FR)..PLAYBOY.TV.be
-(FR)..PLUG.RTL.be
 (FR)..POLAR.+.be
 (FR)..PUBLIC.SENAT.-.LCP.AN.be
 (FR)..RAI.1.be
@@ -211,7 +213,9 @@
 (FR)..RMC.SPORT.3.be
 (FR)..RMC.STORY.be
 (FR)..RTL.9.be
-(FR)..RTL.TVI.be
+(FR)..RTL.club.be
+(FR)..RTL.plug.be
+(FR)..RTL.tvi.be
 (FR)..RTS.DEUX.be
 (FR)..RTS.UN.be
 (FR)..SCIENCE.&amp;.VIE.TV.be
@@ -239,6 +243,10 @@
 (FR)..W9.be
 (FR)..Warner.TV.be
 (FR)..XXL.be
+(FR).Amazon.Prime.be
+(FR).Apple.TV.be
+(FR).Disney+.be
+(FR).Netflix.be
 (NL)..13EME.RUE.be
 (NL)..ARTE.be
 (NL)..AUTOMOTO.be
@@ -248,7 +256,6 @@
 (NL)..BOOMERANG.be
 (NL)..CANVAS.be
 (NL)..CARTOON.NETWORK.be
-(NL)..CLUB.RTL.be
 (NL)..DISCOVERY.CHANNEL.be
 (NL)..E!.ENTERTAINMENT.be
 (NL)..EEN.be
@@ -274,9 +281,10 @@
 (NL)..PEBBLE.TV.be
 (NL)..PLAY.MORE.Kicks.be
 (NL)..PLAYBOY.TV.be
-(NL)..PLUG.RTL.be
 (NL)..RAI.1.be
-(NL)..RTL.TVI.be
+(NL)..RTL.club.be
+(NL)..RTL.plug.be
+(NL)..RTL.tvi.be
 (NL)..STUDIO100tv.be
 (NL)..TF1.be
 (NL)..TIPIK.be
@@ -284,14 +292,6 @@
 (NL)..TV.BREIZH.be
 (NL)..VIER.be
 (NL)..VIJF.be
-(NL)..VTM.be
-(NL)..VTM.GOLD.be
-(NL)..VTM.KIDS.be
-(NL)..VTM2.be
-(NL)..VTM3.be
-(NL)..VTM4.be
-(NL)..Warner.TV.be
-(NL)..ZES.be
 Play.Sports.1.be
 Play.Sports.2.be
 Play.Sports.3.be

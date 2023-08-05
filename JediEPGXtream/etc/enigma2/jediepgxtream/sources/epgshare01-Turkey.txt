@@ -36,8 +36,8 @@ beIN.SPORTS.HABER.tr
 beIN.SPORTS.MAX.HD.1.tr
 beIN.SPORTS.MAX.HD.2.tr
 beIN.tr
-BENGÜTÜRK.TV.tr
 Bengütürk.TV.tr
+BENGÜTÜRK.TV.tr
 BEYAZ.TV.HD.tr
 BLOOMBERG.HD.tr
 Bloomberg.HT.HD.tr

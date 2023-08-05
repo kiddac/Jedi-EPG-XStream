@@ -7,13 +7,11 @@ BFMTV.fr
 C8.fr
 CANALplus.fr
 Cherie25.fr
-CliqueTV.fr
 CNews.fr
 ComedyCentral.fr
 CStar.fr
 CStarHitsFrance.fr
 EquipeTV.fr
-Foot24.fr
 France2.fr
 France3.fr
 France3Alpes.fr
@@ -34,6 +32,7 @@ France3Limousin.fr
 France3Lorraine.fr
 France3Midi-Pyrenees.fr
 France3Nord-PasDeCalais.fr
+France3NouvelleAquitaine.fr
 France3Paris-IdF.fr
 France3PaysDeLaLoire.fr
 France3Picardie.fr

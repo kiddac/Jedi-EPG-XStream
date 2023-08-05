@@ -8,7 +8,6 @@ from Components.ActionMap import ActionMap
 from Components.Label import Label
 from Components.Sources.List import List
 from Components.Sources.StaticText import StaticText
-from difflib import get_close_matches
 from enigma import eTimer
 from os import system, chmod
 from Screens.Console import Console
@@ -157,16 +156,16 @@ class JediEPGXtream_Main(Screen):
         if os.path.exists('/var/lib/dpkg/status'):
             try:
                 import requests
-                print("** *dependancies passed ***")
+                import difflib
             except Exception as e:
                 print(e)
                 dependencies = False
         else:
             try:
                 import requests
+                import difflib
                 from fuzzywuzzy import fuzz
                 from fuzzywuzzy import process
-                print("** *dependancies passed ***")
             except Exception as e:
                 print(e)
                 dependencies = False
@@ -530,12 +529,14 @@ class JediEPGXtream_Main(Screen):
         self.timer.start(5, True)
 
     def getMatchList(self, name):
+        from difflib import get_close_matches
+
         try:
             from fuzzywuzzy import fuzz
             from fuzzywuzzy import process
-            fuzzy = True
+            self.fuzzy = True
         except:
-            fuzzy = False
+            self.fuzzy = False
 
         self.list4 = []
         epgidlist = []
@@ -560,7 +561,7 @@ class JediEPGXtream_Main(Screen):
             matchlist = []
             namelist = []
 
-            if fuzzy:
+            if self.fuzzy:
                 matchlist = process.extract(self["list2"].getCurrent()[0], epgidlist, limit=42, scorer=fuzz.token_sort_ratio)
 
                 for match in matchlist:
@@ -836,7 +837,8 @@ class JediEPGXtream_Main(Screen):
                         for channel in bouquet["channel"]:
                             serviceid = str(channel["serviceid"])
                             convertedserviceid = serviceid.replace(serviceid.split(":")[0], "1")
-                            xml_str += '<channel id="' + str(channel["epgid"]) + '">' + str(convertedserviceid) + 'http%3a//example.m3u8</channel> <!-- ' + str(channel["description"]) + '-->\n'
+                            channeldescription = channel["description"].replace("<", "").replace(">", "").replace("-", "")
+                            xml_str += '<channel id="' + str(channel["epgid"]) + '">' + str(convertedserviceid) + 'http%3a//example.m3u8</channel> <!-- ' + str(channeldescription) + ' -->\n'
 
             xml_str += '</channels>\n'
             f.write(xml_str)

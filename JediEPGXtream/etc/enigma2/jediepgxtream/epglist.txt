@@ -7,83 +7,67 @@
 
 # Rytec-All http://www.xmltvepg.nl/rytec.channels.xml.xz
 
-Rytec-Bulgariya http://www.xmltvepg.nl/rytecBG.xz
+Rytec-News http://www.xmltvepg.nl/rytecNWS.xz
+Rytec-Erotic http://www.xmltvepg.nl/rytecERO.xz
+Rytec-AFN http://www.xmltvepg.nl/rytecAFN.xz
+Rytec-IPTV http://www.xmltvepg.nl/rytecIPTV.xz
+Rytec-Miscellaneous http://www.xmltvepg.nl/rytecMisc.xz
+Rytec-Nederland-Basis http://www.xmltvepg.nl/rytecNL_Basic.xz
+Rytec-Vlaanderen-Nederland http://www.xmltvepg.nl/rytecBE_NL_Common.xz
+Rytec-Nederland-Sport-Movies http://www.xmltvepg.nl/rytecNL_Extra.xz
+Rytec-Wallonie-Telesat-Base http://www.xmltvepg.nl/rytecBE_FR_Basic.xz
+Rytec-France-TNT http://www.xmltvepg.nl/rytecTNT_Basic.xz
+Rytec-France-Wallonie-Commun http://www.xmltvepg.nl/rytecBE_FR_Common.xz
+Rytec-France-Mixte http://www.xmltvepg.nl/rytecFR_Mixte.xz
+Rytec-France-Sport-Cinema http://www.xmltvepg.nl/rytecFR_SportMovies.xz
+Rytec-Bulgaria http://www.xmltvepg.nl/rytecBG.xz
+Rytec-Slovensko-Bazicky http://www.xmltvepg.nl/rytecSK_Basic.xz
 Rytec-Ceska-Bazicky http://www.xmltvepg.nl/rytecCZ_Basic.xz
 Rytec-Ceska-Slovensko-Rozdeleny http://www.xmltvepg.nl/rytecCZ_SK_Common.xz
 Rytec-Ceska-Slovensko-Sportove-Filmy http://www.xmltvepg.nl/rytecCZ_SK_SportMovies.xz
-Rytec-Danmark-Delt http://www.xmltvepg.nl/rytecDK_Misc.xz
 Rytec-Danmark-Grundleggende http://www.xmltvepg.nl/rytecDK_Basic.xz
+Rytec-Danmark-Delt http://www.xmltvepg.nl/rytecDK_Misc.xz
 Rytec-Danmark-Sport-Movies http://www.xmltvepg.nl/rytecDK_SportMovies.xz
-Rytec-Deutsch-Osterreich-Switz-Gemeinsam http://www.xmltvepg.nl/rytecDE_Common.xz
-Rytec-Deutsch-Osterreich-Switz-Sports-Film http://www.xmltvepg.nl/rytecDE_SportMovies.xz 
 Rytec-Deutschland-Basis http://www.xmltvepg.nl/rytecDE_Basic.xz
-Rytec-Ellada-Athlitismos-Kinimatografou http://www.xmltvepg.nl/rytecGR_SportMovies.xz
+Rytec-Osterreich-Basis http://www.xmltvepg.nl/rytecAT_Basic.xz
+Rytec-Switzerland-Basis http://www.xmltvepg.nl/rytecCH_Basic.xz
+Rytec-Deutsch-Osterreich-Switz-Gemeinsam http://www.xmltvepg.nl/rytecDE_Common.xz
+Rytec-Deutsch-Osterreich-Switz-Sports-Film http://www.xmltvepg.nl/rytecDE_SportMovies.xz
 Rytec-Ellada-Genikos http://www.xmltvepg.nl/rytecGR_Basic.xz
-Rytec-Erotic http://www.xmltvepg.nl/rytecERO.xz
-Rytec-Espana-Adicional http://www.xmltvepg.nl/rytecES_Misc.xz
-Rytec-Espana-Basic http://www.xmltvepg.nl/rytecES_Basic.xz
-Rytec-Espana-Deportes-Pelicula http://www.xmltvepg.nl/rytecES_SportMovies.xz
-Rytec-France-Mixte http://www.xmltvepg.nl/rytecFR_Mixte.xz
-Rytec-France-Sport-Cinema http://www.xmltvepg.nl/rytecFR_SportMovies.xz
-Rytec-France-TNT http://www.xmltvepg.nl/rytecTNT_Basic.xz
-Rytec-France-Wallonie-Commun http://www.xmltvepg.nl/rytecBE_FR_Common.xz
-Rytec-Hrvatska-Dodatni http://www.xmltvepg.nl/rytecHRV_Misc.xz
-Rytec-Hrvatska-Osnovni http://www.xmltvepg.nl/rytecHRV_Basic.xz
-Rytec-Hrvatska-Sport-Film http://www.xmltvepg.nl/rytecExYu_SportMovies.xz
-Rytec-IPTV-int http://www.xmltvepg.nl/rytecIPTV.xz
+Rytec-Ellada-Athlitismos-Kinimatografou http://www.xmltvepg.nl/rytecGR_SportMovies.xz
 Rytec-Italia-Basis http://www.xmltvepg.nl/rytecIT_Basic.xz
 Rytec-Italia-Sky http://www.xmltvepg.nl/rytecIT_Sky.xz
 Rytec-Italia-Sports-Film-Premium http://www.xmltvepg.nl/rytecIT_SportMovies.xz
-Rytec-Koala-7-dias-XMLTV http://tropical.jungle-team.online/epg/koala7.xml.gz
+Rytec-Polska-Podstawowy http://www.topolowa4.pl/azman_basic.xml.xz
+Rytec-Polska-Dodatkowy http://www.topolowa4.pl/azman_misc.xml.xz
+Rytec-Polska-IPTV http://www.topolowa4.pl/azman_iptv.xml.xz
+Rytec-Polska-Radio http://www.topolowa4.pl/azman_radio.xml.xz
+Rytec-Portugal http://www.xmltvepg.nl/rytecPT.xz
 Rytec-Magyarorszag-Basic http://www.xmltvepg.nl/rytecHU_Basic.xz
 Rytec-Magyarorszag-Sport-Film http://www.xmltvepg.nl/rytecHU_SportMovies.xz
-Rytec-Miscellaneous http://www.xmltvepg.nl/rytecMisc.xz
-Rytec-Nederland-Basis http://www.xmltvepg.nl/rytecNL_Basic.xz
-Rytec-Nederland-Sport-Movies http://www.xmltvepg.nl/rytecNL_Extra.xz
-Rytec-News-Channels http://www.xmltvepg.nl/rytecNWS.xz
 Rytec-Norge-Basic http://www.xmltvepg.nl/rytecNO_Basic.xz
 Rytec-Norge-Delt http://www.xmltvepg.nl/rytecNO_Misc.xz
 Rytec-Norge-Sport-Movies http://www.xmltvepg.nl/rytecNO_SportMovies.xz
-Rytec-Osterreich-Basis http://www.xmltvepg.nl/rytecAT_Basic.xz
-Rytec-Polska-Dodatkowy http://www.xmltvepg.nl/rytecPL_Misc.xz
-Rytec-Polska-Podstawowy http://www.xmltvepg.nl/rytecPL_Basic.xz
-Rytec-Polska-Sport-Kino http://www.xmltvepg.nl/rytecPL_SportMovies.xz
-Rytec-Portugal http://www.xmltvepg.nl/rytecPT.xz
 Rytec-Romania-Baza http://www.xmltvepg.nl/rytecRO_Basic.xz
 Rytec-Romania-Sport-Film http://www.xmltvepg.nl/rytecRO_SportMovies.xz
-Rytec-Slovenija-Dodatni http://www.xmltvepg.nl/rytecSVN_Misc.xz
-Rytec-Slovenija-Podlaga http://www.xmltvepg.nl/rytecSVN_Basic.xz
-Rytec-Slovenija-Sport-Film http://www.xmltvepg.nl/rytecExYu_SportMovies.xz
-Rytec-Slovensko-Bazicky http://www.xmltvepg.nl/rytecSK_Basic.xz
-Rytec-Srbija-Crna-Gora-Dodatni http://www.xmltvepg.nl/rytecSRB_Misc.xz
+Rytec-Hrvatska-Osnovni http://www.xmltvepg.nl/rytecHRV_Basic.xz
+Rytec-Hrvatska-Dodatni http://www.xmltvepg.nl/rytecHRV_Misc.xz
+Rytec-Hrvatska-Sport-Film http://www.xmltvepg.nl/rytecExYu_SportMovies.xz
 Rytec-Srbija-Crna-Gora-Osnovni http://www.xmltvepg.nl/rytecSRB_Basic.xz
+Rytec-Srbija-Crna-Gora-Dodatni http://www.xmltvepg.nl/rytecSRB_Misc.xz
 Rytec-Srbija-Crna-Gora-Sport-Film http://www.xmltvepg.nl/rytecExYu_SportMovies.xz
-Rytec-Suomi-Sport-Movies http://www.xmltvepg.nl/rytecFI_SportMovies.xz
-Rytec-Suomi-Yhteinen http://www.xmltvepg.nl/rytecFI_Misc.xz
-Rytec-Sverige-Diverse http://www.xmltvepg.nl/rytecSE_Misc.xz
+Rytec-Slovenija-Podlaga http://www.xmltvepg.nl/rytecSVN_Basic.xz
+Rytec-Slovenija-Dodatni http://www.xmltvepg.nl/rytecSVN_Misc.xz
+Rytec-Slovenija-Sport-Film http://www.xmltvepg.nl/rytecExYu_SportMovies.xz
 Rytec-Sverige-Grundlaggande http://www.xmltvepg.nl/rytecSE_Basic.xz
+Rytec-Sverige-Diverse http://www.xmltvepg.nl/rytecSE_Misc.xz
 Rytec-Sverige-Sport-Filmer http://www.xmltvepg.nl/rytecSE_SportMovies.xz
-Rytec-Switzerland-Basis http://www.xmltvepg.nl/rytecCH_Basic.xz
-Rytec-UK-Ireland-FTA http://www.xmltvepg.nl/rytecUK_FTA.xz
+Rytec-Suomi-Perustiedot http://www.xmltvepg.nl/rytecFI_Basic.xz
+Rytec-Suomi-Yhteinen http://www.xmltvepg.nl/rytecFI_Misc.xz
+Rytec-Suomi-Sport-Movies http://www.xmltvepg.nl/rytecFI_SportMovies.xz
 Rytec-UK-Ireland-FreeSat http://www.xmltvepg.nl/rytecUK_Basic.xz
-Rytec-UK-Ireland-International http://www.xmltvepg.nl/rytecUK_int.xz
-Rytec-UK-Ireland-Sky-1-(Live-on-sat) http://www.xmltvepg.nl/rytecUK_SkyLive.xz
-Rytec-UK-Ireland-Sky-2-(Dead-on-sat) http://www.xmltvepg.nl/rytecUK_SkyDead.xz
+Rytec-UK-Ireland-Sky http://www.xmltvepg.nl/rytecUK_SkyLive.xz
 Rytec-UK-Ireland-Sports-Movies http://www.xmltvepg.nl/rytecUK_SportMovies.xz
-Rytec-Vlaanderen-Basis http://www.xmltvepg.nl/rytecBE_VL_Basic.xz
-Rytec-Vlaanderen-Nederland-Gemeenschappelijk http://www.xmltvepg.nl/rytecBE_NL_Common.xz
-Rytec-Wallonie-Telesat-Base http://www.xmltvepg.nl/rytecBE_FR_Basic.xz
-
-# Inedispirou-Arab http://www.inedispirou.com/media/epg/guide_mena-a.xz
-# Inedispirou-Arab-English http://www.inedispirou.com/media/epg/guide_mena-e.xz
-# Inedispirou-France http://www.inedispirou.com/media/epg/guide_fr.xz
-# Inedispirou-Germany http://www.inedispirou.com/media/epg/guide_de.xz
-# Inedispirou-Italy http://www.inedispirou.com/media/epg/guide_it.xz
-# Inedispirou-Poland http://www.inedispirou.com/media/epg/guide_pl.xz
-# Inedispirou-Spain http://www.inedispirou.com/media/epg/guide_es.xz
-# Inedispirou-UK-Freesat http://www.inedispirou.com/media/epg/guide_uk.xz
-# Inedispirou-UK-Sky http://www.inedispirou.com/media/epg/guide_uk_sky.xz
-# Inedispirou-UK-International http://www.inedispirou.com/media/epg/guide_uk_orient.xz
 
 epgshare01-Albania https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz
 epgshare01-Argentina https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz
@@ -112,8 +96,8 @@ epgshare01-New-Zealand https://epgshare01.online/epgshare01/epg_ripper_NZ1.xml.g
 epgshare01-Panama https://epgshare01.online/epgshare01/epg_ripper_PA1.xml.gz
 epgshare01-Poland https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz
 epgshare01-Portugal https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz
-epgshare01-Romania https://epgshare01.online/epgshare01/epg_ripper_RO1.xml.gz
-epgshare01-Romania https://epgshare01.online/epgshare01/epg_ripper_RO2.xml.gz
+epgshare01-Romania1 https://epgshare01.online/epgshare01/epg_ripper_RO1.xml.gz
+epgshare01-Romania2 https://epgshare01.online/epgshare01/epg_ripper_RO2.xml.gz
 # epgshare01-Russia https://epgshare01.online/epgshare01/epg_ripper_RU1.xml.gz
 epgshare01-Saudi-Arabia https://epgshare01.online/epgshare01/epg_ripper_SA1.xml.gz
 epgshare01-South-Africa https://epgshare01.online/epgshare01/epg_ripper_ZA1.xml.gz

@@ -92,8 +92,6 @@ SonyMix.uk
 SonyTVAsia.uk
 StarGold.uk
 StarPlus.uk
-TCM.uk
-TCMplus1.uk
 TLC.uk
 TLCplus1.uk
 TRTE.ie

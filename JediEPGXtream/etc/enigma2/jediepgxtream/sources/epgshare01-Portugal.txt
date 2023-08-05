@@ -197,8 +197,8 @@ TVEi.pt
 tvi.africa.pt
 tvi.ficcao.pt
 TVI.FICÇÃO.pt
-TVI.Internacional.pt
 tvi.internacional.pt
+TVI.Internacional.pt
 TVI.pt
 tvi.reality.pt
 TVI.Reality.–.Big.Brother.pt

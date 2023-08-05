@@ -90,7 +90,6 @@ HBO2.bg
 HBO3.bg
 HGTV.bg
 HistoryChannel.bg
-HistoryHD.bg
 HobbyTV.bg
 ID.bg
 IDXtra.bg

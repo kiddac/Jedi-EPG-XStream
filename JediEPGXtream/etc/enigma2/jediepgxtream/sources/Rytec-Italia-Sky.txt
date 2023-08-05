@@ -29,9 +29,6 @@ NickJr.it
 NickJrPlus1.it
 Pesca.it
 RadioItalia.it
-Rai1Plus1.it
-Rai2Plus1.it
-Rai3Plus1.it
 Sky24Meteo.it
 SkyDocumentaries+1.it
 SkyDocumentaries.it

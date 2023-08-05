@@ -12,6 +12,10 @@ CartoonNetwork.de
 CractionTV.de
 CrimeInvestigation.de
 CuriosityChannel.de
+DeluxeDance.de
+DeluxeFlashback.de
+DeluxeRap.de
+DeluxeRock.de
 DieNeueZeitTV.de
 DiscoveryChannel.de
 DMAX.ch
@@ -29,6 +33,7 @@ History.de
 HistoryHD.de
 HopeChannel.de
 Jukebox.de
+Just Cooking
 Kinowelt.de
 KTV.de
 LustPur.de
@@ -41,6 +46,7 @@ NatGeoHD.de
 NatGeoWild.de
 NickJr.de
 Nicktoons.de
+One Terra
 OneMusicTelevision.de
 ProSiebenFun.de
 RheinNeckarFernsehen.de
@@ -67,4 +73,5 @@ Universal.de
 VolksmusikTV.de
 Waidwerk.de
 WeltDerWunder.de
+XPLORE
 ZweiMusicTelevision.de

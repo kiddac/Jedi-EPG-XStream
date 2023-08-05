@@ -9,8 +9,8 @@ BBC.World.News.vn
 Bloomberg.vn
 Boomerang.vn
 BTV5.HD.vn
-Cartoon.Network.vn
 CARTOON.NETWORK.vn
+Cartoon.Network.vn
 Cinema.World.vn
 Cinemax.vn
 CNN.vn
@@ -49,8 +49,8 @@ K+1.HD.vn
 K+NS.HD.vn
 K+PC.HD.vn
 K+PM.HD.vn
-KBS.WORLD.vn
 KBS.World.vn
+KBS.WORLD.vn
 KG.-.KIÊN.GIANG.vn
 LA34.-.LONG.AN.vn
 MTV.Vietnam.vn

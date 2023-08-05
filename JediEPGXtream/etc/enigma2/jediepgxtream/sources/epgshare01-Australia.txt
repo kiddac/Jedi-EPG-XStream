@@ -115,9 +115,6 @@ Aurora.au
 BBCEarth.au
 BBCFirst.au
 BBCWorldNews.au
-beINSports1.au
-beINSports2.au
-beINSports3.au
 BloombergTelevision.au
 Boomerang.au
 BoxSets.au

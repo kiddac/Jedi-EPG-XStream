@@ -20,7 +20,6 @@ DMAX.it
 DMAXPlus1.it
 DonnaTV.it
 EQUTV.it
-eTVMarche.it
 Eurosport1.it
 Eurosport2.it
 Focus.it
