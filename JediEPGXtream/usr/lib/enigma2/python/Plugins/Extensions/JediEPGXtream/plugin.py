@@ -39,8 +39,8 @@ elif screenwidth.width() <= 1920:
 else:
     skin_directory = "/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/skin/uhd/"
 
-hdr = {'User-Agent': 'Enigma2 - Jedi EPG XStream Plugin'}
-
+# hdr = {'User-Agent': 'Enigma2 - Jedi EPG XStream Plugin'}
+hdr = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36'}
 
 if os.path.isdir('/usr/lib/enigma2/python/Plugins/Extensions/EPGImport'):
     has_epg_importer = True

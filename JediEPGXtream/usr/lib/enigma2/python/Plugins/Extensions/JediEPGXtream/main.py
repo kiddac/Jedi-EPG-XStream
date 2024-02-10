@@ -404,7 +404,6 @@ class JediEPGXtream_Main(Screen):
         except:
             from httplib import HTTPConnection
             HTTPConnection.debuglevel = 0
-        requests.packages.urllib3.disable_warnings()
         try:
             r = requests.get(url, headers=hdr, stream=True, timeout=10)
             r.raise_for_status()
@@ -431,7 +430,7 @@ class JediEPGXtream_Main(Screen):
                         self.timer.callback.append(boundFunction(self.openSource, name, url))
                     except:
                         self.openSource(name, url)
-                self.timer.start(5, True)
+                self.timer.start(10, True)
             else:
                 print("**** bad response ***")
 
@@ -487,7 +486,7 @@ class JediEPGXtream_Main(Screen):
                 self.timer.callback.append(boundFunction(self.parseXMLFile, name, url))
             except:
                 self.parseXMLFile(name, url)
-        self.timer.start(5, True)
+        self.timer.start(10, True)
 
     def parseXMLFile(self, name, url):
         epgidlist = []
@@ -526,7 +525,7 @@ class JediEPGXtream_Main(Screen):
                 self.timer.callback.append(boundFunction(self.getMatchList, name))
             except:
                 self.getMatchList(name)
-        self.timer.start(5, True)
+        self.timer.start(10, True)
 
     def getMatchList(self, name):
         from difflib import get_close_matches
@@ -969,7 +968,7 @@ class JediEPGXtream_Main(Screen):
                         self.timer.callback.append(boundFunction(self.getMatchList, name))
                     except:
                         self.getMatchList(name)
-                self.timer.start(5, True)
+                self.timer.start(10, True)
 
     def selection4Changed(self):
         if self.selectedList.getCurrent() and self.selectedList == self["list4"]:
@@ -1028,7 +1027,7 @@ class JediEPGXtream_Main(Screen):
                             self.timer.callback.append(boundFunction(self.downloadSource, name, url))
                         except:
                             self.downloadSource(name, url)
-                    self.timer.start(5, True)
+                    self.timer.start(10, True)
 
     def keyblue(self):
         if self['key_blue'].getText():
