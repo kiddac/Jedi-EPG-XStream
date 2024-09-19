@@ -52,13 +52,13 @@ Rytec-Romania-Baza http://www.xmltvepg.nl/rytecRO_Basic.xz
 Rytec-Romania-Sport-Film http://www.xmltvepg.nl/rytecRO_SportMovies.xz
 Rytec-Hrvatska-Osnovni http://www.xmltvepg.nl/rytecHRV_Basic.xz
 Rytec-Hrvatska-Dodatni http://www.xmltvepg.nl/rytecHRV_Misc.xz
-Rytec-Hrvatska-Sport-Film http://www.xmltvepg.nl/rytecExYu_SportMovies.xz
+Rytec-Hrvatska-Sport-Film http://www.xmltvepg.nl/rytecHRV_SportMovies.xz
 Rytec-Srbija-Crna-Gora-Osnovni http://www.xmltvepg.nl/rytecSRB_Basic.xz
 Rytec-Srbija-Crna-Gora-Dodatni http://www.xmltvepg.nl/rytecSRB_Misc.xz
-Rytec-Srbija-Crna-Gora-Sport-Film http://www.xmltvepg.nl/rytecExYu_SportMovies.xz
+Rytec-Srbija-Crna-Gora-Sport-Film http://www.xmltvepg.nl/rytecSRB_SportMovies.xz
 Rytec-Slovenija-Podlaga http://www.xmltvepg.nl/rytecSVN_Basic.xz
 Rytec-Slovenija-Dodatni http://www.xmltvepg.nl/rytecSVN_Misc.xz
-Rytec-Slovenija-Sport-Film http://www.xmltvepg.nl/rytecExYu_SportMovies.xz
+Rytec-Slovenija-Sport-Film http://www.xmltvepg.nl/rytecSVN_SportMovies.xz
 Rytec-Sverige-Grundlaggande http://www.xmltvepg.nl/rytecSE_Basic.xz
 Rytec-Sverige-Diverse http://www.xmltvepg.nl/rytecSE_Misc.xz
 Rytec-Sverige-Sport-Filmer http://www.xmltvepg.nl/rytecSE_SportMovies.xz
@@ -78,7 +78,9 @@ epgshare01-Bulgaria https://epgshare01.online/epgshare01/epg_ripper_BG1.xml.gz
 epgshare01-Brazil https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz
 epgshare01-Canada https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz
 epgshare01-Costa-Rica https://epgshare01.online/epgshare01/epg_ripper_CR1.xml.gz
+epgshare01-Denmark https://epgshare01.online/epgshare01/epg_ripper_DK1.xml.gz 
 epgshare01-Dominican-Republic https://epgshare01.online/epgshare01/epg_ripper_DO1.xml.gz
+epgshare01-Egypt https://epgshare01.online/epgshare01/epg_ripper_EG1.xml.gz  
 epgshare01-Finland https://epgshare01.online/epgshare01/epg_ripper_FI1.xml.gz
 epgshare01-France https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz
 epgshare01-Germany https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz
@@ -86,24 +88,26 @@ epgshare01-Greece https://epgshare01.online/epgshare01/epg_ripper_GR1.xml.gz
 epgshare01-Hungary https://epgshare01.online/epgshare01/epg_ripper_HU1.xml.gz
 epgshare01-Hong-Kong https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz
 epgshare01-Ireland https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz
-epgshare01-India https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz
+epgshare01-India2 https://epgshare01.online/epgshare01/epg_ripper_IN2.xml.gz
+epgshare01-India4 https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz
 epgshare01-Israel https://epgshare01.online/epgshare01/epg_ripper_IL1.xml.gz
 epgshare01-Italy https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz
 epgshare01-Malyasia https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz
 epgshare01-Mexico-Latin-America https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz
 epgshare01-Netherlands https://epgshare01.online/epgshare01/epg_ripper_NL1.xml.gz
 epgshare01-New-Zealand https://epgshare01.online/epgshare01/epg_ripper_NZ1.xml.gz
+epgshare01-Norway https://epgshare01.online/epgshare01/epg_ripper_NO1.xml.gz    
 epgshare01-Panama https://epgshare01.online/epgshare01/epg_ripper_PA1.xml.gz
 epgshare01-Poland https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz
 epgshare01-Portugal https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz
 epgshare01-Romania1 https://epgshare01.online/epgshare01/epg_ripper_RO1.xml.gz
 epgshare01-Romania2 https://epgshare01.online/epgshare01/epg_ripper_RO2.xml.gz
-# epgshare01-Russia https://epgshare01.online/epgshare01/epg_ripper_RU1.xml.gz
-epgshare01-Saudi-Arabia https://epgshare01.online/epgshare01/epg_ripper_SA1.xml.gz
+# epgshare01-Saudi-Arabia https://epgshare01.online/epgshare01/epg_ripper_SA1.xml.gz
 epgshare01-South-Africa https://epgshare01.online/epgshare01/epg_ripper_ZA1.xml.gz
 epgshare01-Spain https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz
 epgshare01-Switzerland https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz
-epgshare01-Turkey https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz
+epgshare01-Sweden https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz   
+# epgshare01-Turkey https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz
 epgshare01-Turkey2 https://epgshare01.online/epgshare01/epg_ripper_TR2.xml.gz
 epgshare01-Turkey3 https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz
 epgshare01-UK https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz
@@ -118,7 +122,6 @@ epgshare01-OptusSports https://epgshare01.online/epgshare01/epg_ripper_OPTUSSPOR
 epgshare01-SportkKlub https://epgshare01.online/epgshare01/epg_ripper_SPORTKLUB1.xml.gz
 
 epgshare01-PlutoV1 https://epgshare01.online/epgshare01/epg_ripper_PLUTOTV1.xml.gz
-# epgshare01-PlutoV2 https://epgshare01.online/epgshare01/epg_ripper_PLUTOTV2.xml.gz
 
 optus-sport https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Optus/epg.xml.gz
 # plutotv-uk https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/gb.xml.gz
@@ -132,6 +135,4 @@ SerbianForum http://epg.serbianforum.org/losmij/epg.xml.gz
 # iptv-one-Russia https://iptvx.one/epg/epg.xml.gz
 
 TVprofil-Croatia-General http://tvprofil.net/xmltv/data/epg_tvprofil.net.xml.gz
-
-bebawy6-USA-Uk-France-Arabic https://raw.githubusercontent.com/bebawy6/EPG/master/allEPG.xml
 

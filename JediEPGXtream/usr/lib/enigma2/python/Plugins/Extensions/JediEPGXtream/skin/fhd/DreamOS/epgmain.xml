@@ -2,6 +2,8 @@
 
 	<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/icons/logo-large-2.png" position="30,30" size="390,124" alphatest="blend" />
 	
+	<widget source="version" render="Label" position="30, 162" size="380,30" font="jediepgregular;18" foregroundColor="#ffffff" backgroundColor="#111111" halign="left" valign="center" transparent="1"/>
+	
 	<widget name="selection" position="518,30" size="1372,45" font="jediepgregular;30" foregroundColor="#5f94bb" backgroundColor="#111111" halign="left" valign="top" transparent="1" />
 	<widget name="description" position="518,75" size="1372,120" font="jediepgregular;30" foregroundColor="#ffffff" backgroundColor="#111111" halign="left" valign="top" transparent="1" />
 	<widget name="extrainfo" position="518,120" size="1372,120" font="jediepgregular;30" foregroundColor="#5f94bb" backgroundColor="#111111" halign="left" valign="top" transparent="1" />

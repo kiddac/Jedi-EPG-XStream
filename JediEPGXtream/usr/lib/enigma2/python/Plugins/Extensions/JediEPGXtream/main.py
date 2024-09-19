@@ -52,6 +52,10 @@ class JediEPGXtream_Main(Screen):
         with open(skin, 'r') as f:
             self.skin = f.read()
 
+        with open("/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/version.txt", "r") as f:
+            version = f.readline()
+
+        self["version"] = StaticText(version)
         self['bouquet'] = Label(_("Bouquet"))
         self['channel'] = Label(_("Channel"))
         self['epgsource'] = Label(_("EPG Source"))
@@ -410,12 +414,12 @@ class JediEPGXtream_Main(Screen):
             if r.status_code == requests.codes.ok:
 
                 if "xmltv.php" in url:
-                    print("*** xmltv.php ***")
+                    # print("*** xmltv.php ***")
                     with open(sourcelist + "/" + name + ".xml", 'wb') as fd:
                         for chunk in r.iter_content(chunk_size=1024):
                             fd.write(chunk)
                 else:
-                    print("*** not xmltv.php ***")
+                    # print("*** not xmltv.php ***")
                     extension = url.split(".")[-1]
                     with open(sourcelist + "/" + name + "." + extension, 'wb') as fd:
                         for chunk in r.iter_content(chunk_size=1024):
@@ -448,17 +452,17 @@ class JediEPGXtream_Main(Screen):
         if url.endswith('xz') or url.endswith('gz'):
             try:
                 import lzma
-                print('\nlzma success')
+                # print('\nlzma success')
                 haslzma = True
 
             except ImportError:
                 try:
                     from backports import lzma
-                    print("\nbackports lzma success")
+                    # print("\nbackports lzma success")
                     haslzma = True
 
                 except ImportError:
-                    print("\nlzma failed")
+                    # print("\nlzma failed")
                     pass
 
                 except:
