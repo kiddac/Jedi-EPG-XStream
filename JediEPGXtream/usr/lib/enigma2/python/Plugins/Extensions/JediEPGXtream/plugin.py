@@ -7,6 +7,7 @@ from . import _
 # from Components.config import *
 from Plugins.Plugin import PluginDescriptor
 from enigma import getDesktop, addFont
+from Components.config import config
 
 import os
 import shutil
@@ -39,8 +40,11 @@ elif screenwidth.width() <= 1920:
 else:
     skin_directory = "/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/skin/uhd/"
 
-# hdr = {'User-Agent': 'Enigma2 - Jedi EPG XStream Plugin'}
-hdr = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36'}
+hdr = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+    'Connection': 'keep-alive',
+    'Accept-Encoding': 'gzip, deflate'
+}
 
 if os.path.isdir('/usr/lib/enigma2/python/Plugins/Extensions/EPGImport'):
     has_epg_importer = True
@@ -63,8 +67,8 @@ def Plugins(**kwargs):
     if screenwidth.width() > 1280:
         iconFile = 'icons/JediEPGXtreamFHD.png'
 
-    description = (_('Assign 3rd Party EPG to IPTV Bouquets'))
-    pluginname = (_('JediEPGXtream'))
+    description = _('Assign 3rd Party EPG to IPTV Bouquets')
+    pluginname = _('JediEPGXtream')
 
     result = PluginDescriptor(name=pluginname, description=description, where=PluginDescriptor.WHERE_PLUGINMENU, icon=iconFile, fnc=main)
 

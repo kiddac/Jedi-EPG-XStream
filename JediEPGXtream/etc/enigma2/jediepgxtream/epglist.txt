@@ -1,8 +1,8 @@
 ##################################################################################################################################
-#                                                                                                                             
-#  Enter display name of EPG reference followed by the external EPG URL  xml, xz or gz file                
-#  For the name ONLY use file name safe characters. No spaces. No \/.?*                                                            
-#                                                                                                                              
+#
+#  Enter display name of EPG reference followed by the external EPG URL  xml, xz or gz file
+#  For the name ONLY use file name safe characters. No spaces. No \/.?*
+#
 ##################################################################################################################################
 
 # Rytec-All http://www.xmltvepg.nl/rytec.channels.xml.xz
@@ -12,8 +12,9 @@ Rytec-Erotic http://www.xmltvepg.nl/rytecERO.xz
 Rytec-AFN http://www.xmltvepg.nl/rytecAFN.xz
 Rytec-IPTV http://www.xmltvepg.nl/rytecIPTV.xz
 Rytec-Miscellaneous http://www.xmltvepg.nl/rytecMisc.xz
-Rytec-Nederland-Basis http://www.xmltvepg.nl/rytecNL_Basic.xz
+Rytec-Vlaanderen-Basic http://www.xmltvepg.nl/rytecBE_VL_Basic.xz
 Rytec-Vlaanderen-Nederland http://www.xmltvepg.nl/rytecBE_NL_Common.xz
+Rytec-Nederland-Basis http://www.xmltvepg.nl/rytecNL_Basic.xz
 Rytec-Nederland-Sport-Movies http://www.xmltvepg.nl/rytecNL_Extra.xz
 Rytec-Wallonie-Telesat-Base http://www.xmltvepg.nl/rytecBE_FR_Basic.xz
 Rytec-France-TNT http://www.xmltvepg.nl/rytecTNT_Basic.xz
@@ -78,9 +79,9 @@ epgshare01-Bulgaria https://epgshare01.online/epgshare01/epg_ripper_BG1.xml.gz
 epgshare01-Brazil https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz
 epgshare01-Canada https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz
 epgshare01-Costa-Rica https://epgshare01.online/epgshare01/epg_ripper_CR1.xml.gz
-epgshare01-Denmark https://epgshare01.online/epgshare01/epg_ripper_DK1.xml.gz 
+epgshare01-Denmark https://epgshare01.online/epgshare01/epg_ripper_DK1.xml.gz
 epgshare01-Dominican-Republic https://epgshare01.online/epgshare01/epg_ripper_DO1.xml.gz
-epgshare01-Egypt https://epgshare01.online/epgshare01/epg_ripper_EG1.xml.gz  
+epgshare01-Egypt https://epgshare01.online/epgshare01/epg_ripper_EG1.xml.gz
 epgshare01-Finland https://epgshare01.online/epgshare01/epg_ripper_FI1.xml.gz
 epgshare01-France https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz
 epgshare01-Germany https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz
@@ -96,7 +97,7 @@ epgshare01-Malyasia https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz
 epgshare01-Mexico-Latin-America https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz
 epgshare01-Netherlands https://epgshare01.online/epgshare01/epg_ripper_NL1.xml.gz
 epgshare01-New-Zealand https://epgshare01.online/epgshare01/epg_ripper_NZ1.xml.gz
-epgshare01-Norway https://epgshare01.online/epgshare01/epg_ripper_NO1.xml.gz    
+epgshare01-Norway https://epgshare01.online/epgshare01/epg_ripper_NO1.xml.gz
 epgshare01-Panama https://epgshare01.online/epgshare01/epg_ripper_PA1.xml.gz
 epgshare01-Poland https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz
 epgshare01-Portugal https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz
@@ -106,7 +107,7 @@ epgshare01-Romania2 https://epgshare01.online/epgshare01/epg_ripper_RO2.xml.gz
 epgshare01-South-Africa https://epgshare01.online/epgshare01/epg_ripper_ZA1.xml.gz
 epgshare01-Spain https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz
 epgshare01-Switzerland https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz
-epgshare01-Sweden https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz   
+epgshare01-Sweden https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz
 # epgshare01-Turkey https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz
 epgshare01-Turkey2 https://epgshare01.online/epgshare01/epg_ripper_TR2.xml.gz
 epgshare01-Turkey3 https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz

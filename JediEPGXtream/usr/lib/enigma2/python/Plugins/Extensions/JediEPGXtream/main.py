@@ -42,7 +42,7 @@ class JediEPGXtream_Main(Screen):
         Screen.__init__(self, session)
         self.session = session
 
-        self.setup_title = (_('Jedi EPG XStream'))
+        self.setup_title = _('Jedi EPG XStream')
 
         skin = skin_directory + 'epgmain.xml'
 
@@ -177,7 +177,7 @@ class JediEPGXtream_Main(Screen):
         if dependencies is False:
             chmod("/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/dependencies.sh", 0o0755)
             cmd1 = ". /usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/dependencies.sh"
-            self.session.openWithCallback(self.start, Console, title="Checking Python Dependencies", cmdlist=[cmd1], closeOnSuccess=False)
+            self.session.openWithCallback(self.start, Console, title="Checking Python Dependencies", cmdlist=[cmd1], closeOnSuccess=True)
         else:
             self.start()
 
@@ -425,7 +425,7 @@ class JediEPGXtream_Main(Screen):
                         for chunk in r.iter_content(chunk_size=1024):
                             fd.write(chunk)
 
-                self["extrainfo"].text = (_("Extracting source...please wait."))
+                self["extrainfo"].text = _("Extracting source...please wait.")
                 self.timer = eTimer()
                 try:
                     self.timer_conn = self.timer.timeout.connect(boundFunction(self.openSource, name, url))
@@ -440,11 +440,11 @@ class JediEPGXtream_Main(Screen):
 
         except requests.exceptions.ConnectionError as e:
             print(("Error Connecting: %s" % e))
-            self["extrainfo"].text = (_("Download failed. Try again later."))
+            self["extrainfo"].text = _("Download failed. Try again later.")
 
         except requests.exceptions.RequestException as e:
             print(e)
-            self["extrainfo"].text = (_("Download failed. Try again later."))
+            self["extrainfo"].text = _("Download failed. Try again later.")
 
     def openSource(self, name, url):
         haslzma = False
@@ -481,7 +481,7 @@ class JediEPGXtream_Main(Screen):
                 with open(str(sourcelist) + "/" + str(name) + ".xml", 'wb') as outfile:
                     shutil.copyfileobj(decompressedFile, outfile)
 
-        self["extrainfo"].text = (_("Parsing XML...please wait."))
+        self["extrainfo"].text = _("Parsing XML...please wait.")
         self.timer = eTimer()
         try:
             self.timer_conn = self.timer.timeout.connect(boundFunction(self.parseXMLFile, name, url))
@@ -520,7 +520,7 @@ class JediEPGXtream_Main(Screen):
         if os.path.isfile(str(sourcelist) + "/" + str(name) + ".xml"):
             os.remove(str(sourcelist) + "/" + str(name) + ".xml")
 
-        self["extrainfo"].text = (_("Finding closest matches."))
+        self["extrainfo"].text = _("Finding closest matches.")
         self.timer = eTimer()
         try:
             self.timer_conn = self.timer.timeout.connect(boundFunction(self.getMatchList, name))
@@ -551,7 +551,7 @@ class JediEPGXtream_Main(Screen):
         fulllist = []
 
         if os.path.isfile(sourcelistpath) and os.stat(sourcelistpath).st_size > 0:
-            self["extrainfo"].text = (_("Finding closest matches."))
+            self["extrainfo"].text = _("Finding closest matches.")
             text = ""
 
             with open(sourcelistpath, 'r') as epglist:
@@ -575,7 +575,7 @@ class JediEPGXtream_Main(Screen):
                 namelist = get_close_matches(current, epgidlist, n=42, cutoff=0.20)
 
             if not namelist:
-                text = (_("No close matches"))
+                text = _("No close matches")
                 namelist.append(text)
 
             namelist = [[i, True] for i in namelist]
@@ -599,7 +599,7 @@ class JediEPGXtream_Main(Screen):
                 self.list4.append(buildList4(str(item), False, str(original)))
 
         else:
-            text = (_("Press Yellow to refresh source"))
+            text = _("Press Yellow to refresh source")
             namelist.append(text)
 
             namelist = [[i, True] for i in namelist]
@@ -928,7 +928,7 @@ class JediEPGXtream_Main(Screen):
             item = self["list1"].getCurrent()
             if item:
                 self['selection'].text = item[0]
-                self["description"].text = (_("Select Bouquet."))
+                self["description"].text = _("Select Bouquet.")
 
                 if item[2] is False:
                     self.getNextList()
@@ -937,33 +937,33 @@ class JediEPGXtream_Main(Screen):
         if self.selectedList.getCurrent() and self.selectedList == self["list2"]:
 
             self['key_yellow'].text = ('')
-            self['key_blue'].text = (_('Unassign All'))
+            self['key_blue'].text = _('Unassign All')
 
             if self["list2"].getCurrent()[3] != '':
-                self['key_green'].text = (_('Unassign EPG'))
+                self['key_green'].text = _('Unassign EPG')
             else:
                 self['key_green'].text = ('')
 
             item = self["list2"].getCurrent()
             if item:
                 self['selection'].text = item[0]
-                self["description"].text = (_("Select Channel."))
+                self["description"].text = _("Select Channel.")
 
     def selection3Changed(self):
         if self.selectedList.getCurrent() and self.selectedList == self["list3"]:
             self['key_green'].text = ('')
-            self['key_yellow'].text = (_('Update Source'))
-            self['key_blue'].text = (_('Hide Source'))
+            self['key_yellow'].text = _('Update Source')
+            self['key_blue'].text = _('Hide Source')
 
             item = self["list3"].getCurrent()
             if item:
                 self['selection'].text = item[0]
-                self["description"].text = (_("Select EPG Source. Press Yellow to refresh and update EPG Source. Optional"))
+                self["description"].text = _("Select EPG Source. Press Yellow to refresh and update EPG Source. Optional")
 
                 name = item[0]
                 # url = item[1]
 
-                self["extrainfo"].text = (_("Finding closest matches."))
+                self["extrainfo"].text = _("Finding closest matches.")
                 self.timer = eTimer()
                 try:
                     self.timer_conn = self.timer.timeout.connect(boundFunction(self.getMatchList, name))
@@ -976,14 +976,14 @@ class JediEPGXtream_Main(Screen):
 
     def selection4Changed(self):
         if self.selectedList.getCurrent() and self.selectedList == self["list4"]:
-            self['key_green'].text = (_('Assign EPG'))
+            self['key_green'].text = _('Assign EPG')
             self['key_yellow'].text = ('')
-            # self['key_blue'].text = (_('Toggle All/Matches'))
+            # self['key_blue'].text = _('Toggle All/Matches')
 
             item = self["list4"].getCurrent()
             if item:
                 self['selection'].text = item[0]
-                self["description"].text = (_("Select the closest EPG ID reference."))
+                self["description"].text = _("Select the closest EPG ID reference.")
 
     def ok(self):
         if self.selectedList == self["list1"]:
@@ -993,7 +993,7 @@ class JediEPGXtream_Main(Screen):
             self.goRight()
 
         elif self.selectedList == self["list3"]:
-            if self["list4"].getCurrent()[0] == (_("Press Yellow to refresh source")):
+            if self["list4"].getCurrent()[0] == _("Press Yellow to refresh source"):
                 self.keyyellow()
             else:
                 self.goRight()
@@ -1022,7 +1022,7 @@ class JediEPGXtream_Main(Screen):
                     name = item[0]
                     url = item[1]
 
-                    self["extrainfo"].text = (_("Downloading source...please wait."))
+                    self["extrainfo"].text = _("Downloading source...please wait.")
                     self.timer = eTimer()
                     try:
                         self.timer_conn = self.timer.timeout.connect(boundFunction(self.downloadSource, name, url))
@@ -1084,10 +1084,10 @@ class JediEPGXtream_Main(Screen):
                 self.enablelist3()
 
             elif self.selectedList == self["list3"]:
-                if self["list4"].getCurrent() and self["list4"].getCurrent()[0] != (_("Press Yellow to refresh source")):
+                if self["list4"].getCurrent() and self["list4"].getCurrent()[0] != _("Press Yellow to refresh source"):
                     self.selectedList = self["list4"]
 
-                    if self["list4"].getCurrent()[0] == (_("No close matches")):
+                    if self["list4"].getCurrent()[0] == _("No close matches"):
                         self["list4"].setIndex(2)
                     else:
                         self["list4"].setIndex(0)
@@ -1102,28 +1102,28 @@ class JediEPGXtream_Main(Screen):
         if self.selectedList.getCurrent():
             instance = self.selectedList.master.master.instance
             instance.moveSelection(instance.moveUp)
-            if self.selectedList == self["list4"] and (self["list4"].getCurrent()[0] == divider or self["list4"].getCurrent()[0] == (_("No close matches"))):
+            if self.selectedList == self["list4"] and (self["list4"].getCurrent()[0] == divider or self["list4"].getCurrent()[0] == _("No close matches")):
                 self.goUp()
 
     def goDown(self):
         if self.selectedList.getCurrent():
             instance = self.selectedList.master.master.instance
             instance.moveSelection(instance.moveDown)
-            if self.selectedList == self["list4"] and (self["list4"].getCurrent()[0] == divider or self["list4"].getCurrent()[0] == (_("No close matches"))):
+            if self.selectedList == self["list4"] and (self["list4"].getCurrent()[0] == divider or self["list4"].getCurrent()[0] == _("No close matches")):
                 self.goDown()
 
     def pageUp(self):
         if self.selectedList.getCurrent():
             instance = self.selectedList.master.master.instance
             instance.moveSelection(instance.pageUp)
-            if self.selectedList == self["list4"] and (self["list4"].getCurrent()[0] == divider or self["list4"].getCurrent()[0] == (_("No close matches"))):
+            if self.selectedList == self["list4"] and (self["list4"].getCurrent()[0] == divider or self["list4"].getCurrent()[0] == _("No close matches")):
                 self.goDown()
 
     def pageDown(self):
         if self.selectedList.getCurrent():
             instance = self.selectedList.master.master.instance
             instance.moveSelection(instance.pageDown)
-            if self.selectedList == self["list4"] and (self["list4"].getCurrent()[0] == divider or self["list4"].getCurrent()[0] == (_("No close matches"))):
+            if self.selectedList == self["list4"] and (self["list4"].getCurrent()[0] == divider or self["list4"].getCurrent()[0] == _("No close matches")):
                 self.goDown()
 
     def reset(self):
