@@ -204,7 +204,7 @@ class JediEPGXtream_Main(Screen):
 
         if not os.stat(json_file).st_size > 0:
             with open(json_file, "w") as f:
-                json.dump(temp, f)
+                json.dump(temp, f, indent=4)
 
         self.epg_json = None
 
@@ -231,7 +231,7 @@ class JediEPGXtream_Main(Screen):
             self.epg_json['Sources'] = []
 
         with open(json_file, "w") as f:
-            json.dump(self.epg_json, f)
+            json.dump(self.epg_json, f, indent=4)
 
     def getBouquets(self):
         self.list1 = []
@@ -703,7 +703,7 @@ class JediEPGXtream_Main(Screen):
                     self.epg_json['Sources'].remove(source)
 
         with open(json_file, "w") as f:
-            json.dump(self.epg_json, f)
+            json.dump(self.epg_json, f, indent=4)
 
         self.buildXMLSourceFile()
         self.buildXMLChannelFile()
@@ -752,7 +752,7 @@ class JediEPGXtream_Main(Screen):
                     self.epg_json['Sources'].remove(source)
 
         with open(json_file, "w") as f:
-            json.dump(self.epg_json, f)
+            json.dump(self.epg_json, f, indent=4)
 
         self.buildXMLSourceFile()
         self.buildXMLChannelFile()
@@ -769,7 +769,7 @@ class JediEPGXtream_Main(Screen):
                 break
 
         with open(json_file, "w") as f:
-            json.dump(self.epg_json, f)
+            json.dump(self.epg_json, f, indent=4)
 
         self.buildXMLSourceFile()
         self.buildXMLChannelFile()

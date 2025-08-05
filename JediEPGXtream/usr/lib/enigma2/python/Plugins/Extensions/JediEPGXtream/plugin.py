@@ -26,6 +26,7 @@ json_file = '/etc/enigma2/jediepgxtream/epg.json'
 
 dir_plugins = "/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/"
 fontfolder = "/usr/lib/enigma2/python/Plugins/Extensions/JediEPGXtream/fonts/"
+addFont(fontfolder + 'm-plus-rounded-1c-regular.ttf', 'jediepgregular', 100, 0)
 
 if os.path.isdir('/usr/lib/enigma2/python/Plugins/Extensions/XStreamityPro/'):
     try:
@@ -42,7 +43,6 @@ else:
 
 hdr = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
-    'Connection': 'keep-alive',
     'Accept-Encoding': 'gzip, deflate'
 }
 
@@ -61,8 +61,6 @@ def main(session, **kwargs):
 
 
 def Plugins(**kwargs):
-    addFont(fontfolder + 'm-plus-rounded-1c-regular.ttf', 'jediepgregular', 100, 0)
-
     iconFile = 'icons/JediEPGXtream.png'
     if screenwidth.width() > 1280:
         iconFile = 'icons/JediEPGXtreamFHD.png'
