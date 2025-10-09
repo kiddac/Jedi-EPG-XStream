@@ -46,8 +46,8 @@ Bloomberg.ro
 Blue.Hustler.ro
 Bollywood.Clasic.ro
 Bollywood.FILM.ro
-Bollywood.HD.ro
-Bollywood.TV.ro
+Bollywood.Stars.HD.ro
+Bollywood.Stars.ro
 Brazzers.TV.Europe.ro
 Canal.33.ro
 Cartoon.Network.ro
@@ -299,6 +299,7 @@ SuperOne.HD.ro
 Taraf.TV.HD.ro
 Taraf.TV.ro
 TeenNick.ro
+TeleMoldova.Plus.ro
 Telestar.1.ro
 The.Fishing.&amp;.Hunting.Channel.HD.ro
 The.Fishing.&amp;.Hunting.Channel.ro
@@ -308,9 +309,8 @@ Trace.Caribbean.ro
 TRACE.Sport.Stars.HD.ro
 Trace.Urban.HD.ro
 TraLaLa.HD.ro
-Travel.Channel.HD.ro
-Travel.Channel.ro
 Travel.Mix.ro
+Travelxp.HD.ro
 Trinitas.TV.HD.ro
 Trinitas.TV.ro
 TV.City.HD.ro
@@ -318,7 +318,6 @@ TV.Paprika.HD.ro
 TV.Paprika.HU.ro
 TV.Paprika.ro
 TV.Sud.Est.ro
-TV1000.ro
 TV2.HD.ro
 TV2.ro
 TV4.ro
@@ -337,6 +336,7 @@ TVR.Iași.ro
 TVR.Info.ro
 TVR.International.ro
 TVR.Moldova.ro
+TVR.Sport.HD.ro
 TVR.Timișoara.ro
 TVR.Târgu.Mureș.ro
 UTV.HD.ro
@@ -346,6 +346,7 @@ Viasat.Explore.HD.ro
 Viasat.Explore.ro
 Viasat.History.HD.ro
 Viasat.History.ro
+Viasat.Kino.ro
 Viasat.Nature.HD.ro
 Viasat.Nature.ro
 VOX.ro

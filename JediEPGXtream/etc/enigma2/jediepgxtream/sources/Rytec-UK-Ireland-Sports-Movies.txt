@@ -1,8 +1,4 @@
 AtTheRaces.uk
-DAZN1.uk
-Eurosport1.uk
-Eurosport2.uk
-GINXeSportsTV.uk
 LaLigaTV.uk
 LiverpoolFCTV.uk
 MUTV.uk
@@ -31,10 +27,13 @@ SkySpBoxOff.uk
 SkySpCricket.uk
 SkySpF1.uk
 SkySpFball.uk
+SkySpGolf.uk
 SkySpMainEv.uk
 SkySpMix.uk
 SkySpNews.uk
 SkySpNFL.uk
+SkySportsPlus.uk
+SkySportsTennis.uk
 SkySpPL.uk
 SkySpRacing.uk
 SkySpTheOpen.uk
@@ -56,3 +55,4 @@ TNTSportsUltimate.uk
 Viaplay1.uk
 Viaplay2.uk
 ZeeCinema.uk
+ZeePunjabi.uk

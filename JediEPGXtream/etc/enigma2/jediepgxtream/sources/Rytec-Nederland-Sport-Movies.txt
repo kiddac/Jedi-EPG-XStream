@@ -1,3 +1,4 @@
+CANAL+Action.nl
 ESPN.nl
 ESPN2.nl
 ESPN3.nl
@@ -5,7 +6,6 @@ ESPN4.nl
 Film1Action.nl
 Film1Drama.nl
 Film1Family.nl
-Film1Plus1.nl
 Film1Premiere.nl
 Filmbox.nl
 PlaySportsGolf.be
@@ -14,12 +14,14 @@ PlaySportsHD2.be
 PlaySportsHD3.be
 PlaySportsHD4.be
 PlaySportsHD5.be
-ViaplayXtra.nl
+ViaplayTV+.nl
+ViaplayTV.nl
 ZiggoSport.nl
-ZiggoSportDocu.nl
-ZiggoSportGolf.nl
-ZiggoSportRacing.nl
+ZiggoSport2.nl
+ZiggoSport3.nl
+ZiggoSport4.nl
+ZiggoSport5.nl
+ZiggoSport6.nl
+ZiggoSportExtra.nl
 ZiggoSportSelect.nl
-ZiggoSportTennis.nl
-ZiggoSportVoetbal.nl
 ZiggoTV.nl

@@ -5,12 +5,17 @@
 AuftankenTV.ch
 blueAction.ch
 bluePrime.ch
+BlueRetro.ch
 blueStar.ch
 BlueStars.ch
 blueZoomD.ch
 blueZoomF.ch
 CanalAlphaJU.ch
 CanalAlphaNE.ch
+carac1.ch
+carac2.ch
+carac3.ch
+carac4.ch
 DiscoveryChannel.ch
 HelvetiaOneTV.ch
 Kabel1.ch
@@ -29,6 +34,8 @@ RTSDeux.ch
 RTSUn.ch
 S1.ch
 Sat1.ch
+SHf.ch
+SkyCinemaCH.ch
 SRF1.ch
 SRF2.ch
 SRFinfo.ch
@@ -50,7 +57,6 @@ TV24.ch
 TV25.ch
 TVO.ch
 TVSudostschweiz.ch
-TVSuisseplus.ch
 VOX.ch
 W9.ch
 WetterTV.ch

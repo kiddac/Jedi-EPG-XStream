@@ -6,7 +6,9 @@ MTV3Ava.fi
 MTV3Max.fi
 MTV3MaxSport1.fi
 MTV3MaxSport2.fi
+MTVAitio.fi
 MTVSub.fi
+MTVViihde.fi
 Nelonen.fi
 SFKanalen.fi
 TLC.fi

@@ -21,6 +21,7 @@ Al.Jazeera.HD.pl
 Al.Jazeera.pl
 Ale.kino+.HD.pl
 Ale.kino+.pl
+Alfa.TVP.pl
 Amazing.TV.pl
 AMC.HD.pl
 AMC.pl
@@ -71,6 +72,16 @@ CANAL+.DOKUMENT.HD.pl
 CANAL+.DOKUMENT.pl
 CANAL+.DOMO.HD.pl
 CANAL+.DOMO.pl
+CANAL+.EXTRA.1.HD.pl
+CANAL+.EXTRA.11.HD.pl
+CANAL+.EXTRA.2.HD.pl
+CANAL+.EXTRA.3.HD.pl
+CANAL+.EXTRA.4.HD.pl
+CANAL+.EXTRA.5.HD.pl
+CANAL+.EXTRA.6.HD.pl
+CANAL+.EXTRA.7.HD.pl
+CANAL+.EXTRA.8.HD.pl
+CANAL+.EXTRA.9.HD.pl
 CANAL+.Family.HD.pl
 CANAL+.Family.pl
 CANAL+.Film.HD.pl
@@ -256,7 +267,6 @@ Hustler.HD.pl
 Hustler.TV.pl
 ID.HD.pl
 ID.pl
-Inspiration.TV.pl
 INULTRA.pl
 iTVN.Extra.International.pl
 iTVN.pl
@@ -321,7 +331,6 @@ Nick.Jr..HD.pl
 Nick.Jr..pl
 NICK.pl
 Nickelodeon.pl
-Nickelodeon.Ukraine.Pluto.TV.pl
 NickMusic.pl
 Nicktoons.HD.pl
 Nicktoons.pl
@@ -329,7 +338,6 @@ Nitro.pl
 NLO.TV.2.pl
 Nova.pl
 Novela.tv.HD.pl
-Novela.tv.pl
 Novelas+.pl
 Nowa.TV.HD.pl
 Nowa.TV.pl
@@ -390,7 +398,6 @@ Polsat.Sport.Fight.HD.pl
 Polsat.Sport.Fight.pl
 Polsat.Sport.HD.pl
 Polsat.Sport.News.HD.pl
-Polsat.Sport.News.pl
 Polsat.Sport.pl
 Polsat.Sport.Premium.1.pl
 Polsat.Sport.Premium.2.pl
@@ -430,7 +437,6 @@ Romance.TV.HD.pl
 Romance.TV.pl
 RTL.102.5.pl
 RTL.HD.pl
-RTL.pl
 RTLZWEI.pl
 RTS.Deux.pl
 RTS.Un.pl
@@ -450,8 +456,6 @@ Sky.Hits.pl
 Sky.Krimi.pl
 Sky.News.pl
 Sky.Select.pl
-Sky.Sport.1.pl
-Sky.Sport.2.pl
 Sky.Sport.Austria.pl
 Sky.Sport.HD.1.pl
 Spiegel.Geschichte.pl
@@ -575,6 +579,7 @@ TVP.Info.HD.pl
 TVP.Info.pl
 TVP.Kobieta.HD.pl
 TVP.Kobieta.pl
+TVP.Kultura.2.pl
 TVP.Kultura.HD.pl
 TVP.Kultura.pl
 TVP.Nauka.HD.pl
@@ -607,7 +612,6 @@ VOX.pl
 Warner.TV.HD.pl
 Warner.TV.pl
 Water.Planet.HD.pl
-Water.Planet.pl
 WDR.pl
 WELT.pl
 WP.HD.pl
@@ -621,6 +625,5 @@ XSport.pl
 XTREME.TV.pl
 ZDF.HD.pl
 ZDF.Info.pl
-ZDF.pl
 ZOOM.TV.HD.pl
 ZOOM.TV.pl

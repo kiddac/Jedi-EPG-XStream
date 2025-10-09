@@ -1,10 +1,8 @@
 Alibi.uk
 Alibiplus1.uk
-AMC.uk
 AnimalPlanet.uk
 AnimalPlanetplus1.uk
 B4UMovies.uk
-Babes-Brazzers.uk
 BabyTV.uk
 Boomerang.uk
 Boomerangplus1.uk
@@ -19,6 +17,8 @@ ComedyCentralExtra.uk
 ComedyCentralExtraPlus1.uk
 ComedyCentralplus1.uk
 CourtTV.uk
+Crime+Inv.uk
+Crime+InvPlus1.uk
 CrimeAndInvestigationNetwork.uk
 CrimeAndInvestigationNetworkplus1.uk
 Cula4.ie
@@ -27,14 +27,10 @@ DiscoveryHistory.uk
 DiscoveryHistoryPlus1.uk
 Discoveryplus1.uk
 DiscoveryScience.uk
-DiscoverySciencePlus1.uk
+DiscoveryScienceplus1.uk
 DiscoveryShed.uk
 DiscoveryTurbo.uk
 DiscoveryTurboPlus1.uk
-E.uk
-Eden.uk
-EdenPlus1.uk
-EPlus1.uk
 FashionTV.uk
 GOLD.uk
 GOLDPlus1.uk
@@ -50,11 +46,12 @@ MadeinLeeds.uk
 MadeinLiverpool.uk
 MadeinTyneandWear.uk
 MoviesTwentyFour.uk
-MoviesTwentyFourPlus1.uk
+MoviesTwentyFourplus1.uk
 MTV.uk
 MTVBase.uk
 MTVClassic.uk
 MTVHits.uk
+MTVIreland.uk
 MTVplus1.uk
 NatGeo.uk
 NatGeoPlus1.uk
@@ -65,6 +62,7 @@ NickJrPeppa.uk
 NickJrPlus1.uk
 NickJunior.uk
 NickJunior2.uk
+NickSpongeBob.uk
 Nicktoons.uk
 NottsTV.uk
 RacingUK.uk
@@ -73,6 +71,7 @@ SkyComedy.uk
 SkyCrime.uk
 SkyCrimePlus1.uk
 SkyDocumntrs.uk
+SkyHistory+1.uk
 SkyHistory.uk
 SkyHistory2.uk
 SkyHistoryplus1.uk
@@ -90,8 +89,6 @@ SonyMax.uk
 SonyMax2.uk
 SonyMix.uk
 SonyTVAsia.uk
-StarGold.uk
-StarPlus.uk
 TLC.uk
 TLCplus1.uk
 TRTE.ie
@@ -100,5 +97,4 @@ VirginMediaOne+1.ie
 VirginOne.uk
 Wildearth.uk
 WION.uk
-XpandedTV.uk
 ZeeTV.uk

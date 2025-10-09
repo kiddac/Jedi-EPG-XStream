@@ -1,15 +1,16 @@
 AdventureTV.cz
 AnimalPlanet.cz
 BarrandovKrimi.cz
-Boomerang.cz
+BBCEarth.cz
+Cartoonito.cz
 CartoonNetwork.cz
+CNNPrimaNews.cz
 CrimeInvestigation.cz
 CSHistory.cz
 CSMystery.cz
 DiscoveryChannel.cz
-DiscoveryScience.cz
 DisneyChannel.cz
-DTX.cz
+DisneyJunior.sk
 DuckTV.cz
 E.cz
 EpicDrama.cz
@@ -19,8 +20,10 @@ FashionBox.cz
 FilmEurope+.cz
 FilmEurope.cz
 FishingandHunting.cz
-Ginx.cz
+FolklorikaTV.sk
+Foodnetwork.cz
 GolfChannel.cz
+HGTV.cz
 HistoryChannel.cz
 HobbyTV.cz
 InvestigationDiscovery.cz
@@ -28,10 +31,8 @@ JimJam.cz
 LoveNature.cz
 Lux.cz
 Minimax.cz
-MnamTV.cz
 MnauTV.cz
 MTVEurope.cz
-NatGeo.cz
 NatGeoHD.cz
 NatGeoWild.cz
 Nickelodeon.cz
@@ -44,6 +45,7 @@ NovaLady.cz
 OckoStar.cz
 ParamountNetwork.cz
 PowerTV.cz
+Premium.cz
 PrimaCool.cz
 PrimaShow.cz
 PrimaStar.cz
@@ -51,6 +53,7 @@ RetroMusic.cz
 RTVS24.cz
 Senzi.cz
 Seznam.cz
+SlagerOriginal.cz
 SlagrMuzika.cz
 SlagrPremium.cz
 SlagrTV.cz
@@ -59,7 +62,9 @@ Spektrum.cz
 SpektrumHome.cz
 STORY4.cz
 TLC.cz
+TNLive.cz
 TravelChannel.cz
+TravelXP.cz
 Tuki.cz
 TVPaprika.cz
 UPNetwork.cz
@@ -67,5 +72,6 @@ ViasatExplorer.cz
 ViasatHistory.cz
 ViasatHistoryHD.cz
 ViasatNature.cz
+ViasatTrueCrime.cz
 Z1.cz
 ZoneReality.cz

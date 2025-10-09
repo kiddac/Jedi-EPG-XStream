@@ -1,17 +1,10 @@
-1+1 International
+1+1 International (SR)
 2000s (SN)
 24 KITCHEN (SN)
-24Kitchen
-24KITCHEN
+24Kitchen HD (SR)
 24Kitchen_max
-3 SAT
 360 Tune Box
 360TuneBox (SN)
-3SAT_max
-60s (SN)
-70s (SN)
-80s (SN)
-90s (SN)
 Adria TV
 Adria TV (SN)
 Adult 1
@@ -21,7 +14,6 @@ Adult 4
 Adult 5
 Adult 6
 Adult 7
-ADULT CHANNEL
 ADULT CHANNEL 1 (SN)
 ADULT CHANNEL 2 (SN)
 ADULT CHANNEL 3 (SN)
@@ -33,17 +25,19 @@ Agro HD (SN)
 Agro TV HD
 Al Jazeera
 AL Jazeera Balkans
-Al Jazeera Balkans HD
 AL Jazeera Balkans HD
 AL JAZEERA BALKANS HD (SN)
+Al Jazeera Balkans HD (SR)
 Al Jazeera_max
 ALFA TV
 All day party (SN)
+Alternative (SN)
 Amari
 AMC (SN)
 AMC HD (INT)
 Animal Planet
 ANIMAL PLANET HD (SN)
+Animal Planet HD (SR)
 Arena 1x2 (SN)
 Arena Esport
 Arena Esport HD
@@ -56,19 +50,14 @@ Arena Fight HD
 Arena Premium 1 (SN)
 Arena Premium 2 (SN)
 Arena Premium 3 (SN)
-Arena Sport  10 HD
 Arena Sport 1
-Arena Sport 1 HD
 Arena Sport 1 HD (SN)
 Arena Sport 1 HD BiH
 Arena Sport 1 HD Srbija
 Arena Sport 10 HD (SN)
 Arena sport 1x2
-Arena Sport 2 HD
 Arena Sport 2 HD (SN)
-Arena Sport 3 HD
 Arena Sport 3 HD (SN)
-Arena Sport 4 HD
 Arena Sport 4 HD (SN)
 Arena Sport 5
 Arena Sport 5 HD
@@ -76,62 +65,48 @@ Arena Sport 5 HD (SN)
 Arena Sport 6
 Arena Sport 6 HD
 Arena Sport 6 HD (SN)
-Arena Sport 7 HD
 Arena Sport 7 HD (SN)
-Arena Sport 8 HD
 Arena Sport 8 HD (SN)
-Arena Sport 9 HD
 Arena Sport 9 HD (SN)
 Arena Sport HR
 Arenasport 1 HD_max
 Arenasport 10 HD_max
-Arenasport 10 PPV_max
 Arenasport 10_max
 Arenasport 1_max
 Arenasport 2 HD_max
-Arenasport 2 PPV_max
 Arenasport 2_max
 Arenasport 3 HD_max
-Arenasport 3 PPV_max
 Arenasport 3_max
 Arenasport 4 HD_max
-Arenasport 4 PPV_max
 Arenasport 4_max
 Arenasport 5 HD_max
-Arenasport 5 PPV_max
 Arenasport 5_max
 Arenasport 6 _max
 Arenasport 6 HD_max
-Arenasport 6 PPV_max
 Arenasport 7 HD_max
-Arenasport 7 PPV_max
 Arenasport 7_max
 Arenasport 8 HD_max
-Arenasport 8 PPV_max
 Arenasport 8_max
 Arenasport 9 HD_max
-Arenasport 9 PPV_max
 Arenasport 9_max
-ARTE
 ATV (SN)
 ATV HD
-Aurora TV
 Aurora TV_max
 AXN (SN)
 AXN Spin
 AXN Spin (SN)
 B1 (SN)
-B1 HD
-B1_max
+B1 HD (SR)
 B92
+B92 (RS)
 B92 (SN)
 Babes TV
-BABES TV
 BABES TV (SN)
 BABY TV
 Baby TV (SN)
 Baby TV_max
 BabyTV
+Balkan Music/Gypsy (SN)
 Balkan Retro Hits (SN)
 Balkan Trip
 Balkan Trip HD
@@ -139,17 +114,16 @@ Balkan Trip HD (SN)
 Balkan Trip_max
 Balkan TV
 Balkan TV_max
-BALKANIKA MUSIC TV
 Balkanika_max
 Bang U
 BANG U (SN)
 Bass, Breaks and Beats (SN)
 BBC Earth
 BBC Earth HD (SN)
+BBC Earth HD (SR)
 BBC Earth_max
-BBC First
-BBC News
 BBC News (SN)
+BBC News (SR)
 BDC TV
 BEL TV
 Belarus 24 HD (SN)
@@ -160,15 +134,13 @@ BIG Radio 2
 BK
 Blic TV
 Blic TV HD (SN)
-Bloomberg
 Bloomberg (SN)
+Bloomberg (SR)
 Bloomberg Adria
 Bloomberg Adria (SN)
 Bloomberg Adria HD
-Bloomberg Adria_max
 Blue Hustler (SN)
-Blue Hustler_max
-Blues (SN)
+Blue Hustler (SR)
 BN
 BN (SN)
 BN 2
@@ -178,31 +150,27 @@ BN Music (SN)
 BN Music HD
 BN Sat HD (SN)
 BN TV
-BNT4
-BODY IN BALANCE
 Boomerang
-Brainz HD
+Brainz HD (SR)
 Bravo Music
 Bravo Music (SN)
+Bravo Music (SR)
 bravo! TV_max
 bravo!_max
 Brazzers TV
 Brazzers TV (SN)
-Brazzers TV_max
+Brazzers TV Europe (SR)
 BTV
 BTV (SN)
 Bum Bum Radio (SN)
 BVN
-Carnival (SN)
 Cartoon Network
 Cartoon Network (SN)
 Cartoon Network_max
 Cartoonito (SN)
-Cartoonito /Boomerang
+Cartoonito /Boomerang (SR)
 Cartoonito_max
 CBS Reality
-CBS REALITY (SN)
-CBS Reality_max
 CCTV 4
 CCTV-4 (SN)
 CGTN
@@ -218,134 +186,109 @@ Cinemax 2_max
 Cinemax _max
 Cinemax HD
 Cinemax HD (SN)
-CINESTAR ACTION/THRILLER
-CINESTAR TV 1
 CineStar TV 1 HD (SR)
-CineStar TV 1 HD_max
 CineStar TV 1_max
-CineStar TV 2 HD
-CineStar TV 2 HD_max
+CineStar TV 2 HD (SR)
 CineStar TV 2_max
-CineStar TV Action &amp; Thriller HD_max
 CineStar TV Action &amp; Thriller_max
-CineStar TV Action HD (RS)
+CineStar TV Action HD (SR)
 CineStar TV Comedy &amp; Family _max
 CineStar TV Comedy &amp; Family HD
-CineStar TV Comedy &amp; Family HD_max
-CineStar TV Fantasy HD
-CineStar TV Fantasy HD_max
+CineStar TV Fantasy HD (SR)
 CineStar TV Fantasy_max
-CineStar TV Premiere 1
-CineStar TV Premiere 1 HD_max
+CineStar TV Premiere 1 HD (SR)
 CineStar TV Premiere 1_max
-CineStar TV Premiere 2
-CineStar TV Premiere 2 HD_max
+CineStar TV Premiere 2 HD (SR)
 CineStar TV Premiere 2_max
 City Play
 CITY PLAY (SN)
-Classic RnB and Soul (SN)
-Classic Rock (SN)
+City Play (SR)
+Classic R'n'B &amp; Soul (SN)
 Classical Calm (SN)
 Classical Greats (SN)
-Club MTV
+Club MTV (SR)
 Club MTV_max
 CMC (SN)
 CMC - Croatian Music Channel_max
-CMC HD
-Cmusic (SN)
+CMC HD (HR)
 CNBC Europe_max
-CNN
 CNN (SN)
+CNN (SR)
 CNN Europe_max
 Cocktail Lounge (SN)
+Connect TV (SR)
 Cool Jazz (SN)
-Crime  Investigation
+Crime &amp; Investigation (SR)
 Crime &amp; Investigation _max
 Crime &amp; Investigation Network (SN)
-CROATIAN MUSIC CHANNEL
+Current Time (srb)
 Current time TV HD (SN)
-DA VINCI
-Da Vinci HD (RS)
+Da Vinci HD (SR)
 Da Vinci Learning
 Da Vinci_max
 Dancefloor Fillers (SN)
 Dankos Plus TV (SN)
-DAS ERSTE
-Das Erste_max
 DaVinci Learning (SN)
+Deep Blues (SN)
 Desire (SN)
-Deutsche Welle
+Deutsche Welle (SR)
 Dexy TV
 DEXY TV (SN)
 Dexy TV HD
 Dečija TV
-Dečja muzika (SN)
 Diadora TV_max
 Discovery (SN)
 Discovery Channel
-Discovery Channel HD
+Discovery Channel HD (SR)
 Discovery Science
-DISCOVERY SCIENCE HD (SN)
 Discovery Showcase HD
 DISNEY (SN)
 Disney Channel
 Disney Channel_max
-Disney Junior
 Disney Junior (SN)
+Disney Junior (SR)
 Disney Junior_max
 Diva
-DIVA
 Diva (SN)
 DM SAT
 DM SAT_max
 DM-SAT (SN)
-DMC
 DMC_max
-DOCUBOX
 DocuBox
 DocuBox HD (SN)
 Doku TV_max
-DOKUTV
-Dom Kino SD
-DOMA TV
 Doma TV_max
-Dorcel
 Dorcel HD (SN)
-DORCEL TV
-Dorcel XXX
 Dorcel XXX HD (SN)
 DOX TV
 DOX TV (SN)
 DR HD (SN)
-Dr.Fit
 Drive (SN)
 DTX
-DTX HD (SN)
-DUCK TV
 Duck TV
 DUGA TV (SN)
-DUNA TV
-DUNA WORLD
-Duna World HD (RS)
+Duna World HD (SR)
 Dunav Televizija (SN)
-Dusk!
-DUSK! TV
-DUTV
-DUTV_max
+Dusk! (SR)
 DW (SN)
 DW engleski_max
 DW English
-DW njemački_max
 E! (SN)
-E! Entertainment
+E! Entertainment (SR)
 E! Entertainment_max
+Easy Listening (SN)
 EG Melody
 Eko vizija HD (SN)
 Ekovizija
 Ekovizija HD
+Elita Live 1 (SN)
+Elita Live 2 (SN)
+Elita Live 3 (SN)
+Elita Live 4 (SN)
 ELTA 1
 ENGLISH TV
 Epic Drama (SN)
+Epic Drama HD (SR)
 Epic Drama_max
 Erotic
 Erotic (SN)
@@ -366,102 +309,80 @@ Euro Cinema 1 HD (SN)
 Euro Cinema 2 HD (SN)
 Euro Cinema 3 HD (SN)
 Euro Cinema 4 HD (SN)
-Eurochannel
 Euronews
 Euronews (SN)
-Euronews HD
+Euronews HD (SR)
 Euronews Serbia
 Euronews Serbia HD
 Euronews Serbia HD (SN)
 Euronews_max
 Eurosport 1
-Eurosport 1 (SR)
 Eurosport 1 HD
 Eurosport 1 HD (SN)
+Eurosport 1 HD (SR)
 Eurosport 2
-Eurosport 2 (SR)
 Eurosport 2 HD
 Eurosport 2 HD (SN)
+Eurosport 2 HD (SR)
 Eurosport 4K IPTV
 EX YU Melody
-Extra TV
+Exitos Latinos (SN)
 ExtraTV_max
 Extreme Sports
 Extreme Sports (SN)
-EXTREME SPORTS CHANNEL
+Extreme Sports (SR)
 Extreme Sports_max
 FACE TV
 Face TV (SN)
 Fashion
 Fashion TV (SN)
-Fashion TV_max
 FashionBox
 FashionBox HD (SN)
+Fast&amp;Fun Box HD (SR)
 Fast&amp;FunBox
 Fast&amp;FunBox HD (SN)
 Fight Network
 Fight Network (SN)
 FightBox
 FightBox HD (SN)
-Film Box Stars
-Film klub (SN)
 Film Klub Extra
-Film klub extra (SN)
 FilmBox Arthouse
 FilmBox Arthouse (SN)
 FilmBox Extra
-FilmBox Extra HD (RS)
 FilmBox Extra HD (SN)
+FilmBox Extra HD (SR)
 FilmBox Premium
-FilmBox Premium HD (RS)
 Filmbox Premium HD (SN)
+FilmBox Premium HD (SR)
 FilmBox Stars
 FilmBox Stars (SN)
-Flashback
 Folk Melody
 Food Network
 Food Network HD (SN)
-Fox Crime HD (SN)
-FOX Crime_max
-Fox HD (SN)
-FOX Life
-Fox Life HD (SN)
-FOX Life_max
-FOX Movies
-FOX MOVIES HD (SN)
-FOX Movies_max
-FOX NEWS
 Fox News (SN)
 Fox News Channel
-FOX_max
-FRANCE 24
 France 24 (SN)
 France 24 engleski_max
 France 24 francuski_max
 France 24 HD
-FRANCE 24 HD
 Freedom (SN)
-FREEДOM
+FREEДOM (SR)
 FTV (SN)
 FTV HD
-FTV TV
-FTV_max
-GameHub
+FTV TV HD (SR)
 GameHub_max
 Gametoon
 Gametoon (SN)
-Glazzba
-GP1
 GP1_max
 Grand (SR)
-Grand narodna televizija 2
-Grand Nostalgija
-Groove (SN)
-Gypsy Party (SN)
+Grand narodna televizija 2 (SR)
+Grand Nostalgija (SR)
+Greatest Hits (SN)
+Groove (Disco &amp; Funk) (SN)
 H2 (SN)
 HA HA
 Ha ha
-Happy
+Happy (RS)
 Happy (SN)
 Happy FM_max
 Happy Reality 1
@@ -469,29 +390,25 @@ HAPPY REALITY 1 (SN)
 Happy Reality 2
 HAPPY REALITY 2 (SN)
 Happy TV
-Happy_max
 Hayat
+HAYAT 2 (SN)
 HAYAT FOLK
-HAYAT FOLK (SN)
+Hayat Folk Box (SN)
 HAYAT HD (SN)
 HAYAT MUSIC
-HAYAT MUSIC (SN)
+Hayat Music Box (SN)
 HAYAT PLUS
-Hayat Plus
-HAYAT PLUS (SN)
 HAYAT TV
-Hayat_max
 HAYATOVCI
 HAYATOVCI (SN)
-HBO
 HBO 2 HD (SN)
+HBO 2 HD (SR)
 HBO 2_max
-HBO 3 HD
 HBO 3 HD (SN)
+HBO 3 HD (SR)
 HBO 3_max
 HBO HD (SN)
-HBO2
-HBO3
+HBO HD (SR)
 HBO_max
 Headbangers (SN)
 Hema TV
@@ -499,28 +416,31 @@ Herceg TV
 HGTV
 HGTV (SN)
 Hip Hop (SN)
-History
+Hip-Hop/R&amp;B (SN)
 HISTORY
 History 2 HD
 History 2_max
 History HD (SN)
+History HD (SR)
 History2
 History_max
 Hit FM radio HD (SN)
-Hit List (USA) (SN)
+Hit List (SN)
 HIT PLUS (SN)
 HIT TV_max
 Hits Melody
 Home and Garden TV
-House Music (SN)
+House (SN)
 Hram TV
 Hram TV (SN)
 HRT 1 (SN)
 HRT 1 HD
+HRT 1 HD (SR)
 HRT 1 HD_max
 HRT 1_max
 HRT 2 (SN)
 HRT 2 HD
+HRT 2 HD (SR)
 HRT 2 HD_max
 HRT 2_max
 HRT 3 HD_max
@@ -531,65 +451,55 @@ HRT 4_max
 HTV 3 (SN)
 HTV 4 (SN)
 HTV 5 (SN)
-HTV1
-HTV2
-HTV3
-HTV4
 Humana TV Plus (SN)
 HUSTLER
-Hustler
 Hustler (SN)
-Hustler TV_max
+Hustler (SR)
+Hustler HD (SR)
+Hype FM (SN)
 Hype TV
 Hype TV (SN)
-iConcerts
-iConcerts (SN)
+iConcerts HD (SR)
+ICT Business (SR)
 ICTbusiness TV_max
 ID
 ID HD
 ID Xtra
 ID XTRA HD (SN)
 IDJ TV_max
-IDJKids HD (RS)
+IDJKids HD (SR)
 IDJTV
 IN TV
 Info 24 Plus (SN)
 Info kanal (SN)
 Info Plus
 Informer TV (SN)
-Insajder TV
 Insajder TV (SN)
+Insajder TV (SR)
 Insta TV
 Insta TV HD
-Insta TV HD (SN)
-Instrumental Melodies (SN)
 Izvorna TV
 Jam FM (SN)
-Jammin (SN)
 Jazz Classics (SN)
-Jeka
 Jeka Muzzik
 Jim Jam
 Jim Jam (SN)
-JUGOTON
-Jugoton (SN)
+Jim Jam (SR)
 Jugoton_max
 K1
 K1 HD (SN)
 K3 (SN)
-K::CN Music 2
+K::CN Music 2 (SR)
 K::CN Svet +3 (W2)
 K:CN
 K:CN 1 (SN)
 KA TV (SN)
 Kanal 9
 KANAL PI (SN)
-KANAL RI
 Kanal Ri_max
 Kazbuka
 KAZBUKA HD (SN)
 KCN 2 (SN)
-KCN 3
 KCN 3 (SN)
 KCN ISTOK (SN)
 KCN JAGODINA (SN)
@@ -599,18 +509,12 @@ KCN1
 KCN2
 KCN3
 Keno TV
-KiKa_max
-Kino TV HD
 Kino TV_max
-KINOTV
 Kitchen HD (SN)
-KITCHEN TV
 Kitchen TV HD
-Klape i tambure TV
 Klape i tambure_max
 Klasik
 KLASIK (SN)
-KLASIK TV
 Klasik TV_max
 Klassik Radio (SN)
 Kontakt Radio
@@ -624,11 +528,8 @@ Kurir TV HD
 Kuvo TV
 Kuvo TV (SN)
 Kuvo TV HD
-La Vitta e Bella (SN)
-Latin (SN)
-Laudato TV
+La Vita e Bella (SN)
 Laudato TV_max
-Libertas TV
 Libertas TV_max
 Liverpool FC TV
 Liverpool FC TV HD
@@ -636,136 +537,118 @@ Liverpool TV HD (SN)
 Lol
 LOL
 Lola radio (SN)
-Lov i Ribolov
-Luxe TV HD (SN)
+Lov i Ribolov (SR)
+Love Nature (SN)
 Luxe TV_max
-LUXE.TV
-M1
+M1 (SR)
 M1 Film_max
 M1 Gold_max
-M2
-M4 Sport HD
-M5
+M2 (SR)
+M4 Sport HD (SR)
+M5 (SR)
 m:SAT Info
-Maria Vision Međugorje_max
 MAXSport 1_max
 MAXSport 2_max
 MAXtv Promo_max
-MEDIASET ITALIA
-Mediaset Italia (RS)
-Mediaset Italia_max
+Mediaset Italia (SR)
 Melos TV
 Mezzo Live
+Mezzo Live (SR)
 Mezzo Tv
-MINI TV
 Mini TV_max
 Minimax
 Minimax (SN)
-MKTV SAT
+Minimax (SR)
 Moj astrolog
 Moj Astrolog (SN)
 Moj astrolog HD
-Moj Happy Život (SN)
 Moja Happy Muzika (SN)
 Moja Happy Zemlja (SN)
 Moja TV
 Moja TV (SN)
-Moje Happy Društvo (SN)
 mojRADIO_max
 Motorvision
-Motorvision TV HD
-Mreža Most (SN)
+Motorvision+ HD (SR)
 Mreža TV Zagreb_max
 Mtel Info
-MTV
 MTV (SN)
+MTV (SR)
 MTV 00s
 MTV 00s (SN)
-MTV 00s (VH1 Europe)
+MTV 00s (VH1 Europe) (SR)
 MTV 00s_max
-MTV 80s (VH1 Classic)
-MTV 80s'
+MTV 80s (VH1 Classic) (SR)
 MTV 80s_max
 MTV 80’s
-MTV 90s (MTV Rocks)
-MTV 90s'
+MTV 90s (MTV Rocks) (SR)
 MTV Dance International
 MTV Europe
-MTV Hits
 MTV Hits (SN)
+MTV Hits (SR)
 MTV Hits International
 MTV Hits_max
-MTV Live
+MTV Live HD (SR)
 MTV Rocks (SN)
 MTV Rocks International
-Museum TV HD (SN)
 Muzzik
-Muzzik TV
-MYZEN
-Myzen TV (SN)
 myZen.tv_max
-N1 HD (BH)
-N1 HD (HR)
+N1 HD (BH)/(SR)
+N1 HD (HR)/(SR)
 N1 HD (SR)
 N1_max
-Nat Geo Wild
+Nais TV HD (SN)
+Narodna TV (SN)
+Narodna TV (SR)
+Nat Geo Wild HD (SR)
 Nat Geo Wild_max
 National Geographic
 National Geographic (SN)
 National Geographic HD
+National Geographic HD (SR)
 National Geographic Wild
 National Geographic Wild HD (SN)
 National Geographic_max
 Nature HD­ / History HD
-NAUTICAL CHANNEL
 Nautical Channel_max
 Naxi Kids Radio
 Naxi Radio
 Naxi Rock Radio
-Naša TV (SN)
 NBA TV (SN)
 NBA TV HD
 Nes radio
-Nick Jr.
-Nick Jr. engleski_max
+New Age (SN)
+Newsmax Balkans (SN)
+Nick Jr. (SR)
 Nick Jr. hrvatski_max
 Nick Music (RS)
 NICK_JR. (SN)
 Nickelodeon
 NICKELODEON (SN)
-Nickelodeon engleski_max
-Nickelodeon HD_max
 Nickelodeon hrvatski_max
 Nickelodeon Junior
-NickMusic
 NickMusic_max
 NickToons
-Nicktoons
 Nicktoons (SN)
 Nicktoons (SR)
 NickToons_max
-Niška televizija
-NONSTOP
 NONSTOP_max
-NOVA
 Nova BH
 Nova BH HD
-NOVA CINEMA
-NOVA FAMILY
+Nova BH HD (SR)
 Nova HR HD
-Nova M
+Nova M HD (SR)
 Nova Max
-NOVA S HD
+NOVA S HD (RS)
 Nova Series
-Nova Sport HD
+Nova Sport HD (SR)
 Nova Television HD (BG)
-NOVA TV
 Nova TV_max
 Novosadska TV
 NOVOSADSKA TV (SN)
 NTV 101
 NTV Arena
 O Kanal
+O Kanal (SR)
 O Kanal Music HD
 O Kanal Plus HD
 O2
@@ -774,22 +657,18 @@ OK Kanal
 OMG (SN)
 ONE
 Osječka TV_max
-OTV
 OTV Valentino
-OTV Valentino_max
 OTV_max
-Palma plus
+Palma plus (SR)
 Pannon RTV
-Pickbox HD (RS)
-Pickbox TV
+Pickbox HD (SR)
 Pickbox TV _max
-Pikaboo HD
+Pikaboo HD (SR)
 Pink 2
 Pink Action
 Pink Action (SN)
 Pink BH
 PINK BH (SN)
-Pink BH_max
 Pink Classic
 Pink Classic (SN)
 Pink Comedy
@@ -804,73 +683,71 @@ Pink Erotic 5
 Pink Erotic 6
 Pink Erotic 7
 Pink Erotic 8
-Pink Extra
 PINK EXTRA
 PINK EXTRA (SN)
-Pink Extra_max
+Pink Extra (SR)
 Pink Family
 Pink Family (SN)
 Pink Fashion
 Pink Fashion (SN)
-Pink Fashion_max
+Pink Fashion (SR)
 Pink Film
 Pink Film (SN)
-Pink Film_max
+Pink Film (SR)
 Pink Folk
 Pink Folk (SN)
-Pink Folk 1_max
 PINK FOLK 2
-Pink Folk 2
 Pink Folk 2 (SN)
+Pink Folk 2 (SR)
 PINK HA HA (SN)
 Pink HD
 Pink HD (SN)
-Pink Hits
 Pink Hits (SN)
+Pink Hits (SR)
 Pink Hits 2
 Pink Hits 2 (SN)
+Pink Hits 2 (SR)
 Pink Horror
 Pink Horror (SN)
 Pink Kids
 Pink Kids (SN)
-Pink Koncert
 PINK KONCERT
 PINK KONCERT (SN)
-Pink Koncert_max
+Pink Koncert (SR)
 Pink Kuvar
 Pink Kuvar (SN)
 PINK LOL (SN)
 PINK M
 PINK M (SN)
-Pink M_max
 Pink Movies
 Pink Movies (SN)
 Pink Music
 Pink Music (SN)
+Pink Music (SR)
 Pink Music 2
 Pink Music 2 (SN)
-Pink Music 2_max
-Pink Music_max
-Pink n roll
+Pink Music 2 (SR)
+Pink n roll (SR)
 Pink Pedia
 Pink Pedia (SN)
-Pink Plus
 PINK PLUS
 Pink Plus (SN)
-Pink Plus_max
+Pink Plus (SR)
 Pink Premium (SN)
 Pink Premium HD
 Pink Radio (SN)
 Pink Reality
 Pink Reality (SN)
+Pink Reality (SR)
 Pink Romance
 Pink Romance (SN)
 PINK SCI-FI&amp;FANTASY (SN)
 Pink Sci-Fi/Fantasy
 Pink Serije
 Pink Serije (SN)
-Pink Show
+Pink Serije (SR)
 Pink Show (SN)
+Pink Show (SR)
 Pink Soap
 Pink Soap (SN)
 Pink Style
@@ -883,33 +760,26 @@ PINK THRILLER (SN)
 Pink Western
 Pink Western (SN)
 PINK WORLD
-Pink World
 Pink World (SN)
+Pink World (SR)
 Pink World Cinema
 Pink World Cinema (SN)
-Pink World_max
-Pink Zabava
 PINK ZABAVA
 Pink Zabava (SN)
+Pink Zabava (SR)
 PINK&amp;ROLL (SN)
 Pink/Roll
-Pink_max
-Planet Earth HD (RS)
 PLAVA Vinkovačka _max
 Play Radio (SN)
-Playboy TV HD
 Playboy TV HD (SN)
-POLJOPRIVREDNA TV
 Poljoprivredna TV_max
 Pop Melody
 Pop Star
 Premier League TV
 Premier League TV HD (SN)
 Private (SN)
-Private TV
-Private TV_max
+Private TV (SR)
 PRO 7
-ProSieben_max
 Prva
 Prva (SN)
 Prva BH HD
@@ -919,16 +789,17 @@ Prva files (SN)
 Prva HD (SR)
 Prva Kick
 Prva kick (SN)
+Prva Kick (SR)
 Prva Life
 Prva life (SN)
-Prva Max
 Prva MAX
+Prva Max
 PRVA MAX (SN)
-Prva plus
 PRVA PLUS (SN)
+Prva plus (SR)
 Prva World
 PRVA WORLD (SN)
-Pure Babes
+Prva World (SR)
 R&amp;R Muzzik
 Radio 202 (SN)
 Radio Antena_max
@@ -954,8 +825,10 @@ Radio Naxi (SN)
 Radio Novosti (SN)
 Radio Osijek_max
 Radio Otvoreni_max
+Radio Pletenica (SN)
 Radio Pula_max
 Radio Rijeka_max
+Radio Rokenroler (SN)
 Radio Rovinj FM_max
 Radio RS
 Radio S Kids (SN)
@@ -969,58 +842,65 @@ Radio Slavonija_max
 Radio Sljeme_max
 Radio Split_max
 Radio Studio B (SN)
-Radio Test 1_max
-Radio Test 2_max
-Radio Test 3_max
-Radio Test 4_max
-Radio Test 5_max
 Radio Top_max
 Radio Trogir_max
 Radio yammatFM_max
 Radio Zadar_max
-RAI 1_max
-RAI 2_max
-RAI 3_max
-Rai News 24
-RAI SCUOLA
-RAI Scuola_max
-Rai Storia
-RAI TRE
-Rai Uno
+RadioS 2000-e (SN)
+RadioS 2000-te Folk (SN)
+RadioS 80-e (SN)
+RadioS Cafe (SN)
+RadioS Chill (SN)
+RadioS Classic (SN)
+RadioS Dance (SN)
+RadioS Easy (SN)
+RadioS EX YU (SN)
+RadioS Folk Stars (SN)
+RadioS Gold (SN)
+RadioS Gym (SN)
+RadioS Jazz (SN)
+RadioS Latino (SN)
+RadioS Lounge (SN)
+RadioS Mix (SN)
+RadioS Modern Classic (SN)
+RadioS Narodni (SN)
+RadioS Pop &amp; Rock (SN)
+RadioS Pop Ballads (SN)
+RadioS Pop Folk (SN)
+RadioS Rock (SN)
+RadioS Rock Ballads (SN)
+RadioS Sport (SN)
+RadioS Sport Urban (SN)
+RadioS Starogradski (SN)
+RadioS Trap &amp; Rap (SN)
+RadioS Xtra (SN)
+Rai Uno (SR)
 RAS TV
-Reality Kings
 REALITY KINGS (SN)
+Reality Kings HD (SR)
 Realty Kings
 RED Radio (SN)
 Red TV
 RED TV (Pink 2 HD)
 Red TV (SN)
-Regionalna TV
-Revival 60s and 70s (SN)
-Rewind 80s and 90s (SN)
-RI TV
-Rock Alternative (SN)
+RedLight (SR)
+Riddim (SN)
 Rock Anthems (SN)
+Rock of Ages (SN)
 Rock Radio (SN)
-Rock&amp;Roll
-RocknRoll (SN)
+Rock'n'Roll (SN)
 Romania International
 RT DOC HD (SN)
 RT NEWS TV
-RTCG
-RTCG Sat
 RTG INT (SN)
 RTL
 RTL  World
-RTL (DE)
+RTL (DE) /(SR)
 RTL 2
 RTL 2  HD
 RTL 2 (SN)
 RTL 2 HD_max
-RTL 2 njemački_max
-RTL 2_max
 RTL Adria HD_max
-RTL CRIME
 RTL Crime HD_max
 RTL Crime_max
 RTL Croatia World
@@ -1029,21 +909,15 @@ RTL HD
 RTL HD_max
 RTL HR (SN)
 RTL HR HD
-RTL Kockica
 RTL KOCKICA
 RTL Kockica (SN)
 RTL KOCKICA HD
 RTL Kockica HD_max
-RTL Kockica_max
 RTL Living
 RTL Living HD_max
-RTL Living_max
-RTL njemački_max
-RTL PASSION
 RTL Passion HD_max
 RTL Passion_max
 RTL Radio (SN)
-RTL TELEVISION
 RTL_max
 RTR PLANETA
 RTR PLANETA (SN)
@@ -1053,14 +927,11 @@ RTRS Plus (SN)
 RTS  Kolo
 RTS 1 HD
 RTS 1 HD (SN)
-RTS 1_max
 RTS 2 HD
 RTS 2 HD (SN)
-RTS 2_max
 RTS 3
 RTS 3 (SN)
 RTS 3 HD
-RTS 3_max
 RTS Drama
 RTS DRAMA (SN)
 RTS Klasika
@@ -1074,18 +945,17 @@ RTS Poletarac
 RTS POLETARAC (SN)
 RTS Svet
 RTS Svet HD
-RTS Svet_max
 RTS Trezor
 RTS TREZOR (SN)
 RTS ZIVOT (SN)
 RTS Život
-RTV 1
 RTV 1 (SN)
+RTV 1 (SR)
 RTV 101 (SN)
 RTV 2
 RTV 2 (SN)
-RTV Banovina
-RTV Delta
+RTV 2 (SR)
+RTV Bujanovac (SN)
 RTV Fortuna (SN)
 RTV Gradiska HD
 RTV HB HD
@@ -1093,34 +963,31 @@ RTV HB_max
 RTV HIT
 RTV KD
 RTV Kiss HD (SN)
+RTV Novi Pazar
 RTV Pančevo
 RTV PODRINJE (SN)
 RTV Sarajevo
 RTV SLO 1
 RTV Tesla (SN)
 RTV USK HD
-RTV1
-RTV2
 RTVIS
 Rusija 24 (SN)
 RUSSIA 24
 RUSSIA TODAY (SN)
-Russia Today HD
 Russian Kino
-SABORSKA TV
 Sandzak TV
-SAT 1_max
 Sat TV
+Sat TV (SN)
 SAT.1
 SBB Info kanal
-SBTV
 SBTV_max
-SCI FI
 Sci Fi
 Sci Fi (SN)
-Shoppster TV (RS)
-SHORTSTV
-Silk (SN)
+SCI FI HD (SR)
+Serbian Rock (SN)
+Shoppster TV (SR)
+SHORTSTV HD (SR)
+Silk (Love Songs) (SN)
 SK 10 HD (SR)
 SK 4 HD (SR)
 SK 4K IPTV
@@ -1129,19 +996,18 @@ SK 6 HD (SR)
 SK 7 HD (SR)
 SK 8 HD (SR)
 SK 9 HD (SR)
-SK Esports
-SK Fight
-SK Golf
+SK Esports (SR)
+SK Fight HD (SR)
+SK Golf HD (SR)
 SK HD
 SKAJ
-SKY NEWS
+Skay TV (SN)
 SKY NEWS (SN)
+Sky News (SR)
 Sky News_max
-SLAVONSKA TV
 Slavonska TV_max
-SLO 1
-SLO 2
 Slobodna televizija (SN)
+Slovo Ljubve (SN)
 SOS Kanal
 SOS Kanal Plus
 SOS PLUS (SN)
@@ -1150,22 +1016,34 @@ Sport Klub 1
 Sport Klub 2
 Sport Klub 3
 Sportska televizija_max
-SPORTSKA TV
-Srpski rok (SN)
-Stignray CMusic
+Sremska TV
+Srpska TV (SN)
+STAR Crime HD (INT)
+Star Crime HD (SN)
+STAR Crime_max
+STAR HD (INT)
+Star HD (SN)
+STAR Life HD (INT)
+Star Life HD (SN)
+STAR Life_max
+STAR Movies HD (INT)
+Star Movies HD (SN)
+STAR Movies_max
+STAR_max
 Stingray Classica_max
 Stingray Djazz_max
+Stingray Specials (SN)
 Studio B
 STUDIO B HD (SN)
 Super D+ (SN)
 Super FM (SN)
-Super RTL_max
 Super Sat TV
 SuperSat HD (SN)
 SUPERSTAR
 SUPERSTAR 2
 SUPERSTAR 2 HD
 Superstar 2 HD (SN)
+Superstar 3 (SN)
 SUPERSTAR HD
 Superstar TV HD (SN)
 Svetska srpska televizija
@@ -1175,22 +1053,16 @@ TDC (SN)
 TDI radio (SN)
 TDI radio HD (SN)
 Telebet
-Televizija Dalmacija
 Televizija Dalmacija_max
 Televizija K23
 Televizija Plus
 Televizija V5
-TestLive1_max
-TestLive2_max
 The Spa (SN)
-TIJI
 Timeless Dizi Channel
-Timočki Radio (SN)
 TLC (SN)
-TLC HD (RS)
-Toon Kids_max
+TLC HD (SR)
 TOP TV HD (SN)
-Total hits Balkan (SN)
+Total Hits Balkans (SN)
 Total Hits Italy (SN)
 Total Hits UK (SN)
 Toxic Folk
@@ -1202,39 +1074,42 @@ Toxic TV
 Toxic TV (SN)
 Toxic TV_max
 Trace Sport Stars
-Trace Urban
-TRACE URBAN
+Trace Sport Stars HD (SR)
 Trace urban (SN)
+Trace Urban HD (SR)
 Tracesport (SN)
 Trance (SN)
 Travel Channel
 Travel HD (SN)
-TravelXP
+Travel XP (SN)
 Trend TV_max
 Tropik TV HD
 TRT WORLD_max
 Turizam Plus TV (SN)
 Turizam TV
+TV  AS
 TV 1000 (SN)
 TV 1000_max
 TV 101
 TV 4S (SN)
 TV 5 MONDE (SN)
 TV 5 Užice
-TV 5 UŽICE (SN)
+TV Apatin (SN)
 TV AS (SN)
 TV BALKAN (SN)
 TV BANAT (SN)
-TV Bačka (SN)
+TV Bap (SN)
 TV Belle Amie
 TV BELLE AMIE* (SN)
-TV BN SAT
 TV BOR (SN)
+TV CARIBROD (SN)
 TV CENTAR (SN)
 TV D+
 TV DELTA &amp; MOZAIK (SN)
 TV DISKOS (SN)
 TV DR
+TV e (CG)/(SR)
+TV Forum (SN)
 TV FRONT (SN)
 TV FRUSKA GORA (SN)
 TV GEM (SN)
@@ -1244,143 +1119,117 @@ TV HOMOLJE (SN)
 TV Hram
 TV HYPE 2 (SN)
 TV Info 24
-TV JADRAN
+TV Info 24 (SN)
 TV Jadran_max
 TV JASENICA (SN)
 TV Jefimija
 TV JEFIMIJA (SN)
 TV K 9 (SN)
 TV K-1
+TV K23 (SN)
 TV K3
 TV K3 HD
 TV KANAL 25 (SN)
 TV KANAL M (SN)
 TV KCN K (SN)
-TV Koper - Capodistria_max
 TV Kragujevac
 TV KRAGUJEVAC (SN)
 TV KRALJEVO (SN)
 TV Kruševac
-TV KRUŠEVAC (SN)
 TV LAV PLUS (SN)
 TV Leskovac
 TV LESKOVAC (SN)
 TV LOTEL PLUS (SN)
 TV MAG (SN)
-TV Marš (SN)
 TV Melos (RS)
 TV MELOS (SN)
 TV Most
 TV MOST (SN)
 TV Mreža Most
 TV Nikšić
-TV NOVA PULA
+TV Niska (SN)
 TV Nova_max
 TV NOVI PAZAR (SN)
 TV PALMA PLUS (SN)
-TV PANČEVO (SN)
 TV Partizan
 TV PARTIZAN HD (SN)
 TV PETROVEC (SN)
 TV PIROT (SN)
 TV Plana (SN)
 TV PLUS HD (SN)
+TV Pomoravlje (SN)
 TV PRIBOJ (SN)
 TV Prijedor
+TV Prima (SN)
 TV RAS (SN)
-TV SABAC (SN)
-TV Sabor_max
 TV SAGA (SN)
-TV SANDŽAK (SN)
 TV Santos
 TV SEZAM BOR (SN)
 TV Skymusic HD (SN)
-TV SLO 1_max
-TV SLO 2_max
 TV SLOBOMIR
 TV Sombor (SN)
-TV Sombor (TV Sreca)
 TV SREMSKA (SN)
-TV Subotica SD
+TV Subotica (SN)
 TV SUNCE (SN)
-TV Super Sat
+TV Super Sat (SR)
 TV Trstenik
 TV TRSTENIK (SN)
 TV VALJEVO PLUS (SN)
 TV Vijesti
+TV Vijesti HD (SR)
 TV Vranje HD (SN)
-TV ZAPAD
+TV Vrnjacka Banja (RS)
+TV YU Eco HD (SN)
 TV Zapad_max
 TV Zona Plus
-TV Šabac
-TV ŠIBENIK
-TV Šibenik_max
 TV1000
-TV5 Monde
-TV5 Monde_max
-TVCG MNE_max
-TVE
+TV5 Monde (SR)
+TVE (SR)
 TVE Internacional_max
+TVMNE (RTCG Sat (SR))
 ULTRA PULS TV (SN)
 UNA TV
 Una TV (SN)
-Urban (SN)
 V5 (SN)
 VA Plus (TV Valjevo Plus)
-Vavoom
 Vesti
 VESTI (SN)
 Vesti HD (Pink 3 info)
 VH Classic (SN)
 Viasat Explore
 VIASAT EXPLORE (SN)
-Viasat Explore HD
+Viasat Explore HD (SR)
 Viasat Explore_max
 Viasat History
 Viasat History (SN)
-Viasat History HD
+Viasat History HD (SR)
 Viasat History HD/ Nature HD
 Viasat History_max
 Viasat Nature
 Viasat Nature (SN)
 Viasat Nature HD
+Viasat Nature HD (SR)
 Viasat Nature_max
 VIKOM
-Vivid Red_max
-Vivid Touch_max
-Vivid TV_max
-VOX
-VOX TV
-VOX_max
+VRANJSKA PLUS (SN)
+VTV (SN)
 VTV_max
-WELT
-WNESS TV
-Woman HD
-Woman_max
-World Wide Muzzik
 WTF Radio (SN)
 WW Muzzik
-Z1
+Yachting TV (SN)
+Yachting TV (SR)
 Z1_max
 Zadruga 1
 Zadruga 2
 Zadruga 3
 Zadruga 4
-Zadruga Live 1
-Zadruga live 1 (SN)
-Zadruga Live 2
-Zadruga live 2 (SN)
-Zadruga Live 3
-Zadruga live 3 (SN)
-Zadruga Live 4
-Zadruga live 4 (SN)
-ZDF
-ZDF_max
-ZDRAVA TV-7
+Zadruga Live 1 (SR)
+Zadruga Live 2 (SR)
+Zadruga Live 3 (SR)
+Zadruga Live 4 (SR)
 Zdrava TV_max
 Zelena TV Zdravlje
 Zelena TV Zdravlje (SN)
 ZONA PLUS (SN)
 Zvezda TV HD
 Zvezda TV HD (SN)
-Zvuci Skadarlije (SN)

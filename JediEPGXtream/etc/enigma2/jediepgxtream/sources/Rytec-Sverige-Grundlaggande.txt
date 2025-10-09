@@ -7,7 +7,8 @@ Kunskapskanalen.se
 Sjuan.se
 SVT1.se
 SVT2.se
-SVTb/svt24.se
+svt24.se
+SVTb.se
 TV10.se
 TV12.se
 TV3.se

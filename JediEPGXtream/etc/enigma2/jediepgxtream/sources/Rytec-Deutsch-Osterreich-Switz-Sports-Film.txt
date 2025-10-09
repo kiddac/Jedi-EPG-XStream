@@ -1,63 +1,63 @@
 #dabeiTV.de
+Actionfilme.de
+Amasia.de
+Artflix.de
 BallermannTV.de
 blueSport1.ch
-blueSport10.ch
-blueSport11.ch
-blueSport12.ch
-blueSport13.ch
-blueSport14.ch
-blueSport15.ch
-blueSport16.ch
-blueSport17.ch
-blueSport18.ch
-blueSport19.ch
+blueSport10Live.ch
+blueSport11Live.ch
+blueSport12Live.ch
+blueSport13Live.ch
+blueSport14Live.ch
+blueSport15Live.ch
+blueSport16Live.ch
+blueSport17Live.ch
+blueSport18Live.ch
+blueSport19Live.ch
+blueSport1Live.ch
+blueSport1LiveUHD.ch
 blueSport2.ch
-blueSport20.ch
-blueSport21.ch
-blueSport22.ch
-blueSport23.ch
-blueSport24.ch
-blueSport25.ch
-blueSport26.ch
-blueSport27.ch
-blueSport28.ch
-blueSport29.ch
-blueSport3.ch
-blueSport30.ch
-blueSport31.ch
-blueSport32.ch
-blueSport33.ch
-blueSport34.ch
-blueSport35.ch
-blueSport36.ch
-blueSport37.ch
-blueSport38.ch
-blueSport39.ch
-blueSport4.ch
-blueSport40.ch
-blueSport41.ch
-blueSport5.ch
-blueSport6.ch
-blueSport7.ch
-blueSport8.ch
-blueSport9.ch
-blueSports1UHD.ch
-blueSports2UHD.ch
-blueSports3UHD.ch
-blueSports4UHD.ch
+blueSport20Live.ch
+blueSport21Live.ch
+blueSport22Live.ch
+blueSport23Live.ch
+blueSport24Live.ch
+blueSport25Live.ch
+blueSport2Live.ch
+blueSport2LiveUHD.ch
+blueSport3Live.ch
+blueSport3LiveUHD.ch
+blueSport4Live.ch
+blueSport4LiveUHD.ch
+blueSport5Live.ch
+blueSport6Live.ch
+blueSport7Live.ch
+blueSport8Live.ch
+blueSport9Live.ch
 blueStars.ch
-Canal+First.at
 ClipMyHorseTV.de
+CrimeSerien.de
+Crimestar.de
 DAZN1.de
 DAZN2.de
 DAZNFast.de
 DAZNRise.de
+DDR_TV-Archiv.de
+DEFA_TV.de
+DeutschesKino.de
+DramaFilme.de
 EdgeSport.de
-eSports1.de
-FC BAYERN.TV LIVE
+Fabella.de
+Fantasja.de
+FilmGold.de
+FilmRiseBingeWatch.de
+FilmRiseSerien.de
+Grjngo.de
+Komodien.de
 MagentaMusik1.de
 MagentaMusik2.de
 MagentaSport
+MySports10D.ch
 MYSPORTS1D.ch
 MYSPORTS2D.ch
 MYSPORTS3D.ch
@@ -68,22 +68,15 @@ MYSPORTS7D.ch
 MYSPORTS8D.ch
 MYSPORTS9D.ch
 MYSPORTSD.ch
+MyTimeMovieNetwork.de
+Netzkino.de
 NowUS.de
+Prime.de
 RedBullTV.de
-RTL+1.de
-RTL+2.de
-RTL+3.de
-RTL+4.de
-RTL+5.de
-RTL+6.de
+RomantischeFilme.de
+Sat1Emotions.de
 ServusTVMotorsport.de
-Sky Sport CH 1
-Sky Sport CH 2
 Sky Sport Serie A 1
-Sky Sport Serie A 2
-Sky Sport Serie A 3
-Sky Sport Serie A 4
-Sky Sport Serie A 5
 SkyAction.de
 SkyAtlanticHD.de
 SkyAtlanticPlus1.de
@@ -97,20 +90,13 @@ SkyBundesliga6.de
 SkyBundesliga7.de
 SkyBundesliga8.de
 SkyBundesliga9.de
-SkyCinema.de
-SkyCinemaBestOf.de
 SkyCinemaClassics.de
 SkyCinemaFamily.de
-SkyCinemaFun.de
-SkyCinemaHits.de
-SkyCinemaPlus1.de
-SkyCinemaPlus24.de
-SkyCinemaSpecial.de
-SkyCinemaThriller.de
-SkyComedy.de
+SkyCinemaHighlights.de
+SkyCinemaPremieren+1.de
+SkyCinemaPremieren.de
 SkyCrime.de
 SkyKrimi.de
-SkyPremieren.de
 SkyReplay.de
 SkyShowcase.de
 SkySport1.de
@@ -124,12 +110,6 @@ SkySport7.de
 SkySport8.de
 SkySport9.de
 SkySportAustria.de
-SkySportAustria2.at
-SkySportAustria3.at
-SkySportAustria4.at
-SkySportAustria5.at
-SkySportAustria6.at
-SkySportAustria7.at
 SkySportBundesliga.de
 SkySportBundesligaUHD.de
 SkySportF1.de
@@ -139,6 +119,7 @@ SkySportPremierLeague.de
 SkySportTennis.de
 SkySportTopEvent.de
 SkySportUHD.de
+SpiegelTVKonflikte.de
 Sport 1 - myTeamTV
 Sport 10 - myTeamTV
 Sport 11 - myTeamTV
@@ -160,7 +141,14 @@ Sport 9 - myTeamTV
 Sport Digital
 Sport Free - myTeamTV
 SPORT1plus.de
+SportdigitalFussball.de
+SportdigitalFussball2.de
+Sportdigitalscooore.de
+Thriller.de
+TopFilme.de
+Utopja.de
 WarnerTVComedy.de
 WarnerTVFilm.de
 WarnerTVSerie.de
 WedoMovies.de
+Weihnachtskino.ch

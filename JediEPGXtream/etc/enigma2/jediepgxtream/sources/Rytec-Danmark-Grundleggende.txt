@@ -9,7 +9,6 @@ Kanal5.dk
 KanalHovedstaden.dk
 KanalNord.dk
 KanalOstjylland.dk
-KNR.gl
 KringvarpForoya.fo
 RUV.is
 RUV2.is

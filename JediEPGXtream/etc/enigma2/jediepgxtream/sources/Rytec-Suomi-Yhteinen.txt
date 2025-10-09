@@ -1,5 +1,4 @@
 AnimalPlanet.fi
-AnimalPlanetHD.fi
 BBCBrit.fi
 CartoonNetwork.fi
 CMoreJuniori.fi
@@ -7,17 +6,16 @@ CNBCNordic.fi
 DiscoveryChannel.fi
 DiscoveryScience.fi
 DisneyChannel.fi
-DisneyJr.fi
 Eurosport.fi
 Eurosport2.fi
 Fox.fi
 Frii.fi
-H2.fi
-History.fi
+HistoryChannel.fi
+HistoryChannel2.fi
 InvestigationDiscovery.fi
 NatGeo.fi
 NatGeoWild.fi
 NickJr.fi
-SFKanalen.fi
 TheVoice.fi
 ViasatExplorer.fi
+ViasatHistory.fi

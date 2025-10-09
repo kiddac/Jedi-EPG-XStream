@@ -1,5 +1,16 @@
-CosmoteCinemaOscars.gr
-CosmoteSport9.gr
+cablenet3Sport.cy
+cablenetSport1.cy
+cablenetSport2.cy
+CosmoteSeries.gr
+CosmoteSeriesMarathon.gr
+cvsp1hd.cy
+cvsp2hd.cy
+cvsp3hd.cy
+cvsp4hd.cy
+cvsp5hd.cy
+cvsp6hd.cy
+cvsp7hd.cy
+cytavisionsportsplp.cy
 EpicDrama.gr
 NovaCinema1.gr
 NovaCinema2.gr
@@ -22,7 +33,6 @@ NovasportsStart.gr
 OTECinema1.gr
 OTECinema2.gr
 OTECinema3.gr
-OTECinema4.gr
 OTEHistory.gr
 OTESport1.gr
 OTESport2.gr

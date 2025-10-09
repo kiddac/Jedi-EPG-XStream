@@ -4,7 +4,6 @@ ApostolTV.hu
 ATVSpirit.hu
 BabyTV.hu
 BBCEarth.hu
-Boomerang.hu
 Cartoonito.hu
 CartoonNetwork.hu
 CBSReality.hu
@@ -32,10 +31,8 @@ Eurosport2.hu
 EWTNBonumTV.hu
 FashionTV.hu
 FEM3.hu
-FineLiving.hu
 FishingHunting.hu
 Fit.hu
-Fix.hu
 FoodNetwork.hu
 Galaxy.hu
 HatosCsatorna.hu
@@ -49,7 +46,6 @@ IzauraTV.hu
 JazzTV.hu
 JimJam.hu
 JockyTV.hu
-KiwiTV.hu
 LifeTV.hu
 LoveNature
 LoveNature.hu
@@ -67,7 +63,6 @@ MoziPlus.hu
 Moziverzum.hu
 MTVEuropean.hu
 MTVHungary.hu
-Musicmix.hu
 MuzsikaTV.hu
 NatGeo.hu
 NatGeoWild.hu
