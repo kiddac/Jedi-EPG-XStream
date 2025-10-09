@@ -56,7 +56,7 @@ Rytec-Hrvatska-Dodatni http://www.xmltvepg.nl/rytecHRV_Misc.xz
 Rytec-Hrvatska-Sport-Film http://www.xmltvepg.nl/rytecHRV_SportMovies.xz
 Rytec-Srbija-Crna-Gora-Osnovni http://www.xmltvepg.nl/rytecSRB_Basic.xz
 Rytec-Srbija-Crna-Gora-Dodatni http://www.xmltvepg.nl/rytecSRB_Misc.xz
-Rytec-Srbija-Crna-Gora-Sport-Film http://www.xmltvepg.nl/rytecSRB_SportMovies.xz
+Rytec-Srbija-Crna-Gora-Sport-Film http://www.xmltvepg.nl/rytecHRV_SportMovies.xz
 Rytec-Slovenija-Podlaga http://www.xmltvepg.nl/rytecSVN_Basic.xz
 Rytec-Slovenija-Dodatni http://www.xmltvepg.nl/rytecSVN_Misc.xz
 Rytec-Slovenija-Sport-Film http://www.xmltvepg.nl/rytecSVN_SportMovies.xz
@@ -77,7 +77,7 @@ epgshare01-Bosnia https://epgshare01.online/epgshare01/epg_ripper_BA1.xml.gz
 epgshare01-Belgium2 https://epgshare01.online/epgshare01/epg_ripper_BE2.xml.gz
 epgshare01-Bulgaria https://epgshare01.online/epgshare01/epg_ripper_BG1.xml.gz
 epgshare01-Brazil https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz
-epgshare01-Canada https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz
+epgshare01-Canada https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz
 epgshare01-Costa-Rica https://epgshare01.online/epgshare01/epg_ripper_CR1.xml.gz
 epgshare01-Denmark https://epgshare01.online/epgshare01/epg_ripper_DK1.xml.gz
 epgshare01-Dominican-Republic https://epgshare01.online/epgshare01/epg_ripper_DO1.xml.gz
@@ -108,23 +108,23 @@ epgshare01-South-Africa https://epgshare01.online/epgshare01/epg_ripper_ZA1.xml.
 epgshare01-Spain https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz
 epgshare01-Switzerland https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz
 epgshare01-Sweden https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz
-# epgshare01-Turkey https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz
-epgshare01-Turkey2 https://epgshare01.online/epgshare01/epg_ripper_TR2.xml.gz
+epgshare01-Turkey https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz
+# epgshare01-Turkey2 https://epgshare01.online/epgshare01/epg_ripper_TR2.xml.gz
 epgshare01-Turkey3 https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz
 epgshare01-UK https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz
-epgshare01-USA https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+epgshare01-USA https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz
 # epgshare01-USA-Locals https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz #crashes
 epgshare01-Vietnam https://epgshare01.online/epgshare01/epg_ripper_VN1.xml.gz
 
-epgshare01-Bally-Sports https://epgshare01.online/epgshare01/epg_ripper_BALLY1.xml.gz
+# epgshare01-Bally-Sports https://epgshare01.online/epgshare01/epg_ripper_BALLY1.xml.gz
 epgshare01-Bein-Sports-Movies https://epgshare01.online/epgshare01/epg_ripper_BEIN1.xml.gz
-epgshare01-EuroSport https://epgshare01.online/epgshare01/epg_ripper_EUROSPORT1.xml.gz
-epgshare01-OptusSports https://epgshare01.online/epgshare01/epg_ripper_OPTUSSPORTS1.xml.gz
+# epgshare01-EuroSport https://epgshare01.online/epgshare01/epg_ripper_EUROSPORT1.xml.gz
+# epgshare01-OptusSports https://epgshare01.online/epgshare01/epg_ripper_OPTUSSPORTS1.xml.gz
 epgshare01-SportkKlub https://epgshare01.online/epgshare01/epg_ripper_SPORTKLUB1.xml.gz
 
-epgshare01-PlutoV1 https://epgshare01.online/epgshare01/epg_ripper_PLUTOTV1.xml.gz
+# epgshare01-PlutoV1 https://epgshare01.online/epgshare01/epg_ripper_PLUTOTV1.xml.gz
 
-optus-sport https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Optus/epg.xml.gz
+# optus-sport https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Optus/epg.xml.gz
 # plutotv-uk https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/gb.xml.gz
 # plutotv-germany https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/de.xml.gz
 # plutotv-spain https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/fr.xml.gz

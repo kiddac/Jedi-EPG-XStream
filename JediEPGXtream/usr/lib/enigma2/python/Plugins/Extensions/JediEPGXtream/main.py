@@ -297,22 +297,38 @@ class JediEPGXtream_Main(Screen):
             for line in f:
                 if line.startswith('#SERVICE'):
                     serviceref = line.split(' ')[1:][0].split('http')[0]
+                    # Try to extract name directly from #SERVICE line
+                    parts = line.split(':')
+                    if len(parts) > 10:
+                        # Enigma2 service lines often have the name at the end
+                        service_desc = parts[-1].strip()
+                    else:
+                        service_desc = ''
+                    channelname = service_desc
 
-                if line.startswith('#DESCRIPTION'):
-                    channelname = line.replace("#DESCRIPTION ", "").lstrip("~").lstrip("#").lstrip("-").lstrip("~").lstrip("<").lstrip("^").strip()
+                elif line.startswith('#DESCRIPTION'):
+                    # Only use #DESCRIPTION if #SERVICE line didn't contain a name
+                    if not channelname:
+                        channelname = line.replace("#DESCRIPTION ", "").lstrip("~#-<^").strip()
+
+                # Once we have a service reference and a channel name, we can process it
+                if serviceref and channelname:
+                    epgid = ''
                     for bouq in self.epg_json['Bouquets']:
                         if bouq['bouquet'] == bouquet:
                             for channel in bouq['channel']:
                                 if channel['description'] == channelname.strip():
                                     epgid = channel['epgid']
                                     break
-                                else:
-                                    epgid = ''
+                            break
 
                     self.list2.append(buildList2(str(channelname).strip(), str(serviceref).strip(), str(epgid).strip()))
+                    channelname = ''
+                    serviceref = ''
+                    epgid = ''
+
         self.list2.sort(key=lambda y: y[0].lower())
         self["list2"].setList(self.list2)
-
         self.disablelist2()
 
     def getJediSources(self):
