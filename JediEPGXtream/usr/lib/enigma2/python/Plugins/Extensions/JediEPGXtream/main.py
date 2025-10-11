@@ -297,21 +297,18 @@ class JediEPGXtream_Main(Screen):
             for line in f:
                 if line.startswith('#SERVICE'):
                     serviceref = line.split(' ')[1:][0].split('http')[0]
-                    # Try to extract name directly from #SERVICE line
+
                     parts = line.split(':')
-                    if len(parts) > 10:
-                        # Enigma2 service lines often have the name at the end
-                        service_desc = parts[-1].strip()
+                    service_desc = parts[-1].strip() if len(parts) > 10 else ''
+
+                    if service_desc and 'http' not in service_desc and '%' not in service_desc:
+                        channelname = service_desc
                     else:
-                        service_desc = ''
-                    channelname = service_desc
+                        channelname = ''
 
                 elif line.startswith('#DESCRIPTION'):
-                    # Only use #DESCRIPTION if #SERVICE line didn't contain a name
-                    if not channelname:
-                        channelname = line.replace("#DESCRIPTION ", "").lstrip("~#-<^").strip()
+                    channelname = line.replace("#DESCRIPTION ", "").lstrip("~#-<^").strip()
 
-                # Once we have a service reference and a channel name, we can process it
                 if serviceref and channelname:
                     epgid = ''
                     for bouq in self.epg_json['Bouquets']:
